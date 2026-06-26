@@ -1,0 +1,1856 @@
+================================================================================
+VISUAL EXECUTION ENGINE v4.1 — RESEARCH-VALIDATED
+GPT IMAGE 2.0 PROMPT SYSTEM — ALL TEMPLATES + REEL THUMBNAIL SYSTEM
+================================================================================
+Brahhm Arpan Organic | Content Studio 3.2
+Knowledge File — Do not duplicate in system prompt
+Updated: June 2026 — Based on competitor research + algorithm intelligence
+================================================================================
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CORE RULES — READ BEFORE USING ANY TEMPLATE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+RULE 1 — NO RUSTIC PROPS (GLOBAL, ALL BRANDS):
+BANNED:  wooden bowls / burlap / jute / mortar & pestle / clay pots /
+         antique props / weathered wood as primary surface / brass pedestals
+USE:     matte ceramic / dark marble / modern stone surface / acrylic stands /
+         sleek kitchen elements / dark slate / white quartz / glass bowls
+
+RULE 2 — PRODUCT PACKAGING FROM REFERENCE ONLY:
+Upload the actual pack photo as reference when generating product-featuring scenes.
+GPT Image 2.0 generates: scene / surface / props / typography / empty hero space.
+GPT Image 2.0 can render packaging when given an uploaded reference image.
+
+RULE 3 — TEMPLATE ROTATION:
+Never use the same template for 3 consecutive posts on the same account.
+Check Content_Calendar.docx for previous 2 posts before selecting a template.
+
+RULE 4 — PROMOTIONAL DETAILS IN CANVA, NOT FIREFLY:
+Offer copy / pricing / discount codes / delivery thresholds belong in
+Canva/Photoshop post-production overlays. Never bake into Firefly prompts.
+
+RULE 5 — REVERSE ENGINEER MODE:
+If user uploads an inspiration image and requests a new template, output a
+mathematically identical structure named "TEMPLATE 25+ — [Name]". Include:
+Layout / Background / Props / Typography / Lighting / Aspect Ratio / Canva Overlay.
+Always include: "IMPORTANT: Do NOT modify packaging, label, logo, or text."
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BRAND → TEMPLATE ASSIGNMENT GUIDE (COMPLETE)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+CAVEMAN ORGANIC:
+  Best: T1, T6, T9, T10, T13, T17, T20, T22, T28, T29, T32, T39, T40
+  T1  — Bold Color Block          → product launches, new variants
+  T6  — Dark Moody Editorial      → ingredient hero posts, superfoods
+  T9  — Dark Surface Premium      → combo/multi-product posts
+  T10 — Graphic Typography Ed.    → brand identity posts
+  T13 — Classic Product + CTA     → conversion-focused posts
+  T17 — Hard Split Tilted Hero    → snack swap comparison
+  T20 — Angled Overlapping Panels → multi-variant cookie showcase
+  T22 — Dynamic Floating Action   → range posts (9:16 Stories/Reels only)
+  T28 — Scroll Stopper Split      → snack swap comparison (maida vs millet)
+  T29 — Action Freeze Frame       → seeds/cookie ingredient burst shots
+  T32 — Chaotic Ingredient Burst  → range launch, multi-cookie showcase
+  T39 — Frame Break Composition   → high-drama single product posts
+  T40 — Typography Dominant       → label transparency, bold brand voice posts
+  T41 — Monochrome Hero Studio      → single-product brand authority, high-drama launches
+  T44 — Marketplace Product Card    → e-commerce thumbnail, Biomart listing visual
+  T50 — Infographic Trizone         → nutrition callout, ingredient transparency posts
+  T62 — Grain Reveal Triptych        → 3-grain EDUCATE posts, ingredient reveal, millet education
+
+
+HEALTH FIELDS:
+  Best: T2, T7, T11, T12, T14, T18, T21, T23, T31, T37, T38, T40, T53
+  T2  — Central Panel             → premium wellness, Ayurvedic products
+  T7  — Cream Logo-Forward        → multi-product or heritage posts
+  T11 — Bold Statement Ad         → brand confidence, conversion
+  T12 — Textured Background Hero  → single product hero posts
+  T14 — Structured Info Panel     → education-heavy, e-commerce quality
+  T18 — Diagonal Ribbon Dual      → premium staples (rice, dals)
+  T21 — Health Infographic        → nutrition comparison, millet education
+  T23 — Quoted Statement Hero     → heritage / "since 2003" posts
+  T31 — Extreme Texture Macro     → spice/herb close-ups, premium ingredient storytelling
+  T37 — Comparison Grid           → millet nutrition comparison, certification education
+  T38 — Ingredient to Product Flow→ farm-to-pack sourcing, APEDA heritage posts
+  T40 — Typography Dominant       → "since 2003" brand authority posts
+  T41 — Monochrome Hero Studio      → premium wellness product hero posts
+  T43 — Brand Variable Template     → campaign series, personalised product posts
+  T44 — Marketplace Product Card    → e-commerce thumbnail, Biomart listing visual
+  T48 — Deep Wine Luxury Hero       → premium spice / Ashwagandha / ceremonial products
+  T50 — Infographic Trizone         → nutrition education, ingredient transparency
+  T63 — Benefit Reveal Authority     → verified fact-list EDUCATE posts, certification transparency
+
+
+PUSHT ORGANIC:
+  Best: T3, T4, T6, T8, T13, T14, T19, T28, T34, T37, T38
+  T3  — Flat Brand + Window       → staple product posts (dals, flours)
+  T4  — Open Ingredient Scene     → daily fast content, any product
+  T6  — Dark Moody Editorial      → premium superfoods (honey, oils)
+  T8  — Natural Lifestyle Headline→ lifestyle, recipe, farmer story
+  T13 — Classic Product + CTA     → conversion-focused posts
+  T14 — Structured Info Panel     → information-rich posts
+  T19 — Fresh Market Split        → abundance posts, festive/seasonal
+  T28 — Scroll Stopper Split      → conventional dal vs certified organic comparison
+  T34 — Human Interaction Lifestyle → farmer hands, kitchen prep, farm harvest
+  T37 — Comparison Grid           → millet variety comparison, cold-pressed oil education
+  T38 — Ingredient to Product Flow→ soil-to-pantry farmer story posts
+  T42 — Golden Hour Farm Scene      → farmer story, harvest season, soil-to-pantry posts
+  T43 — Brand Variable Template     → product series, campaign batch content
+  T44 — Marketplace Product Card    → e-commerce listing visual
+  T45 — Fantasy Botanical Soft      → cold-pressed oils, honey, floral/herbal products
+
+
+BIOMART:
+  Best: T5, T7, T9, T16, T19, T24, T28, T33, T36, T37
+  T5  — Multi-Product Catalog     → showcase posts, haul content
+  T7  — Cream Logo-Forward        → brand trust, certification posts
+  T9  — Dark Surface Premium      → premium combo deals
+  T16 — Floating Product Cascade  → multi-brand bundles
+  T19 — Fresh Market Split        → weekend offers, seasonal hauls
+  T24 — Tricolor Vertical Stripes → multi-brand or multi-category posts
+  T28 — Scroll Stopper Split      → fast commerce vs deliberate organic pantry
+  T33 — Before After Transformation → pantry before/after organic switch
+  T36 — Minimal Negative Space    → clean brand statement, trust-building posts
+  T37 — Comparison Grid           → certification comparison (USDA vs PGS vs Jaivik Bharat)
+  T64 — Curator's Certification Card → 1:1 multi-slide EDUCATE carousels, certification breakdowns, Label Padhega content
+  T43 — Brand Variable Template     → multi-brand campaign series
+  T44 — Marketplace Product Card    → PRIMARY e-commerce listing template
+  T46 — Dark Architectural Cinematic→ premium marketplace brand authority posts
+  T50 — Infographic Trizone         → multi-benefit product education posts
+
+GREENDIPZ:
+  Best: T4, T8, T11, T15, T19, GZ-1, GZ-2, T29, T33, T34, T35
+  T4  — Open Ingredient Scene     → raw ingredient + sauce alongside
+  T8  — Natural Lifestyle Headline→ recipe use-case posts
+  T11 — Bold Statement Ad         → flavour hero posts
+  T15 — Liquid Splash Hero        → PRIMARY template — sauce splash
+  T19 — Fresh Market Split        → multi-product / gifting posts
+  GZ-1 — Greendipz Indian Gravies → dedicated action shot
+  GZ-2 — Greendipz Indo-Chinese   → dedicated action shot
+  T29 — Action Freeze Frame       → sauce splash/pour mid-motion shots
+  T33 — Before After Transformation → bland meal vs greendipz-upgraded dish
+  T34 — Human Interaction Lifestyle → hands pouring sauce, home cooking scenes
+  T35 — Mid-Action Food Moment    → sauce drip, plated dish reveal, garnish moment
+  T43 — Brand Variable Template     → campaign series, flavour drops
+  T44 — Marketplace Product Card    → biomart.in product listing visual
+  T47 — Street Food Energy          → PRIMARY flavour-first template for all sauces
+  T49 — Organic Agro Bold Grid      → sauce ingredient origin, flavour provenance posts
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+FORMAT COMPATIBILITY GUIDE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+FEED POSTS (4:5):
+T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14,
+T15, T16, T17, T18, T19, T20, T21, T23, T24, GZ-1, GZ-2 ,T41, T43, T44, T45, T46, T47, T48, T49, T50, T53
+
+
+STORIES / REELS (9:16):
+T22 — native 9:16 template. All others: crop to 9:16 in Canva,
+keeping product centered. T11 crops cleanest. T6 crops well.T42, T43, T44, T47, T49, T50,T41
+
+
+REEL THUMBNAIL (1:1 crop):
+T6, T11, T17 — work best at square thumbnail scale.
+
+PRODUCT PLACEMENT HEIGHTS — T41–T50 (append to existing placement table)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+T41: 65–70% frame height, dead center, slight tilt 5° maximum
+T42: 55–60% frame height, right of center, upright on natural surface
+T43: 60% frame height, right panel or center — position adapts to brand variable
+T44: 65% frame height, center-right, slight diagonal 8–12°, hero dominance
+T45: 60–65% frame height, dead center, upright, garden environment surrounds
+T46: 55% frame height, center-right in architectural space, confident upright
+T47: 65% frame height, dead center, upright front-facing, full label visible
+T48: 60–65% frame height, dead center or slight tilt, elevated on minimal platform
+T49: 60% frame height, right of center in grid layout, clean negative space left
+T50: 55–60% frame height, center zone of trizone layout, hero of middle panel
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+IMMUTABLE TEMPLATES T1–T19
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+TEMPLATE 1 — BOLD COLOR BLOCK
+Create a premium Instagram product advertisement using the uploaded product image.
+IMPORTANT: Do NOT modify packaging, label, logo, or text. Product appears exactly as in image — it is the hero element.
+Auto-analyze product (category, ingredients, colors, purpose) and build a matching scene.
+Layout: 2–3 solid flat color blocks — horizontal stack or diagonal split.
+Product stands boldly across the boundary line between two blocks.
+Colors: Auto-derive 2–3 bold flat colors from product packaging.
+No gradients, no textures. Pure flat blocks.
+Typography: Large bold condensed ALL CAPS product name inside one block.
+Small brand label above. Short punchy tagline + 2–3 benefit points in second block.
+Props: 3–5 real ingredient items in one block only — small, editorial, design-accent feel. Sharp shadows.
+Lighting: Even studio light. Blocks stay perfectly flat.
+Aspect ratio: 4:5.
+
+TEMPLATE 2 — CENTRAL PANEL
+Create a premium Instagram product advertisement using the uploaded product image.
+IMPORTANT: Do NOT modify packaging, label, logo, or text. Product appears exactly as in image — it is the hero element.
+Auto-analyze product (category, ingredients, colors, purpose) and build a matching scene.
+Layout: Central panel.
+Clean vertical cream or soft pastel rectangle panel, 40% frame width, top to bottom, rounded corners.
+Product stands center in panel.
+Panel top: Large elegant serif headline + short italic attribute line — auto-generate from product.
+Flanking both sides: Rich immersive botanical or farm scene auto-matched to product — herbs, fruits, spices, flowers.
+Bleeds to panel edge, never enters panel.
+Background: Soft blurred natural landscape behind flanking scene.
+Colors: Auto-derived from product packaging.
+Lighting: Soft diffused. Panel is most evenly lit.
+Aspect ratio: 4:5.
+
+TEMPLATE 3 — FLAT BRAND + WINDOWED SCENE
+Create a premium Instagram product advertisement using the uploaded product image.
+IMPORTANT: Do NOT modify packaging, label, logo, or text. Product appears exactly as in image — it is the hero element.
+Auto-analyze product (category, ingredients, colors, purpose) and build a matching scene.
+Layout: Flat brand color background with central windowed scene.
+Product floats center frame.
+Background: Flat solid color from product packaging — deep green, ochre, amber, or brown.
+Central window: Rounded-rectangle inset 55% wide, 60% tall — blurred farm or harvest scene glowing warmly. Product overlaps window edges.
+Corners: 4 matte ceramic bowls partially cropped, each with a key ingredient — auto-matched.
+Sides: Natural stalks, leaves, flowers flanking window.
+Text top: Bold heavy caps headline + italic script tagline — auto-generate.
+Lighting: Window glows warm. Props cast natural shadows.
+Aspect ratio: 4:5.
+
+TEMPLATE 4 — OPEN INGREDIENT SCENE
+Create a premium Instagram product advertisement using the uploaded product image.
+IMPORTANT: Do NOT modify packaging, label, logo, or text. Product appears exactly as in image — it is the hero element.
+Auto-analyze product (category, ingredients, colors, purpose) and build a matching scene.
+Layout: Open lifestyle ingredient scene. Product as dominant center hero.
+Surface: Warm weathered wood, aged marble, or rough stone — real texture. Fills lower 60% of frame.
+Props: 2–4 real product ingredients naturally scattered around product — auto-match. Real textures and directional shadows.
+Background: Soft blurred neutral — white wall or window light. Not distracting.
+Text: Bottom only — clean row of 3 benefit points with small icons. No large headline.
+Lighting: Warm window light from one side. Product zone is brightest.
+Aspect ratio: 4:5.
+
+TEMPLATE 5 — MULTI-PRODUCT CATALOG
+Create a premium Instagram multi-product advertisement using the uploaded brand reference images.
+IMPORTANT: Do NOT modify any product packaging, labels, or text. All products appear exactly as in images — they are the hero elements.
+Auto-analyze all products for color, category, and mood.
+Layout: Styled kitchen catalog. Warm wood countertop.
+Blurred shelves with organic props behind.
+Top banner: Clean horizontal brand-color banner — bold serif campaign headline + italic subtext, auto-generated.
+Product zones: 2–4 open vertical zones across countertop, evenly spaced. Natural drop shadow and clean lighting beneath each.
+Props: Real ingredient items scattered between product zones — seeds, spices, matte ceramic dishes. Never blocking zones.
+Side text: Thin 90°-rotated text left — "From India's Certified Organic Farms".
+Lighting: Warm window light left. Product zones are best-lit.
+Aspect ratio: 4:5.
+
+TEMPLATE 6 — DARK MOODY EDITORIAL
+Create a premium Instagram product advertisement using the uploaded product image.
+IMPORTANT: Do NOT modify packaging, label, logo, or text. Product appears exactly as in image — it is the hero element.
+Auto-analyze product (category, ingredients, colors, purpose) and build a matching scene.
+Layout: Dark moody editorial. Product as dramatic center hero.
+Background: Pure deep black. No gradients. No textures.
+Surface: Dark slate or rough stone at lower center — real texture, slight reflection.
+Lighting: Single overhead spotlight — tight warm pool of light on product. Deep shadow outside.
+Props: 2–4 real ingredient items in lit zone, spilling into shadow — auto-match. Never uniform.
+Typography top: Small italic gold category label + large bold ALL CAPS white product name.
+Typography bottom: 3 checkmark benefit lines in small white sans-serif — auto-generate.
+Aspect ratio: 4:5.
+
+TEMPLATE 7 — CREAM LOGO-FORWARD
+Create a premium Instagram product advertisement using the uploaded product image.
+IMPORTANT: Do NOT modify packaging, label, logo, or text. Product appears exactly as in image — it is the hero element.
+Auto-analyze product (category, ingredients, colors, purpose) and build a matching scene.
+Layout: Cream logo-forward. Product as clean center hero on warm parchment.
+Background: Soft warm parchment texture — subtle paper grain, not plain white.
+Top 30%: Empty circular logo zone top-center (20% frame width) — leave clean.
+Below: Bold serif headline in deep brand color + short italic attribute line — auto-generate.
+Center 45%: Product stands here, clean and prominent.
+Bottom 25%: 2–3 fresh herb sprigs bottom corners. Row of 3–4 rounded benefit badges in soft brand color — auto-generate.
+Lighting: Even soft diffused. Center zone most evenly lit.
+Aspect ratio: 4:5.
+
+TEMPLATE 8 — NATURAL LIFESTYLE HEADLINE
+Create a premium Instagram product advertisement using the uploaded product image.
+IMPORTANT: Do NOT modify packaging, label, logo, or text. Product appears exactly as in image — it is the hero element.
+Auto-analyze product (category, ingredients, colors, purpose) and build a matching scene.
+Layout: Warm blurred bokeh background (kitchen or nature setting).
+Real wood or stone surface at lower 40%. Product stands center on surface.
+Typography: Large mixed-weight serif headline top-center — bold benefit + italic descriptor. Auto-generate from product.
+Badges: 4 rounded pill badges below product — 2-word benefit each, small icon, color from product packaging.
+Props: 2–4 real ingredient items scattered naturally around product. Auto-match. Real textures and shadows.
+Tagline: One short auto-generated line at bottom.
+Lighting: Warm natural side light. Product zone is brightest.
+Aspect ratio: 4:5.
+
+TEMPLATE 9 — DARK SURFACE PREMIUM
+Create a premium Instagram product advertisement using the uploaded product image.
+IMPORTANT: Do NOT modify packaging, label, logo, or text. Product appears exactly as in image — it is the hero element.
+Auto-analyze product (category, ingredients, colors, purpose) and build a matching scene.
+Layout: Dark surface premium. Product elevated as confident hero.
+Surface: Rich dark marble or hardwood — real veining or grain, slight reflection. Deep green, dark walnut, or charcoal stone.
+Platform: 1–2 warm-wood or modern acrylic circular pedestal stands. Product stands on flat pedestal top.
+Props: Ceramic vessel behind pedestals. Small matte ceramic bowls or cups in front. Scattered ingredient elements on surface — auto-match. Props cast real reflections.
+Typography top: Large elegant serif headline in warm cream — auto-generate confident statement.
+Badges bottom: 4–5 rounded pill badges in cream row — auto-generate key benefits.
+Lighting: Warm ambient from above-left. Pedestal tops most evenly lit.
+Aspect ratio: 4:5.
+
+TEMPLATE 10 — GRAPHIC TYPOGRAPHY EDITORIAL
+Create a premium Instagram product advertisement using the uploaded product image.
+IMPORTANT: Do NOT modify packaging, label, logo, or text. Product appears exactly as in image — it is the hero element.
+Auto-analyze product (category, ingredients, colors, purpose) and build a matching scene.
+Layout: Graphic typography editorial. Design-forward, fashion-brand energy.
+Background: Soft warm cream — subtle paper grain. Full frame.
+Left 35%: Very large bold condensed ALL CAPS product name stacked vertically — each word on own line, tight spacing. Auto-generate. Deep terracotta or rust color.
+Overlay: Thin decorative geometric grid lines — horizontal and vertical, light teal and terracotta at low opacity. Design texture layer.
+Right 45%: Product stands here — clean cream background.
+Bottom-right: 3–5 real ingredient props, small and editorial — auto-match.
+Tagline left: Short bold statement in contrasting color. 3 small benefit lines below.
+Aspect ratio: 4:5.
+
+TEMPLATE 11 — BOLD STATEMENT AD
+Create a premium Instagram product advertisement using the uploaded product image.
+IMPORTANT: Do NOT modify packaging, label, logo, or text. Product appears exactly as in image — it is the hero element.
+Auto-analyze product (category, ingredients, colors, purpose) and build a matching scene.
+Layout: Bold statement ad. Maximum confidence, minimum clutter.
+Background: Deep flat solid color — auto-derive dominant brand color from packaging. No gradient, no texture, no props. Perfectly flat.
+Top 22%: Very large bold serif headline in warm cream — short, scroll-stopping, confident. Auto-generate. Thin horizontal rule below.
+Center 50%: Product stands large and centered. Nothing else.
+Bottom 28%: Product name + key credential in cream. Bold CTA button in bright accent — Shop Now. Website URL below. Certification badge corners.
+Lighting: Clean flat. Product is the only visual texture.
+Aspect ratio: 4:5.
+
+TEMPLATE 12 — TEXTURED BACKGROUND HERO
+Create a premium Instagram product advertisement using the uploaded product image.
+IMPORTANT: Do NOT modify packaging, label, logo, or text. Product appears exactly as in image — it is the hero element.
+Auto-analyze product (category, ingredients, colors, purpose) and build a matching scene.
+Layout: Textured background hero. Product on elevated surface.
+Background: Full-frame warm textured surface — fine plaster or aged concrete feel. Real depth.
+Auto-derive color from product: mineral → dusty rose, herb → sage, earthy → amber, cool → slate.
+Top center: Empty circular logo zone (18% frame width) — leave clean.
+Below logo: Bold ALL CAPS white headline 2–4 words + italic subtitle — auto-generate.
+Center: Small elevated platform — marble board or modern slab. Real material texture. Product stands on it.
+Props: 2–3 ingredient items around platform — auto-match. Editorial and tasteful.
+Bottom: Website URL small white text.
+Lighting: Soft top-down. Platform zone cleanest.
+Aspect ratio: 4:5.
+
+TEMPLATE 13 — CLASSIC PRODUCT + BENEFITS CTA
+Create a premium Instagram product advertisement using the uploaded product image.
+IMPORTANT: Do NOT modify packaging, label, logo, or text. Product appears exactly as in image — it is the hero element.
+Auto-analyze product (category, ingredients, colors, purpose) and build a matching scene.
+Layout: Classic product + benefits CTA. Conversion-focused, structured.
+Background: Light natural stone or concrete texture — warm neutral off-white. Real surface grain.
+Top center: Empty badge-shaped logo zone (15% frame width) — leave clean.
+Top-left: Bold 2-line headline — product category + benefit summary. Auto-generate.
+Left 50%: Product stands here. Real ingredient props at base — auto-match. Real shadows.
+Right 50%: 4 large bold checkmark benefit points — auto-generate. Brand primary color checkmarks.
+Bottom bar: Full-width dark brand-color bar — tagline left, CTA button center (Shop Now), URL right.
+Lighting: Soft studio. Left zone slightly brighter.
+Aspect ratio: 4:5.
+
+TEMPLATE 14 — STRUCTURED INFO PANEL
+Create a premium Instagram product advertisement using the uploaded product image.
+IMPORTANT: Do NOT modify packaging, label, logo, or text. Product appears exactly as in image — it is the hero element.
+Auto-analyze product (category, ingredients, colors, purpose) and build a matching scene.
+Layout: Structured info panel. Information-rich, e-commerce quality.
+Background: Soft warm cream parchment — subtle paper texture.
+Top: Rounded pill badge full-width — deep green, small leaf icon + short campaign text in white — auto-generate.
+Left 55%: Product stands large. Matte ceramic bowls with ingredients at base + wooden spoon + herb sprigs — auto-match. Decorative leaves top-left corner.
+Right 45%: Hexagonal gold badge top — 3 benefit icons inside, auto-generate. Large bold product name in dark green serif. 4 checkmark benefit lines below — auto-generate.
+Bottom banner: Deep green full-width — Available Now left, URL right.
+Lighting: Even warm. Product zone slightly brighter.
+Aspect ratio: 4:5.
+
+TEMPLATE 15 — LIQUID SPLASH HERO
+Create a premium Instagram product advertisement using the uploaded product image.
+IMPORTANT: Do NOT modify packaging, label, logo, or text. Product appears exactly as in image — it is the hero element.
+Auto-analyze product (category, ingredients, colors, purpose) and build a matching scene.
+Layout: Liquid splash hero. Product center-left with dramatic liquid motion.
+Background: Vivid radial gradient — brand color, dark at edges, bright at center. Auto-derive from product.
+Liquid: Hyper-realistic liquid or ingredient splash wrapping product base — auto-match to product type (oil, honey, juice, sauce).
+Props: Key ingredient elements floating with bokeh blur — auto-match.
+Right side: Bold white condensed 3-line stacked headline + short subtitle + 3 benefit icon columns with dividers — auto-generate.
+Bottom-right: Round stamp badge — key credential auto-generated.
+Top corners: URL left, logo right.
+Lighting: Dramatic radial. Product and splash are most lit.
+Aspect ratio: 4:5.
+
+TEMPLATE 16 — FLOATING PRODUCT CASCADE
+Create a premium Instagram product advertisement using the uploaded product image.
+IMPORTANT: Do NOT modify packaging, label, logo, or text. Products appear exactly as in images — they are the hero elements.
+Auto-analyze products (category, ingredients, colors, purpose) and build a matching scene.
+Layout: Floating product cascade.
+2–3 products at dynamic tilted angles — large front-left, medium center, small back-right.
+Background: Warm radial gradient — deep edges, bright center. Auto-derive from product packaging.
+Motion: Products float at slight tilt with energy. Ingredient props and sparkle glints float around products.
+Bottom-right: White wave graphic.
+Framed headline in outlined box — bold caps + italic script, auto-generate.
+Logo top-left, URL top-right, CTA bottom-right.
+Lighting: Radial warm light. Front product most lit.
+Aspect ratio: 4:5.
+
+TEMPLATE 17 — HARD SPLIT TILTED HERO
+Create a premium Instagram product advertisement using the uploaded product image.
+IMPORTANT: Do NOT modify packaging, label, logo, or text. Product appears exactly as in image — it is the hero element.
+Auto-analyze product (category, ingredients, colors, purpose) and build a matching scene.
+Layout: Hard split tilted hero. Bold graphic energy.
+Background: Flat vertical split — 2 complementary brand colors side by side. Auto-derive from product.
+Product: Stands tilted at slight angle across both color halves — spanning the split.
+Accent: Paintbrush stroke behind product spanning split line.
+Props: Ingredient items scattered on both halves — auto-match. Small and purposeful.
+Top-left: Chunky playful headline — mixed color words across both halves. Auto-generate.
+Top-right: Handwritten-style descriptor. Hand-drawn arrow pointing to product.
+Left side: 4 star-bullet benefit points — auto-generate.
+Logo bottom-right.
+Aspect ratio: 4:5.
+
+TEMPLATE 18 — DIAGONAL RIBBON DUAL STAGE
+Create a premium Instagram product advertisement using the uploaded product image.
+IMPORTANT: Do NOT modify packaging, label, logo, or text. Product appears exactly as in image — it is the hero element.
+Auto-analyze product (category, ingredients, colors, purpose) and build a matching scene.
+Layout: Diagonal ribbon dual stage. Ultra-minimal, premium.
+Background: Flat solid brand color — auto-derive from product packaging.
+Two diagonal ribbon bands in slightly lighter shade cutting across frame.
+Two soft circular stage zones on ribbons — upper-right and lower-left.
+One for lifestyle or food shot (auto-generated), one for product.
+Top-left: Elegant mixed-weight serif headline — auto-generate.
+Bottom-right: Bold benefit text — auto-generate.
+No props. Clean, confident, minimal.
+Lighting: Even flat. Stage zones softly highlighted.
+Aspect ratio: 4:5.
+
+TEMPLATE 19 — FRESH MARKET SPLIT
+Create a premium Instagram product advertisement using the uploaded product image.
+IMPORTANT: Do NOT modify packaging, label, logo, or text. Product appears exactly as in image — it is the hero element.
+Auto-analyze product (category, ingredients, colors, purpose) and build a matching scene.
+Layout: Fresh market split. Abundance and warmth.
+Background: Radial gradient top half + clean white wooden surface bottom half.
+Faint watermark background scene — farm or market.
+Center: Overflowing basket or bowl of fresh produce on white surface, items spilling around. Product stands prominently among produce.
+Floating produce elements in upper gradient area.
+Typography: Gold italic headline + massive white bold headline + botanical leaf divider — auto-generate.
+Mid-right: Discount badge — auto-fill brand offer.
+Yellow pill CTA button. URL + contact bottom.
+Lighting: Bright natural. Produce and product most lit.
+Aspect ratio: 4:5.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+REVERSE-ENGINEERED TEMPLATES T20–T24
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+TEMPLATE 20 — ANGLED OVERLAPPING PANELS
+Best for: Caveman multi-variant posts / greendipz multi-sauce posts
+Create a premium Instagram product advertisement using the uploaded product image.
+IMPORTANT: Do NOT modify packaging, label, logo, or text. Product appears exactly as in image — it is the hero element.
+Layout: Three distinct, angled rectangular panels overlapping each other vertically.
+Background: 3 solid flat color blocks derived from product packaging.
+Product: Individual products positioned in the lower corner of each panel, partially exiting frame.
+Typography: Large bold condensed white ALL CAPS headline on the left of each panel.
+Props: Small hand-drawn arrows pointing to key flavor or variant callouts.
+Lighting: Even flat lighting with subtle drop shadows between panels to create depth.
+Aspect ratio: 4:5.
+
+TEMPLATE 21 — STRUCTURED HEALTH INFOGRAPHIC
+Best for: Health Fields nutrition education / Pusht millet comparison posts
+Create a premium Instagram product advertisement using the uploaded product image.
+IMPORTANT: Do NOT modify packaging, label, logo, or text. Product appears exactly as in image — it is the hero element.
+Layout: A 2x3 clean grid of six equal rounded-rectangle modules.
+Background: Soft, uniform slate-blue or clinical neutral background.
+Props: Module-specific visuals — macro ingredient shots, comparison charts, supplement facts labels.
+Typography: Clean sans-serif headlines for each module. Large, bold value propositions.
+Lighting: Even, diffused studio lighting across all modules.
+Aspect ratio: 4:5.
+
+TEMPLATE 22 — DYNAMIC FLOATING PRODUCT ACTION
+Best for: Caveman cookie range / Biomart snack showcase (STORIES/REELS ONLY — 9:16)
+Create a premium Instagram product advertisement using the uploaded product image.
+IMPORTANT: Do NOT modify packaging, label, logo, or text. Product appears exactly as in image — it is the hero element.
+Layout: Three hero products floating at dynamic, parallel tilted angles in a vertical stack.
+Background: Soft cream with massive, outlined "ghost" typography repeating in the background.
+Props: 5–7 real ingredient items (nuts, seeds, grains) "exploding" and floating around products.
+Typography: Outlined ALL CAPS background text; minimalist labels on products.
+Lighting: Bright, even studio light with soft natural shadows cast on background.
+Aspect ratio: 9:16. (Stories and Reels ONLY. Not for feed posts.)
+
+TEMPLATE 23 — QUOTED STATEMENT HERO
+Best for: Health Fields brand authority posts / Pusht honey posts / heritage moments
+Create a premium Instagram product advertisement using the uploaded product image.
+IMPORTANT: Do NOT modify packaging, label, logo, or text. Product appears exactly as in image — it is the hero element.
+Layout: Large-scale typography as dominant left-side hero; product balanced on a single hero element on the right.
+Background: Soft, warm monochromatic gradient auto-derived from product.
+Props: One large whole fruit or natural element at bottom center acting as a pedestal; organic shapes spiraling around product.
+Typography: Massive bold sans-serif statement in a darker shade of background color.
+Lighting: Warm, directional light from top-right creating soft shadows.
+Aspect ratio: 4:5.
+
+TEMPLATE 24 — TRICOLOR VERTICAL STRIPES
+Best for: greendipz 3-cuisine showcase / Biomart multi-brand posts
+Create a premium Instagram product advertisement using the uploaded product image.
+IMPORTANT: Do NOT modify packaging, label, logo, or text. Product appears exactly as in image — it is the hero element.
+Layout: Three equal vertical stripes of vibrant brand colors.
+Background: Textured, grainy finish on solid color stripes.
+Props: Three individual products centered in each stripe; central stripe may show raw ingredients in a matte ceramic bowl.
+Typography: Massive bold white headline centered at top; script sub-tagline below.
+Lighting: Bright, flat commercial lighting.
+Aspect ratio: 4:5.
+
+
+TEMPLATE 28 — SCROLL STOPPER SPLIT
+Create a premium Instagram product advertisement using the uploaded product image.
+IMPORTANT: Do NOT modify packaging, label, logo, or text. Product appears exactly as in image — it is the hero element.
+Auto-analyze product (category, ingredients, colors, purpose) and build a matching scene.
+Layout: Hard vertical split, exactly 50/50.
+Left side: Chaotic, dull, over-processed environment — artificial textures, messy composition, muted colors.
+Right side: Clean, vibrant, organic ingredient scene — fresh, natural textures, rich color.
+Product stands exactly at the center dividing line, bridging both sides.
+Typography: Large bold condensed ALL CAPS headline top-center — 2–3 words, auto-generated from product context. No paragraph text.
+Props: 3–5 real ingredient items only on the clean side — editorial placement, never blocking product.
+Lighting: Left side harsh and flat. Right side warm natural directional light. Product is the brightest element.
+Background control: No gradients. No artificial overlays.
+Aspect ratio: 4:5.
+
+---
+
+TEMPLATE 29 — ACTION FREEZE FRAME
+Create a premium Instagram product advertisement using the uploaded product image.
+IMPORTANT: Do NOT modify packaging, label, logo, or text. Product appears exactly as in image — it is the hero element.
+Auto-analyze product (category, ingredients, colors, purpose) and build a matching scene.
+Layout: Dynamic freeze frame composition.
+Scene: Ingredient or sauce mid-air — splash, pour, drop, or break moment.
+Product stands slightly off-center interacting with motion.
+Props: 3–5 real ingredient particles — natural, non-uniform scattering, never blocking product.
+Typography: Single bold condensed ALL CAPS word top or center — auto-generated from product context. No additional text.
+Lighting: High contrast directional light with sharp highlights. Product is the brightest element.
+Background: Clean or deep solid color derived from product packaging. No gradients.
+Aspect ratio: 4:5.
+
+---
+
+TEMPLATE 30 — HIDDEN REVEAL
+Create a premium Instagram product advertisement using the uploaded product image.
+IMPORTANT: Do NOT modify packaging, label, logo, or text. Product appears exactly as in image — it is the hero element.
+Auto-analyze product (category, ingredients, colors, purpose) and build a matching scene.
+Layout: Foreground obstruction composition.
+Front layer: Ingredient pile, cloth, or hand partially covering product — 40–60% visibility.
+Back layer: Product revealed behind obstruction.
+Typography: Bold condensed ALL CAPS curiosity headline top-center — short sentence auto-generated from product context. No paragraph text.
+Props: 2–4 real ingredient items — natural placement, never blocking revealed section.
+Lighting: Soft directional spotlight focused on revealed product area. Product remains brightest.
+Background: Soft blurred natural environment. No gradients.
+Aspect ratio: 4:5.
+
+---
+
+TEMPLATE 31 — EXTREME TEXTURE MACRO
+Create a premium Instagram product advertisement using the uploaded product image.
+IMPORTANT: Do NOT modify packaging, label, logo, or text. Product appears exactly as in image — it is the hero element.
+Auto-analyze product (category, ingredients, colors, purpose) and build a matching scene.
+Layout: Macro-first composition.
+Background: Full-frame extreme close-up of ingredient or product texture — high detail.
+Product stands small but sharp in foreground center or lower third.
+Typography: Large bold condensed ALL CAPS headline overlaid on texture — auto-generated from product context. No paragraph text.
+Props: No additional props beyond texture source.
+Lighting: Hyper-detailed directional lighting with sharp highlights. Product is brightest focal point.
+Background control: No gradients.
+Aspect ratio: 4:5.
+
+---
+
+TEMPLATE 32 — CHAOTIC INGREDIENT BURST
+Create a premium Instagram product advertisement using the uploaded product image.
+IMPORTANT: Do NOT modify packaging, label, logo, or text. Product appears exactly as in image — it is the hero element.
+Auto-analyze product (category, ingredients, colors, purpose) and build a matching scene.
+Layout: Radial explosion composition.
+Product stands centered.
+Props: 4–6 real ingredient items bursting outward in all directions — varied size, depth, non-symmetrical, never blocking product.
+Typography: Bold condensed ALL CAPS headline top or slightly curved — auto-generated from product context. No paragraph text.
+Lighting: Strong directional lighting with visible shadows. Product is brightest.
+Background: Clean or subtle texture derived from product. No gradients.
+Aspect ratio: 4:5.
+
+---
+
+TEMPLATE 33 — BEFORE AFTER TRANSFORMATION
+Create a premium Instagram product advertisement using the uploaded product image.
+IMPORTANT: Do NOT modify packaging, label, logo, or text. Product appears exactly as in image — it is the hero element.
+Auto-analyze product (category, ingredients, colors, purpose) and build a matching scene.
+Layout: Horizontal split.
+Top half: Raw, dull, unappealing food state.
+Bottom half: Final rich, vibrant dish.
+Product overlaps both halves at center.
+Typography: Large bold condensed ALL CAPS transformation headline top-center — auto-generated from product context. No paragraph text.
+Props: 3–5 real ingredients and dish elements — clean placement.
+Lighting: Top flat and dull. Bottom warm and rich. Product remains brightest.
+Background control: No gradients.
+Aspect ratio: 4:5.
+
+---
+
+TEMPLATE 34 — HUMAN INTERACTION LIFESTYLE
+Create a premium Instagram product advertisement using the uploaded product image.
+IMPORTANT: Do NOT modify packaging, label, logo, or text. Product appears exactly as in image — it is the hero element.
+Auto-analyze product (category, ingredients, colors, purpose) and build a matching scene.
+Layout: Natural lifestyle scene.
+Scene: Hands using product — pouring, cooking, or serving.
+Product placed naturally within action, not floating.
+Props: 3–5 real kitchen elements and ingredients — never blocking product.
+Typography: Bold condensed ALL CAPS conversational headline top-center — auto-generated from product context. No paragraph text.
+Lighting: Warm natural directional kitchen light. Product remains brightest.
+Background: Soft blurred home or kitchen environment. No gradients.
+Aspect ratio: 4:5.
+
+---
+
+TEMPLATE 35 — MID-ACTION FOOD MOMENT
+Create a premium Instagram product advertisement using the uploaded product image.
+IMPORTANT: Do NOT modify packaging, label, logo, or text. Product appears exactly as in image — it is the hero element.
+Auto-analyze product (category, ingredients, colors, purpose) and build a matching scene.
+Layout: Food action composition.
+Scene: Bite moment, fork lift, sauce drip, cheese pull, or serving action.
+Product placed near action zone.
+Props: 2–4 real dish elements only — clean placement.
+Typography: Bold condensed ALL CAPS reaction headline top-center — auto-generated from product context. No paragraph text.
+Lighting: Warm appetizing directional light. Product remains brightest.
+Background: Soft blurred dining or kitchen setting. No gradients.
+Aspect ratio: 4:5.
+
+---
+
+TEMPLATE 36 — MINIMAL NEGATIVE SPACE
+Create a premium Instagram product advertisement using the uploaded product image.
+IMPORTANT: Do NOT modify packaging, label, logo, or text. Product appears exactly as in image — it is the hero element.
+Auto-analyze product (category, ingredients, colors, purpose) and build a matching scene.
+Layout: Extreme minimal composition.
+Background: Flat solid color derived from product packaging. No gradients. No texture.
+Product placed small — center or lower third.
+Typography: Large bold condensed ALL CAPS headline dominating frame — auto-generated from product context. No additional text.
+Props: No props.
+Lighting: Clean even studio lighting. Product remains brightest.
+Aspect ratio: 4:5.
+
+---
+
+TEMPLATE 37 — COMPARISON GRID
+Create a premium Instagram product advertisement using the uploaded product image.
+IMPORTANT: Do NOT modify packaging, label, logo, or text. Product appears exactly as in image — it is the hero element.
+Auto-analyze product (category, ingredients, colors, purpose) and build a matching scene.
+Layout: Grid composition — 2x2 or 3x1.
+Each section: Different ingredient, use case, or benefit.
+Product occupies one dominant section.
+Typography: Small bold ALL CAPS labels per section — auto-generated from product context. No paragraph text.
+Props: 2–4 items per section — clean and evenly spaced.
+Lighting: Consistent soft directional lighting across grid. Product remains brightest.
+Background control: No gradients.
+Aspect ratio: 4:5.
+
+---
+
+TEMPLATE 38 — INGREDIENT TO PRODUCT FLOW
+Create a premium Instagram product advertisement using the uploaded product image.
+IMPORTANT: Do NOT modify packaging, label, logo, or text. Product appears exactly as in image — it is the hero element.
+Auto-analyze product (category, ingredients, colors, purpose) and build a matching scene.
+Layout: Directional flow left to right.
+Left: Raw ingredients.
+Right: Final product.
+Product placed at end of flow.
+Props: 3–5 ingredients showing progression — natural placement.
+Typography: Bold condensed ALL CAPS headline top-center — auto-generated from product context. No paragraph text.
+Lighting: Soft natural directional gradient across flow. Product remains brightest.
+Background control: No gradients.
+Aspect ratio: 4:5.
+
+---
+
+TEMPLATE 39 — FRAME BREAK COMPOSITION
+Create a premium Instagram product advertisement using the uploaded product image.
+IMPORTANT: Do NOT modify packaging, label, logo, or text. Product appears exactly as in image — it is the hero element.
+Auto-analyze product (category, ingredients, colors, purpose) and build a matching scene.
+Layout: Framed composition with boundary break.
+Product extends beyond frame edges — top or side.
+Typography: Bold condensed ALL CAPS headline layered partially behind and in front of product — auto-generated from product context. No paragraph text.
+Props: 2–3 real ingredient items — minimal, never blocking product.
+Lighting: Clean directional light. Product remains brightest.
+Background: Flat or subtle surface derived from product. No gradients.
+Aspect ratio: 4:5.
+
+---
+
+TEMPLATE 40 — TYPOGRAPHY DOMINANT
+Create a premium Instagram product advertisement using the uploaded product image.
+IMPORTANT: Do NOT modify packaging, label, logo, or text. Product appears exactly as in image — it is the hero element.
+Auto-analyze product (category, ingredients, colors, purpose) and build a matching scene.
+Layout: Typography-led composition.
+Background: Flat solid or subtle texture derived from product packaging. No gradients.
+Typography occupies 60–70% of frame — bold condensed ALL CAPS, stacked, high contrast, auto-generated from product context.
+Product overlaps typography.
+Props: Minimal or none.
+Lighting: Clean studio directional lighting. Product remains brightest.
+Aspect ratio: 4:5.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+GREENDIPZ-SPECIFIC ACTION SHOT PROMPTS (GZ-1 & GZ-2)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+GZ-1 — GREENDIPZ INDIAN GRAVIES ACTION SHOT
+Best for: Butter Chicken Gravy / Paneer Makhani Gravy / Biryani Gravy posts
+Create a premium Instagram food product advertisement using the uploaded greendipz product image.
+IMPORTANT: Do NOT modify packaging, label, logo, or text. Product appears exactly as in image — it is the hero element.
+Layout: Sauce action hero — gravy in dramatic motion.
+Background: Deep dark slate surface (#1A1A1A). Warm overhead spot lighting.
+Action: Thick, rich, glossy sauce being poured from above into a small matte ceramic bowl at frame center. Sauce mid-pour captured — viscous, glossy, restaurant-quality.
+Garnish: Fresh coriander leaves, a single whole dried chilli, scattered whole spices (cardamom, clove) around the pour zone.
+Finished dish: A plated finished dish in soft bokeh in the background — auto-generate from sauce type (butter chicken = chicken pieces in golden sauce, paneer makhani = paneer cubes, biryani = fragrant rice).
+Product jar: Stands upright to the left of the pour, slightly behind. Hero but not blocking action.
+Typography: Large bold white product name right side — auto-generate. Small italic tagline below.
+Lighting: Single warm overhead spot. Deep shadows. Rich, restaurant-worthy feel.
+Color: Deep reds, warm creams, charcoal. Vivid Green (#1FAD10) accents only in greendipz logo on jar.
+Aspect ratio: 4:5.
+
+GZ-2 — GREENDIPZ INDO-CHINESE SAUCES ACTION SHOT
+Best for: Schezwan Sauce / Manchurian Sauce / Kung Pao Sauce / Chili Gravy posts
+Create a premium Instagram food product advertisement using the uploaded greendipz product image.
+IMPORTANT: Do NOT modify packaging, label, logo, or text. Product appears exactly as in image — it is the hero element.
+Layout: Dynamic Indo-Chinese wok action shot.
+Background: Dark charcoal surface with high-saturation color pops. High energy.
+Action: Sauce being drizzled or splashed dynamically from above. Motion blur captured — sauce trails showing movement.
+Vegetables: Colorful vegetables caught mid-toss around the sauce — vibrant red capsicum, green spring onion, white mushrooms, yellow baby corn. Real food styling, not uniform.
+Product jar: Center-frame or left-frame. Upright, hero position.
+Typography: Chunky bold all-caps product name in Chili Red (#CC2229) or Vivid Green (#1FAD10) on the right side. One punchy line below — auto-generate (e.g. "Real Heat. No E-numbers.").
+Lighting: Bright directional from top-right. High contrast. Vivid and energetic.
+Color palette: Deep charcoal + Chili Red (#CC2229) + Vivid Green (#1FAD10) + natural food colours.
+Aspect ratio: 4:5.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TEMPLATE 41 — MONOCHROME HERO STUDIO
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Premium ultra-realistic [FORMAT: 4:5 feed / 9:16 story] product advertisement
+using the uploaded product image.
+IMPORTANT: Do NOT modify packaging, label, logo, or text. Product appears
+exactly as uploaded — it is the hero element. Render pack with natural studio
+lighting only. Label face fully lit, zero shadow on label.
+Auto-analyze product for dominant brand color and build entire palette as a
+rich monochrome system from that single hue.
+Layout: Full-frame monochrome studio scene. One dominant color runs through
+background, surface, prop shadows, and typography — creating a unified luxury
+color world. No competing colors. Color depth achieved through light and
+shadow variation within the single hue only.
+Background: Deep-to-mid gradient within the monochrome palette — darkest at
+top corners, lightest behind product center. Subtle radial glow at product zone.
+Surface: Smooth matte surface at lower third — same hue family, slight
+reflection of product base only.
+Props: 2–3 real ingredient items relevant to product — placed at lower corners,
+small and editorial, casting sharp clean shadows. No rustic props. Matte ceramic
+or glass vessels only.
+Typography: Bold modern condensed sans-serif headline — ALL CAPS, max 4 words,
+cream or white. Small italic descriptor line below in same hue at 60% opacity.
+Lighting: Single overhead cinematic spotlight — tight warm pool on product.
+Soft fill light from camera-left at 30% intensity. Glossy product highlights.
+Deep soft shadows behind product. Rich depth of field — product sharp,
+background softly blurred.
+Style: Clean, minimal, cinematic. Luxury commercial food photography aesthetics.
+Ultra detailed, 8K, sharp focus, premium D2C brand visual.
+Aspect ratio: 4:5 (or 9:16 for Stories — specify at generation time).
+CANVA OVERLAY: Brand logo top-center. Certification badges bottom-left.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TEMPLATE 42 — GOLDEN HOUR FARM SCENE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Premium ultra-realistic 3:4 vertical social media advertisement using the
+uploaded product image.
+IMPORTANT: Do NOT modify packaging, label, logo, or text. Product appears
+exactly as uploaded — it is the hero element. Render pack with natural golden
+light only. Label face fully lit.
+Layout: Cinematic Indian farm during golden hour. Wide establishing scene.
+Background (top 55%): Lush green crop rows stretching to horizon — wheat,
+mustard, or millet depending on product auto-analysis. Warm dust particles
+glowing in late afternoon sunlight. Soft haze on horizon. Blurred tree line
+and 2–3 birds in upper background. Cinematic depth of field — foreground
+sharp, background softly blurred.
+Midground: Rich dark soil in lower-left area. Fresh green sprouting plant in
+foreground soil — symbolizing organic growth. Subtle root texture visible.
+Product placement: Product stands upright on natural raised earth mound or
+flat stone at right of center — 60% frame height. Clean negative space on
+left for text overlay. Product zone is best-lit — warm directional golden
+light on label face.
+Atmosphere: Warm sunlight from camera-right at 15° above horizon. Long soft
+shadows extending left. Glowing dust particles in light shaft. Natural rural
+India atmosphere — no props, no staged elements.
+Typography zone: Left third of frame — clean open negative space. Bold modern
+sans-serif headline space prepared. No baked-in text — Canva handles all copy.
+Style: Hyper-realistic, ultra-detailed, premium commercial photography.
+Cinematic lighting, high contrast, natural deep greens and warm amber tones.
+8K quality, sharp focus, no watermark, no visual clutter.
+Aspect ratio: 3:4.
+CANVA OVERLAY: Brand logo top-left. Headline and benefit points in left zone.
+Certification badges bottom-right.
+NOTE: Best for Pusht Organic farm-to-pantry posts and Health Fields
+APEDA heritage content. Never use for Caveman or greendipz.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TEMPLATE 43 — BRAND VARIABLE TEMPLATE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Premium ultra-realistic [FORMAT] social media advertisement using the uploaded
+product image.
+IMPORTANT: Do NOT modify packaging, label, logo, or text. Product appears
+exactly as uploaded — it is the hero element.
+This is a variable-fill template. Before generating, Puran fills the
+following brand slots:
+  [BRAND NAME] — exact brand name as per Brand Bible
+  [BRAND PERSONALITY] — one of: BOLD / MINIMAL / EARTHY / PREMIUM / GEN-Z
+  [PRIMARY COLORS] — use canonical brand hex codes from VEE Hex section
+  [TARGET AUDIENCE] — as defined in brand brief
+Layout: Clean, professional, scroll-stopping brand scene. Feel adapts to
+[BRAND PERSONALITY] variable:
+  BOLD → high contrast, deep background, dominant product, strong typography space
+  MINIMAL → maximum negative space, single product, muted palette, fine type
+  EARTHY → warm natural tones, organic textures, ingredient props, soft light
+  PREMIUM → cinematic spotlight, dark surface, glossy highlights, gold accents
+  GEN-Z → bright flat background, oversized graphic elements, bold color punch
+Background: Solid or gradient built entirely from [PRIMARY COLORS]. No
+competing palette. Product zone is always the brightest area of frame.
+Product placement: Right panel or center — 60% frame height, upright, full
+label visible. Clean negative space on left or top for text.
+Props: 2–3 brand-relevant ingredient items — auto-matched to product. Matte
+ceramic or glass only. No rustic props.
+Typography zone: Prepared but empty — all copy handled in Canva.
+Lighting: Cinematic studio light — direction and quality adapts to personality
+variable. Product label always fully lit.
+Style: Premium commercial food photography aesthetics. Ultra detailed, 8K,
+sharp focus, premium D2C brand visual.
+Aspect ratio: 4:5 (default) or 9:16 (specify at generation time).
+CANVA OVERLAY: Brand logo. Headline. Benefit copy. Certification badges.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TEMPLATE 44 — MARKETPLACE PRODUCT CARD
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Premium ultra-realistic marketplace product card using the uploaded product
+image. Inspired by modern D2C e-commerce visual language.
+IMPORTANT: Do NOT modify packaging, label, logo, or text. Product appears
+exactly as uploaded — it is the hero element. Label face fully lit, no shadow
+on label face, zero distortion of pack proportions.
+Layout: E-commerce hero card. Product as dominant center-right hero — large,
+slightly diagonal at 8–12°, 65% frame height. Commanding presence.
+Background: Warm burnt-amber to deep copper gradient — horizontal sweep from
+left to right. Rich, premium, warm. Deep charcoal-black contrast panel in
+lower-left corner — 35% frame width, 40% frame height — creates visual anchor
+and brand badge zone.
+Lifestyle layer: Soft-focus lifestyle photography blended into upper background
+— warm indoor kitchen setting, natural window light, shallow depth of field.
+Blend opacity 30–40% — feels atmospheric, never dominant.
+Product lighting: Realistic sharp shadow on surface below product. Glossy
+specular highlights on pack edges and label surface. Product appears three-
+dimensional and premium.
+Props: Zero additional props. Product is the only physical element.
+Typography zone: Black panel bottom-left — clean, prepared for Canva copy.
+Thin horizontal rule separates panel from background.
+Style: Clean app-landing-page aesthetic. Modern D2C e-commerce visual.
+Flat product photography mixed with atmospheric lifestyle background.
+High resolution, 8K quality, sharp product focus, premium brand look.
+Aspect ratio: 4:5 (feed) or 1:1 (marketplace thumbnail — specify at
+generation time).
+CANVA OVERLAY: Brand logo top-right. Product name + weight in black panel.
+Key benefit badge. Certification icon. CTA if required.
+NOTE: Primary template for all Biomart listing visuals and any product
+being cross-listed. Works across all 5 brands with color adaptation.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TEMPLATE 45 — FANTASY BOTANICAL SOFT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Premium ultra-realistic 4:5 product advertisement using the uploaded product
+image.
+IMPORTANT: Do NOT modify packaging, label, logo, or text. Product appears
+exactly as uploaded — it is the hero element. Label face fully lit.
+Layout: Dreamy botanical garden environment. Product as center hero in a soft
+fantasy natural world.
+Environment: Lush garden scene surrounding product — pastel botanical
+elements auto-matched to product character. For honey: warm amber flowers,
+golden blooms, honeycomb hexagons. For oils: fresh herb sprigs, cold-pressed
+seeds, soft green botanicals. For wellness teas: lavender, chamomile, soft
+mist. For floral/herbal products: cherry blossoms, soft petals, glowing pollen.
+Depth: Multi-layer depth — large botanicals in extreme foreground (partially
+blurred), product in sharp mid-frame, soft glowing garden receding behind.
+Background: Soft warm natural light diffusing through foliage — pale gold,
+cream, or soft sage depending on product color. Never harsh, never dark.
+Particle atmosphere: Soft floating dust particles or pollen in light shafts.
+Delicate and premium — never overdone.
+Props: Zero hard props. Environment IS the styling. Natural elements only.
+No ceramic bowls, no surfaces visible — product floats in the botanical world.
+Product lighting: Soft omnidirectional botanical light — warm, gentle, even.
+Label fully legible. Subtle shadow beneath product for grounding.
+Typography zone: Upper third — open, soft, blurred botanical backdrop
+provides clean space. All copy in Canva.
+Style: Feminine, fresh, romantic, premium. Luxury natural product social
+media campaign aesthetic. Ultra detailed, 8K, sharp focus, editorial quality.
+Aspect ratio: 4:5.
+CANVA OVERLAY: Brand logo top-center. Headline copy upper zone. Benefit
+badges bottom. Certification marks bottom-left.
+NOTE: Primary template for Pusht Honey, Pusht Cold Pressed Oils, Health
+Fields wellness teas, and any floral or herbal SKU. Never use for Caveman
+or greendipz.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TEMPLATE 46 — DARK ARCHITECTURAL CINEMATIC
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Premium ultra-realistic 4:5 brand authority advertisement using the uploaded
+product image.
+IMPORTANT: Do NOT modify packaging, label, logo, or text. Product appears
+exactly as uploaded — it is the hero element.
+Layout: Dark cinematic brand statement. Product as confident singular hero.
+Background: Deep charcoal-black — pure, flat, no texture. Full frame.
+Architectural silhouette layer: Faint ghost-image of modern clean architecture
+at 10–15% opacity in background — abstract geometric forms only. Never
+recognizable, never distracting. Pure mood layering.
+Accent geometry: Warm copper-amber gradient geometric shapes — 2–3 thin
+angular ribbons or arc forms cutting across frame at dynamic angles. Bold
+premium contrast. Accent opacity 70–80%.
+Surface: None visible. Product floats against pure dark background.
+Product placement: Center-right. 55% frame height. Fully upright. Sharp
+specular highlights on pack edges from warm amber accent light.
+Lighting: Strong warm copper-amber side light from camera-right — directional,
+cinematic. Deep shadow on camera-left side of product. Product edge lighting
+creates premium 3D presence.
+Props: Zero. No ingredients, no surfaces, no bowls. Product and geometric
+accents only.
+Typography zone: Left third — dark background provides maximum legibility
+for Canva copy. Top-left corner clean for logo.
+Style: Bold premium brand statement. Luxury FMCG packaging aesthetic.
+Dark, dramatic, sophisticated. Ultra detailed, 8K, sharp focus.
+Aspect ratio: 4:5.
+CANVA OVERLAY: Brand logo top-left. Strong headline in warm cream. Credential
+line below. Certification badges bottom-left.
+NOTE: Best for Biomart brand authority posts, Health Fields premium SKUs
+(Ashwagandha, specialty spices). Use sparingly — maximum once per 5 posts.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TEMPLATE 47 — STREET FOOD ENERGY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Premium ultra-realistic 3:4 vertical social media advertisement using the
+uploaded greendipz sauce bottle image.
+IMPORTANT: Do NOT modify packaging, label, logo, or text. Product appears
+exactly as uploaded — it is the hero element. Full bottle visible, upright,
+front-facing, label 100% legible.
+GREENDIPZ BRAND RULE: Flavour-first framing at all times. No health claims,
+no vegetarian/vegan lead. Sauce is the hero — the food occasion is the context.
+Layout: Bold, colourful, high-energy street food scene. Vibrant and scroll-
+stopping.
+Background: Vivid flat colour — auto-matched to sauce variant:
+  Indian sauces → deep saffron or chili red
+  Indo-Chinese sauces → hot pink or vivid coral
+  Italian sauces → warm tomato red or herb green
+  Mexican sauces → bright lime or deep adobe orange
+Texture layer: Subtle crumpled paper or worn wall texture at 15% opacity
+over background — raw street energy, never rustic.
+Product placement: Dead center frame. 65% frame height. Upright, front-
+facing, sharp and photorealistic.
+Graphic elements surrounding bottle — all flat 2D illustration style:
+  3–4 oversized flat graphic arrows pointing toward product
+  Sticker-style food icons relevant to sauce: auto-matched
+    Indian: chili pepper, onion, coriander leaf, garlic
+    Indo-Chinese: noodle swirl, spring onion, sesame
+    Italian: basil leaf, tomato half, pasta twist
+    Mexican: lime wedge, jalapeño, corn
+  Small sauce splash or drip element at bottle base — flat graphic style
+  Hand-drawn energy lines or motion marks around product zone
+Graphic style: All surrounding elements are FLAT 2D illustration — bold
+outlines, solid fills, limited color palette from packaging. Product is the
+only PHOTOREALISTIC element in the frame. This contrast is the design intent.
+Typography zone: Top — bold sticker-style text space for Canva. Bottom —
+clean zone for flavour name and CTA.
+Lighting: Even flat studio light on product. Graphic elements have no
+lighting — they are 2D. Clear visual hierarchy: product 3D, world 2D.
+Style: Playful Vietnamese/street food brand energy. Bold graphic design
+meets photorealistic product. Ultra detailed, 8K product resolution.
+Aspect ratio: 3:4 (feed) or 9:16 (stories — specify at generation time).
+CANVA OVERLAY: greendipz logo top-left (lowercase always). Flavour name.
+Bold sticker headline. CTA routing to biomart.in/collections/sauce.
+NOTE: PRIMARY new template for all greendipz sauce posts. Replaces generic
+lifestyle staging for bold launch and flavour-drop content.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TEMPLATE 48 — DEEP WINE LUXURY HERO
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Premium ultra-realistic 4:5 luxury product advertisement using the uploaded
+product image.
+IMPORTANT: Do NOT modify packaging, label, logo, or text. Product appears
+exactly as uploaded — it is the hero element. Label face fully lit, zero
+distortion of pack proportions, zero shadow on label face.
+Layout: Deep luxury single-product hero. Maximum premium register.
+Background: Deep wine-red to rich cherry-red gradient — radial, darkest at
+corners, richest behind product center. Velvety depth. No harsh transitions.
+Lighting: Soft overhead spotlight — warm white, tight focus on product top.
+Secondary rim light from camera-right — warm amber, creates edge glow on
+pack. Glossy reflections on pack surface. Elegant soft shadow beneath product
+extending camera-left. No harsh shadows anywhere in frame.
+Surface: Deep dark surface at lower 20% of frame — dark wine-coloured marble
+or black glass. Very subtle product reflection in surface. Polished.
+Product placement: Dead center or slight left-of-center. 60–65% frame height.
+Upright or tilted maximum 5°. Elevated on invisible platform — product floats
+slightly above surface.
+Props: Zero props. One product only. Emptiness IS the luxury.
+Typography zone: Upper third and bottom third — background provides depth
+and legibility. All copy in Canva.
+Style: Deep luxury cosmetic and premium FMCG aesthetic. Rich, elegant,
+restrained. Soft shadows, glossy reflections, strong composition.
+Realistic depth of field — product razor-sharp, foreground and background
+softly blurred. Ultra detailed, 8K, sharp focus.
+Aspect ratio: 4:5.
+CANVA OVERLAY: Brand logo top-center. Product name in cream. Short authority
+line. Certification badges bottom corners.
+NOTE: Best for Health Fields premium single-product hero posts — Ashwagandha,
+specialty haldi, ceremonial teas. Also works for Pusht Forest Honey luxury
+positioning. Never use for Caveman or greendipz.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TEMPLATE 49 — ORGANIC AGRO BOLD GRID
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Premium ultra-realistic 3:4 vertical social media advertisement using the
+uploaded product image.
+IMPORTANT: Do NOT modify packaging, label, logo, or text. Product appears
+exactly as uploaded — it is the hero element.
+Layout: Bold modern agro-brand grid. Fresh farm-to-home visual identity.
+Background: Deep forest green — flat, rich, full-frame. Brand anchor color.
+No gradients in background panel.
+Graphic overlay layer: Oversized crop-circle abstract pattern at 8% opacity
+— geometric, modern, large scale, non-distracting. Provides visual texture
+without competing with product.
+Curved shape accent: 1–2 large lime-green curved abstract shapes cutting
+across the lower or right portion of frame — bold, modern, premium FMCG
+geometry. Flat color, sharp edges, confident.
+Grid structure: Clean modern grid lines defining 3 zones:
+  Left 40%: Open negative space — pure deep green — for Canva headline copy
+  Right 60%: Product zone — product stands here at 60% frame height, upright
+  Bottom band: Thin horizontal bar in lime-green — 6% frame height — for
+  product name or benefit line in Canva
+Product zone: Product right of center. Fully visible. Warm directional light
+from camera-right. Label fully lit. Sharp clean shadow on green surface.
+Props: 2–3 relevant organic ingredient items placed at lower-right corners
+only — small, precise, editorial. No rustic props. Modern staging.
+Typography zone: Left panel — clean open green space for Canva headline,
+subhead, and benefit points. High contrast against deep green.
+Lighting: Cinematic studio light. Warm side light on product. Background
+stays flat — no bloom, no glow. Product is the only lit element.
+Style: Hyper-realistic product. Modern premium agro-FMCG identity.
+Fresh, trustworthy, high-contrast visual mood. Ultra detailed, 8K,
+sharp focus, premium D2C brand visual.
+Aspect ratio: 3:4 (feed) or 9:16 (stories — specify at generation time).
+CANVA OVERLAY: Brand logo top-left. Bold headline in left zone. Benefit
+points. Certification badges in bottom bar.
+NOTE: Best for Pusht Organic core product posts and greendipz ingredient-
+origin content. Works for Health Fields farm heritage posts.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TEMPLATE 50 — INFOGRAPHIC TRIZONE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Premium ultra-realistic 4:5 product infographic advertisement using the
+uploaded product image.
+IMPORTANT: Do NOT modify packaging, label, logo, or text. Product appears
+exactly as uploaded — it is the hero element. Label face fully lit, full
+product visible, no crop.
+Layout: Clean trizone infographic. Three horizontal sections with clear
+hierarchy. App-landing-page aesthetic — functional, premium, modern.
+ZONE 1 — TOP THIRD (white or very light background):
+  Product as hero — large, centered, fully visible, photographically sharp.
+  Product floats against clean light background — no surface, no props.
+  Clean overhead soft light. Label front-facing. Natural drop shadow below.
+ZONE 2 — MIDDLE STRIP (brand accent color background):
+  Horizontal ingredient strip — 5–6 key ingredient icons displayed as flat
+  minimal icons with bold label below each. Icons in small circles.
+  Circle color auto-matched to product packaging.
+  Auto-derive ingredients from product being generated.
+  Icon style: flat minimal illustration — geometric, modern, not decorative.
+  Strip height: 18–20% of total frame.
+ZONE 3 — BOTTOM THIRD (deep dark background — charcoal or brand dark):
+  Clean dark panel. Premium brand statement zone.
+  Typography space: Large key claim line — centered, bold, cream or white.
+  Secondary CTA button shape — product accent color — positioned center.
+  All actual copy handled in Canva.
+Zone transitions: Clean hard horizontal lines — no gradients between zones.
+App-landing-page clarity. No bleed between zones.
+Color system: Derived entirely from uploaded product packaging colors.
+Auto-analyze pack and build: light zone neutral, mid zone accent, dark zone
+deep brand color.
+Font style: Modern geometric sans-serif throughout — implied by design intent.
+Canva will apply actual typography.
+Style: Liquid Death / functional beverage brand aesthetic — flat minimal
+illustration mixed with realistic product photography. 1:1 or 4:5 format.
+High resolution, 8K, sharp product focus.
+Aspect ratio: 4:5 (default) or 1:1 (specify at generation time).
+CANVA OVERLAY: Brand logo top-center. Ingredient labels in zone 2. Key
+claim copy in zone 3. CTA button text. Certification marks.
+NOTE: Best for Caveman nutrition transparency posts, Health Fields ingredient
+education, Biomart multi-benefit product callouts. Data-forward posts only.
+
+================================================================================
+END OF TEMPLATE EXPANSION PACK T41–T50
+Source: Reference prompt collection analyzed May 2026
+Next template number: T51
+================================================================================
+
+
+================================================================================
+T51 — Human + Giant Type Depth Stack (assigned May 2026 — full brief pending VEE log)
+T52 — Human + Giant Type Depth Stack variant (assigned May 2026 — full brief pending VEE log)
+================================================================================
+
+
+================================================================================
+T53 — HIMALAYAN ORIGIN CAROUSEL (5-Slide Educate Arc)
+Assigned: May 25, 2026
+Brand: Health Fields (primary) — adaptable to Pusht, Biomart
+Format: 4:5 portrait — 5-slide carousel
+================================================================================
+
+CONCEPT:
+Origin-education carousel format. Hook question on slide 1. Two definition/education
+slides (slides 2 and 3) each isolate one key product attribute. Comparison slide
+(slide 4) creates direct contrast between inferior and premium. CTA close on slide 5.
+Adapted from Orasure honey carousel reference — May 2026.
+
+COLOR WORLD: Single warm atmospheric palette immersion across all 5 slides.
+For Health Fields Pink Salt: rose-blush Himalayan dawn world — dusty rose sky,
+deep teal-grey mountain silhouettes, cream-white mineral highlights.
+Chips: dark semi-transparent deep teal overlay — background bleeds through always.
+Never solid chip blocks.
+
+SLIDE STRUCTURE:
+SLIDE 1 — Hero question: product levitating from mounded ingredient bed,
+           dramatic landscape behind, hook headline in upper third, no chip
+SLIDE 2 — Educate attribute 1: full-bleed scene (no product), bottom teal chip,
+           keyword in italic serif + body copy in regular sans, no dot at end
+SLIDE 3 — Educate attribute 2: macro ingredient shot (no product), bottom teal chip,
+           same chip structure as slide 2
+SLIDE 4 — Comparison: clean vertical split — inferior world left / premium world right,
+           product spans the split centred, headline in upper third
+SLIDE 5 — CTA hero: product grounded on minimal premium surface, soft landscape behind,
+           two-line headline upper third, cream pill CTA chip bottom centre
+
+TYPOGRAPHY SYSTEM:
+Slide 1 headline: 3-line stack — light sans (small) / large italic serif (dominant) / regular serif (medium)
+Slide 2-3 chips: italic serif keyword (large) + regular sans body (small) — both cream
+Slide 4 headline: light sans + large italic serif + regular sans — spanning full width
+Slide 5 headline: large italic serif (line 1) + regular sans (line 2)
+CTA chip: regular sans in deep teal on cream pill button
+NO DOTS rule: zero full stops on any headline, chip, or CTA text — no exceptions
+
+INGREDIENT BED RULE:
+Slide 1: ingredients MOUNDED as a platform — product emerges from peak, not scattered flat
+Slide 3: macro hero crystal sharp at foreground, dissolves to warm bokeh at edges
+
+LIGHTING: Kodak Portra 400 warmth across all slides — rose-gold dawn as primary source
+FILM: ARRI ALEXA — gentle halation at landscape edges, soft grain in atmosphere
+
+CANVA OVERLAY (all slides): Brand logo top-left white knockout only.
+Certification badges on slides 1 and 5 near product base only.
+No logos or badges in GPT prompts — Canva only.
+
+BEST FOR:
+Health Fields origin/education posts, ingredient transparency carousels,
+Pusht farm-to-table origin storytelling, any premium organic brand education arc.
+Use when: EDUCATE angle, 5-post carousel, product with a strong origin story.
+
+PRODUCT PLACEMENT:
+Slide 1: 65–70% frame height, levitating centre, slight upward tilt, emerging from mounded ingredient bed
+Slide 5: 60–65% frame height, centred, grounded on minimal polished surface
+================================================================================
+
+
+================================================================================
+T54 — HUMAN PRODUCT PUSH EDITORIAL
+Assigned: May 31, 2026
+Brand: Caveman Organic (primary) — adaptable to any brand with model
+Format: 4:5 portrait — single feed post
+================================================================================
+
+CONCEPT:
+Reverse-engineered from Rasvan Mango lifestyle editorial — May 2026.
+Model pushes product aggressively toward camera in foreground. Model occupies
+upper-right mid-ground. Dark dusk urban rooftop background. Ingredient elements
+scatter at lower frame. All typography and chips handled in Canva — GPT generates
+scene only. Composited workflow.
+
+COMPOSITING: GPT Image 2.0 → scene + model + product + floating ingredients.
+Canva → logo, headline, benefit chips, callout arrow, brand URL.
+
+COLOR WORLD: Cave Red + deep charcoal — dark, moody, Gen Z confidence.
+Background: deep charcoal to near-black at edges, subtle Cave Red atmosphere at horizon.
+Ingredient scatter: brand-specific (blueberries + almonds for Bakkit).
+
+SCENE STRUCTURE:
+BACKGROUND: Dark urban rooftop at dusk — deep charcoal sky, faint Cave Red warm glow at horizon
+MODEL: Young Indian male, 20s, dark streetwear (black/charcoal hoodie or tee), confident expression, slight edge — Gen Z energy. Occupies upper-right, partially cropped at frame right
+PRODUCT: Held in model's extended hand pushed toward camera — foreground dominant, sharp focus, full pack visible, label fully illuminated
+INGREDIENTS: Blueberries and almonds scattered and floating at lower-left and lower-centre — editorial accent, some sharp foreground, some motion-blur mid-air
+SPACE: Upper-left and left-centre kept clear — Canva handles all text in this zone
+
+TYPOGRAPHY: All in Canva — none baked into GPT prompt
+CHIPS: 4 circular dark semi-transparent benefit chips, stacked left column — Canva only
+
+PRODUCT PLACEMENT: 40–45% frame height, foreground centre-right, pushed toward camera, slight upward tilt. Full pack visible — no crop. Label face fully illuminated.
+
+BEST FOR:
+Caveman lifestyle/CONVERT posts, new SKU launches with model, snack swap posts,
+month-closer posts. Any brand requiring confident human + product push energy.
+Use when: CONVERT angle, model available, product needs a personality endorser moment.
+================================================================================
+
+
+================================================================================
+T55 — HARD SPLIT DUAL FLAVOUR FACE-OFF
+Assigned: May 31, 2026
+Brand: greendipz (primary) — adaptable to Caveman multi-variant, Pusht range posts
+Format: 4:5 portrait — single feed post
+================================================================================
+
+CONCEPT:
+Reverse-engineered from WoodApple Makhana dual-product reference — May 2026.
+Two products face each other across a hard vertical split. Each panel has its own
+flat saturated color world derived from the product label. Floating ingredients
+match each flavour story. Bottom typography uses a two-line size-drama stack —
+small mixed-case line above, large bold italic script line dominant below.
+Fully AI-generated in one prompt — no compositing required.
+
+COLOR WORLD: Each panel = its own flat saturated monochrome zone.
+Left and right panel colors derived from respective product packaging.
+Faint botanical/ingredient watermark texture ghosted across both panels at low opacity.
+No gradients — pure flat color zones with hard centre split.
+
+SCENE STRUCTURE:
+LEFT PANEL: Flat solid color full bleed — color from left product label
+RIGHT PANEL: Flat solid color full bleed — color from right product label
+SPLIT: Hard vertical line dead-centre — panels do not blend or fade into each other
+JARS: Left jar tilts slightly right, right jar tilts slightly left — both leaning
+      toward centre split, facing each other. Each jar crosses split line slightly.
+      Small bowl/plate at base of each jar showing product contents
+INGREDIENTS: Float upward from each jar — match flavour story of that panel
+TYPOGRAPHY: Two-line stack bottom-centre — line 1 small, line 2 large italic script
+FOOTER: Brand URL — full-width bottom strip, dark background
+
+PRODUCT PLACEMENT: Both jars at 60-65% frame height. Mirrored tilt composition.
+Each jar crosses the centre split by 10-15% of its width.
+
+BEST FOR:
+greendipz flavour comparison posts, Caveman cookie variant showcase,
+any two-product face-off with contrasting flavour/color identities.
+Use when: RELATE angle, comment-driving "pick your side" mechanic,
+two products with strong visual contrast.
+================================================================================
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CANVA OVERLAY GUIDE — ALL TEMPLATES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+T1:  65% frame height across color block boundary
+T2:  65% frame height center panel
+T3:  70% frame height over windowed scene
+T4:  55–65% frame height center surface
+T5:  Match scene scale over respective product zones
+T6:  55–60% frame height center of spotlight pool
+T7:  60% frame height center section
+T8:  55–65% frame height center of wooden surface
+T9:  60% frame height on pedestal top
+T10: 55% frame height right-side zone
+T11: 65–70% frame height dead center
+T12: 55–65% frame height on elevated platform
+T13: 55% frame height left-center zone
+T14: 70% frame height left side
+T15: 60–65% frame height center-left in splash zone
+T16: 65% frame height front-left position
+T17: 65% frame height tilted across split line
+T18: 60% frame height lower-left stage zone
+T19: 60% frame height among produce, center
+T20: 50% frame height, tilted 10°, lower corner of each respective panel
+T21: 45% frame height within designated center-grid module
+T22: 65% frame width center product; flanking products at 55% (9:16 only)
+T23: 65% frame height, tilted 30°, resting on natural element pedestal
+T24: 55% frame height, centered within respective vertical stripe
+GZ-1: 60% frame height, left of sauce pour, slightly behind action
+GZ-2: 55% frame height, center or left, upright, sauce action to its right
+T53: Slide 1 — 65–70% frame height, levitating centre, slight upward tilt, emerging from mounded ingredient bed | Slide 5 — 60–65% frame height, centred, grounded on minimal polished surface
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+FIREFLY BRAND HEX CODES (PROMPT-SAFE APPROXIMATIONS)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Use these in Firefly prompts only. Canonical brand colors are in each Brand Bible.
+
+CAVEMAN:     #D20000 cave red / #640A00 deep maroon / #1A1A1A near black / #FFFFFF white text
+HEALTH FIELDS: #007878 teal / #003C32 deep teal / #C80A28 crimson accent / cream white
+PUSHT:       #143C28 deep forest green / #FAFAD2 warm cream / #8CD200 lime accent
+BIOMART:     #00A050 market green / #8C7846 bronze gold / #B49664 warm gold / clean white
+GREENDIPZ:   #1FAD10 vivid green / #CC2229 chili red / #2E7FD4 fresh blue / #1A1A1A charcoal
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+VEE TEMPLATE AUDIT — JUNE 2026 (RESEARCH-VALIDATED)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Based on: 10 competitor accounts, 120 posts, Instagram algorithm 2026 data
+
+CRITICAL FINDING: All T1-T55 templates are for STATIC posts (4:5 feed / 9:16 story).
+Research shows reels drive 92-100% of views for food brands in 2026.
+Static images get 0.07% engagement rate vs 1.33% for reels.
+
+VERDICT: No templates need to be retired — they serve the GRID CONSISTENCY
+role (25-30% of content). But the VEE was missing reel-specific assets entirely.
+
+TEMPLATE STATUS (all templates T1-T55):
+  STATUS: KEEP — role shifted from "hero content" to "grid consistency"
+  USE CASE: Static feed posts (25-30% of content), story frames, thumbnails
+  FREQUENCY: Max 1 static post per 3-4 reels on any account
+
+TEMPLATES TO USE MORE (research-aligned visual styles):
+  T34 — Human Interaction Lifestyle → closest to top-performing reel aesthetic
+  T35 — Mid-Action Food Moment → matches recipe/food-in-action archetype
+  T42 — Golden Hour Farm Scene → matches Pusht/Two Brothers organic farm aesthetic
+  T47 — Street Food Energy → matches greendipz vibrant food aesthetic
+  GZ-1/GZ-2 — Greendipz Action Shots → matches sauce cooking reel pattern
+
+TEMPLATES TO USE LESS (research shows these visual styles underperform):
+  T16 — Floating Product Cascade → no competitor uses this style
+  T22 — Dynamic Floating Action → detached from food reality
+  T32 — Chaotic Ingredient Burst → no equivalent in top performers
+  T46 — Dark Architectural Cinematic → too abstract for food brands
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+NEW: REEL THUMBNAIL SYSTEM — T56-T60
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Reel thumbnails are what the grid shows. These must be cohesive.
+Generate in GPT Image 2.0 as 1:1 square frames. Canva adds text overlay.
+Each brand uses ONE thumbnail style consistently.
+
+================================================================================
+T56 — REEL THUMBNAIL: FOOD CLOSE-UP (greendipz primary)
+Assigned: June 2026
+Format: 1:1 square — reel cover image
+================================================================================
+
+CONCEPT: Extreme close-up of the finished dish with sauce visible.
+Warm, saturated, appetizing. Product jar NOT in frame. The food IS
+the thumbnail. Consistent warm color temperature across all greendipz
+reel thumbnails.
+
+SCENE: Tight overhead or 45-degree shot of finished dish. Sauce visibly
+drizzled, poured, or coating the food. Steam or heat haze optional.
+LIGHTING: Warm directional — Portra 400 warmth. Slightly overexposed
+highlights on food surface. Food glistening.
+BACKGROUND: Just the plate/bowl and dark surface. Nothing else.
+NEGATIVE SPACE: Upper 25% kept clear for Canva text overlay.
+PALETTE: Warm — amber, deep red, golden brown. Food-first colors.
+STYLE: Phone-camera-quality feel. NOT studio-perfect. Real food energy.
+Aspect ratio: 1:1.
+CANVA OVERLAY: One-line bold text overlay. greendipz logo small corner.
+
+================================================================================
+T57 — REEL THUMBNAIL: PERSON + PRODUCT (Caveman primary)
+Assigned: June 2026
+Format: 1:1 square — reel cover image
+================================================================================
+
+CONCEPT: Real person (face visible, natural expression) holding or eating
+the product. Dark moody background matching Caveman brand world.
+Consistent across all Caveman reel thumbnails.
+
+SCENE: Chest-up shot of person holding product or mid-bite. Natural
+expression — not posed, not smiling at camera. Casual outfit, dark tones.
+LIGHTING: Warm side light. Dark background. Face well-lit. Product visible.
+BACKGROUND: Deep dark — near black or Cave Red undertone.
+NEGATIVE SPACE: Left or right third kept clear for Canva text.
+PALETTE: Cave Red world — deep reds, blacks, warm skin tones.
+STYLE: Feels like a friend's Instagram story screenshot. NOT produced.
+Aspect ratio: 1:1.
+CANVA OVERLAY: Bold short text. Caveman logo small corner.
+
+================================================================================
+T58 — REEL THUMBNAIL: WELLNESS MOMENT (Health Fields primary)
+Assigned: June 2026
+Format: 1:1 square — reel cover image
+================================================================================
+
+CONCEPT: Warm lifestyle moment — cup of tea, morning light, hands holding
+product. Teal undertone throughout. Aspirational but accessible.
+
+SCENE: Hands cradling cup of tea, or product on kitchen counter with
+morning light. Soft focus background. Warm natural setting.
+LIGHTING: Golden morning light from window. Soft, diffused, inviting.
+BACKGROUND: Warm kitchen or living space — soft bokeh. Teal accents.
+NEGATIVE SPACE: Upper third for Canva headline.
+PALETTE: Teal + cream + warm gold. Consistent Health Fields world.
+STYLE: Lifestyle photography — real home, real moment.
+Aspect ratio: 1:1.
+CANVA OVERLAY: Elegant serif text. Health Fields logo.
+
+================================================================================
+T59 — REEL THUMBNAIL: GOLDEN FOOD MOMENT (Pusht primary)
+Assigned: June 2026
+Format: 1:1 square — reel cover image
+================================================================================
+
+CONCEPT: Food being cooked or served with Pusht products. Golden hour
+warmth. Hands in frame. Indian kitchen energy.
+
+SCENE: Hands adding ingredient to pan, dal being tempered, oil being
+poured, or finished thali moment. Real kitchen setting.
+LIGHTING: Warm golden — stove light or window light. Rich warm tones.
+BACKGROUND: Indian kitchen — gas stove, steel pots, warm chaos.
+NEGATIVE SPACE: Upper or side third for Canva text.
+PALETTE: Forest green + golden amber + warm brown.
+STYLE: Home kitchen documentary. Real, warm, intimate.
+Aspect ratio: 1:1.
+CANVA OVERLAY: Hinglish text in warm tones. Pusht logo.
+
+================================================================================
+T60 — REEL THUMBNAIL: CURATION REVEAL (Biomart primary)
+Assigned: June 2026
+Format: 1:1 square — reel cover image
+================================================================================
+
+CONCEPT: Curated product spread — 3-5 products arranged on clean surface.
+Bird's eye or slight angle. Clean, organised, trustworthy.
+
+SCENE: Products laid out on white/cream surface. Styled but not over-
+produced. Some open, some closed. Small ingredient accents between.
+LIGHTING: Even overhead — clean, bright, editorial.
+BACKGROUND: White marble, light wood, or cream linen surface.
+NEGATIVE SPACE: Bottom third for Canva CTA.
+PALETTE: Clean neutrals + Market Green accents.
+STYLE: Flat-lay editorial. Curated haul aesthetic.
+Aspect ratio: 1:1.
+CANVA OVERLAY: "This week's organic picks" style text. Biomart logo.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+VEE CURRENT STATE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Last assigned template: T64 (Curator's Certification Card — assigned June 17, 2026)
+Next new template: T65
+Total templates: 64 (T1-T55 static + GZ-1/GZ-2 + T56-T60 reel thumbnails + T61 hamper + T62 grain triptych + T63 benefit reveal + T64 certification card)
+================================================================================
+
+
+================================================================================
+T64 — CURATOR'S CERTIFICATION CARD (Biomart primary)
+Assigned: June 17, 2026
+Brand: Biomart (primary) — adaptable to any verified-fact EDUCATE carousel
+Format: 1:1 square — multi-slide carousel (5-slide series)
+Source: Built for Biomart certification education carousel — PGS-India / India Organic / Jaivik Bharat
+================================================================================
+
+CONCEPT:
+Type-led editorial information card system for EDUCATE-angle carousels. Biomart curation
+voice translated to a clean info-card architecture. Each slide uses identical structural
+rhythm — small tag top-left, pagination top-right, dominant editorial serif headline
+upper-centre, light humanist sans descriptor below, three evenly spaced stat lines mid,
+and an empty logo placeholder zone in the lower-right (or row of placeholders centred
+on cover/save slides). Composited workflow: GPT generates the full type and background,
+Canva drops in the official certification or brand logos into the blank placeholder squares.
+
+COLOR WORLD: Total monochromatic immersion within Biomart palette — Mint Cream #E8F5EC
+background, Forest Green #1B8A3E for dominant headlines and primary type, Organic Gold
+#8B6427 for accents, tags, italic sub-headlines and pagination, Deep Charcoal #1A1A1A
+for body and descriptors. Nothing else exists in the frame.
+
+SCENE STRUCTURE:
+BACKGROUND: Flat Mint Cream surface with faint paper grain for editorial print feel.
+Soft warm ARRI-quality key light from upper-left, gentle vignette darkening toward
+bottom corners. No props, no ingredients, no liquid, no rustic textures, no humans —
+this is type-led editorial design, nothing else.
+
+TYPOGRAPHY SYSTEM: Editorial serif (Mrs Eaves / Söhne sensibility) for headlines and
+italic sub-headlines — confident, refined, never generic stock serif. Light humanist
+sans for descriptors and stat lines — clean, never condensed.
+
+TYPOGRAPHY HIERARCHY (consistent across all slides):
+ — Top-left: tiny small-caps tag in Organic Gold (curator/credit marker)
+ — Top-right: tiny small-caps pagination ("X of N") in Organic Gold
+ — Upper-centre: dominant editorial serif headline in Forest Green — the slide's anchor
+ — Optional italic sub-headline directly below headline in Organic Gold
+ — Light humanist sans descriptor in Deep Charcoal below headline
+ — Mid-card: three evenly spaced stat lines in medium-weight humanist sans, Deep Charcoal
+ — Cover and close slides skip stats — use larger negative space and stacked headline only
+
+LOGO PLACEHOLDER ZONE: Empty squares (or rectangle for wordmark) in lower-right (or row
+across lower-centre for cover slides). Mint Cream interior with a single faint Organic
+Gold hairline outline. Deliberately blank — Canva fills with official logos.
+
+LIGHTING: ARRI quality soft warm key from upper-left, gentle edge vignette.
+
+NO DOTS RULE: Zero full stops anywhere on any slide.
+
+EXCLUSIONS: No products, no ingredients, no liquid, no rustic props (no jute, no wood,
+no mortar/pestle), no humans, no certification logos drawn inside placeholders, no FSSAI
+numbers, no offers, no pricing, no website URLs.
+
+CANVA OVERLAY: Official certification or brand logos placed into the empty placeholder
+squares. No additional copy adjustments required — all type is baked in.
+
+BEST FOR:
+Biomart EDUCATE carousels — certification breakdowns, "what each X actually means" explainers,
+verified-fact comparison series, Label Padhega India transparency content. Adaptable to any
+brand carousel that needs identical structural rhythm across multiple type-led slides.
+Use when: EDUCATE angle, multi-slide carousel, verified facts only, curation voice.
+Format: 1:1 square (1080×1080).
+================================================================================
+
+
+================================================================================
+T63 — BENEFIT REVEAL AUTHORITY
+Assigned: June 6, 2026
+Brand: Health Fields (primary) — adaptable to Pusht, Biomart
+Format: 4:5 portrait — single feed post
+Source: Adapted from Nurture Tree benefit-list reference — June 2026
+================================================================================
+
+CONCEPT:
+Premium benefit-reveal layout. Product pack on right as dominant hero. Five verified
+benefit points stacked on the left with thin-ring icon circles. Three-line mixed-weight
+serif headline anchors the top-left. Deep teal radial gradient background stays entirely
+within Health Fields' teal/deep teal color world. Clinical, authoritative, information-rich.
+Composited workflow: GPT generates scene + background + icons + typography. Canva adds
+logo, certification badges, any final copy adjustments.
+
+COLOR WORLD: Deep teal to near-black radial gradient — darkest at corners, warmest teal
+behind the product zone. The gradient is premium and restrained — deep, velvety, controlled.
+Teal is present but sophisticated, not vivid. Cream/white typography against the dark teal
+creates the Health Fields clinical luxury contrast. No green, no warm red, no competing
+palette. Every element lives within the teal-to-near-black family.
+
+SCENE STRUCTURE:
+BACKGROUND: Rich premium radial gradient — deep teal bleeds from behind the product zone
+outward, dissolving to near-black at all four corners. Gradient is deep and velvety —
+think a darkened premium wellness store with a cool teal source light. Not vivid or
+clinical-blue. Rich, restrained, authoritative.
+
+PRODUCT: Health Fields Ragi Atta pack (upload reference image) — right side of frame,
+upright, full pack visible, 65% frame height. Label face fully lit by soft overhead
+cinematic light. Subtle drop shadow below pack. Rendered exactly as uploaded — zero
+label modifications.
+
+BENEFIT POINTS (left 45% of frame):
+Five stacked benefit points, evenly spaced vertically.
+Each point: thin-ring circle icon (teal ring, cream icon inside, minimal geometric style) +
+bold small caps header in white + light descriptor line in cream below.
+Icons: organic leaf / mill stone / iron mineral / zero / grain stalk — flat minimal
+illustration, geometric, modern. Never decorative or illustrative.
+Spacing between points is clean and architectural — Health Fields never crowds.
+
+HEADLINE (top-left zone, above benefit points):
+Three-line mixed-weight stack:
+LINE 1: Light caps, cream, medium size
+LINE 2: Bold condensed, white, large dominant — the punchy line
+LINE 3: Light italic serif, cream, smaller — softens the drama
+
+BOTTOM STRIP: Full-width thin strip — tiny white light-caps credentials line centered.
+
+TYPOGRAPHY SYSTEM: Mixed-weight serif for headline lines 1 and 3 — authority and elegance.
+Bold condensed sans-serif for headline line 2 — scroll-stopping punch.
+Bold small caps sans-serif for benefit headers — clinical, structured.
+Light regular for benefit descriptors — legible, never competing.
+
+LIGHTING: Soft cinematic overhead light — warm teal-tinted pool on product zone.
+Benefit list area receives even soft fill — all text zones legible. No harsh shadows.
+Label face fully and evenly lit. Gradient provides natural depth — no additional
+atmospheric elements needed. ARRI quality restraint throughout.
+
+EXCLUSIONS: No rustic props — no wooden surfaces, no jute, no botanical elements.
+No solid colored chip blocks — all feature elements use semi-transparent or ring styles.
+No bright vivid teal — gradient must stay deep and premium. No health claims in benefit
+text — only verified factual statements. No FSSAI numbers, no barcodes in GPT render.
+No decorative wave shapes at bottom (banned — too mass-market). No watermarks.
+
+PRODUCT PLACEMENT: Right panel. 65% frame height. Fully upright. Front-facing.
+Label fully lit. Slight natural drop shadow on surface below.
+
+CANVA OVERLAY: Health Fields logo top-right (small). Certification badges bottom-left.
+
+BEST FOR:
+Health Fields ingredient education posts, any EDUCATE angle with 4-5 verifiable facts,
+certification transparency posts, "what's really in your food" paradigm-shift content.
+Use when: EDUCATE angle, information-rich single post, verified fact list available.
+Format: 4:5 portrait.
+================================================================================
+
+
+================================================================================
+T62 — GRAIN REVEAL TRIPTYCH
+Assigned: June 6, 2026
+Brand: Caveman Organic (primary) — adaptable to any multi-ingredient EDUCATE post
+Format: 4:5 portrait — single feed post
+================================================================================
+
+CONCEPT:
+Three equal vertical columns divide the full frame. Each column stages one ancient grain
+as a macro hero ingredient. The product box breaks OUT from the center column, erupting
+forward across the column boundary — creating depth, drama, and a clear visual hierarchy.
+Typography names each grain in its Indian vernacular name (large, Cave Red) with the
+scientific/English name below (small, white). A full-width headline anchors the top.
+Dark black world throughout — product box is the only light-colored element, making
+it the visual payoff after the grain education. Fully AI-generated in one prompt.
+
+COLOR WORLD: Total black immersion — pure black (#000000) to deep charcoal throughout
+all three columns and all backgrounds. Grain seeds carry their own natural warm-brown
+tones — the only organic warmth in the frame. Cave Red (#BE1A1A) appears only in
+grain name typography. White in headlines and sub-labels. No gradients. No atmospheric
+haze. Product box (white/maroon) is intentionally the brightest element — a deliberate
+color-world break that rewards the eye.
+
+SCENE STRUCTURE:
+COLUMNS: Three exactly equal vertical columns, full frame height. Thin dark hairline
+borders between columns — barely visible, architectural not decorative.
+Background of each column is pure deep black.
+
+LEFT COLUMN — Amaranth (Choliai):
+Amaranth seeds mounded as a dense platform in the lower 40% of column — seeds sharp
+and detailed at peak, softening toward edges. Warm side light catches seed texture.
+Seeds are tiny, golden-brown, granular. Upper 60% of column: pure black — grain name
+text zone.
+
+CENTER COLUMN — Sorghum (Jowar):
+Sorghum grains mounded at base of column — round, pale tan/cream grains. Product box
+erupts FROM this column, positioned center frame at 65% frame height — pack breaks
+forward past the column boundary, tilted 5° toward viewer, full label lit and legible.
+Sorghum seeds are partially visible behind and beside the product base. Upper zone:
+pure black — grain name text zone.
+
+RIGHT COLUMN — Flax Seeds:
+Flax seeds mounded as a rich dense platform in lower 40% of column — flat oval seeds,
+deep golden-brown to dark mahogany. Warm directional light creates surface sheen.
+Upper 60%: pure black — grain name text zone.
+
+PRODUCT: Upload reference image. Center frame. 65% frame height. Box breaks past
+the left edge of center column by 15%. Full pack visible — no crop. Label face
+fully illuminated by warm overhead spotlight. Natural drop shadow below box onto
+seed bed. Pack is photorealistic, rendered exactly as uploaded — no label modifications.
+
+TYPOGRAPHY (all baked into GPT render):
+TOP FULL-WIDTH: "NO WHEAT · THREE GRAINS" — bold condensed sans-serif, white,
+large dominant, spanning full frame width above column content
+LEFT COLUMN TOP: "CHOLIAI" — Cave Red bold condensed, large; below it "AMARANTH"
+in white small caps, smaller weight
+CENTER COLUMN TOP: "JOWAR" — Cave Red bold condensed, large; below it "SORGHUM"
+in white small caps, smaller weight
+RIGHT COLUMN TOP: "FLAX" — Cave Red bold condensed, large; below it "SEEDS"
+in white small caps, smaller weight
+BOTTOM CENTER STRIP: "GLUTEN FREE · CERTIFIED ORGANIC" — white, tiny, light caps,
+spanning center of bottom edge
+
+LIGHTING: Single cinematic overhead key light — tight warm pool focused on center
+column product box. Label face fully lit. Left and right column seed beds receive
+soft 30% fill from camera-left — seeds are visible without competing with pack.
+Column hairlines fall in deep shadow. ARRI quality warmth on product zone only.
+
+EXCLUSIONS: No rustic props — no wooden bowls, no jute, no burlap, no spoons.
+No scattered seeds — all seeds mounded as platforms. No gradients in any column
+background. No curved column shapes — strict straight vertical borders. No product
+packaging modifications — render exactly as uploaded. No decorative illustrations.
+No FSSAI numbers, no barcodes, no certification marks (Canva handles these).
+No solid colored chip blocks anywhere.
+
+PRODUCT PLACEMENT: 65% frame height. Center of frame. Box straddles left edge of
+center column. Slight forward tilt 5°. Full pack visible. Label front-facing.
+Seed bed at base provides grounding platform.
+
+CANVA OVERLAY: Caveman logo top-left (small). Certification badge bottom-left.
+
+BEST FOR:
+Caveman ingredient education posts, any EDUCATE angle post with 3 key ingredients,
+Label Padhega India transparency content, millet/grain reveal posts.
+Use when: EDUCATE angle, multi-grain product, need to teach the ingredient story visually.
+Format: 4:5 portrait.
+
+================================================================================
+
+================================================================================
+T61 — PREMIUM HAMPER REVEAL (Biomart primary)
+Assigned: June 2, 2026
+Brand: Biomart (primary) — adaptable to any multi-product showcase
+Format: 4:5 portrait — single feed post
+Source: Reverse-engineered from Vinatea + DK Harvest hamper references — June 2026
+================================================================================
+
+CONCEPT:
+Multi-product hamper/container reveal. Products placed by operator in Canva at exact
+dimensions — GPT generates scene, container, background, atmosphere, and typography only.
+No products rendered in GPT prompt. Composited workflow: GPT scene + Canva product placement.
+Container is a clean modern premium display — NOT wicker/rattan (banned rustic prop).
+Background is soft-focus organic outdoor scene — farm, garden, or open green space.
+Floating organic leaf elements add atmospheric energy without clutter.
+
+COMPOSITING: GPT Image 2.0 → background + container (empty) + floating leaves + typography.
+Canva → actual product PNG cutouts placed inside container at correct dimensions + brand logo.
+
+COLOR WORLD: Biomart Market Green governs background foliage and container.
+Warm cream/white governs sky zone and container interior.
+Warm gold governs headline accent and subline text.
+White governs primary headline text.
+Background: soft-focus organic greens + warm cream sky — abundant, trustworthy, premium.
+
+SCENE STRUCTURE:
+BACKGROUND: Soft-focus real organic garden or farm scene — lush green foliage at left
+and right edges, warm cream-white open sky in upper centre zone. Gentle natural light.
+Depth: multiple soft layers of green receding behind. Sky provides clean headline zone.
+Not illustrated — photorealistic but soft-focus.
+FLOATING ELEMENTS: 6-8 individual green organic leaves floating at various depths
+around the container zone — some sharp foreground, some soft background. Natural,
+not scattered — purposeful floating energy. Leaf shapes: clean organic tear-drop,
+not any specific brand leaf.
+CONTAINER: Clean premium display tray or modern hamper box — deep forest green or
+dark slate material — matte finish — rectangular, open top — approximately 55-60%
+of frame width — sits centered in lower-middle of frame. Container has slight depth/
+perspective — front edge visible. Interior of container is clean cream/white — the
+space where Canva will place product PNG cutouts. Elegant, not rustic — premium
+organic marketplace aesthetic, not a market stall.
+SURFACE: Clean minimal surface below container — slight warm reflection — matte,
+no texture.
+
+TYPOGRAPHY:
+Headline zone: upper-centre sky area — clear open space for text.
+HEADLINE LINE 1: YOUR ORGANIC — bold white caps — large — upper position
+HEADLINE LINE 2: STARTER 5 — bold white caps — larger, dominant — below line 1 —
+strong size drama — STARTER 5 is the bigger, bolder line
+SUBLINE: One order — five certified products — medium weight warm gold — below
+headline, smaller scale — no dot at end
+FOOTER: biomart.in — small monospace — white — bottom edge of frame — no dot
+
+LIGHTING: Warm natural outdoor light — ARRI quality warmth — Kodak Portra 400
+temperature — light falls from upper-centre — container is cleanly lit from front —
+interior of container brightest (draws eye to product placement zone)
+
+FILM: Photorealistic editorial — Portra 400 warmth throughout — soft natural grain
+in background foliage — sharp foreground container
+
+EXCLUSIONS: No products in GPT render — container interior is empty (Canva fills it) —
+no wicker, no rattan, no bamboo, no burlap, no jute, no sunflowers, no fabric at base —
+no rustic props of any kind — no wooden sign frames — no price chips — no solid
+colour chip blocks — no watermarks — no clutter outside the container zone
+
+PRODUCT PLACEMENT (Canva — after GPT generation):
+Place 5 product PNG cutouts inside container emerging upward at varying heights.
+Suggested order left to right: HF Himalayan Salt pouch / Pusht Arhar Dal bag /
+Pusht Groundnut Oil bottle (tallest, centre-back) / HF Tulsi Green Tea box /
+Caveman Millet Era cookies box. Products should exceed container top edge by 40-60%.
+Scale each product so oil bottle reaches approx 70% of total frame height.
+Add Biomart logo top-right of frame.
+
+BEST FOR:
+Biomart multi-product showcase, certified pantry haul posts, gift hamper reveal,
+any multi-brand collection post. Use when 5+ products need to be featured together
+without individual product distortion. Composited workflow only.
+Format: 4:5 portrait.
+
+Last assigned template: T61 (Premium Hamper Reveal — assigned June 2026)
+Next new template: T62
+Total templates: 61 (T1-T55 static + GZ-1/GZ-2 + T56-T60 reel thumbnails + T61 hamper)
+================================================================================
+
+================================================================================
+T62 — 6-POINT FEATURE CALLOUT INFOGRAPHIC (Health Fields primary — all brands adaptable)
+Assigned: June 8, 2026
+Brand: Health Fields (primary) — adaptable to Pusht, Caveman, Biomart
+Format: 3:4 vertical — single feed post
+Source: Reverse-engineered from Health Fields Barnyard Millet reference — June 2026
+Generation: Fully AI-generated (single GPT Image 2.0 prompt — no Canva compositing)
+================================================================================
+
+CONCEPT:
+Product hero centered on a mounded ingredient bed, flanked by 6 circular feature-callout
+badges (3 left / 3 right), with large headline above, a dark brand-color banner bar below
+headline, and a full footer system (certification icon row + bottom text strip). All text,
+badges, and UI baked into the GPT prompt — fully AI-generated. No Canva overlay required
+except brand logo placement.
+
+Educational/EDUCATE angle — maximum feature density in one frame.
+
+COLOR WORLD:
+Warm cream-gold governs the entire background scene (agricultural warmth, Portra 400 quality).
+Brand's primary dark color (Health Fields: deep teal; Pusht: forest green; Caveman: Cave Red;
+Biomart: Market Green) governs all UI elements: banner bar, circular badges, footer bars,
+badge icon circles, bottom strip.
+Only typography and badge elements use the brand's dark primary color.
+Background scene stays entirely within the warm cream-gold family — no dark color in scene.
+
+SCENE STRUCTURE:
+BACKGROUND: Warm cream-golden agricultural atmosphere — soft focus. For Health Fields/Pusht:
+wheat stalks or crop elements top-right at soft blur — golden, airy, not sharp.
+For Caveman: dark earthy textured background. Adapt per brand.
+CENTER: Full product pack — reproduced exactly from upload reference — upright, no tilt,
+front label fully lit, zero shadow on label face — centered horizontally at 40–65% vertical zone.
+GRAIN BED: Relevant product's raw ingredient mounded as a raised platform at pack base —
+peak is sharp and detailed, outer edges soften — pack emerges upward from the mound.
+Not flat scattered — always mounded as a platform.
+
+BADGE SYSTEM (6 total — baked into GPT):
+3 circular badges on LEFT of pack, 3 on RIGHT — vertically distributed to flank product.
+Each badge: circular dark-brand-color filled circle with white line-art icon inside.
+Each badge connects to a FEATURE HEAD (bold, brand dark color, ALL CAPS) + FEATURE
+DESCRIPTOR (small, gray/dark, 1–2 lines) to its respective side.
+Left badges: features stack downward beside pack.
+Right badges: features stack downward beside pack.
+Badge icons: leaf (organic), grain stalk (unpolished/natural), shield (no chemicals),
+star/award (certified), DNA helix or leaf (non-GMO), nutrient crystal (protein/fiber) —
+adapt per product claims.
+
+TYPOGRAPHY (all baked in):
+HEADLINE: [PRODUCT NAME] — massive bold condensed sans, brand dark color, ALL CAPS,
+2-line stack — dominates top third of frame above banner bar
+SUB-HEADLINE: [VARIANT / KEY DESCRIPTOR] — medium weight, brand dark color, ALL CAPS,
+centered — below headline
+BANNER BAR: Solid brand-dark-color filled bar spanning full width — white bold caps —
+[BRAND TAGLINE OR ANGLE LINE] — positioned between sub-headline and product zone
+FOOTER BAR: Solid brand-dark-color bar — white bold headline + smaller sub-line
+ICON ROW: 5 circular icons (smaller than feature badges) with white text labels below —
+certification + attribute callouts — solid brand-dark-color circles
+BOTTOM STRIP: Solid brand-dark-color bar — white text — [KEY PROOF STATEMENT]
+
+NO DOTS RULE: Use centre dots (·) as separators in footer phrases — never full stops at end
+of any headline or callout phrase.
+
+SWAP-OUT ZONES (adapt per product):
+- HEADLINE: product name
+- SUB-HEADLINE: organic status + key descriptor
+- BANNER BAR text: brand tagline or angle
+- 6 feature heads + descriptors: product-specific verified claims only (Protocol 3)
+- GRAIN BED ingredient: match the product
+- FOOTER lines: product proof statement
+- ICON ROW: size/weight + relevant certifications
+- BOTTOM STRIP: proof statement matching product
+
+LIGHTING:
+Golden-hour quality — warm directional light from upper right — ARRI quality warmth —
+Kodak Portra 400 temperature — product is the best-lit zone — label reads clean.
+
+FILM: Photorealistic editorial — Portra 400 warmth — fine natural grain in background —
+sharp foreground product and badge zone.
+
+EXCLUSIONS: No wooden bowls, burlap, jute, mortar and pestle, rustic antique props.
+No flat scattered ingredients — always mounded platform. No solid color chip blocks other
+than the brand-color UI elements (badge circles, banner bars). No watermarks. No clutter.
+No promotional pricing, offers, or codes. No FSSAI licence numbers or invented certifications.
+No dots/full stops at end of any headline or callout phrase.
+
+BEST FOR:
+Health Fields product education posts, Pusht EDUCATE angle posts, any product with 4–6
+verifiable feature claims, Label Padhega India transparency content, new SKU reveal with
+full feature breakdown. Maximum feature density per frame. EDUCATE angle only.
+Format: 3:4 vertical.
+
+Last assigned template: T62 (6-Point Feature Callout Infographic — assigned June 2026)
+Next new template: T63
+Total templates: 62 (T1-T55 static + GZ-1/GZ-2 + T56-T60 reel thumbnails + T61 hamper + T62 infographic)
+================================================================================
+
+────────────────────────────────────────────────────────────
+T61 — BOTANICAL LISTING EDITORIAL CAROUSEL (Cream + Inverted Hybrid)
+────────────────────────────────────────────────────────────
+Assigned: 2026-06-18 | Brand: Pusht Organic
+First use: Cold-Pressed Sunflower Oil cheat-sheet carousel (June 18 calendar slot)
+DNA Source: NaturePulse Labs Ashwagandha 1300 listing master sheet (reverse-engineered via Protocol 7)
+Layout Family: 5-slide 1:1 carousel mixing two studio modes
+  · Cream Studio (S1, S3, S4, S5): cream ivory ground, botanical sunflower wash, headline left, product/grid right
+  · Inverted Dark Studio (S2 only): forest green ground, hero centred on wooden plinth, 6 radial icon labels
+Brand Signal Element: solid wheat gold "COLD PRESSED" pill chip recurring top-left of EVERY slide (the equivalent of NaturePulse's "ALL NATURAL" orange pill — single solid pill exception to the dark overlay rule)
+Typography System:
+  · Two-tone headline pattern — accent word in wheat gold bold serif, supporting word in forest green bold serif
+  · Script accents in wheat gold handwritten italic, mirroring the "cold pressed" script on actual Pusht pack labels
+  · Body in forest green regular weight, sub-lines in forest green tracked small caps
+Comparison Table Architecture (S4):
+  · Two columns with wheat gold "RED FLAGS" chip + forest green "GREEN FLAGS" chip
+  · Wheat gold X icons vs forest green check icons
+  · Hairline forest green row dividers, cream-tinted cells
+Color World Rule: total monochromatic immersion within Forest Green #143C28 + Cream Ivory #FAFAD2 + Wheat Gold #8B6914 — no other colors permitted including sunflower yellow (muted to wheat gold tone)
+Reusable For: any Pusht educational/comparison carousel (oils, dals, millets, spices, honey); other Brahhm portfolio brands with palette swap (Caveman: Cave Red replaces gold on inverted dark; Health Fields: teal replaces forest green; Biomart: market green replaces forest green)

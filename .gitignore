@@ -1,0 +1,28 @@
+# Environment & secrets
+.env
+.env.*
+mcpConfig.json
+
+# Node
+node_modules/
+package-lock.json
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Generated outputs (large, regeneratable)
+generated/
+
+# Raw scrape data (large, sensitive)
+research/competitor_profiles_raw.json
+research/hashtag_raw.json
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Claude local state
+.claude/

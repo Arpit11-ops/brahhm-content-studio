@@ -1,0 +1,7 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@heyputer/puter.js": "^2.4.2",
+    "docx": "^9.7.0"
+  }
+}

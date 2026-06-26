@@ -1,0 +1,1017 @@
+{
+  "JUNE 1  MONDAY   ·   World Milk Day": [
+    {
+      "brand": "CAVEMAN ORGANIC",
+      "type": "POST",
+      "product": "Bakkit Cashew & Pista Cookies",
+      "angle": "ATTACK",
+      "hook": "\"Your milk biscuit has 14 ingredients. Ours has 4.\"",
+      "is_oos": false
+    },
+    {
+      "brand": "HEALTH FIELDS",
+      "type": "POST",
+      "product": "Forest Honey 500g",
+      "angle": "EDUCATE",
+      "hook": "\"Raw honey vs pasteurised. Same jar, different product.\"",
+      "is_oos": false
+    },
+    {
+      "brand": "GREENDIPZ",
+      "type": "STORY",
+      "product": "Butter Chicken Gravy 370g",
+      "angle": "CONVERT",
+      "hook": "\"World Milk Day weekend cooking prompt.\"",
+      "is_oos": false
+    }
+  ],
+  "JUNE 2  TUESDAY": [
+    {
+      "brand": "BIOMART",
+      "type": "POST",
+      "product": "Certified Pantry Essentials",
+      "angle": "EDUCATE",
+      "hook": "\"194 certified products. Start with 5.\"",
+      "is_oos": false
+    },
+    {
+      "brand": "CAVEMAN ORGANIC",
+      "type": "POST",
+      "product": "Ragi Cookies",
+      "angle": "CONVERT",
+      "hook": "\"2.5 lakh families switched. Your biscuit tin hasn't.\"",
+      "is_oos": false
+    },
+    {
+      "brand": "HEALTH FIELDS",
+      "type": "STORY",
+      "product": "Calming Chamomile Tea",
+      "angle": "RELATE",
+      "hook": "\"Morning ritual tip — the cup that does more.\"",
+      "is_oos": false
+    },
+    {
+      "brand": "CAVEMAN ORGANIC",
+      "type": "REEL",
+      "product": "Bakkit Cashew & Pista Cookies",
+      "angle": "ATTACK",
+      "hook": "\"Monsoon snack swap. Chips vs millet cookies.\"",
+      "is_oos": false
+    }
+  ],
+  "JUNE 3  WEDNESDAY": [
+    {
+      "brand": "HEALTH FIELDS",
+      "type": "POST",
+      "product": "Calming Chamomile Tea",
+      "angle": "EDUCATE",
+      "hook": "\"Most tulsi teas have flavouring. Not the herb.\"",
+      "is_oos": false
+    },
+    {
+      "brand": "GREENDIPZ",
+      "type": "POST",
+      "product": "Schezwan Sauce 200g",
+      "angle": "RELATE",
+      "hook": "\"Weeknight. Tired. Want something bold.\"",
+      "is_oos": false
+    },
+    {
+      "brand": "PUSHT ORGANIC",
+      "type": "STORY",
+      "product": "Cold Pressed Sunflower Oil 910ml",
+      "angle": "CONVERT",
+      "hook": "\"Midweek oil recipe tip — cold pressed difference.\"",
+      "is_oos": false
+    }
+  ],
+  "JUNE 4  THURSDAY": [
+    {
+      "brand": "BIOMART",
+      "type": "POST",
+      "product": "Dal + Masala Bundle",
+      "angle": "RELATE",
+      "hook": "\"One cart. Five certified brands. One Sunday order.\"",
+      "is_oos": false
+    },
+    {
+      "brand": "PUSHT ORGANIC",
+      "type": "POST",
+      "product": "Organic Forest Honey 500g",
+      "angle": "CONVERT",
+      "hook": "\"Comment OIL and we'll tell you which cold-pressed to try.\"",
+      "is_oos": false
+    },
+    {
+      "brand": "HEALTH FIELDS",
+      "type": "REEL",
+      "product": "Her Health Herbal Tea",
+      "angle": "RELATE",
+      "hook": "\"Morning ritual: what changes when tea is real.\"",
+      "is_oos": false
+    }
+  ],
+  "JUNE 5  FRIDAY   ·   World Environment Day": [
+    {
+      "brand": "PUSHT ORGANIC",
+      "type": "POST",
+      "product": "FOODCERT Certification Story",
+      "angle": "EDUCATE",
+      "hook": "\"Chemical-free farming doesn't start in the factory.\"",
+      "is_oos": false
+    },
+    {
+      "brand": "BIOMART",
+      "type": "POST",
+      "product": "Certified Pantry — Env Day",
+      "angle": "ATTACK",
+      "hook": "\"194 products. Every one certified. Read the label.\"",
+      "is_oos": false
+    },
+    {
+      "brand": "GREENDIPZ",
+      "type": "STORY",
+      "product": "Schezwan Sauce 200g",
+      "angle": "RELATE",
+      "hook": "\"Environment Day — real ingredients, honest label.\"",
+      "is_oos": false
+    },
+    {
+      "brand": "PUSHT ORGANIC",
+      "type": "REEL",
+      "product": "Cold Pressed Sunflower Oil 910ml",
+      "angle": "EDUCATE",
+      "hook": "\"Farm to bottle. What cold pressed actually means.\"",
+      "is_oos": false
+    }
+  ],
+  "JUNE 6  SATURDAY": [
+    {
+      "brand": "CAVEMAN ORGANIC",
+      "type": "POST",
+      "product": "Flax Amaranth Connection Cookies",
+      "angle": "ATTACK",
+      "hook": "\"Flip your biscuit packet. Read every ingredient.\"",
+      "is_oos": false
+    },
+    {
+      "brand": "HEALTH FIELDS",
+      "type": "POST",
+      "product": "Her Health Herbal Tea",
+      "angle": "RELATE",
+      "hook": "\"You upgraded your phone. Your morning tea is the same.\"",
+      "is_oos": false
+    },
+    {
+      "brand": "GREENDIPZ",
+      "type": "REEL",
+      "product": "Arrabbiata Sauce 250g",
+      "angle": "RELATE",
+      "hook": "\"Rainy night pasta. 12 minutes. Done right.\"",
+      "is_oos": false
+    }
+  ],
+  "JUNE 7  SUNDAY": [
+    {
+      "brand": "PUSHT ORGANIC",
+      "type": "POST",
+      "product": "Cold Pressed Mustard Oil 910ml",
+      "angle": "EDUCATE",
+      "hook": "\"Aapka tel actually cold-pressed hai? Here's how to check.\"",
+      "is_oos": false
+    },
+    {
+      "brand": "BIOMART",
+      "type": "POST",
+      "product": "Seeds Combo — Pumpkin + Sunflower",
+      "angle": "CONVERT",
+      "hook": "\"Comment HAUL and we'll send the starter kit list.\"",
+      "is_oos": false
+    },
+    {
+      "brand": "HEALTH FIELDS",
+      "type": "POST",
+      "product": "Since 2003 — Heritage Story",
+      "angle": "ATTACK",
+      "hook": "\"Organic since 2003. Before it was a trend.\"",
+      "is_oos": false
+    },
+    {
+      "brand": "CAVEMAN ORGANIC",
+      "type": "STORY",
+      "product": "Ragi Choco Chip Cookies",
+      "angle": "RELATE",
+      "hook": "\"Sunday snack prompt — what's in your tin?\"",
+      "is_oos": false
+    }
+  ],
+  "JUNE 8  MONDAY   ·   World Ocean Day": [
+    {
+      "brand": "PUSHT ORGANIC",
+      "type": "POST",
+      "product": "Organic Kabuli Chana",
+      "angle": "EDUCATE",
+      "hook": "\"Teri dal kahan se aayi? Hum bata sakte hain.\"",
+      "is_oos": false
+    },
+    {
+      "brand": "HEALTH FIELDS",
+      "type": "POST",
+      "product": "Since 2003 — Label Padhega Tie-in",
+      "angle": "ATTACK",
+      "hook": "\"20 years before Label Padhega India. We were ready.\"",
+      "is_oos": false
+    },
+    {
+      "brand": "CAVEMAN ORGANIC",
+      "type": "POST",
+      "product": "Ragi Choco Chip Cookies",
+      "angle": "RELATE",
+      "hook": "\"The 4pm hunger that ruins every diet plan.\"",
+      "is_oos": false
+    },
+    {
+      "brand": "GREENDIPZ",
+      "type": "STORY",
+      "product": "Manchurian Sauce 240g",
+      "angle": "CONVERT",
+      "hook": "\"Sunday dinner gravy — comment MAKHANI for recipe.\"",
+      "is_oos": false
+    }
+  ],
+  "JUNE 9  TUESDAY": [
+    {
+      "brand": "CAVEMAN ORGANIC",
+      "type": "POST",
+      "product": "Kodo Coco Fun Millet Cookies",
+      "angle": "EDUCATE",
+      "hook": "\"You've never heard of kodo millet. You should.\"",
+      "is_oos": false
+    },
+    {
+      "brand": "BIOMART",
+      "type": "POST",
+      "product": "Jaivik Bharat Certification Ed.",
+      "angle": "EDUCATE",
+      "hook": "\"Jaivik Bharat logo dekha? FSSAI ki guarantee hai woh.\"",
+      "is_oos": false
+    },
+    {
+      "brand": "PUSHT ORGANIC",
+      "type": "REEL",
+      "product": "Cold Pressed Mustard Oil 910ml",
+      "angle": "RELATE",
+      "hook": "\"Rainy day tadka. What changes when oil is cold pressed.\"",
+      "is_oos": false
+    }
+  ],
+  "JUNE 10  WEDNESDAY": [
+    {
+      "brand": "HEALTH FIELDS",
+      "type": "POST",
+      "product": "Organic Black Pepper Whole 100g",
+      "angle": "ATTACK",
+      "hook": "\"Your spices passed 250+ tests. Did theirs?\"",
+      "is_oos": false
+    },
+    {
+      "brand": "GREENDIPZ",
+      "type": "POST",
+      "product": "Kung Pao Sauce 240g",
+      "angle": "EDUCATE",
+      "hook": "\"Manchurian toh sab jaante hain. Kung Pao wale alag hote hain.\"",
+      "is_oos": false
+    },
+    {
+      "brand": "CAVEMAN ORGANIC",
+      "type": "POST",
+      "product": "Flax Amaranth Connection Cookies",
+      "angle": "CONVERT",
+      "hook": "\"Drop LABEL in comments. We'll show our full ingredient list.\"",
+      "is_oos": false
+    },
+    {
+      "brand": "BIOMART",
+      "type": "STORY",
+      "product": "Weekly Haul Discovery",
+      "angle": "RELATE",
+      "hook": "\"Midweek certified grocery reminder.\"",
+      "is_oos": false
+    }
+  ],
+  "JUNE 11  THURSDAY": [
+    {
+      "brand": "PUSHT ORGANIC",
+      "type": "POST",
+      "product": "White Sesame Oil 910ml",
+      "angle": "RELATE",
+      "hook": "\"Switched to cold-pressed oil. Here's what changed.\"",
+      "is_oos": false
+    },
+    {
+      "brand": "BIOMART",
+      "type": "POST",
+      "product": "FSSAI Front-of-Pack Education",
+      "angle": "EDUCATE",
+      "hook": "\"Sugar. Salt. Fat. Soon mandatory on the front. We've shown ours since 2003.\"",
+      "is_oos": false
+    },
+    {
+      "brand": "GREENDIPZ",
+      "type": "REEL",
+      "product": "Salsa Mexicana 325g",
+      "angle": "ATTACK",
+      "hook": "\"Your store-bought sauce has E-numbers. Ours doesn't.\"",
+      "is_oos": false
+    }
+  ],
+
+
+  "_ENGAGEMENT_REBUILD_NOTE": "June 12-30 rebuilt for engagement. 15 reels total (greendipz 5, Caveman 4, Health Fields 3, Pusht 2, Biomart 1). Non-reel feed slots = carousels. All CTAs are opinion questions except CONVERT posts. Rebuild date: 2026-06-12.",
+
+
+  "JUNE 12  FRIDAY": [
+    {
+      "brand": "HEALTH FIELDS",
+      "type": "CAROUSEL",
+      "product": "Forest Honey 500g",
+      "angle": "ATTACK",
+      "hook": "\"Your honey was heated before it hit the jar.\"",
+      "visual_direction": "5-slide label comparison — raw vs pasteurised honey, what to look for",
+      "cta": "Raw or heated — what's in your kitchen right now?",
+      "is_oos": false
+    },
+    {
+      "brand": "GREENDIPZ",
+      "type": "REEL",
+      "product": "Biryani Gravy 240g",
+      "angle": "RELATE",
+      "hook": "\"Friday raat. Khana banana nahi hai.\"",
+      "visual_direction": "Empty kitchen counter → sauce pour → biryani plating reveal ASMR",
+      "cta": "Biryani or butter chicken — what's your Friday night default?",
+      "dm_share_trigger": "Tag someone who orders biryani every Friday",
+      "is_oos": false
+    },
+    {
+      "brand": "PUSHT ORGANIC",
+      "type": "CAROUSEL",
+      "product": "Browntop Millet",
+      "angle": "EDUCATE",
+      "hook": "\"Browntop millet kaafi rare hai.\"",
+      "visual_direction": "5-slide millet guide — browntop, foxtail, kodo, little, barnyard",
+      "cta": "How many millets can you name? Most people stop at 3.",
+      "is_oos": false
+    },
+    {
+      "brand": "CAVEMAN ORGANIC",
+      "type": "STORY",
+      "product": "Flax Amaranth Connection Cookies",
+      "angle": "ATTACK",
+      "hook": "\"Label transparency Friday — flip the packet.\"",
+      "visual_direction": "Swipe story with poll sticker — how many ingredients in your biscuit?",
+      "is_oos": false
+    }
+  ],
+  "JUNE 13  SATURDAY": [
+    {
+      "brand": "CAVEMAN ORGANIC",
+      "type": "REEL",
+      "product": "Ragi Choco Chip Cookies",
+      "angle": "RELATE",
+      "hook": "\"4 ingredients. That's it. Read them.\"",
+      "visual_direction": "Cookie crack ASMR close-up + ingredient count zoom on label",
+      "cta": "Drop your biscuit brand below — let's count its ingredients.",
+      "dm_share_trigger": "Send this to whoever buys the biscuits at home",
+      "is_oos": false
+    },
+    {
+      "brand": "BIOMART",
+      "type": "CAROUSEL",
+      "product": "Family Pantry Restock",
+      "angle": "RELATE",
+      "hook": "\"Family ki grocery list jo actually certified ho.\"",
+      "visual_direction": "5-slide certified pantry starter — honey, tea, dal, oil, atta with certification callouts",
+      "cta": "What's the one item you'd switch to organic first?",
+      "is_oos": false
+    }
+  ],
+  "JUNE 14  SUNDAY   ·   World Blood Donor Day": [
+    {
+      "brand": "PUSHT ORGANIC",
+      "type": "REEL",
+      "product": "Panchranga Dal",
+      "angle": "RELATE",
+      "hook": "\"Sunday dal tadka — same recipe, different ingredients.\"",
+      "visual_direction": "Dal cooking sequence — grain pour, water, tadka sizzle, steam rising",
+      "cta": "Sunday dal — toor, moong, or mix? What's your house rule?",
+      "dm_share_trigger": "Send this to someone who makes the best dal in your family",
+      "is_oos": false
+    },
+    {
+      "brand": "GREENDIPZ",
+      "type": "REEL",
+      "product": "Butter Chicken Gravy 370g",
+      "angle": "EDUCATE",
+      "hook": "\"What makes restaurant butter chicken taste different?\"",
+      "visual_direction": "Sauce pour into pan → sizzle → chicken coating → plate reveal",
+      "cta": "Send this to the person who says 'ghar pe nahi banta'.",
+      "dm_share_trigger": "Send this to the person who says ghar pe nahi banta",
+      "is_oos": false
+    },
+    {
+      "brand": "HEALTH FIELDS",
+      "type": "CAROUSEL",
+      "product": "Organic Ragi Atta 500g",
+      "angle": "EDUCATE",
+      "hook": "\"Browntop millet: the rarest grain in your kitchen.\"",
+      "visual_direction": "5-slide grain comparison — browntop vs ragi vs foxtail vs bajra vs jowar",
+      "cta": "Save this for your next grocery run.",
+      "is_oos": false
+    },
+    {
+      "brand": "BIOMART",
+      "type": "STORY",
+      "product": "Sunday Haul",
+      "angle": "CONVERT",
+      "hook": "\"Sunday order prompt — your deliberate weekly restock.\"",
+      "visual_direction": "Link sticker + poll: what are you restocking today?",
+      "is_oos": false
+    }
+  ],
+  "JUNE 15  MONDAY": [
+    {
+      "brand": "CAVEMAN ORGANIC",
+      "type": "CAROUSEL",
+      "product": "Bakkit Cashew & Pista Cookies",
+      "angle": "RELATE",
+      "hook": "\"The 4pm hunger that ruins every diet plan.\"",
+      "visual_direction": "5-slide snack comparison — chips vs biscuit vs Caveman cookies, ingredient count per slide",
+      "cta": "What's your 4pm reach — chips, biscuit, or fruit? Be honest.",
+      "is_oos": false
+    },
+    {
+      "brand": "BIOMART",
+      "type": "CAROUSEL",
+      "product": "Monsoon Pantry Restock",
+      "angle": "RELATE",
+      "hook": "\"Monsoon week ahead. Your pantry isn't ready.\"",
+      "visual_direction": "5-slide monsoon pantry essentials — honey, tea, dal, oil, spices with why each matters",
+      "cta": "Monsoon essentials — honey, tea, or dal? What do you stock first?",
+      "is_oos": false
+    },
+    {
+      "brand": "HEALTH FIELDS",
+      "type": "STORY",
+      "product": "Forest Honey 500g",
+      "angle": "RELATE",
+      "hook": "\"Monsoon immunity ritual — one spoon a morning.\"",
+      "visual_direction": "Quiz sticker — do you take honey in the morning?",
+      "is_oos": false
+    }
+  ],
+  "JUNE 16  TUESDAY": [
+    {
+      "brand": "GREENDIPZ",
+      "type": "CAROUSEL",
+      "product": "Butter Chicken Gravy 370g",
+      "angle": "RELATE",
+      "hook": "\"12 minutes. Restaurant butter chicken. Your kitchen.\"",
+      "visual_direction": "5-slide recipe walkthrough — pour, sizzle, coat, plate, label reveal",
+      "cta": "Tag someone who orders butter chicken every single time.",
+      "is_oos": false
+    },
+    {
+      "brand": "PUSHT ORGANIC",
+      "type": "CAROUSEL",
+      "product": "Panchranga Dal",
+      "angle": "ATTACK",
+      "hook": "\"Aapka dal chemical-free hai? Label check karo.\"",
+      "visual_direction": "5-slide label comparison — conventional vs organic dal, pesticide residue data, certification check",
+      "cta": "Send this to whoever does the grocery shopping at home.",
+      "is_oos": false
+    },
+    {
+      "brand": "BIOMART",
+      "type": "CAROUSEL",
+      "product": "Monsoon Pantry Haul",
+      "angle": "RELATE",
+      "hook": "\"One cart. Five certified brands. Done.\"",
+      "visual_direction": "5-slide brand showcase — one slide per brand with hero product + certification",
+      "cta": "What's the one organic switch that actually stuck for you?",
+      "is_oos": false
+    }
+  ],
+  "JUNE 17  WEDNESDAY": [
+    {
+      "brand": "CAVEMAN ORGANIC",
+      "type": "REEL",
+      "product": "Flax Amaranth Connection Cookies",
+      "angle": "ATTACK",
+      "hook": "\"Maida. Palm oil. Artificial flavour. Your snack.\"",
+      "visual_direction": "Ingredient zoom on blurred competitor pack → flip to Caveman label → clean list",
+      "cta": "Go check your biscuit packet right now. What's ingredient #1?",
+      "dm_share_trigger": "Send this to someone who still buys Parle or Britannia",
+      "is_oos": false
+    },
+    {
+      "brand": "HEALTH FIELDS",
+      "type": "CAROUSEL",
+      "product": "Calming Chamomile Tea",
+      "angle": "EDUCATE",
+      "hook": "\"The tulsi in your tea — is it actually tulsi?\"",
+      "visual_direction": "5-slide tea label breakdown — tulsi extract vs tulsi flavour, what to look for, brands compared",
+      "cta": "Check your tea box. Does it say 'tulsi extract' or 'tulsi flavour'?",
+      "is_oos": false
+    },
+    {
+      "brand": "BIOMART",
+      "type": "CAROUSEL",
+      "product": "PGS-India Certification Ed.",
+      "angle": "EDUCATE",
+      "hook": "\"Three organic certifications. Only one verifies at the farm.\"",
+      "visual_direction": "5-slide certification comparison — APEDA vs PGS-India vs Jaivik Bharat",
+      "cta": "Save this before your next organic purchase.",
+      "is_oos": false
+    },
+    {
+      "brand": "GREENDIPZ",
+      "type": "STORY",
+      "product": "Kung Pao Sauce 240g",
+      "angle": "RELATE",
+      "hook": "\"Midweek recipe inspo — bold flavour, 15 minutes.\"",
+      "visual_direction": "Poll sticker: Kung Pao or Schezwan tonight?",
+      "is_oos": false
+    }
+  ],
+  "JUNE 18  THURSDAY   ·   Father's Day Teaser": [
+    {
+      "brand": "CAVEMAN ORGANIC",
+      "type": "CAROUSEL",
+      "product": "Ragi Cookies",
+      "angle": "EDUCATE",
+      "hook": "\"Millets fed India 5,000 years. Then maida happened.\"",
+      "visual_direction": "5-slide millet timeline — ancient grains to modern maida to millet comeback",
+      "cta": "Did you know ragi existed before protein bars? What's your millet?",
+      "is_oos": false
+    },
+    {
+      "brand": "PUSHT ORGANIC",
+      "type": "CAROUSEL",
+      "product": "Cold Pressed Sunflower Oil 910ml",
+      "angle": "EDUCATE",
+      "hook": "\"Aapka tel actually cold-pressed hai?\"",
+      "visual_direction": "5-slide oil comparison — refined vs cold-pressed process, what to check on label",
+      "cta": "What oil is in your kitchen right now? Refined or cold-pressed?",
+      "is_oos": false
+    },
+    {
+      "brand": "HEALTH FIELDS",
+      "type": "REEL",
+      "product": "Calming Chamomile Tea",
+      "angle": "RELATE",
+      "hook": "\"23 years. Same standard. No shortcuts.\"",
+      "visual_direction": "Heritage brand story sequence — Since 2003 anchor, certification stamps reveal",
+      "cta": "What's the oldest brand in your kitchen? Bet it's not organic.",
+      "dm_share_trigger": null,
+      "is_oos": false
+    }
+  ],
+  "JUNE 19  FRIDAY   ·   Father's Day Build-Up": [
+    {
+      "brand": "BIOMART",
+      "type": "CAROUSEL",
+      "product": "Father's Day Gift Hamper",
+      "angle": "CONVERT",
+      "hook": "\"Dad deserves a gift he'll actually finish.\"",
+      "visual_direction": "5-slide gift guide — 5 hamper options with product combos, no pricing",
+      "cta": "Comment PAPA for the Father's Day hamper link.",
+      "is_oos": false
+    },
+    {
+      "brand": "GREENDIPZ",
+      "type": "REEL",
+      "product": "Manchurian Sauce 240g",
+      "angle": "RELATE",
+      "hook": "\"Weeknight. Tired. Want something bold.\"",
+      "visual_direction": "Empty pan → sauce pour → Manchurian balls frying → plate ASMR",
+      "cta": "Manchurian or Kung Pao — which one saves your weeknight?",
+      "dm_share_trigger": "Tag the Manchurian lover in your group",
+      "is_oos": false
+    },
+    {
+      "brand": "CAVEMAN ORGANIC",
+      "type": "REEL",
+      "product": "Ragi Cookies",
+      "angle": "RELATE",
+      "hook": "\"Monsoon mein chips nahi. Yeh try karo.\"",
+      "visual_direction": "Rainy window scene → cookie + chai pairing → ASMR crunch",
+      "cta": "Monsoon snack — chai with cookies or chai with pakora?",
+      "dm_share_trigger": null,
+      "is_oos": false
+    },
+    {
+      "brand": "PUSHT ORGANIC",
+      "type": "STORY",
+      "product": "Organic Forest Honey 500g",
+      "angle": "RELATE",
+      "hook": "\"Father's Day gift hint — the jar he'll keep.\"",
+      "visual_direction": "Emoji slider sticker + gift suggestion",
+      "is_oos": false
+    }
+  ],
+  "JUNE 20  SATURDAY   ·   Monsoon Begins · Father's Day Eve": [
+    {
+      "brand": "GREENDIPZ",
+      "type": "REEL",
+      "product": "Arrabbiata Sauce 250g",
+      "angle": "RELATE",
+      "hook": "\"Rainy Saturday. Pasta craving. 12 minutes.\"",
+      "visual_direction": "Rain mood → sauce pour → pasta toss → plate reveal ASMR",
+      "cta": "Rainy day comfort — pasta or Maggi? No wrong answer.",
+      "dm_share_trigger": "Send this to your pasta-obsessed friend",
+      "is_oos": false
+    },
+    {
+      "brand": "BIOMART",
+      "type": "CAROUSEL",
+      "product": "Father's Day Last-Minute Haul",
+      "angle": "CONVERT",
+      "hook": "\"Order tonight. Dad opens it tomorrow.\"",
+      "visual_direction": "5-slide last-minute gift guide — quick combos, delivery promise",
+      "cta": "Comment PAPA for the hamper link — last day for delivery.",
+      "is_oos": false
+    },
+    {
+      "brand": "CAVEMAN ORGANIC",
+      "type": "CAROUSEL",
+      "product": "Bakkit Cashew & Pista Cookies",
+      "angle": "RELATE",
+      "hook": "\"Your couch deserves better than chips.\"",
+      "visual_direction": "5-slide monsoon snack guide — couch snacking, ingredient comparison, cookie range",
+      "cta": "What's on YOUR couch right now? Honest answers only.",
+      "is_oos": false
+    }
+  ],
+  "JUNE 21  SUNDAY   ·   Father's Day · International Yoga Day": [
+    {
+      "brand": "HEALTH FIELDS",
+      "type": "REEL",
+      "product": "Tulsi Green Tea Premium",
+      "angle": "RELATE",
+      "hook": "\"Yoga Day morning. The only ritual worth keeping.\"",
+      "visual_direction": "Morning light → tea pour sequence → steam rising → peaceful scene",
+      "cta": "What's your non-negotiable morning ritual? Tea, coffee, or something else?",
+      "dm_share_trigger": "Send this to someone who needs a better morning routine",
+      "is_oos": false
+    },
+    {
+      "brand": "PUSHT ORGANIC",
+      "type": "CAROUSEL",
+      "product": "Organic Forest Honey 500g",
+      "angle": "RELATE",
+      "hook": "\"Dad's first organic upgrade. One spoon, every morning.\"",
+      "visual_direction": "5-slide Father's Day gift guide — honey rituals, morning routine, gifting ideas",
+      "cta": "What would you gift your dad for his kitchen? Drop it below.",
+      "is_oos": false
+    },
+    {
+      "brand": "CAVEMAN ORGANIC",
+      "type": "CAROUSEL",
+      "product": "Bakkit Cashew & Pista Cookies",
+      "angle": "RELATE",
+      "hook": "\"Your dad's tea deserves 4 ingredients, not 14.\"",
+      "visual_direction": "5-slide Father's Day tea + cookie pairing — ingredient comparison, dad's snack upgrade",
+      "cta": "Send this to your dad. He needs better biscuits.",
+      "is_oos": false
+    },
+    {
+      "brand": "BIOMART",
+      "type": "REEL",
+      "product": "Father's Day Gift Haul",
+      "angle": "CONVERT",
+      "hook": "\"Five brands. One cart. Father's Day, sorted.\"",
+      "visual_direction": "Full hamper reveal → brand logos appearing → gift-ready packaging",
+      "cta": "Comment PAPA for the hamper link.",
+      "dm_share_trigger": null,
+      "is_oos": false
+    }
+  ],
+  "JUNE 22  MONDAY": [
+    {
+      "brand": "CAVEMAN ORGANIC",
+      "type": "CAROUSEL",
+      "product": "Ragi Choco Chip Cookies",
+      "angle": "EDUCATE",
+      "hook": "\"India grew foxtail millet 8,000 years before protein bars.\"",
+      "visual_direction": "5-slide millet education — history, nutrition comparison, modern uses",
+      "cta": "Name a millet that's NOT ragi. Most people can't.",
+      "is_oos": false
+    },
+    {
+      "brand": "GREENDIPZ",
+      "type": "CAROUSEL",
+      "product": "Salsa Mexicana 325g",
+      "angle": "EDUCATE",
+      "hook": "\"Arrabbiata vs Salsa — which one and when?\"",
+      "visual_direction": "5-slide sauce comparison — flavour profile, best dishes, pairing guide",
+      "cta": "Italian or Mexican — which cuisine wins your Tuesday?",
+      "is_oos": false
+    },
+    {
+      "brand": "HEALTH FIELDS",
+      "type": "REEL",
+      "product": "Organic Black Pepper Whole 100g",
+      "angle": "ATTACK",
+      "hook": "\"20 years of the same standard. No shortcuts.\"",
+      "visual_direction": "Certification stamps reveal one by one → heritage brand story sequence",
+      "cta": "How many certifications does YOUR brand have? Check.",
+      "dm_share_trigger": "Send this to someone who thinks all organic brands are the same",
+      "is_oos": false
+    },
+    {
+      "brand": "BIOMART",
+      "type": "STORY",
+      "product": "Weekly Haul Discovery",
+      "angle": "RELATE",
+      "hook": "\"Monday restock — your certified pantry check.\"",
+      "visual_direction": "Checklist sticker — what did you restock this week?",
+      "is_oos": false
+    }
+  ],
+  "JUNE 23  TUESDAY": [
+    {
+      "brand": "PUSHT ORGANIC",
+      "type": "REEL",
+      "product": "Cold Pressed Mustard Oil 910ml",
+      "angle": "RELATE",
+      "hook": "\"Ghar ka khana alag kyun lagta tha?\"",
+      "visual_direction": "Oil pour → tadka sizzle → dal cooking → steel katori serve",
+      "cta": "What's the one dish that tastes different at home? Everyone has one.",
+      "dm_share_trigger": "Send this to your mom — she'll know exactly why",
+      "is_oos": false
+    },
+    {
+      "brand": "BIOMART",
+      "type": "CAROUSEL",
+      "product": "Multi-Brand Showcase",
+      "angle": "CONVERT",
+      "hook": "\"Caveman. Pusht. Health Fields. greendipz. One cart.\"",
+      "visual_direction": "5-slide brand showcase — one hero product per brand, all certified",
+      "cta": "Comment HAUL for the starter kit list.",
+      "is_oos": false
+    },
+    {
+      "brand": "CAVEMAN ORGANIC",
+      "type": "CAROUSEL",
+      "product": "Bakkit Cashew & Pista Cookies",
+      "angle": "RELATE",
+      "hook": "\"Monsoon snacking. Your tin needs an upgrade.\"",
+      "visual_direction": "5-slide biscuit tin audit — what's in yours vs what could be, ingredient check",
+      "cta": "What's in your biscuit tin right now? No judgement.",
+      "is_oos": false
+    }
+  ],
+  "JUNE 24  WEDNESDAY": [
+    {
+      "brand": "GREENDIPZ",
+      "type": "CAROUSEL",
+      "product": "Biryani Gravy 370g",
+      "angle": "RELATE",
+      "hook": "\"Weeknight. Tired. Want biryani. 15 minutes.\"",
+      "visual_direction": "5-slide biryani recipe — rice, gravy pour, layering, dum, final plate",
+      "cta": "Biryani from scratch or shortcut biryani — which camp are you?",
+      "is_oos": false
+    },
+    {
+      "brand": "HEALTH FIELDS",
+      "type": "CAROUSEL",
+      "product": "Forest Honey 500g",
+      "angle": "RELATE",
+      "hook": "\"Monsoon cough season. Raw honey, not heated syrup.\"",
+      "visual_direction": "5-slide monsoon immunity guide — raw vs heated honey, morning ritual, what to check",
+      "cta": "What's your monsoon immunity go-to? Kadha, honey, or haldi doodh?",
+      "is_oos": false
+    },
+    {
+      "brand": "PUSHT ORGANIC",
+      "type": "CAROUSEL",
+      "product": "Organic Kabuli Chana",
+      "angle": "EDUCATE",
+      "hook": "\"Kisan ki mehnat seedha aapki rasoi tak.\"",
+      "visual_direction": "5-slide farm-to-kitchen journey — field, harvest, pack, ship, kitchen",
+      "cta": "Save this — know where your dal comes from.",
+      "is_oos": false
+    },
+    {
+      "brand": "BIOMART",
+      "type": "STORY",
+      "product": "Weeknight Cooking Prompt",
+      "angle": "RELATE",
+      "hook": "\"Dinner sorted — what's your Wednesday go-to?\"",
+      "visual_direction": "Quiz sticker — what are you cooking tonight?",
+      "is_oos": false
+    }
+  ],
+  "JUNE 25  THURSDAY": [
+    {
+      "brand": "HEALTH FIELDS",
+      "type": "CAROUSEL",
+      "product": "Calming Chamomile Tea",
+      "angle": "RELATE",
+      "hook": "\"4 days of this ritual changed my mornings.\"",
+      "visual_direction": "5-slide morning ritual guide — day 1 to day 4 progression, what changes",
+      "cta": "Morning tea or morning coffee — what side are you on?",
+      "is_oos": false
+    },
+    {
+      "brand": "CAVEMAN ORGANIC",
+      "type": "REEL",
+      "product": "Flax Amaranth Connection Cookies",
+      "angle": "ATTACK",
+      "hook": "\"Your gym snack has more ingredients than your recipe.\"",
+      "visual_direction": "Protein bar label zoom → ingredient count → flip to Caveman label → 4 ingredients",
+      "cta": "Count the ingredients in your post-gym snack. Drop the number.",
+      "dm_share_trigger": "Send this to your gym buddy",
+      "is_oos": false
+    },
+    {
+      "brand": "BIOMART",
+      "type": "CAROUSEL",
+      "product": "Certified Pantry Education",
+      "angle": "ATTACK",
+      "hook": "\"Organic filter on your grocery app — certified by whom?\"",
+      "visual_direction": "5-slide quick commerce vs certified — what organic filter actually means, certification check",
+      "cta": "Send this to someone who thinks 'organic' on the label means certified.",
+      "is_oos": false
+    }
+  ],
+  "JUNE 26  FRIDAY": [
+    {
+      "brand": "GREENDIPZ",
+      "type": "REEL",
+      "product": "Butter Chicken Gravy 370g",
+      "angle": "ATTACK",
+      "hook": "\"Flip your sauce jar. Count the E-numbers.\"",
+      "visual_direction": "Label flip comparison — competitor sauce label (E-numbers highlighted) → greendipz label (clean)",
+      "cta": "How many E-numbers on your sauce? Check and drop the count.",
+      "dm_share_trigger": "Send this to someone who still buys store-brand sauce",
+      "is_oos": false
+    },
+    {
+      "brand": "PUSHT ORGANIC",
+      "type": "CAROUSEL",
+      "product": "White Sesame Oil 910ml",
+      "angle": "RELATE",
+      "hook": "\"One switch. Everything in your kitchen changes.\"",
+      "visual_direction": "5-slide oil switch guide — refined vs cold-pressed, cooking differences, label check",
+      "cta": "What was your first organic switch? Mine was oil.",
+      "is_oos": false
+    },
+    {
+      "brand": "CAVEMAN ORGANIC",
+      "type": "CAROUSEL",
+      "product": "Ragi Cookies",
+      "angle": "ATTACK",
+      "hook": "\"Stop calling it a health snack if it has maida.\"",
+      "visual_direction": "5-slide label comparison — digestive biscuit ingredients vs Caveman, side by side",
+      "cta": "Send this to whoever buys 'digestive biscuits' thinking they're healthy.",
+      "is_oos": false
+    },
+    {
+      "brand": "BIOMART",
+      "type": "STORY",
+      "product": "Farm Story",
+      "angle": "EDUCATE",
+      "hook": "\"Friday farm story — your dal's journey.\"",
+      "visual_direction": "Swipe-up + question sticker",
+      "is_oos": false
+    }
+  ],
+  "JUNE 27  SATURDAY": [
+    {
+      "brand": "GREENDIPZ",
+      "type": "CAROUSEL",
+      "product": "Salsa Mexicana 325g",
+      "angle": "EDUCATE",
+      "hook": "\"Salsa Mexicana — 5 ways you haven't tried.\"",
+      "visual_direction": "5-slide recipe carousel — one dish per slide with quick recipe steps",
+      "cta": "Which one are you trying first? Save this for the weekend.",
+      "is_oos": false
+    },
+    {
+      "brand": "HEALTH FIELDS",
+      "type": "CAROUSEL",
+      "product": "Organic Ragi Atta 500g",
+      "angle": "EDUCATE",
+      "hook": "\"250 quality tests. Per batch. Every time.\"",
+      "visual_direction": "5-slide quality testing breakdown — what gets tested, how many checks, certifications",
+      "cta": "How many tests does YOUR flour brand run? Ask them.",
+      "is_oos": false
+    },
+    {
+      "brand": "CAVEMAN ORGANIC",
+      "type": "CAROUSEL",
+      "product": "Ragi Choco Chip Cookies",
+      "angle": "RELATE",
+      "hook": "\"Tea time, but make it guilt-free.\"",
+      "visual_direction": "5-slide chai + cookie pairing guide — monsoon vibes, ingredient story",
+      "cta": "Chai + ___. Fill in the blank. Best answer wins.",
+      "is_oos": false
+    }
+  ],
+  "JUNE 28  SUNDAY": [
+    {
+      "brand": "PUSHT ORGANIC",
+      "type": "CAROUSEL",
+      "product": "Panchranga Dal",
+      "angle": "EDUCATE",
+      "hook": "\"12 millet varieties. You probably know 3.\"",
+      "visual_direction": "5-slide millet knowledge challenge — name, photo, one fact per millet",
+      "cta": "Name all the millets you know. Let's see who gets past 5.",
+      "is_oos": false
+    },
+    {
+      "brand": "BIOMART",
+      "type": "CAROUSEL",
+      "product": "Sunday Haul Showcase",
+      "angle": "RELATE",
+      "hook": "\"One deliberate order replaces five last-minute ones.\"",
+      "visual_direction": "5-slide Sunday haul guide — curated pantry categories, one certified pick each",
+      "cta": "Sunday grocery run or daily quick commerce? What's your system?",
+      "is_oos": false
+    },
+    {
+      "brand": "HEALTH FIELDS",
+      "type": "CAROUSEL",
+      "product": "Her Health Herbal Tea",
+      "angle": "CONVERT",
+      "hook": "\"Everything in your kitchen — one certified brand.\"",
+      "visual_direction": "5-slide product range showcase — spices, tea, honey, atta, all certified",
+      "cta": "Comment TEA for the morning ritual guide.",
+      "is_oos": false
+    }
+  ],
+  "JUNE 29  MONDAY   ·   Kabirdas Jayanti": [
+    {
+      "brand": "PUSHT ORGANIC",
+      "type": "CAROUSEL",
+      "product": "Organic Kabuli Chana",
+      "angle": "RELATE",
+      "hook": "\"Simplicity is the highest wisdom. One ingredient. Your dal.\"",
+      "visual_direction": "5-slide simplicity theme — Kabirdas quote, one ingredient spotlight, farm origin",
+      "cta": "What's the simplest meal you cook? One ingredient is all you need.",
+      "is_oos": false
+    },
+    {
+      "brand": "GREENDIPZ",
+      "type": "CAROUSEL",
+      "product": "Biryani Gravy 370g",
+      "angle": "ATTACK",
+      "hook": "\"Our sauce label has 6 words. Most have 22.\"",
+      "visual_direction": "5-slide ingredient count comparison — greendipz vs 3 competitors, word by word",
+      "cta": "Count the words on YOUR sauce label. Drop the number.",
+      "is_oos": false
+    },
+    {
+      "brand": "HEALTH FIELDS",
+      "type": "CAROUSEL",
+      "product": "Since 2003 — Heritage Brand Story",
+      "angle": "RELATE",
+      "hook": "\"23 years of the same standard. No shortcuts. Ever.\"",
+      "visual_direction": "5-slide heritage timeline — 2003 to 2026, milestones, certifications earned",
+      "cta": "What's the oldest thing in your pantry? Check the date.",
+      "is_oos": false
+    }
+  ],
+  "JUNE 30  TUESDAY": [
+    {
+      "brand": "CAVEMAN ORGANIC",
+      "type": "CAROUSEL",
+      "product": "Flax Amaranth Connection Cookies",
+      "angle": "RELATE",
+      "hook": "\"The cookie that doesn't need Google to read the label.\"",
+      "visual_direction": "5-slide label readability test — can you pronounce every ingredient? Caveman vs competitor",
+      "cta": "Can you pronounce everything on your biscuit label? Try it.",
+      "is_oos": false
+    },
+    {
+      "brand": "BIOMART",
+      "type": "CAROUSEL",
+      "product": "Month-End Pantry Restock",
+      "angle": "CONVERT",
+      "hook": "\"194 certifications checked so you don't have to.\"",
+      "visual_direction": "5-slide July restock guide — categories, certified picks, one order promise",
+      "cta": "Comment HAUL for the July restock starter list.",
+      "is_oos": false
+    },
+    {
+      "brand": "GREENDIPZ",
+      "type": "STORY",
+      "product": "Schezwan Sauce 200g",
+      "angle": "CONVERT",
+      "hook": "\"July is coming. Stock up on sauces tonight.\"",
+      "visual_direction": "Countdown sticker + link to biomart.in",
+      "is_oos": false
+    }
+  ]
+}

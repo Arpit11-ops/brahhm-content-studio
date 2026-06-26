@@ -1,0 +1,56 @@
+{
+  "research_date": "2026-06-01",
+  "categories": {
+    "organic_food_india": {
+      "maps_to_brands": ["Health Fields", "Pusht", "Biomart"],
+      "accounts": [
+        {"handle": "twobrothersorganicfarmsindia", "followers": "400K", "note": "Top organic farm brand India, strong reels"},
+        {"handle": "thewholetruthfoods", "followers": "374K", "note": "Clean-label D2C, humor + transparency, ditched traditional Instagram playbook"},
+        {"handle": "organicindiaofficial", "followers": "91K", "note": "Tulsi teas, supplements, established organic"},
+        {"handle": "24mantrain", "followers": "est 50K+", "note": "Mass organic brand, Hyderabad, 40K+ farmers"},
+        {"handle": "purensurebrand", "followers": "est 10K+", "note": "160 certified organic products, farm-direct"}
+      ]
+    },
+    "sauces_indo_chinese": {
+      "maps_to_brands": ["greendipz"],
+      "accounts": [
+        {"handle": "chingssecret", "followers": "86K", "note": "#1 Desi Chinese brand India, Tata Consumer"},
+        {"handle": "veeba_in", "followers": "74K", "note": "Leading condiments brand, 1419 posts"},
+        {"handle": "wingreensfarms", "followers": "122K", "note": "Farm-to-shop sauces, dips, mayo — strong reels presence"},
+        {"handle": "schlotzskys", "followers": "est 20K+", "note": "International sauce reference"},
+        {"handle": "siaborneoandsupply", "followers": "est 15K+", "note": "Premium sauce aesthetic reference"}
+      ]
+    },
+    "millet_snacks_cookies": {
+      "maps_to_brands": ["Caveman Organic"],
+      "accounts": [
+        {"handle": "slurrpfarm", "followers": "est 150K+", "note": "Millet cookies, snacks, Anushka Sharma investor"},
+        {"handle": "yogabars.in", "followers": "126K", "note": "Protein bars, granola, healthy snacks"},
+        {"handle": "earlyfoods", "followers": "122K", "note": "Millet cookies, baby food, jaggery-sweetened"},
+        {"handle": "thewholetruthfoods", "followers": "374K", "note": "Also relevant for clean-label snack positioning"}
+      ]
+    },
+    "wellness_tea": {
+      "maps_to_brands": ["Health Fields"],
+      "accounts": [
+        {"handle": "vahdamindia", "followers": "109K", "note": "Premium tea D2C, 145 countries, B Corp"},
+        {"handle": "organicindiaofficial", "followers": "91K", "note": "Tulsi tea, herbal wellness"},
+        {"handle": "teaborgindia", "followers": "est 20K+", "note": "Single-origin tea brand"},
+        {"handle": "bluetea.in", "followers": "est 30K+", "note": "Rising herbal tea brand"}
+      ]
+    },
+    "organic_marketplace": {
+      "maps_to_brands": ["Biomart"],
+      "accounts": [
+        {"handle": "twobrothersorganicfarmsindia", "followers": "400K", "note": "Multi-product organic, marketplace model"},
+        {"handle": "organicindiaofficial", "followers": "91K", "note": "Wide product range across categories"},
+        {"handle": "wingreensfarms", "followers": "122K", "note": "Multi-category, marketplace-style content"}
+      ]
+    }
+  },
+  "food_content_creators_reference": [
+    {"handle": "heaborncook", "note": "Archana Hebbar — structured recipe reels, minimal talking, visual-first"},
+    {"handle": "sagarskitchen", "note": "Hindi-English street food + home cooking reels"}
+  ],
+  "total_unique_accounts_to_scrape": 15
+}

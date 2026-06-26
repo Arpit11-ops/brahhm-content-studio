@@ -1,0 +1,1552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Content Calendar — May 2026 | Brahhm Arpan Organic</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --caveman: #BE1A1A;
+    --caveman-dark: #1A1A1A;
+    --hf: #007878;
+    --hf-cream: #F5F2E8;
+    --pusht: #143C28;
+    --pusht-light: #2E8B2E;
+    --greendipz: #1FAD10;
+    --greendipz-red: #CC2229;
+    --biomart: #1B8A3E;
+    --biomart-gold: #8B6427;
+    --bg: #0D0D0D;
+    --surface: #141414;
+    --surface2: #1C1C1C;
+    --border: #2A2A2A;
+    --text: #F0EDE8;
+    --muted: #6B6B6B;
+    --accent: #C8B89A;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Space Grotesk', sans-serif;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* ── Header ── */
+  .header {
+    padding: 40px 48px 32px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+
+  .header-left h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 52px;
+    line-height: 1;
+    letter-spacing: -1px;
+    color: var(--text);
+  }
+
+  .header-left h1 em {
+    font-style: italic;
+    color: var(--accent);
+  }
+
+  .header-left p {
+    margin-top: 8px;
+    color: var(--muted);
+    font-size: 13px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    font-family: 'DM Mono', monospace;
+  }
+
+  .header-stats {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+  }
+
+  .stat {
+    text-align: right;
+  }
+
+  .stat-val {
+    font-family: 'DM Serif Display', serif;
+    font-size: 36px;
+    line-height: 1;
+    color: var(--accent);
+  }
+
+  .stat-label {
+    font-size: 11px;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-top: 4px;
+    font-family: 'DM Mono', monospace;
+  }
+
+  /* ── Brand Legend ── */
+  .legend {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    padding: 20px 48px;
+    border-bottom: 1px solid var(--border);
+    align-items: center;
+  }
+
+  .legend-label {
+    font-size: 11px;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-family: 'DM Mono', monospace;
+    margin-right: 8px;
+  }
+
+  .brand-pill {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 5px 12px;
+    border-radius: 100px;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    transition: opacity 0.2s, transform 0.15s;
+    border: 1px solid transparent;
+  }
+
+  .brand-pill:hover { transform: translateY(-1px); }
+  .brand-pill.inactive { opacity: 0.3; }
+
+  .dot { width: 8px; height: 8px; border-radius: 50%; }
+
+  /* ── Controls ── */
+  .controls {
+    padding: 16px 48px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    border-bottom: 1px solid var(--border);
+    flex-wrap: wrap;
+  }
+
+  .view-toggle {
+    display: flex;
+    gap: 2px;
+    background: var(--surface2);
+    padding: 3px;
+    border-radius: 8px;
+  }
+
+  .view-btn {
+    padding: 6px 14px;
+    border: none;
+    background: transparent;
+    color: var(--muted);
+    font-size: 12px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: all 0.2s;
+    letter-spacing: 0.03em;
+  }
+
+  .view-btn.active {
+    background: var(--surface);
+    color: var(--text);
+    border: 1px solid var(--border);
+  }
+
+  .content-type-filter {
+    display: flex;
+    gap: 6px;
+  }
+
+  .type-chip {
+    padding: 5px 12px;
+    border-radius: 6px;
+    font-size: 11px;
+    font-family: 'DM Mono', monospace;
+    cursor: pointer;
+    border: 1px solid var(--border);
+    background: transparent;
+    color: var(--muted);
+    transition: all 0.2s;
+    letter-spacing: 0.05em;
+  }
+
+  .type-chip.active {
+    background: var(--surface2);
+    color: var(--text);
+    border-color: var(--accent);
+  }
+
+  /* ── Week Labels ── */
+  .week-header {
+    padding: 24px 48px 12px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .week-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--muted);
+  }
+
+  .week-line {
+    flex: 1;
+    height: 1px;
+    background: var(--border);
+  }
+
+  .week-note {
+    font-size: 11px;
+    color: var(--biomart-gold);
+    font-family: 'DM Mono', monospace;
+  }
+
+  /* ── Calendar Grid ── */
+  .cal-grid {
+    padding: 0 48px 48px;
+    display: grid;
+    gap: 1px;
+    background: var(--border);
+  }
+
+  .day-headers {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 1px;
+    background: var(--border);
+    margin-bottom: 1px;
+  }
+
+  .day-header {
+    background: var(--surface);
+    padding: 10px 14px;
+    font-size: 11px;
+    font-family: 'DM Mono', monospace;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+    text-align: center;
+  }
+
+  .cal-week {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 1px;
+    background: var(--border);
+    min-height: 160px;
+  }
+
+  .cal-day {
+    background: var(--surface);
+    padding: 12px;
+    position: relative;
+    transition: background 0.15s;
+    cursor: default;
+    min-height: 160px;
+  }
+
+  .cal-day:hover { background: var(--surface2); }
+
+  .cal-day.empty { background: var(--bg); opacity: 0.4; }
+
+  .cal-day.today { background: #1a1a1a; }
+  .cal-day.today::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    background: var(--accent);
+  }
+
+  .cal-day.holiday-bg { background: #1a160f; }
+
+  .day-num {
+    font-family: 'DM Serif Display', serif;
+    font-size: 22px;
+    color: var(--text);
+    line-height: 1;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 4px;
+  }
+
+  .today-badge {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--accent);
+    background: rgba(200,184,154,0.12);
+    padding: 2px 6px;
+    border-radius: 4px;
+  }
+
+  .holiday-tag {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--biomart-gold);
+    background: rgba(139,100,39,0.15);
+    padding: 2px 6px;
+    border-radius: 4px;
+  }
+
+  /* ── Content Items ── */
+  .content-items {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+
+  .post-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+    padding: 4px 6px;
+    border-radius: 5px;
+    background: rgba(255,255,255,0.03);
+    border-left: 2px solid transparent;
+    transition: background 0.15s;
+    cursor: pointer;
+  }
+
+  .post-item:hover { background: rgba(255,255,255,0.06); }
+
+  .post-item.hidden { display: none; }
+
+  .post-type-icon {
+    font-size: 9px;
+    font-family: 'DM Mono', monospace;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    padding: 1px 4px;
+    border-radius: 3px;
+    white-space: nowrap;
+    margin-top: 1px;
+    flex-shrink: 0;
+  }
+
+  .post-text {
+    font-size: 10.5px;
+    line-height: 1.4;
+    color: #C8C0B8;
+  }
+
+  .template-badge {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    color: var(--muted);
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+
+  /* Brand colors for post items */
+  .brand-caveman { border-left-color: var(--caveman); }
+  .brand-caveman .post-type-icon { background: rgba(190,26,26,0.2); color: #F08080; }
+
+  .brand-hf { border-left-color: var(--hf); }
+  .brand-hf .post-type-icon { background: rgba(0,120,120,0.2); color: #7DCCCC; }
+
+  .brand-pusht { border-left-color: var(--pusht-light); }
+  .brand-pusht .post-type-icon { background: rgba(20,60,40,0.4); color: #6FBF6F; }
+
+  .brand-greendipz { border-left-color: var(--greendipz); }
+  .brand-greendipz .post-type-icon { background: rgba(31,173,16,0.15); color: #7DEA70; }
+
+  .brand-biomart { border-left-color: var(--biomart); }
+  .brand-biomart .post-type-icon { background: rgba(27,138,62,0.2); color: #6FCF97; }
+
+  /* ── List View ── */
+  .list-view { padding: 0 48px 48px; display: none; }
+  .list-view.visible { display: block; }
+
+  .list-week-group { margin-bottom: 32px; }
+
+  .list-week-title {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--muted);
+    padding: 12px 0;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 12px;
+  }
+
+  .list-day-row {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    gap: 24px;
+    padding: 12px 0;
+    border-bottom: 1px solid rgba(42,42,42,0.5);
+  }
+
+  .list-day-label {
+    font-family: 'DM Serif Display', serif;
+    font-size: 20px;
+    color: var(--accent);
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .list-day-name {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--muted);
+  }
+
+  .list-posts {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .list-post-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 10px;
+    border-radius: 7px;
+    background: var(--surface);
+    border-left: 3px solid transparent;
+    transition: background 0.15s;
+  }
+
+  .list-post-item:hover { background: var(--surface2); }
+  .list-post-item.hidden { display: none; }
+
+  .list-brand-dot {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+
+  .list-type-tag {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    padding: 2px 7px;
+    border-radius: 4px;
+    flex-shrink: 0;
+  }
+
+  .list-product {
+    font-size: 13px;
+    color: var(--text);
+    flex: 1;
+  }
+
+  .list-template {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    color: var(--muted);
+    flex-shrink: 0;
+  }
+
+  .list-angle {
+    font-size: 10px;
+    font-family: 'DM Mono', monospace;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--muted);
+    flex-shrink: 0;
+  }
+
+  /* ── Summary Bar ── */
+  .summary-bar {
+    display: flex;
+    gap: 0;
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+    overflow-x: auto;
+  }
+
+  .summary-item {
+    flex: 1;
+    min-width: 120px;
+    padding: 16px 20px;
+    border-right: 1px solid var(--border);
+    text-align: center;
+  }
+
+  .summary-item:last-child { border-right: none; }
+
+  .summary-count {
+    font-family: 'DM Serif Display', serif;
+    font-size: 32px;
+    line-height: 1;
+    color: var(--accent);
+  }
+
+  .summary-desc {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--muted);
+    margin-top: 4px;
+  }
+
+  /* ── Tooltip ── */
+  .tooltip {
+    position: fixed;
+    background: #1E1E1E;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 12px 16px;
+    max-width: 280px;
+    z-index: 1000;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.15s;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.6);
+  }
+
+  .tooltip.show { opacity: 1; }
+
+  .tt-brand {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 6px;
+  }
+
+  .tt-product {
+    font-family: 'DM Serif Display', serif;
+    font-size: 18px;
+    line-height: 1.2;
+    color: var(--text);
+    margin-bottom: 8px;
+  }
+
+  .tt-row {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    font-size: 11px;
+    color: var(--muted);
+    margin-top: 4px;
+  }
+
+  .tt-tag {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    padding: 2px 7px;
+    border-radius: 4px;
+    background: var(--surface2);
+  }
+
+  /* Reel items */
+  .post-item.is-reel, .list-post-item.is-reel {
+    background: rgba(200,184,154,0.04);
+  }
+
+  /* ── Responsive ── */
+  @media (max-width: 900px) {
+    .header { padding: 24px; }
+    .header-left h1 { font-size: 36px; }
+    .legend { padding: 16px 24px; }
+    .controls { padding: 12px 24px; }
+    .cal-grid { padding: 0 24px 40px; }
+    .list-view { padding: 0 24px 40px; }
+    .week-header { padding: 20px 24px 10px; }
+    .summary-bar { flex-wrap: wrap; }
+    .cal-day { padding: 8px; min-height: 120px; }
+    .day-num { font-size: 16px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <div class="header-left">
+    <h1>May <em>2026</em></h1>
+    <p>Brahhm Arpan Organic · 5 Brands · Instagram Content Calendar</p>
+  </div>
+  <div class="header-stats">
+    <div class="stat">
+      <div class="stat-val" id="total-posts">58</div>
+      <div class="stat-label">Total Posts</div>
+    </div>
+    <div class="stat">
+      <div class="stat-val">13</div>
+      <div class="stat-label">Reels</div>
+    </div>
+    <div class="stat">
+      <div class="stat-val">5</div>
+      <div class="stat-label">Festivals</div>
+    </div>
+  </div>
+</div>
+
+<!-- Summary Bar -->
+<div class="summary-bar">
+  <div class="summary-item">
+    <div class="summary-count" style="color:#F08080">16</div>
+    <div class="summary-desc">🟥 Caveman</div>
+  </div>
+  <div class="summary-item">
+    <div class="summary-count" style="color:#7DCCCC">12</div>
+    <div class="summary-desc">🔵 Health Fields</div>
+  </div>
+  <div class="summary-item">
+    <div class="summary-count" style="color:#6FBF6F">12</div>
+    <div class="summary-desc">🟩 Pusht</div>
+  </div>
+  <div class="summary-item">
+    <div class="summary-count" style="color:#7DEA70">10</div>
+    <div class="summary-desc">🟡 greendipz</div>
+  </div>
+  <div class="summary-item">
+    <div class="summary-count" style="color:#6FCF97">14</div>
+    <div class="summary-desc">🟠 Biomart</div>
+  </div>
+</div>
+
+<!-- Brand Legend -->
+<div class="legend">
+  <span class="legend-label">Filter</span>
+  <button class="brand-pill" style="background:rgba(190,26,26,0.15);border-color:#BE1A1A;color:#F08080" onclick="toggleBrand('caveman', this)">
+    <span class="dot" style="background:#BE1A1A"></span>Caveman
+  </button>
+  <button class="brand-pill" style="background:rgba(0,120,120,0.12);border-color:#007878;color:#7DCCCC" onclick="toggleBrand('hf', this)">
+    <span class="dot" style="background:#007878"></span>Health Fields
+  </button>
+  <button class="brand-pill" style="background:rgba(20,60,40,0.3);border-color:#2E8B2E;color:#6FBF6F" onclick="toggleBrand('pusht', this)">
+    <span class="dot" style="background:#2E8B2E"></span>Pusht
+  </button>
+  <button class="brand-pill" style="background:rgba(31,173,16,0.12);border-color:#1FAD10;color:#7DEA70" onclick="toggleBrand('greendipz', this)">
+    <span class="dot" style="background:#1FAD10"></span>greendipz
+  </button>
+  <button class="brand-pill" style="background:rgba(27,138,62,0.15);border-color:#1B8A3E;color:#6FCF97" onclick="toggleBrand('biomart', this)">
+    <span class="dot" style="background:#1B8A3E"></span>Biomart
+  </button>
+</div>
+
+<!-- Controls -->
+<div class="controls">
+  <div class="view-toggle">
+    <button class="view-btn active" onclick="switchView('grid', this)">Grid</button>
+    <button class="view-btn" onclick="switchView('list', this)">List</button>
+  </div>
+  <div class="content-type-filter">
+    <button class="type-chip active" onclick="toggleType('all', this)">All</button>
+    <button class="type-chip" onclick="toggleType('post', this)">Posts</button>
+    <button class="type-chip" onclick="toggleType('reel', this)">Reels</button>
+    <button class="type-chip" onclick="toggleType('story', this)">Stories</button>
+  </div>
+</div>
+
+<!-- Calendar Grid View -->
+<div id="grid-view">
+
+  <!-- Day Headers -->
+  <div style="padding: 0 48px; margin-bottom: 1px;">
+    <div class="day-headers">
+      <div class="day-header">Fri</div>
+      <div class="day-header">Sat</div>
+      <div class="day-header">Sun</div>
+      <div class="day-header">Mon</div>
+      <div class="day-header">Tue</div>
+      <div class="day-header">Wed</div>
+      <div class="day-header">Thu</div>
+    </div>
+  </div>
+
+  <!-- WEEK 1: May 1–7 -->
+  <div class="week-header">
+    <span class="week-label">Week 1 · May 1–7</span>
+    <span class="week-line"></span>
+    <span class="week-note">🌍 Labour Day May 1 · 🕊️ Buddha Purnima May 4</span>
+  </div>
+  <div class="cal-grid">
+    <div class="cal-week">
+
+      <!-- May 1 Fri — TODAY + Labour Day -->
+      <div class="cal-day today holiday-bg">
+        <div class="day-num">1 <span class="today-badge">Today</span></div>
+        <div class="content-items">
+          <div class="post-item brand-caveman" data-brand="caveman" data-type="post" data-tooltip='{"brand":"Caveman Organic","product":"Millet Cookies — Flax Amaranth Connection","template":"T40","angle":"ATTACK","time":"7:30 AM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">Flax Amaranth Connection</span>
+            <span class="template-badge">T40</span>
+          </div>
+          <div class="post-item brand-biomart" data-brand="biomart" data-type="post" data-tooltip='{"brand":"Biomart","product":"Labour Day — All Organic, All Honest multi-brand showcase","template":"T5","angle":"RELATE","time":"12:00 PM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">Labour Day brand showcase</span>
+            <span class="template-badge">T5</span>
+          </div>
+          <div class="post-item brand-greendipz" data-brand="greendipz" data-type="story" data-tooltip='{"brand":"greendipz","product":"Story — Schezwan weekend prompt","template":"—","angle":"CONVERT","time":"8:00 PM"}'>
+            <span class="post-type-icon">S</span>
+            <span class="post-text">Schezwan weekend prompt</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- May 2 Sat -->
+      <div class="cal-day">
+        <div class="day-num">2</div>
+        <div class="content-items">
+          <div class="post-item brand-hf" data-brand="hf" data-type="post" data-tooltip='{"brand":"Health Fields","product":"Calming Chamomile Tea — Evening Ritual","template":"T11","angle":"RELATE","time":"7:30 AM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">Calming Chamomile Tea</span>
+            <span class="template-badge">T11</span>
+          </div>
+          <div class="post-item brand-greendipz" data-brand="greendipz" data-type="post" data-tooltip='{"brand":"greendipz","product":"Salsa Mexicana 325g — Weekend Occasion","template":"T8","angle":"RELATE","time":"6:30 PM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">Salsa Mexicana 325g</span>
+            <span class="template-badge">T8</span>
+          </div>
+          <div class="post-item brand-caveman is-reel" data-brand="caveman" data-type="reel" data-tooltip='{"brand":"Caveman Organic","product":"Reel — Real Ingredients, Real Labels","template":"T29","angle":"ATTACK","time":"6:30 PM"}'>
+            <span class="post-type-icon">🎬</span>
+            <span class="post-text">Real Ingredients Reel</span>
+            <span class="template-badge">T29</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- May 3 Sun -->
+      <div class="cal-day">
+        <div class="day-num">3</div>
+        <div class="content-items">
+          <div class="post-item brand-pusht" data-brand="pusht" data-type="post" data-tooltip='{"brand":"Pusht Organic","product":"Cold Pressed Sunflower Oil 910ml","template":"T15","angle":"EDUCATE","time":"7:30 AM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">Cold Pressed Sunflower Oil</span>
+            <span class="template-badge">T15</span>
+          </div>
+          <div class="post-item brand-hf" data-brand="hf" data-type="post" data-tooltip='{"brand":"Health Fields","product":"Since 2003 Heritage Brand Post","template":"T12","angle":"EDUCATE","time":"12:00 PM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">Since 2003 heritage post</span>
+            <span class="template-badge">T12</span>
+          </div>
+          <div class="post-item brand-greendipz" data-brand="greendipz" data-type="story" data-tooltip='{"brand":"greendipz","product":"Story — Sunday dinner gravy prompt","angle":"CONVERT","time":"8:00 PM"}'>
+            <span class="post-type-icon">S</span>
+            <span class="post-text">Sunday dinner prompt</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- May 4 Mon — Buddha Purnima -->
+      <div class="cal-day holiday-bg">
+        <div class="day-num">4 <span class="holiday-tag">Buddha Purnima</span></div>
+        <div class="content-items">
+          <div class="post-item brand-hf" data-brand="hf" data-type="post" data-tooltip='{"brand":"Health Fields","product":"Tulsi Green Tea — Mindful Morning","template":"T4","angle":"RELATE","time":"7:30 AM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">Tulsi Green Tea Premium</span>
+            <span class="template-badge">T4</span>
+          </div>
+          <div class="post-item brand-biomart" data-brand="biomart" data-type="post" data-tooltip='{"brand":"Biomart","product":"Buddha Purnima mindful eating brand post","template":"T17","angle":"RELATE","time":"12:00 PM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">Buddha Purnima brand post</span>
+            <span class="template-badge">T17</span>
+          </div>
+          <div class="post-item brand-hf" data-brand="hf" data-type="story" data-tooltip='{"brand":"Health Fields","product":"Story — morning tea ritual tip","time":"8:00 AM"}'>
+            <span class="post-type-icon">S</span>
+            <span class="post-text">Morning tea ritual tip</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- May 5 Tue -->
+      <div class="cal-day">
+        <div class="day-num">5</div>
+        <div class="content-items">
+          <div class="post-item brand-caveman" data-brand="caveman" data-type="post" data-tooltip='{"brand":"Caveman Organic","product":"Kodo Coco Fun Millet Cookies","template":"T9","angle":"ATTACK","time":"7:30 AM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">Kodo Coco Fun Cookies</span>
+            <span class="template-badge">T9</span>
+          </div>
+          <div class="post-item brand-pusht" data-brand="pusht" data-type="post" data-tooltip='{"brand":"Pusht Organic","product":"Organic Forest Honey 500g","template":"T4","angle":"EDUCATE","time":"12:00 PM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">Forest Honey 500g</span>
+            <span class="template-badge">T4</span>
+          </div>
+          <div class="post-item brand-biomart is-reel" data-brand="biomart" data-type="reel" data-tooltip='{"brand":"Biomart","product":"Reel — Weekly organic haul showcase","template":"T22","angle":"CONVERT","time":"6:30 PM"}'>
+            <span class="post-type-icon">🎬</span>
+            <span class="post-text">Weekly haul Reel</span>
+            <span class="template-badge">T22</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- May 6 Wed -->
+      <div class="cal-day">
+        <div class="day-num">6</div>
+        <div class="content-items">
+          <div class="post-item brand-greendipz" data-brand="greendipz" data-type="post" data-tooltip='{"brand":"greendipz","product":"Butter Chicken Gravy 370g — Recipe how-to","template":"T4","angle":"EDUCATE","time":"12:00 PM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">Butter Chicken Gravy 370g</span>
+            <span class="template-badge">T4</span>
+          </div>
+          <div class="post-item brand-hf" data-brand="hf" data-type="post" data-tooltip='{"brand":"Health Fields","product":"Organic Ragi Atta 500g","template":"T2","angle":"EDUCATE","time":"7:30 AM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">Organic Ragi Atta</span>
+            <span class="template-badge">T2</span>
+          </div>
+          <div class="post-item brand-greendipz" data-brand="greendipz" data-type="story" data-tooltip='{"brand":"greendipz","product":"Story — midweek recipe tip","time":"8:00 AM"}'>
+            <span class="post-type-icon">S</span>
+            <span class="post-text">Midweek recipe tip</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- May 7 Thu -->
+      <div class="cal-day">
+        <div class="day-num">7</div>
+        <div class="content-items">
+          <div class="post-item brand-caveman" data-brand="caveman" data-type="post" data-tooltip='{"brand":"Caveman Organic","product":"Roasted Pumpkin Seeds 200g","template":"T13","angle":"CONVERT","time":"7:30 AM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">Roasted Pumpkin Seeds</span>
+            <span class="template-badge">T13</span>
+          </div>
+          <div class="post-item brand-biomart" data-brand="biomart" data-type="post" data-tooltip='{"brand":"Biomart","product":"Dal + Masala combo bundle post","template":"T5","angle":"CONVERT","time":"12:00 PM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">Dal + Masala combo</span>
+            <span class="template-badge">T5</span>
+          </div>
+          <div class="post-item brand-pusht is-reel" data-brand="pusht" data-type="reel" data-tooltip='{"brand":"Pusht Organic","product":"Reel — Millet nutrition showdown","template":"T33","angle":"EDUCATE","time":"6:30 PM"}'>
+            <span class="post-type-icon">🎬</span>
+            <span class="post-text">Millet nutrition Reel</span>
+            <span class="template-badge">T33</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- WEEK 2: May 8–14 -->
+  <div class="week-header">
+    <span class="week-label">Week 2 · May 8–14</span>
+    <span class="week-line"></span>
+    <span class="week-note">👩 Mother's Day May 10</span>
+  </div>
+  <div class="cal-grid">
+    <div class="cal-week">
+
+      <!-- May 8 Fri -->
+      <div class="cal-day">
+        <div class="day-num">8</div>
+        <div class="content-items">
+          <div class="post-item brand-pusht" data-brand="pusht" data-type="post" data-tooltip='{"brand":"Pusht Organic","product":"Organic Kabuli Chana — Sunday dal story","template":"T3","angle":"RELATE","time":"7:30 AM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">Kabuli Chana</span>
+            <span class="template-badge">T3</span>
+          </div>
+          <div class="post-item brand-hf" data-brand="hf" data-type="post" data-tooltip='{"brand":"Health Fields","product":"Her Health Herbal Tea — pre Mother\'s Day","template":"T11","angle":"RELATE","time":"6:30 PM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">Her Health Herbal Tea</span>
+            <span class="template-badge">T11</span>
+          </div>
+          <div class="post-item brand-greendipz" data-brand="greendipz" data-type="story" data-tooltip='{"brand":"greendipz","product":"Story — Friday dinner inspo","time":"8:00 PM"}'>
+            <span class="post-type-icon">S</span>
+            <span class="post-text">Friday dinner inspo</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- May 9 Sat -->
+      <div class="cal-day">
+        <div class="day-num">9</div>
+        <div class="content-items">
+          <div class="post-item brand-biomart" data-brand="biomart" data-type="post" data-tooltip='{"brand":"Biomart","product":"Seeds Haul — Pumpkin + Sunflower + Watermelon","template":"T19","angle":"EDUCATE","time":"7:30 AM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">Seeds haul post</span>
+            <span class="template-badge">T19</span>
+          </div>
+          <div class="post-item brand-greendipz" data-brand="greendipz" data-type="post" data-tooltip='{"brand":"greendipz","product":"Manchurian Sauce 240g — Weekend Indo-Chinese","template":"T8","angle":"RELATE","time":"6:30 PM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">Manchurian Sauce 240g</span>
+            <span class="template-badge">T8</span>
+          </div>
+          <div class="post-item brand-hf is-reel" data-brand="hf" data-type="reel" data-tooltip='{"brand":"Health Fields","product":"Reel — Morning ritual with Chamomile Tea","template":"T35","angle":"RELATE","time":"6:30 PM"}'>
+            <span class="post-type-icon">🎬</span>
+            <span class="post-text">Morning ritual Reel</span>
+            <span class="template-badge">T35</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- May 10 Sun — Mother's Day -->
+      <div class="cal-day holiday-bg">
+        <div class="day-num">10 <span class="holiday-tag">Mother's Day</span></div>
+        <div class="content-items">
+          <div class="post-item brand-hf" data-brand="hf" data-type="post" data-tooltip='{"brand":"Health Fields","product":"Mother\'s Day — Forest Honey + Chamomile gift set angle","template":"T23","angle":"RELATE","time":"7:30 AM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">Forest Honey — Mother's Day</span>
+            <span class="template-badge">T23</span>
+          </div>
+          <div class="post-item brand-pusht" data-brand="pusht" data-type="post" data-tooltip='{"brand":"Pusht Organic","product":"Panchranga Dal — Maa ki dal story","template":"T3","angle":"RELATE","time":"12:00 PM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">Panchranga Dal — Maa ki dal</span>
+            <span class="template-badge">T3</span>
+          </div>
+          <div class="post-item brand-biomart" data-brand="biomart" data-type="story" data-tooltip='{"brand":"Biomart","product":"Story — Mother\'s Day gifting CTA","time":"8:00 AM"}'>
+            <span class="post-type-icon">S</span>
+            <span class="post-text">Mother's Day gifting CTA</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- May 11 Mon -->
+      <div class="cal-day">
+        <div class="day-num">11</div>
+        <div class="content-items">
+          <div class="post-item brand-hf" data-brand="hf" data-type="post" data-tooltip='{"brand":"Health Fields","product":"Organic Black Pepper Whole 100g — Label Padhega angle","template":"T2","angle":"ATTACK","time":"7:30 AM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">Black Pepper Whole 100g</span>
+            <span class="template-badge">T2</span>
+          </div>
+          <div class="post-item brand-biomart" data-brand="biomart" data-type="post" data-tooltip='{"brand":"Biomart","product":"Roasted Peanuts + Pink Salt snack combo","template":"T13","angle":"CONVERT","time":"12:00 PM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">Roasted Peanuts + Pink Salt</span>
+            <span class="template-badge">T13</span>
+          </div>
+          <div class="post-item brand-hf" data-brand="hf" data-type="story" data-tooltip='{"brand":"Health Fields","product":"Story — spice quiz","time":"8:00 AM"}'>
+            <span class="post-type-icon">S</span>
+            <span class="post-text">Spice quiz story</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- May 12 Tue -->
+      <div class="cal-day">
+        <div class="day-num">12</div>
+        <div class="content-items">
+          <div class="post-item brand-caveman" data-brand="caveman" data-type="post" data-tooltip='{"brand":"Caveman Organic","product":"Bakkit Cashew & Pista Cookies","template":"T9","angle":"CONVERT","time":"7:30 AM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">Bakkit Cashew & Pista</span>
+            <span class="template-badge">T9</span>
+          </div>
+          <div class="post-item brand-pusht" data-brand="pusht" data-type="post" data-tooltip='{"brand":"Pusht Organic","product":"Cold Pressed White Sesame Oil — premium upgrade","template":"T15","angle":"EDUCATE","time":"12:00 PM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">White Sesame Oil 910ml</span>
+            <span class="template-badge">T15</span>
+          </div>
+          <div class="post-item brand-caveman is-reel" data-brand="caveman" data-type="reel" data-tooltip='{"brand":"Caveman Organic","product":"Reel — Cookie crunch real talk","template":"T29","angle":"ATTACK","time":"6:30 PM"}'>
+            <span class="post-type-icon">🎬</span>
+            <span class="post-text">Cookie crunch Reel</span>
+            <span class="template-badge">T29</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- May 13 Wed -->
+      <div class="cal-day">
+        <div class="day-num">13</div>
+        <div class="content-items">
+          <div class="post-item brand-greendipz" data-brand="greendipz" data-type="post" data-tooltip='{"brand":"greendipz","product":"Arrabbiata Pasta Sauce 325g — Indian vs World","template":"T17","angle":"ATTACK","time":"12:00 PM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">Arrabbiata Pasta Sauce 325g</span>
+            <span class="template-badge">T17</span>
+          </div>
+          <div class="post-item brand-hf" data-brand="hf" data-type="post" data-tooltip='{"brand":"Health Fields","product":"Browntop Millet — rare ancient grain","template":"T2","angle":"EDUCATE","time":"7:30 AM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">Browntop Millet</span>
+            <span class="template-badge">T2</span>
+          </div>
+          <div class="post-item brand-greendipz" data-brand="greendipz" data-type="story" data-tooltip='{"brand":"greendipz","product":"Story — pasta night tip","time":"8:00 AM"}'>
+            <span class="post-type-icon">S</span>
+            <span class="post-text">Pasta night tip</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- May 14 Thu -->
+      <div class="cal-day">
+        <div class="day-num">14</div>
+        <div class="content-items">
+          <div class="post-item brand-caveman" data-brand="caveman" data-type="post" data-tooltip='{"brand":"Caveman Organic","product":"Roasted Sunflower Seeds 200g","template":"T10","angle":"CONVERT","time":"7:30 AM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">Roasted Sunflower Seeds</span>
+            <span class="template-badge">T10</span>
+          </div>
+          <div class="post-item brand-biomart" data-brand="biomart" data-type="post" data-tooltip='{"brand":"Biomart","product":"HF Dals + Flours category showcase","template":"T5","angle":"EDUCATE","time":"12:00 PM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">HF Dals + Flours showcase</span>
+            <span class="template-badge">T5</span>
+          </div>
+          <div class="post-item brand-biomart is-reel" data-brand="biomart" data-type="reel" data-tooltip='{"brand":"Biomart","product":"Reel — Before vs After switching to organic","template":"T33","angle":"CONVERT","time":"6:30 PM"}'>
+            <span class="post-type-icon">🎬</span>
+            <span class="post-text">Before vs After Reel</span>
+            <span class="template-badge">T33</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- WEEK 3: May 15–21 -->
+  <div class="week-header">
+    <span class="week-label">Week 3 · May 15–21</span>
+    <span class="week-line"></span>
+  </div>
+  <div class="cal-grid">
+    <div class="cal-week">
+
+      <!-- May 15 Fri -->
+      <div class="cal-day">
+        <div class="day-num">15</div>
+        <div class="content-items">
+          <div class="post-item brand-pusht" data-brand="pusht" data-type="post" data-tooltip='{"brand":"Pusht Organic","product":"Organic Bajra Flour 500g","template":"T3","angle":"EDUCATE","time":"7:30 AM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">Bajra Flour 500g</span>
+            <span class="template-badge">T3</span>
+          </div>
+          <div class="post-item brand-hf" data-brand="hf" data-type="post" data-tooltip='{"brand":"Health Fields","product":"Organic Fennel / Saunf — digestive wellness","template":"T12","angle":"EDUCATE","time":"12:00 PM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">Organic Saunf / Fennel</span>
+            <span class="template-badge">T12</span>
+          </div>
+          <div class="post-item brand-greendipz" data-brand="greendipz" data-type="story" data-tooltip='{"brand":"greendipz","product":"Story — Friday dinner inspo","time":"8:00 PM"}'>
+            <span class="post-type-icon">S</span>
+            <span class="post-text">Friday dinner inspo</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- May 16 Sat -->
+      <div class="cal-day">
+        <div class="day-num">16</div>
+        <div class="content-items">
+          <div class="post-item brand-biomart" data-brand="biomart" data-type="post" data-tooltip='{"brand":"Biomart","product":"Caveman Bakkit 3-pack bundle showcase","template":"T9","angle":"CONVERT","time":"7:30 AM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">Caveman Bakkit 3-pack</span>
+            <span class="template-badge">T9</span>
+          </div>
+          <div class="post-item brand-greendipz" data-brand="greendipz" data-type="post" data-tooltip='{"brand":"greendipz","product":"Kung Pao Sauce 240g — Asian kitchen launch","template":"T11","angle":"ATTACK","time":"6:30 PM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">Kung Pao Sauce 240g</span>
+            <span class="template-badge">T11</span>
+          </div>
+          <div class="post-item brand-caveman is-reel" data-brand="caveman" data-type="reel" data-tooltip='{"brand":"Caveman Organic","product":"Reel — Snack hack: millet vs maida","template":"T28","angle":"ATTACK","time":"6:30 PM"}'>
+            <span class="post-type-icon">🎬</span>
+            <span class="post-text">Snack hack Reel</span>
+            <span class="template-badge">T28</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- May 17 Sun -->
+      <div class="cal-day">
+        <div class="day-num">17</div>
+        <div class="content-items">
+          <div class="post-item brand-hf" data-brand="hf" data-type="post" data-tooltip='{"brand":"Health Fields","product":"Organic Garam Masala 100g","template":"T2","angle":"EDUCATE","time":"7:30 AM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">Garam Masala 100g</span>
+            <span class="template-badge">T2</span>
+          </div>
+          <div class="post-item brand-pusht" data-brand="pusht" data-type="post" data-tooltip='{"brand":"Pusht Organic","product":"Organic Wheat Flour / Atta — staple upgrade","template":"T6","angle":"EDUCATE","time":"12:00 PM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">Organic Wheat Atta</span>
+            <span class="template-badge">T6</span>
+          </div>
+          <div class="post-item brand-greendipz" data-brand="greendipz" data-type="story" data-tooltip='{"brand":"greendipz","product":"Story — Sunday meal idea","time":"8:00 PM"}'>
+            <span class="post-type-icon">S</span>
+            <span class="post-text">Sunday meal idea</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- May 18 Mon -->
+      <div class="cal-day">
+        <div class="day-num">18</div>
+        <div class="content-items">
+          <div class="post-item brand-hf" data-brand="hf" data-type="post" data-tooltip='{"brand":"Health Fields","product":"Organic Cinnamon Stick — morning immunity","template":"T4","angle":"EDUCATE","time":"7:30 AM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">Cinnamon Stick / Dal Chini</span>
+            <span class="template-badge">T4</span>
+          </div>
+          <div class="post-item brand-biomart" data-brand="biomart" data-type="post" data-tooltip='{"brand":"Biomart","product":"Biomart Jaggery Powder — sugar swap education","template":"T4","angle":"EDUCATE","time":"12:00 PM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">Jaggery Powder — sugar swap</span>
+            <span class="template-badge">T4</span>
+          </div>
+          <div class="post-item brand-biomart" data-brand="biomart" data-type="story" data-tooltip='{"brand":"Biomart","product":"Story — new stock alert","time":"8:00 AM"}'>
+            <span class="post-type-icon">S</span>
+            <span class="post-text">New stock arrival alert</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- May 19 Tue -->
+      <div class="cal-day">
+        <div class="day-num">19</div>
+        <div class="content-items">
+          <div class="post-item brand-caveman" data-brand="caveman" data-type="post" data-tooltip='{"brand":"Caveman Organic","product":"Fit-O-Milleto Millet Cookies — fitness snack angle","template":"T13","angle":"CONVERT","time":"7:30 AM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">Fit-O-Milleto Cookies</span>
+            <span class="template-badge">T13</span>
+          </div>
+          <div class="post-item brand-pusht" data-brand="pusht" data-type="post" data-tooltip='{"brand":"Pusht Organic","product":"Organic Watermelon Seeds 200g","template":"T14","angle":"EDUCATE","time":"12:00 PM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">Watermelon Seeds</span>
+            <span class="template-badge">T14</span>
+          </div>
+          <div class="post-item brand-hf is-reel" data-brand="hf" data-type="reel" data-tooltip='{"brand":"Health Fields","product":"Reel — How to use HF teas: a ritual guide","template":"T35","angle":"EDUCATE","time":"6:30 PM"}'>
+            <span class="post-type-icon">🎬</span>
+            <span class="post-text">Tea ritual Reel</span>
+            <span class="template-badge">T35</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- May 20 Wed -->
+      <div class="cal-day">
+        <div class="day-num">20</div>
+        <div class="content-items">
+          <div class="post-item brand-greendipz" data-brand="greendipz" data-type="post" data-tooltip='{"brand":"greendipz","product":"Paneer Makhani Gravy 370g — Weekend Occasion","template":"T11","angle":"RELATE","time":"12:00 PM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">Paneer Makhani Gravy 370g</span>
+            <span class="template-badge">T11</span>
+          </div>
+          <div class="post-item brand-hf" data-brand="hf" data-type="post" data-tooltip='{"brand":"Health Fields","product":"Organic Quinoa Millet — protein education","template":"T18","angle":"EDUCATE","time":"7:30 AM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">Organic Quinoa Millet</span>
+            <span class="template-badge">T18</span>
+          </div>
+          <div class="post-item brand-greendipz" data-brand="greendipz" data-type="story" data-tooltip='{"brand":"greendipz","product":"Story — Paneer Makhani quick tip","time":"8:00 AM"}'>
+            <span class="post-type-icon">S</span>
+            <span class="post-text">Paneer Makhani quick tip</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- May 21 Thu -->
+      <div class="cal-day">
+        <div class="day-num">21</div>
+        <div class="content-items">
+          <div class="post-item brand-caveman" data-brand="caveman" data-type="post" data-tooltip='{"brand":"Caveman Organic","product":"Roasted Cashew Nuts 200g — premium snack","template":"T13","angle":"CONVERT","time":"7:30 AM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">Roasted Cashew Nuts</span>
+            <span class="template-badge">T13</span>
+          </div>
+          <div class="post-item brand-pusht is-reel" data-brand="pusht" data-type="reel" data-tooltip='{"brand":"Pusht Organic","product":"Reel — Farm to fork: Cold Pressed Oil story","template":"T38","angle":"EDUCATE","time":"6:30 PM"}'>
+            <span class="post-type-icon">🎬</span>
+            <span class="post-text">Farm to fork Reel</span>
+            <span class="template-badge">T38</span>
+          </div>
+          <div class="post-item brand-biomart" data-brand="biomart" data-type="post" data-tooltip='{"brand":"Biomart","product":"Biomart brand spotlight — all 4 brands carousel","template":"T16","angle":"CONVERT","time":"12:00 PM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">Brand spotlight carousel</span>
+            <span class="template-badge">T16</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- WEEK 4: May 22–28 -->
+  <div class="week-header">
+    <span class="week-label">Week 4 · May 22–28</span>
+    <span class="week-line"></span>
+    <span class="week-note">🌿 Organic Awareness push · Peak summer content</span>
+  </div>
+  <div class="cal-grid">
+    <div class="cal-week">
+
+      <!-- May 22 Fri -->
+      <div class="cal-day">
+        <div class="day-num">22</div>
+        <div class="content-items">
+          <div class="post-item brand-pusht" data-brand="pusht" data-type="post" data-tooltip='{"brand":"Pusht Organic","product":"Cold Pressed Groundnut Oil 1L — everyday switch","template":"T15","angle":"ATTACK","time":"7:30 AM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">Groundnut Oil 1L</span>
+            <span class="template-badge">T15</span>
+          </div>
+          <div class="post-item brand-hf" data-brand="hf" data-type="post" data-tooltip='{"brand":"Health Fields","product":"Liv Detox Herbal Tea — liver + summer reset","template":"T11","angle":"EDUCATE","time":"12:00 PM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">Liv Detox Herbal Tea</span>
+            <span class="template-badge">T11</span>
+          </div>
+          <div class="post-item brand-greendipz" data-brand="greendipz" data-type="story" data-tooltip='{"brand":"greendipz","product":"Story — Friday gravy inspo","time":"8:00 PM"}'>
+            <span class="post-type-icon">S</span>
+            <span class="post-text">Friday gravy inspo</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- May 23 Sat -->
+      <div class="cal-day">
+        <div class="day-num">23</div>
+        <div class="content-items">
+          <div class="post-item brand-biomart" data-brand="biomart" data-type="post" data-tooltip='{"brand":"Biomart","product":"Weekend deal — Seeds collection haul","template":"T16","angle":"CONVERT","time":"7:30 AM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">Weekend seeds haul deal</span>
+            <span class="template-badge">T16</span>
+          </div>
+          <div class="post-item brand-greendipz" data-brand="greendipz" data-type="post" data-tooltip='{"brand":"greendipz","product":"Chili Gravy Sauce 240g — heat seekers","template":"T8","angle":"ATTACK","time":"6:30 PM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">Chili Gravy Sauce 240g</span>
+            <span class="template-badge">T8</span>
+          </div>
+          <div class="post-item brand-pusht is-reel" data-brand="pusht" data-type="reel" data-tooltip='{"brand":"Pusht Organic","product":"Reel — Quick dal recipe in 5 mins","template":"T35","angle":"RELATE","time":"6:30 PM"}'>
+            <span class="post-type-icon">🎬</span>
+            <span class="post-text">Quick dal recipe Reel</span>
+            <span class="template-badge">T35</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- May 24 Sun -->
+      <div class="cal-day">
+        <div class="day-num">24</div>
+        <div class="content-items">
+          <div class="post-item brand-pusht" data-brand="pusht" data-type="post" data-tooltip='{"brand":"Pusht Organic","product":"Organic Rajma / Kidney Beans — Sunday special","template":"T3","angle":"RELATE","time":"12:00 PM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">Organic Rajma / Kidney Beans</span>
+            <span class="template-badge">T3</span>
+          </div>
+          <div class="post-item brand-hf" data-brand="hf" data-type="post" data-tooltip='{"brand":"Health Fields","product":"Panchrangi Dal Mix — Sunday family bowl","template":"T18","angle":"RELATE","time":"7:30 AM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">Panchrangi Dal Mix</span>
+            <span class="template-badge">T18</span>
+          </div>
+          <div class="post-item brand-greendipz" data-brand="greendipz" data-type="story" data-tooltip='{"brand":"greendipz","product":"Story — Sunday dinner prompt","time":"8:00 PM"}'>
+            <span class="post-type-icon">S</span>
+            <span class="post-text">Sunday dinner prompt</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- May 25 Mon -->
+      <div class="cal-day">
+        <div class="day-num">25</div>
+        <div class="content-items">
+          <div class="post-item brand-hf" data-brand="hf" data-type="post" data-tooltip='{"brand":"Health Fields","product":"Himalayan Rock Pink Salt 1kg — clean mineral angle","template":"T4","angle":"EDUCATE","time":"7:30 AM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">Himalayan Pink Salt 1kg</span>
+            <span class="template-badge">T4</span>
+          </div>
+          <div class="post-item brand-biomart" data-brand="biomart" data-type="post" data-tooltip='{"brand":"Biomart","product":"Biomart Honey + Chyavanprash summer immunity","template":"T16","angle":"CONVERT","time":"12:00 PM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">Honey + Chyavanprash combo</span>
+            <span class="template-badge">T16</span>
+          </div>
+          <div class="post-item brand-hf" data-brand="hf" data-type="story" data-tooltip='{"brand":"Health Fields","product":"Story — salt comparison tip","time":"8:00 AM"}'>
+            <span class="post-type-icon">S</span>
+            <span class="post-text">Salt comparison story</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- May 26 Tue -->
+      <div class="cal-day">
+        <div class="day-num">26</div>
+        <div class="content-items">
+          <div class="post-item brand-caveman" data-brand="caveman" data-type="post" data-tooltip='{"brand":"Caveman Organic","product":"Millet Era Cookies — most confrontational label angle","template":"T1","angle":"ATTACK","time":"7:30 AM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">Millet Era Cookies</span>
+            <span class="template-badge">T1</span>
+          </div>
+          <div class="post-item brand-pusht" data-brand="pusht" data-type="post" data-tooltip='{"brand":"Pusht Organic","product":"Organic Moong Dhuli Dal — quick cook story","template":"T14","angle":"RELATE","time":"12:00 PM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">Moong Dhuli Dal</span>
+            <span class="template-badge">T14</span>
+          </div>
+          <div class="post-item brand-caveman is-reel" data-brand="caveman" data-type="reel" data-tooltip='{"brand":"Caveman Organic","product":"Reel — Real talk: what\'s in your snack?","template":"T28","angle":"ATTACK","time":"6:30 PM"}'>
+            <span class="post-type-icon">🎬</span>
+            <span class="post-text">Real talk Reel</span>
+            <span class="template-badge">T28</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- May 27 Wed -->
+      <div class="cal-day">
+        <div class="day-num">27</div>
+        <div class="content-items">
+          <div class="post-item brand-greendipz" data-brand="greendipz" data-type="post" data-tooltip='{"brand":"greendipz","product":"Biryani Gravy 240g — Product Showcase","template":"T6","angle":"CONVERT","time":"12:00 PM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">Biryani Gravy 240g</span>
+            <span class="template-badge">T6</span>
+          </div>
+          <div class="post-item brand-hf" data-brand="hf" data-type="post" data-tooltip='{"brand":"Health Fields","product":"Barnyard Millet — ancient grain education","template":"T2","angle":"EDUCATE","time":"7:30 AM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">Barnyard (Sanwa) Millet</span>
+            <span class="template-badge">T2</span>
+          </div>
+          <div class="post-item brand-greendipz" data-brand="greendipz" data-type="story" data-tooltip='{"brand":"greendipz","product":"Story — Biryani night tip","time":"8:00 AM"}'>
+            <span class="post-type-icon">S</span>
+            <span class="post-text">Biryani night tip</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- May 28 Thu -->
+      <div class="cal-day">
+        <div class="day-num">28</div>
+        <div class="content-items">
+          <div class="post-item brand-caveman" data-brand="caveman" data-type="post" data-tooltip='{"brand":"Caveman Organic","product":"Roasted Watermelon Seeds 200g","template":"T10","angle":"CONVERT","time":"7:30 AM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">Roasted Watermelon Seeds</span>
+            <span class="template-badge">T10</span>
+          </div>
+          <div class="post-item brand-biomart" data-brand="biomart" data-type="post" data-tooltip='{"brand":"Biomart","product":"Biomart month-end sale CTA — multi-brand","template":"T19","angle":"CONVERT","time":"12:00 PM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">Month-end multi-brand CTA</span>
+            <span class="template-badge">T19</span>
+          </div>
+          <div class="post-item brand-biomart is-reel" data-brand="biomart" data-type="reel" data-tooltip='{"brand":"Biomart","product":"Reel — Brand spotlight: 4 brands 1 platform","template":"T22","angle":"CONVERT","time":"6:30 PM"}'>
+            <span class="post-type-icon">🎬</span>
+            <span class="post-text">Brand spotlight Reel</span>
+            <span class="template-badge">T22</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- WEEK 5: May 29–31 -->
+  <div class="week-header">
+    <span class="week-label">Week 5 · May 29–31</span>
+    <span class="week-line"></span>
+    <span class="week-note">Month closer — conversion push</span>
+  </div>
+  <div class="cal-grid">
+    <div class="cal-week">
+
+      <!-- May 29 Fri -->
+      <div class="cal-day">
+        <div class="day-num">29</div>
+        <div class="content-items">
+          <div class="post-item brand-hf" data-brand="hf" data-type="post" data-tooltip='{"brand":"Health Fields","product":"Slimcut Green Tea — summer weight angle","template":"T11","angle":"CONVERT","time":"7:30 AM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">Slimcut Green Tea</span>
+            <span class="template-badge">T11</span>
+          </div>
+          <div class="post-item brand-pusht" data-brand="pusht" data-type="post" data-tooltip='{"brand":"Pusht Organic","product":"Organic Flax Seeds — omega cold-pressed angle","template":"T6","angle":"EDUCATE","time":"12:00 PM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">Organic Flax Seeds</span>
+            <span class="template-badge">T6</span>
+          </div>
+          <div class="post-item brand-greendipz" data-brand="greendipz" data-type="story" data-tooltip='{"brand":"greendipz","product":"Story — weekend gravy idea","time":"8:00 PM"}'>
+            <span class="post-type-icon">S</span>
+            <span class="post-text">Weekend gravy idea</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- May 30 Sat -->
+      <div class="cal-day">
+        <div class="day-num">30</div>
+        <div class="content-items">
+          <div class="post-item brand-biomart" data-brand="biomart" data-type="post" data-tooltip='{"brand":"Biomart","product":"Biomart Seeds + Cookies weekend bundle","template":"T5","angle":"CONVERT","time":"7:30 AM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">Seeds + Cookies bundle</span>
+            <span class="template-badge">T5</span>
+          </div>
+          <div class="post-item brand-caveman" data-brand="caveman" data-type="post" data-tooltip='{"brand":"Caveman Organic","product":"Bakkit Coconut Cookies — weekend snack","template":"T9","angle":"RELATE","time":"12:00 PM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">Bakkit Coconut Cookies</span>
+            <span class="template-badge">T9</span>
+          </div>
+          <div class="post-item brand-caveman is-reel" data-brand="caveman" data-type="reel" data-tooltip='{"brand":"Caveman Organic","product":"Reel — Customer review real talk","template":"T23","angle":"CONVERT","time":"6:30 PM"}'>
+            <span class="post-type-icon">🎬</span>
+            <span class="post-text">Customer review Reel</span>
+            <span class="template-badge">T23</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- May 31 Sun -->
+      <div class="cal-day">
+        <div class="day-num">31</div>
+        <div class="content-items">
+          <div class="post-item brand-caveman" data-brand="caveman" data-type="post" data-tooltip='{"brand":"Caveman Organic","product":"Bakkit Fruit & Nut — month closer, sweet spot","template":"T1","angle":"CONVERT","time":"7:30 AM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">Bakkit Fruit & Nut</span>
+            <span class="template-badge">T1</span>
+          </div>
+          <div class="post-item brand-biomart" data-brand="biomart" data-type="post" data-tooltip='{"brand":"Biomart","product":"May closer — June preview teaser","template":"T20","angle":"CONVERT","time":"6:30 PM"}'>
+            <span class="post-type-icon">P</span>
+            <span class="post-text">May closer + June teaser</span>
+            <span class="template-badge">T20</span>
+          </div>
+          <div class="post-item brand-pusht is-reel" data-brand="pusht" data-type="reel" data-tooltip='{"brand":"Pusht Organic","product":"Reel — Customer review: cold pressed oil switch","template":"T34","angle":"CONVERT","time":"6:30 PM"}'>
+            <span class="post-type-icon">🎬</span>
+            <span class="post-text">Customer review Reel</span>
+            <span class="template-badge">T34</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Empty days to complete the row -->
+      <div class="cal-day empty"></div>
+      <div class="cal-day empty"></div>
+      <div class="cal-day empty"></div>
+      <div class="cal-day empty"></div>
+
+    </div>
+  </div>
+
+</div><!-- end grid-view -->
+
+<!-- List View -->
+<div class="list-view" id="list-view">
+  <div class="list-week-group">
+    <div class="list-week-title">Week 1 · May 1–7 · 🌍 Labour Day · 🕊️ Buddha Purnima</div>
+    <div class="list-day-row">
+      <div class="list-day-label">1<div class="list-day-name">Fri</div></div>
+      <div class="list-posts">
+        <div class="list-post-item brand-caveman" data-brand="caveman" data-type="post" style="border-left-color:#BE1A1A"><span class="list-brand-dot" style="background:#BE1A1A"></span><span class="list-type-tag" style="background:rgba(190,26,26,0.2);color:#F08080">POST</span><span class="list-product">Flax Amaranth Connection Cookies</span><span class="list-template">T40</span><span class="list-angle">ATTACK</span></div>
+        <div class="list-post-item brand-biomart" data-brand="biomart" data-type="post" style="border-left-color:#1B8A3E"><span class="list-brand-dot" style="background:#1B8A3E"></span><span class="list-type-tag" style="background:rgba(27,138,62,0.2);color:#6FCF97">POST</span><span class="list-product">Labour Day brand showcase</span><span class="list-template">T5</span><span class="list-angle">RELATE</span></div>
+        <div class="list-post-item brand-greendipz" data-brand="greendipz" data-type="story" style="border-left-color:#1FAD10"><span class="list-brand-dot" style="background:#1FAD10"></span><span class="list-type-tag" style="background:rgba(31,173,16,0.15);color:#7DEA70">STORY</span><span class="list-product">Schezwan weekend prompt</span><span class="list-template">—</span><span class="list-angle">CONVERT</span></div>
+      </div>
+    </div>
+    <div class="list-day-row">
+      <div class="list-day-label">2<div class="list-day-name">Sat</div></div>
+      <div class="list-posts">
+        <div class="list-post-item brand-hf" data-brand="hf" data-type="post" style="border-left-color:#007878"><span class="list-brand-dot" style="background:#007878"></span><span class="list-type-tag" style="background:rgba(0,120,120,0.2);color:#7DCCCC">POST</span><span class="list-product">Calming Chamomile Tea</span><span class="list-template">T11</span><span class="list-angle">RELATE</span></div>
+        <div class="list-post-item brand-greendipz" data-brand="greendipz" data-type="post" style="border-left-color:#1FAD10"><span class="list-brand-dot" style="background:#1FAD10"></span><span class="list-type-tag" style="background:rgba(31,173,16,0.15);color:#7DEA70">POST</span><span class="list-product">Salsa Mexicana 325g</span><span class="list-template">T8</span><span class="list-angle">RELATE</span></div>
+        <div class="list-post-item brand-caveman is-reel" data-brand="caveman" data-type="reel" style="border-left-color:#BE1A1A"><span class="list-brand-dot" style="background:#BE1A1A"></span><span class="list-type-tag" style="background:rgba(190,26,26,0.2);color:#F08080">🎬 REEL</span><span class="list-product">Real Ingredients Reel</span><span class="list-template">T29</span><span class="list-angle">ATTACK</span></div>
+      </div>
+    </div>
+    <div class="list-day-row">
+      <div class="list-day-label">4<div class="list-day-name">Mon</div></div>
+      <div class="list-posts">
+        <div class="list-post-item brand-hf" data-brand="hf" data-type="post" style="border-left-color:#007878"><span class="list-brand-dot" style="background:#007878"></span><span class="list-type-tag" style="background:rgba(0,120,120,0.2);color:#7DCCCC">POST</span><span class="list-product">Tulsi Green Tea — Buddha Purnima mindful</span><span class="list-template">T4</span><span class="list-angle">RELATE</span></div>
+        <div class="list-post-item brand-biomart" data-brand="biomart" data-type="post" style="border-left-color:#1B8A3E"><span class="list-brand-dot" style="background:#1B8A3E"></span><span class="list-type-tag" style="background:rgba(27,138,62,0.2);color:#6FCF97">POST</span><span class="list-product">Buddha Purnima brand post</span><span class="list-template">T17</span><span class="list-angle">RELATE</span></div>
+      </div>
+    </div>
+    <div class="list-day-row">
+      <div class="list-day-label">5<div class="list-day-name">Tue</div></div>
+      <div class="list-posts">
+        <div class="list-post-item brand-caveman" data-brand="caveman" data-type="post" style="border-left-color:#BE1A1A"><span class="list-brand-dot" style="background:#BE1A1A"></span><span class="list-type-tag" style="background:rgba(190,26,26,0.2);color:#F08080">POST</span><span class="list-product">Kodo Coco Fun Cookies</span><span class="list-template">T9</span><span class="list-angle">ATTACK</span></div>
+        <div class="list-post-item brand-pusht" data-brand="pusht" data-type="post" style="border-left-color:#2E8B2E"><span class="list-brand-dot" style="background:#2E8B2E"></span><span class="list-type-tag" style="background:rgba(20,60,40,0.4);color:#6FBF6F">POST</span><span class="list-product">Forest Honey 500g</span><span class="list-template">T4</span><span class="list-angle">EDUCATE</span></div>
+        <div class="list-post-item brand-biomart is-reel" data-brand="biomart" data-type="reel" style="border-left-color:#1B8A3E"><span class="list-brand-dot" style="background:#1B8A3E"></span><span class="list-type-tag" style="background:rgba(27,138,62,0.2);color:#6FCF97">🎬 REEL</span><span class="list-product">Weekly haul Reel</span><span class="list-template">T22</span><span class="list-angle">CONVERT</span></div>
+      </div>
+    </div>
+    <div class="list-day-row">
+      <div class="list-day-label">7<div class="list-day-name">Thu</div></div>
+      <div class="list-posts">
+        <div class="list-post-item brand-caveman" data-brand="caveman" data-type="post" style="border-left-color:#BE1A1A"><span class="list-brand-dot" style="background:#BE1A1A"></span><span class="list-type-tag" style="background:rgba(190,26,26,0.2);color:#F08080">POST</span><span class="list-product">Roasted Pumpkin Seeds</span><span class="list-template">T13</span><span class="list-angle">CONVERT</span></div>
+        <div class="list-post-item brand-biomart" data-brand="biomart" data-type="post" style="border-left-color:#1B8A3E"><span class="list-brand-dot" style="background:#1B8A3E"></span><span class="list-type-tag" style="background:rgba(27,138,62,0.2);color:#6FCF97">POST</span><span class="list-product">Dal + Masala combo</span><span class="list-template">T5</span><span class="list-angle">CONVERT</span></div>
+        <div class="list-post-item brand-pusht is-reel" data-brand="pusht" data-type="reel" style="border-left-color:#2E8B2E"><span class="list-brand-dot" style="background:#2E8B2E"></span><span class="list-type-tag" style="background:rgba(20,60,40,0.4);color:#6FBF6F">🎬 REEL</span><span class="list-product">Millet nutrition Reel</span><span class="list-template">T33</span><span class="list-angle">EDUCATE</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Tooltip -->
+<div class="tooltip" id="tooltip">
+  <div class="tt-brand" id="tt-brand"></div>
+  <div class="tt-product" id="tt-product"></div>
+  <div class="tt-row">
+    <span class="tt-tag" id="tt-template"></span>
+    <span class="tt-tag" id="tt-angle"></span>
+    <span id="tt-time" style="color:var(--accent);font-family:'DM Mono',monospace;font-size:10px"></span>
+  </div>
+</div>
+
+<script>
+  // ── Brand filter state ──
+  const activeFilters = { caveman: true, hf: true, pusht: true, greendipz: true, biomart: true };
+  let activeType = 'all';
+
+  function toggleBrand(brand, btn) {
+    activeFilters[brand] = !activeFilters[brand];
+    btn.classList.toggle('inactive', !activeFilters[brand]);
+    applyFilters();
+  }
+
+  function toggleType(type, btn) {
+    activeType = type;
+    document.querySelectorAll('.type-chip').forEach(c => c.classList.remove('active'));
+    btn.classList.add('active');
+    applyFilters();
+  }
+
+  function applyFilters() {
+    document.querySelectorAll('.post-item, .list-post-item').forEach(el => {
+      const brand = el.dataset.brand;
+      const type = el.dataset.type;
+      const brandOk = activeFilters[brand];
+      const typeOk = (activeType === 'all') || (type === activeType);
+      el.classList.toggle('hidden', !(brandOk && typeOk));
+    });
+  }
+
+  // ── View toggle ──
+  function switchView(view, btn) {
+    document.querySelectorAll('.view-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    if (view === 'grid') {
+      document.getElementById('grid-view').style.display = 'block';
+      document.getElementById('list-view').classList.remove('visible');
+    } else {
+      document.getElementById('grid-view').style.display = 'none';
+      document.getElementById('list-view').classList.add('visible');
+    }
+  }
+
+  // ── Tooltip ──
+  const tooltip = document.getElementById('tooltip');
+  const brandColors = {
+    caveman: '#F08080', hf: '#7DCCCC', pusht: '#6FBF6F', greendipz: '#7DEA70', biomart: '#6FCF97'
+  };
+  const brandNames = {
+    caveman: 'Caveman Organic', hf: 'Health Fields', pusht: 'Pusht Organic', greendipz: 'greendipz', biomart: 'Biomart'
+  };
+
+  document.querySelectorAll('.post-item[data-tooltip]').forEach(el => {
+    el.addEventListener('mouseenter', (e) => {
+      try {
+        const data = JSON.parse(el.dataset.tooltip);
+        document.getElementById('tt-brand').textContent = data.brand || brandNames[el.dataset.brand];
+        document.getElementById('tt-brand').style.color = brandColors[el.dataset.brand];
+        document.getElementById('tt-product').textContent = data.product;
+        document.getElementById('tt-template').textContent = data.template ? `Template ${data.template}` : '';
+        document.getElementById('tt-angle').textContent = data.angle || '';
+        document.getElementById('tt-time').textContent = data.time || '';
+        tooltip.classList.add('show');
+        moveTooltip(e);
+      } catch(err) {}
+    });
+    el.addEventListener('mousemove', moveTooltip);
+    el.addEventListener('mouseleave', () => tooltip.classList.remove('show'));
+  });
+
+  function moveTooltip(e) {
+    const x = Math.min(e.clientX + 16, window.innerWidth - 300);
+    const y = Math.min(e.clientY + 12, window.innerHeight - 120);
+    tooltip.style.left = x + 'px';
+    tooltip.style.top = y + 'px';
+  }
+</script>
+</body>
+</html>
