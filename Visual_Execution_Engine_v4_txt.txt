@@ -1854,3 +1854,35 @@ Comparison Table Architecture (S4):
   · Hairline forest green row dividers, cream-tinted cells
 Color World Rule: total monochromatic immersion within Forest Green #143C28 + Cream Ivory #FAFAD2 + Wheat Gold #8B6914 — no other colors permitted including sunflower yellow (muted to wheat gold tone)
 Reusable For: any Pusht educational/comparison carousel (oils, dals, millets, spices, honey); other Brahhm portfolio brands with palette swap (Caveman: Cave Red replaces gold on inverted dark; Health Fields: teal replaces forest green; Biomart: market green replaces forest green)
+
+────────────────────────────────────────────────────────────
+T65 — BOLD STREET EDITORIAL SPLASH (greendipz primary)
+────────────────────────────────────────────────────────────
+Assigned: 2026-06-27 | Brand: greendipz
+First use: Kung Pao Sauce 240g — 5-slide carousel ("5 ways you haven't tried")
+DNA Source: LATAM burger-brand 9-grid poster reference (reverse-engineered via Protocol 7)
+Layout Family: 5-slide 1:1 carousel alternating two world states
+  · RED World (S1, S3, S5): flat deep crimson red field, charcoal-red splash blob backdrop
+  · CREAM World (S2, S4): flat warm cream wheat-beige field, chocolate-brown splash blob backdrop
+Brand Signal Element: dark semi-transparent overlay chip ("WAY 01" through "WAY 05") at top-right of way slides — overrides the reference's solid yellow starburst chips per Protocol 6 color-world rule
+Hero Element: actual product jar (uploaded reference) sits centred or quadrant-positioned with 5–10° kinetic tilt, scale 55–60% canvas height, brass-gold cap fully lit, label crisp
+Splash Backdrop: single organic blob shape behind product, charcoal-red on RED world / chocolate-brown on CREAM world — never gradient, always flat
+Liquid Behaviour: single graceful sweeping sauce ribbon arc from jar mouth in one wide motion, mahogany Kung Pao tone, peanut flecks along ribbon edge — NEVER scattered droplets
+Ingredient Bed: mounded raised platform under jar (peanuts + chillies + schezwan pepper berries on hook slides, scene-specific veg/paneer/noodles on way slides) — peak ingredients sharp foreground, outer edges softer, NEVER scatter flat
+Typography System:
+  · 3-line stack with extreme size drama — small medium-line over small italic over LARGE dominant final line
+  · Bold condensed display sans-serif for medium and dominant lines
+  · Hand-drawn cursive italic for the connector small line
+  · White + cream-yellow accents on RED world; dark chocolate brown + Cave Red accents on CREAM world
+  · Mono small caps "//greendipz" tag tucked top-left of every slide
+  · Mono micro footer strip "biomart.in" reads as authenticity element (URL is OK in image footer per Protocol 6, not in caption per Rule 27)
+Color World Rule: total monochromatic immersion per slide — RED slides stay within crimson family (splash + ingredients + chips + footer all crimson-adjacent), CREAM slides stay within warm-cream family. White + cream-yellow are the ONLY allowed accents on RED. Cave Red is the ONLY contrasting accent on CREAM.
+NO DOTS RULE: zero full stops on any baked text — headlines, chips, footer micro, all dot-free
+Reusable For: any greendipz cuisine-led EDUCATE or RELATE carousel (Salsa Mexicana, Manchurian, Schezwan, Arrabbiata, Butter Chicken, Biryani gravy); palette swap for other brands (Caveman: Cave Red world only; Health Fields: teal world replaces RED; Biomart: market green replaces CREAM); also adapts as single-post 1:1 hero with same architecture
+Best For: bold flavour-first carousels, recipe/use-case discovery formats, scroll-stopper feed previews where alternating-world rhythm matters
+Format: 1:1 square, 1080×1080, GPT Image 2
+
+Last assigned template: T65 (Bold Street Editorial Splash — assigned June 27, 2026)
+Next new template: T66
+Total templates: 65 (T1-T55 static + GZ-1/GZ-2 + T56-T60 reel thumbnails + T61 hamper + T62 infographic + T63 benefit reveal + T64 certification card + T65 street editorial splash)
+================================================================================
