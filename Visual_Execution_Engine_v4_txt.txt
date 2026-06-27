@@ -1854,3 +1854,67 @@ Comparison Table Architecture (S4):
   · Hairline forest green row dividers, cream-tinted cells
 Color World Rule: total monochromatic immersion within Forest Green #143C28 + Cream Ivory #FAFAD2 + Wheat Gold #8B6914 — no other colors permitted including sunflower yellow (muted to wheat gold tone)
 Reusable For: any Pusht educational/comparison carousel (oils, dals, millets, spices, honey); other Brahhm portfolio brands with palette swap (Caveman: Cave Red replaces gold on inverted dark; Health Fields: teal replaces forest green; Biomart: market green replaces forest green)
+
+────────────────────────────────────────────────────────────
+T63 — WELLNESS BROCHURE PANEL CAROUSEL SYSTEM (HF Teal World)
+────────────────────────────────────────────────────────────
+Assigned: 2026-06-27 | Brand: Health Fields (primary) — adaptable to Pusht, Biomart, Caveman with palette swap
+First use: Organic Amaranth Atta (Rajgira) 500g — EDUCATE carousel (June 27 calendar slot)
+DNA Source: Lyfe Mushroom Coffee Amazon Listing Images Design mockup (reverse-engineered via Protocol 7)
+Layout Family: 5-slide 4:5 portrait carousel (1080×1350) — mixes lifestyle hero, vs comparison, nutrient callout, use grid, certification close
+
+SLIDE ARCHETYPE MAPPING (5 slides adapt 6 reference panels):
+  · S1 = Top hero + Panel 6   → Lifestyle hero with pack overlay + dark title block + paradigm hook
+  · S2 = Panel 3              → vs comparison — two cream cards with check/X pill chips
+  · S3 = Panel 2              → Central pack with 6 nutrient callouts radiating outward
+  · S4 = Panel 4              → 2×2 prep grid — recipe/use cases with caption strips
+  · S5 = Panel 5 + Panel 1    → Pack hero + 4 cream benefit pills + 3 circular trust badges + CTA strip
+
+UNIFYING SYSTEM ACROSS ALL 5 SLIDES:
+  · Deep teal background field (#003C32) as the floor
+  · Cream rounded panel cards as the content surface (warm off-white, soft drop shadow)
+  · Bold geometric all-caps sans headline + italic serif sub-headline on every slide
+  · Botanical chaulai sprig as recurring ornament curling into composition
+  · Vertical right-edge side strip: spaced caps in muted teal (brand·product name)
+  · Slide marker (02/05 etc.) in thin teal caps, top-right corner
+  · Pack never cropped — always upright, label fully lit
+  · Pack reveal on S1 + S3 + S5 only (middle slides S2 + S4 are pure design composition)
+
+TYPOGRAPHY SYSTEM (3-tier on every slide):
+  · Eyebrow: small spaced caps — ORGANIC EDUCATION / THE REFRAME / INSIDE THE GRAIN / HOW TO USE IT / THE PROOF
+  · Headline: bold geometric sans, all caps, teal (or cream on dark blocks), dominant scale
+  · Italic serif sub-headline: warm-gold accent, editorial warmth
+  · Footer line: single italic serif statement, no dot at end
+
+CHIP / BADGE SYSTEM:
+  · Dark grey pill chips with × glyph for "what's wrong" comparison side (S2 left card)
+  · Deep teal pill chips with ✓ glyph for "what's right" comparison side (S2 right card)
+  · Cream pill chips with thin teal border and small leaf glyph for benefit list (S5)
+  · Large round cream circle badges with leaf icon glyph for trust signals (S5)
+  · Small round cream-with-teal-border badges with leaf glyph for certification row (S3 footer)
+
+COLOR WORLD RULE: Total monochromatic immersion within Deep Teal #003C32 + Cream Ivory + Warm Gold accent only. No competing bright colours anywhere. Even food photography inside S4 cards reads in warm cream-gold tones — no green vegetables, no bright sauces.
+
+LIGHTING:
+  · Lifestyle slides (S1, S5): Kodak Portra 400 warmth, golden hour kitchen light, ARRI-quality warm key + cool teal ambient fill
+  · Design slides (S2, S4): clean editorial layout, soft even lighting, subtle card drop shadows
+  · Callout slide (S3): soft studio key on pack, botanical-art-plate clean illustration register
+
+NO DOTS RULE: No full stops at end of any headline, label, chip, caption strip, or CTA across all 5 slides.
+
+PROTOCOL 3 INTEGRATION: Chip content is verified-claims-only. Reference's therapeutic chip language ("Immune Support", "Reduces Stress", "Improves Digestion") is replaced with nutrient/processing/certification language. Therapeutic claims are explicitly excluded in the prompts.
+
+REUSABLE FOR:
+  · Any Health Fields EDUCATE carousel where the angle benefits from a reframe + nutrient reveal + use cases + certification close
+  · Adaptable to Pusht (swap deep teal for #143C28 forest green, keep cream + warm gold)
+  · Adaptable to Biomart (swap deep teal for #00A050 market green + #B49664 warm gold)
+  · Caveman: NOT directly adaptable — the warmth/cream world conflicts with Cave Red brand DNA
+
+PALETTE SWAP CHEAT-SHEET:
+  · Health Fields (default): Deep Teal #003C32 + Cream Ivory + Warm Gold
+  · Pusht: Forest Green #143C28 + Cream Ivory + Warm Gold
+  · Biomart: Market Green #00A050 + Cream Ivory + Warm Gold #B49664
+
+Last assigned template: T63 (Wellness Brochure Panel Carousel — assigned June 27, 2026)
+Next new template: T64
+Total templates: 63 (T1-T55 static + GZ-1/GZ-2 + T56-T60 reel thumbnails + T61 hamper + T62 infographic + T63 brochure carousel)
