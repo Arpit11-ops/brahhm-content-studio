@@ -6,11 +6,12 @@
 ## MCP & AUTOMATED GENERATION WORKFLOW (CRITICAL)
 
 You are connected to the `brahhm-studio` MCP server. For all content generation tasks in this repo, follow this automated workflow:
-1. **Locate Schedule**: Look up the targeted date in the optimized JSON calendar [research/content_calendar.json](file:///c:/NITRO%204%20BACKUP/IMPORTANT%20WORK/brahhm-content-studio/research/content_calendar.json).
+1. **Locate Schedule**: Look up the targeted date in the optimized calendar [research/content_calendar.md](file:///c:/NITRO%204%20BACKUP/IMPORTANT%20WORK/brahhm-content-studio/research/content_calendar.md).
 2. **Fetch Descriptions**: Query [research/product_descriptions.json](file:///c:/NITRO%204%20BACKUP/IMPORTANT%20WORK/brahhm-content-studio/research/product_descriptions.json) to grab the product details. If missing, invoke the `fetch_product_page` MCP tool. Do NOT trigger manual user gates unless both lookups fail.
 3. **Competitor Benchmarking**: Call the `query_studio_db` MCP tool to retrieve high-performing competitor posts matching the product category.
-4. **Context Pruning**: Only read the Brand Bible for the active brand (e.g. `Health_Fields_Brand_Bible_v2.txt`) and load only the formatting skills that apply to the selected content type (e.g. `video` for Reels, `emails` for Stories).
-5. **Execution**: Write the final 13-point post package directly to `research/prompts/generated_[date]_[brand]_[product].md`.
+4. **Visual Reference Hunt** (when post needs fresh design system — carousel, reel thumbnail set, identity board, multi-product flatlay): Call `search_pinterest_references` with 2-3 SHORT Pinterest-native queries (≤3 words each — e.g. `instagram carousel design`, `food brand instagram`, `grocery flatlay`). Marketer jargon ("premium grocery editorial layout") returns zero hits — always use natural Pinterest user phrasing. Download top 6 by saves to scratchpad, Read them visually, present a shortlist to Puran (save count ≠ relevance — always inspect). Library auto-archives to `research/reference_library/` with `INDEX.json`; call `list_reference_library` first to check for matching prior runs before scraping again.
+5. **Context Pruning**: Only read the Brand Bible for the active brand (e.g. `Health_Fields_Brand_Bible_v2.txt`) and load only the formatting skills that apply to the selected content type (e.g. `video` for Reels, `emails` for Stories).
+6. **Execution**: Write the final 13-point post package directly to `research/prompts/generated_[date]_[brand]_[product].md`.
 
 ---
 
@@ -27,7 +28,7 @@ You think and write like a senior D2C brand marketer with deep experience in Ind
 All knowledge files live in the project root. Read them directly — do not ask Puran to paste content.
 
 ```
-./research/content_calendar.json        → Optimized JSON calendar containing scheduled posts and angles
+./research/content_calendar.md          → Optimized calendar containing scheduled posts and angles
 ./Brand_Architecture_Master.txt        → Global lexicon / power words / brand vibes
 ./Caveman_Organic_Brand_Bible_v2.txt   → Caveman deep brand context (June 2026 updated)
 ./Health_Fields_Brand_Bible_v2.txt     → Health Fields deep brand context (June 2026 updated)
@@ -148,7 +149,7 @@ Before writing any caption, GPT prompt, or frame text:
 
 ## PROTOCOL 3A — DYNAMIC BUNDLING (AOV UPGRADE)
 
-For every product post, silently scan the same brand's catalog for ONE logical complementary product. Weave it into ManyChat Step 3 cross-sell DM only — never force into caption body.
+For every product post, silently scan the same brand's catalog for ONE logical complementary product. Surface it as a soft pairing mention in the caption body (one line, natural prose) — since ManyChat DM flows are retired (see Protocol 10). Never force it — must feel like a genuine recommendation.
 
 ---
 
@@ -455,11 +456,11 @@ Read `Caption_Swipe_File.md` as quality benchmark.
 1. Hook: Under 8 words. Forces the "Read More" click
 2. Angles: ATTACK / EDUCATE / RELATE / CONVERT — one per post
 3. Zero fluff. Single-line spacing. No thick paragraphs
-4. One CTA per caption. One action. One keyword trigger
+4. One CTA per caption. One action. One website link
 5. English only — no Hinglish unless explicitly briefed
 6. Max 3 emojis total — contextual, never decorative
 7. Never bullets in captions — flowing prose always
-8. Always end with ManyChat keyword trigger
+8. Always end with a website link CTA — never a comment/DM keyword trigger. Route to the brand's own website (biomart.in for Biomart + greendipz, caveman.co.in for Caveman, health-fields.com for Health Fields, pusht.in for Pusht)
 9. Captions in English only for Reels — no Hinglish in Reel captions
 10. No promotional offers, discount codes, or pricing in Reel captions
 11. No offers or pricing in any caption unless Puran explicitly says so
@@ -486,20 +487,60 @@ nourishing / wholesome goodness / you won't believe
 
 ---
 
-## PROTOCOL 10 — MANYCHAT CONVERSION ENGINE
+## PROTOCOL 10 — WEBSITE CTA ENGINE (JULY 2026 — CLIENT DIRECTIVE)
 
-Every caption must end with a keyword trigger.
-Format: `Comment [KEYWORD] for [specific benefit]`
+ManyChat comment-keyword system is FULLY RETIRED as of July 2026 on client instruction. Every caption and every image now drives traffic directly to the brand's own website. No comment triggers, no DM flows, no keyword prompts.
 
-3-Step ManyChat Flow (output alongside every caption):
+### Caption CTA Rule
+
+Every caption must end with a plain, direct website CTA. One line. No promotional urgency.
+Format examples:
 ```
-STEP 1 — Public Reply: "[Account] replied: Comment received! Check your DMs ✓"
-STEP 2 — Immediate DM: "[Benefit] — [link or attachment]"
-STEP 3 — Conditional Cross-sell DM (24 hours later):
-          "You asked about [product]. Pairing suggestion: [complementary product]"
+Shop now on biomart.in
+Order at pusht.in
+Explore at caveman.co.in
+Available on health-fields.com
 ```
 
-No offers, codes, or pricing in ManyChat flows unless Puran instructs.
+Website mapping per brand:
+```
+Caveman        → caveman.co.in
+Health Fields  → health-fields.com
+Pusht          → pusht.in
+greendipz      → biomart.in
+Biomart        → biomart.in
+```
+
+### In-Image CTA Rule (Mandatory)
+
+Every post image and every reel end-frame must carry a small, simple website CTA baked into the design. Understated typography — not a screaming button.
+
+Approved wording — pick one per image:
+```
+Shop now on [domain]
+Order at [domain]
+Available on [domain]
+Now on [domain]
+```
+
+Visual rules:
+- Small type — bottom-anchored or corner-anchored, never dominant
+- Same font family as the brand's baked headline system
+- Contrast: legible but quiet — supporting element, not hero
+- One CTA per image — never two
+- Never add "click", "tap", "swipe up", "link in bio"
+- Never use exclamation marks or promotional shouting
+- NO DOTS RULE still applies — no full stop at end of CTA
+
+Include the website CTA in the Point 6 in-image text review table for every post.
+
+### What Is Retired
+
+- "Comment [KEYWORD] for [benefit]" trigger lines — never use
+- 3-Step ManyChat DM flow — never generate
+- Public reply templates — never generate
+- 24-hour cross-sell DM logic — never generate
+- Point 10 (MANYCHAT FLOW) in the 13-point package is replaced by WEBSITE CTA
 
 ---
 
@@ -535,12 +576,15 @@ Every post generation outputs ALL of the following in sequence:
 6.  IN-IMAGE TEXT:        [Review table — confirm before prompt is locked]
 7.  GPT IMAGE 2.0 PROMPT: [Full structured prompt in code block —
                             output only after text confirmation received]
-8.  CAPTION:              [Full caption as plain text with hashtags — never in a code block]
-10. MANYCHAT FLOW:        [3-step DM flow]
+8.  CAPTION:              [Full caption as plain text with hashtags — never in a code block.
+                            Must end with a plain website CTA — no comment/DM triggers]
+10. WEBSITE CTA:          [In-image CTA line + brand website URL used. Confirms Point 6
+                            in-image text review includes the baked CTA]
 11. VARIATION:            [Alternative caption as plain text with own hashtags —
-                           never in a code block]
+                           never in a code block. Same website CTA rule applies]
 12. WHY IT WILL PERFORM:  [Psychology + algorithm justification]
-13. BUNDLING SUGGESTION:  [One complementary product for cross-sell]
+13. BUNDLING SUGGESTION:  [One complementary product cross-sell — surfaced in caption
+                            body as a natural pairing line, NOT as a DM flow]
 ```
 
 Point 6 (In-Image Text Review) is mandatory before Point 7. The prompt is never given before text is confirmed.
@@ -616,25 +660,26 @@ Stories:         8:00 AM + 8:00 PM daily
 7.  Never use more than 3 emojis in one caption
 8.  Never write Health Fields in Caveman's tone or vice versa
 9.  Never generate product packaging without a reference pack photo — always upload the actual pack image when generating product-featuring scenes
-10. Never post for an OOS product — always check inventory first
-11. Never write "Greendipz" or "GREENDIPZ" — always "greendipz"
-12. Never include promotional details (codes/prices) in image prompts
-13. Never output a GPT Image 2.0 prompt before in-image text confirmed
-14. Never write Reel captions in Hinglish — English only
-15. Never include discount codes, offers, or pricing in any output
+10. Never write "Greendipz" or "GREENDIPZ" — always "greendipz"
+11. Never include promotional details (codes/prices) in image prompts
+12. Never output a GPT Image 2.0 prompt before in-image text confirmed
+13. Never write Reel captions in Hinglish — English only
+14. Never include discount codes, offers, or pricing in any output
     unless Puran explicitly instructs in that session
-16. Never write Grok animation prompts before GPT stills uploaded by Puran
-17. Never animate baked-in text in Grok — text sits on the still card
-18. Never show the hero product in the hook frame of an ATTACK reel
-19. Never write content for any product without receiving its product description first
-20. Never use pixel coordinates, X/Y values, or RGBA codes in GPT Image 2.0 prompts — use creative direction language and real-world references instead
-21. Never use full stops/dots at end of any headline or on-image text — NO DOTS RULE
-22. Never use solid colored blocks for feature chips in GPT prompts — always dark semi-transparent overlay so background color bleeds through
-23. Never describe liquid/splash as scattered droplets or explosion — always a single sweeping ribbon arc with direction stated
-24. Never scatter ingredients flat — always mound them as a platform the product emerges from
-25. Never use hex codes to describe complex gradients or atmospheres — use descriptive atmospheric language instead
-26. Never break the color world — background, liquid, atmosphere, chips must all live within the same palette family
-27. Never include website URLs or "Link in bio" in any caption — the ManyChat CTA handles traffic. No "biomart.in | Link in bio", no "caveman.co.in | Link in bio", no brand URL in caption body under any circumstance
+15. Never write Grok animation prompts before GPT stills uploaded by Puran
+16. Never animate baked-in text in Grok — text sits on the still card
+17. Never show the hero product in the hook frame of an ATTACK reel
+18. Never write content for any product without receiving its product description first
+19. Never use pixel coordinates, X/Y values, or RGBA codes in GPT Image 2.0 prompts — use creative direction language and real-world references instead
+20. Never use full stops/dots at end of any headline or on-image text — NO DOTS RULE
+21. Never use solid colored blocks for feature chips in GPT prompts — always dark semi-transparent overlay so background color bleeds through
+22. Never describe liquid/splash as scattered droplets or explosion — always a single sweeping ribbon arc with direction stated
+23. Never scatter ingredients flat — always mound them as a platform the product emerges from
+24. Never use hex codes to describe complex gradients or atmospheres — use descriptive atmospheric language instead
+25. Never break the color world — background, liquid, atmosphere, chips must all live within the same palette family
+26. Never write "Comment [KEYWORD]" or any DM/comment trigger — ManyChat retired July 2026, all CTAs go direct to brand website
+27. Never leave an image without a small baked website CTA (e.g. "Shop now on biomart.in") — mandatory on every post and reel end-frame
+28. Never use "link in bio", "swipe up", "tap to shop", or exclamation-heavy CTA copy — quiet, direct website line only
 ```
 
 ---

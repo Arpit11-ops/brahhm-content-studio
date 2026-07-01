@@ -1854,3 +1854,185 @@ Comparison Table Architecture (S4):
   · Hairline forest green row dividers, cream-tinted cells
 Color World Rule: total monochromatic immersion within Forest Green #143C28 + Cream Ivory #FAFAD2 + Wheat Gold #8B6914 — no other colors permitted including sunflower yellow (muted to wheat gold tone)
 Reusable For: any Pusht educational/comparison carousel (oils, dals, millets, spices, honey); other Brahhm portfolio brands with palette swap (Caveman: Cave Red replaces gold on inverted dark; Health Fields: teal replaces forest green; Biomart: market green replaces forest green)
+
+
+--- T66 — Number-Stack Product Hero (Reel) ---
+Assigned: 2026-06-29
+Brand: Health Fields
+Product: A2 Desi Cow Ghee 500ml
+Use case: Reel stills, 9:16, EDUCATE + product showcase angle
+Color world: warm cream / golden ghee / HF teal #1A6B5A / warm charcoal
+Single-act stillness: front-of-pack jar centred every frame, oversized numerical text reveals (1 / 3 / 23) build the literacy beats
+Typography: HF stamp echo — oversized sturdy serif numerals for hero stat, lighter serif caps for sub-labels, editorial italic for closer
+Notes: Product-worship reel. Front of pack ONLY across all frames. 6 frames, ~20 sec total. Aesop window aesthetic. Silent (text + SFX bed). Reusable for any HF hero-SKU showcase by swapping the three numbers.
+
+
+--- T67 — Heritage Editorial Stack ---
+Assigned: 2026-06-29
+Brand: Health Fields (primary) — palette-swappable for HF Rozana, Pusht heritage moments, Biomart trust posts
+First use: Kabirdas Jayanti "23 years, same standard, no shortcuts" 5-slide carousel
+Format: 5-slide 4:5 portrait carousel (1080 x 1350)
+DNA Source: Original — Aesop apothecary catalogue x Indian Coffee House menu, type-as-hero editorial system
+Color world: Total teal monochrome immersion — deep teal #003C32 edges breathing to warmer teal #007878 (Firefly-safe HF teal) at the centre. Cream #F5F2E8 reserved for type. Single muted brick-red accent on one emphasis word per slide. No other colour permitted.
+Typography system: Three typefaces stacked.
+  · Editorial serif (Canela / Saol Display feel) — oversized for headlines, italic variant for emphasis lines
+  · Tracking-wide small all-caps sans serif — eyebrows, footers, brand locks, ManyChat triggers
+  · Small italic editorial serif — sub-headlines and pull-quotes
+Slide architecture (continuous teal world across all five slides, halation position shifts to anchor the headline):
+  S1 — COVER: 3-line stacked headline centre-dominant, eyebrow top, sub below headline, brand lock bottom, single dried tulsi leaf bottom-right anchor
+  S2 — BEGINNING: 3-line headline left-aligned, body italic below, founder credit line in small caps at bottom, tulsi leaf moves to top-right for continuity
+  S3 — STACK: 3-line headline upper third, six-row certification list with hairline cream dividers running full type-column width, italic footer at bottom — no props on this slide
+  S4 — EVERY BATCH: 3-line headline left-aligned (giant cream / italic brick-red / giant cream), italic sub below, narrow vertical product strip down right edge showing front-of-pack hero (Rozana Forest Honey or chosen HF SKU)
+  S5 — KABIR LENS + CTA: 4-line italic pull-quote centre-dominant, two-line CTA below, ManyChat trigger in small caps at bottom, single handloom cotton cloth photographic anchor along the bottom edge
+Rules: NO DOTS at end of any text line on any slide. No certification logos as graphics (text only). No FSSAI licence number, no URL, no QR code, no price, no promotional callouts in any slide. Brand UI exception not applicable — palette is strict teal-monochrome.
+Reusable for: Heritage / trust / certification carousels for any brand by palette swap. Pusht: forest green replaces teal, wheat gold replaces brick-red. Biomart: market green replaces teal, warm gold replaces brick-red. Caveman: charcoal black replaces teal, cave red replaces brick-red. Health Fields Rozana: warmer teal centre, ochre accent.
+
+Last assigned template: T67 (Heritage Editorial Stack — assigned 2026-06-29)
+Next new template: T68
+
+
+--- T68 — Hook Accusation Cover (Caveman) ---
+Assigned: 2026-06-30
+Brand: Caveman Organic (primary)
+First use: Millet Era Cookies "Biscuits Pretending To Be Biscuits" 5-slide carousel — Slide 1
+Format: 1080 x 1080 1:1 square carousel cover
+DNA Source: Original — Fear of God Essentials lookbook x 35mm Kodak Portra 800 food editorial, Axion supplement reference adapted
+Color world: Total Cave Red monochrome — jet black #1A1A1A bleeds to oxblood Cave Red #D20000 mist at all four corners. Bone white #F5F1E8 for type. No other colour.
+Typography: Heavy condensed italic sans, stacked 3-line headline with the third (dominant) line in Cave Red at 1.4x scale. Tracked small caps eyebrow, thin tracked caps bottom strip.
+Notes: Hook frame attacks without showing product — pack lives right-side hero scale. PRODUCT SHAPE HARD CONSTRAINT block mandatory for horizontal rectangular box packs. NO DOTS. Upload pack front photo always.
+
+--- T69 — Exhibit A Ingredient Datablock (Caveman) ---
+Assigned: 2026-06-30
+Brand: Caveman Organic (primary) — palette-swappable for any brand attacking competitor ingredients
+First use: Millet Era Cookies carousel — Slide 2 typical-biscuit label exposure
+Format: 1080 x 1080 1:1 square carousel slide
+DNA Source: Original — investigative documentary insert, chemistry datasheet visual language
+Color world: Cave Red #D20000 / jet black #1A1A1A / bone white #F5F1E8 only
+Typography: Tracked small caps eyebrow in dim Cave Red, heavy italic bone-white headline, mono-spaced small bone-white type for the ingredient datablock, italic Cave Red highlight strip below
+Notes: No product, no models — pure type frame. Datablock sits inside implied dark semi-transparent field, background bleeds through. NO DOTS. Reusable for any competitor-ingredient exposure post.
+
+--- T70 — Our Label Calm Reveal (Caveman) ---
+Assigned: 2026-06-30
+Brand: Caveman Organic (primary) — palette-swappable for all 5 brands
+First use: Millet Era Cookies carousel — Slide 3 our ingredient list
+Format: 1080 x 1080 1:1 square carousel slide
+DNA Source: Original — premium spec-sheet editorial, the calm exhale after T69's accusation
+Color world: Cave Red #D20000 / jet black #1A1A1A / bone white #F5F1E8 only
+Typography: Tracked small caps eyebrow bone white, heavy italic Cave Red dominant headline, clean modern serif bone-white ingredient list with one ingredient per line, italic bone-white footer strip
+Notes: Pairs with T69 — the contrast slide. NO DOTS. Reusable for any brand's transparency reveal by palette swap.
+
+--- T71 — Caveman Difference Comparison Table ---
+Assigned: 2026-06-30
+Brand: Caveman Organic (primary) — palette-swappable for all 5 brands
+First use: Millet Era Cookies carousel — Slide 4 us-vs-them table
+Format: 1080 x 1080 1:1 square carousel slide
+DNA Source: Adapted from Axion Performance Whey comparison panel + Fear of God brand book
+Color world: Cave Red #D20000 (our-column semi-transparent vertical band + headline accent) / jet black #1A1A1A / bone white #F5F1E8
+Typography: Heavy italic bone-white headline with one word in oversized Cave Red italic, tracked caps subhead, tracked caps column headers and row labels, mixed-case cell values
+Layout: Four columns total — row-label rail + 3 product columns. Five rows. Our column carries Cave Red semi-transparent vertical band, never solid block.
+Notes: Saveable utility — saves are the algorithm signal we are buying. NO DOTS. Reusable for any us-vs-them comparison across brands by palette swap.
+
+--- T72 — CTA Close on Ingredient Bed (Caveman) ---
+Assigned: 2026-06-30
+Brand: Caveman Organic (primary)
+First use: Millet Era Cookies carousel — Slide 5 keyword CTA close
+Format: 1080 x 1080 1:1 square carousel close
+DNA Source: Original — Fear of God Essentials lookbook x 35mm Kodak Portra 800 food editorial with mounded ingredient platform (not flat scatter)
+Color world: Cave Red #D20000 / jet black #1A1A1A / bone white #F5F1E8 only — ingredient bed reads warm bone within the same palette
+Typography: Stacked 2-line headline with Cave Red dominant second line at 1.4x scale, tracked caps subhead, italic bottom-strip keyword CTA
+Notes: Pack mounded on foxtail millet + almond + cashew bed — peak grains sharp, outer edges softer, vertical lift. PRODUCT SHAPE HARD CONSTRAINT mandatory. NO DOTS. Upload pack front photo always.
+
+Last assigned template: T72 (CTA Close on Ingredient Bed — assigned 2026-06-30)
+Next new template: T73
+
+--- T73 — Curation Haul Carousel (Biomart) ---
+Assigned: 2026-06-30
+Brand: Biomart (primary) — palette-swappable for any Brahhm portfolio brand running a multi-product haul / curation post
+First use: Month-End Pantry Restock — July curation carousel (Pusht + Caveman + greendipz across 5 slides)
+Format: 5-slide 1:1 square carousel (1080 x 1080)
+DNA Source: Forked from T61 Botanical Listing (Cream + Inverted Hybrid). Palette swap: Pusht forest-green → Biomart market-green #1B8A3E, wheat-gold → Biomart organic gold #8B6427. Tonal anchor: Enka Filipino Food Social Media Kit (Pinterest ref, cream + sage editorial). Structural anchor: Burbun croissant brand carousel (multi-frame brand cohesion across one color world).
+Color world: Total monochromatic immersion — Warm Ivory #FBF5E6 / Forest Green #1B8A3E / Warm Gold #8B6427. No other colour permitted outside natural product label colours.
+Cohesion device: Solid warm-gold "JULY EDIT" pill (or equivalent seasonal pill — "AUGUST EDIT", "FESTIVE EDIT", "MONSOON EDIT") top-left every slide — single solid pill exception to the dark-overlay rule. Use slide-by-slide-consistent eyebrow text to make 5 frames read as one brand system.
+Typography system: Two-tone serif headline pattern — supporting word in cream/forest-green, dominant final word in warm gold at 1.4x scale. Tracked small caps sans for subline + brand stamp. Monospace footer "biomart.in" (or relevant brand URL) every slide.
+Slide architecture (cream / inverted-dark / cream / inverted-dark / cream rhythm):
+  S1 — COVER: Type-dominant, cream ground, one delicate botanical herb sketch in faint warm gold, headline left, pill top-left, biomart.in footer
+  S2 — INVERTED DARK CATEGORY 1: Forest green wall + warm walnut wood plinth, products upright on plinth with left third clean for headline, brand stamp bottom-right
+  S3 — CREAM CATEGORY 2: Cream linen tabletop, products laid horizontal on linen with left third clean for headline, brand stamp bottom-right
+  S4 — INVERTED DARK CATEGORY 3: Forest green wall + warm walnut wood plinth, products upright in line-up with left third clean for headline, brand stamp bottom-right
+  S5 — CLOSE + CTA: Type-dominant cream ground, three delicate botanical herb sketches scattered minimal, headline centred, dominant solid forest-green CTA strip bottom band with "OPEN biomart.in" cream caps centred
+Rules:
+  · NO DOTS at end of any text line on any slide
+  · No FSSAI licence number, no QR code, no price, no offer code, no second pill, no solid colour chips other than the JULY EDIT pill and S5 CTA strip
+  · No products in S1 or S5 (type-only frames)
+  · Category slides (S2/S3/S4) require uploaded pack photos per Rule 9 — flag every upload in prompt output
+  · PRODUCT SHAPE HARD CONSTRAINT block mandatory for any product slide — bottles upright zero tilt, boxes horizontal preserve rectangular silhouette, pouches upright no slump
+  · Brand stamp position bottom-right enforces curator framing (Biomart is the chooser, not the shelf)
+  · greendipz brand stamp must read lowercase always
+Reusable for: any Biomart curation / haul / monthly-restock carousel; adaptable to Pusht, Caveman, Health Fields, greendipz multi-product showcases by palette swap (Caveman: Cave Red replaces gold on inverted dark; Health Fields: teal replaces forest green; Pusht: deeper forest green; greendipz: bold red accent replaces gold).
+
+Last assigned template: T73 (Curation Haul Carousel — assigned 2026-06-30)
+Next new template: T74
+
+--- T74 — Radial Benefit Data Carousel (Pusht) ---
+Assigned: 2026-07-01
+Brand: Pusht Organic (primary) — palette-swappable for all 5 brands
+First use: Cold-Pressed Groundnut Oil "5 things your doctor checks in cooking oil" carousel — July 1 National Doctor's Day
+DNA Source: Reverse-engineered via Protocol 7 from an uploaded Grüns supplement-gummy carousel ad reference. Structural elements adopted: numbered corner pagination tabs, hub-and-spoke icon-radiate diagram with connector lines, circular ring badge device, single-column checkmark list, one solid CTA banner strip. Color world and dark/dramatic mood explicitly NOT adopted — reference reads as Caveman-adjacent near-black + neon gold, which is banned for Pusht under the Brand-Bible Override Rule ("bold reds, blacks, dark dramatic aesthetics"). Structure only, palette translated to brand's own system.
+Format: 5-slide 1:1 square carousel (1080 x 1080)
+Layout Family: Hub-and-spoke + numbered data-slide system
+  · S1 COVER: numbered tab "1", 2-line stacked headline (line 2 dominant accent), 3-item icon benefit list, no product — narrative rule keeps product off hook/problem slides
+  · S2 HUB-AND-SPOKE: product centered on inverted-dark ground, connector lines radiating to 5 icon+label callouts, numbered tab "2"
+  · S3 CERTIFICATION RINGS: circular ring badges displaying real verified certifications/claims only — never fabricated survey percentages. This is the Protocol-3-compliant substitute for the reference's stat-ring device, which showed invented customer-survey numbers
+  · S4 CHECKMARK LIST: single-column checkmark rows, bold claim + light sub-line, numbered tab "4"
+  · S5 CLOSE + CTA: solid-color CTA strip (one-pill exception), numbered tab "5", ManyChat keyword trigger — never a shop/buy button per Protocol 5/9
+Color World Rule: Total monochromatic immersion within the brand's own 3-color system (Pusht: Forest Green #143C28 / Cream Ivory #FAFAD2 / Wheat Gold #8B6914). Numbered tabs and callout chips are dark semi-transparent overlays only, except the single S5 CTA strip, which carries the one-solid-block exception already established in T61/T73.
+Typography System: Two-line stacked headline, line 2 dominant in accent color at 1.4x scale, bold editorial serif echoing the brand's own logo lettering — typography style stays brand-native; only the size hierarchy and pagination/hub-and-spoke logic is adopted from the reference.
+Rules: NO DOTS on any in-image text. No fabricated statistics, survey data, or customer-count/rating badges — every number must be independently verifiable (certification names, not percentages). No solid color chips anywhere except the single S5 CTA strip. PRODUCT SHAPE HARD CONSTRAINT block mandatory on any product slide — reproduce uploaded pack photo exactly, upright, zero tilt. Upload pack front photo flagged per slide requiring it.
+Reusable for: any brand's educational/checklist/certification carousel by palette swap — Caveman: Cave Red replaces gold (only brand where the reference's darker mood could sit closer to source); Health Fields: teal replaces forest green; Biomart: market green replaces forest green; greendipz: bold red accent, lowercase brand stamp mandatory.
+
+Last assigned template: T74 (Radial Benefit Data Carousel — assigned 2026-07-01)
+Next new template: T75
+
+--- T75 — Modular Listing Carousel (Amazon A+ x Apothecary) ---
+Assigned: 2026-07-01
+Brand: Pusht Organic (primary) — palette-swappable across all 5 brands
+First use: National Doctor's Day Groundnut Oil "5 things your doctor checks in cooking oil" 5-slide carousel (July 1 calendar slot). Puran flagged this as the best-performing carousel design to date.
+Format: 5-slide 1:1 square carousel (1080 x 1080)
+DNA Source: Amazon A+ premium listing page (Puran-supplied alpha GPC supplement reference), reverse-engineered via Protocol 7. Real-world anchor: Amazon A+ listing meets Whole Foods private-label editorial × Indian organic apothecary. Emotional theme: clinical trust for the Indian kitchen.
+Layout Family: modular multi-module-per-slide grid — each slide reads as a whole utility page, not a single-idea decoration. Every slide sits on a warm cream ivory ground with faint groundnut/brand-relevant foliage watermark drifting from left and right edges.
+Color World (Pusht default): Forest Green #143C28 / Cream Ivory #FAFAD2 / Wheat Gold #8B6914 / Warm Charcoal #2A2A2A. Total monochromatic immersion — no other colour permitted outside the product label's own reproduced palette and any warm documentary tones inside lifestyle vignettes.
+Palette swap protocol: Caveman → Cave Red replaces wheat gold as the accent; Health Fields → teal replaces forest green (charcoal + brick-red accents optional); Biomart → market green #1B8A3E replaces forest green, organic gold #8B6427 replaces wheat gold; greendipz → bold red accent replaces wheat gold, keep forest-green trust ribbon, lowercase brand stamp mandatory.
+Typography System: Bold condensed sans for module headlines, always two-tone — supporting words in warm charcoal, dominant final word/line 1.4x scale in the accent color. Tracked wide small caps sans for eyebrows, chip labels, ribbon pillars, step labels. Wheat gold serif reserved for numerals only (01/02/03 step cards, occasion tribute date) and the reproduced product label. No serif fonts anywhere else.
+
+Slide architecture (5-slide fixed sequence):
+  S1 — HERO + TOP RIBBON + OCCASION TRIBUTE CORNER CARD: Solid forest-green top ribbon full-width carrying 3-4 cream all-caps trust chips separated by circle bullets (e.g. "SINCE 2003 · PGS-INDIA · JAIVIK BHARAT · COLD PRESSED"). Cream corner card top-right with hairline wheat-gold border holds occasion/tribute in three stacked lines (eyebrow caps, oversized wheat gold serif date, tracked small caps closer). Hero product upright center-right on cream marble plinth with real ingredients mounded around base as small platform (never flat scatter). Four-line stacked headline left of product, dominant final line in wheat gold at 1.4x. Three solid forest-green pill benefit chips stacked vertically beside headline, each with wheat gold circular icon left of cream caps text. Row of 3 inline icon-plus-caps trust chips beneath the product.
+  S2 — N-POINT AUDIT CIRCLE DIAGRAM: Two-tone header top ("[N-POINT] [SUBJECT] AUDIT"). Product centered on small cream podium at heart of a hairline forest-green circular ring. Five (or N) solid forest-green circle badges evenly spaced around ring perimeter, each carrying a wheat gold line-icon inside and a tracked forest-green caps label sitting just outside the ring. Italic small-caps sub-line at bottom of module.
+  S3 — CLEAN METHOD + LIFESTYLE (TWO-PANEL): Split vertically. Left panel: cream-tinted rounded card with two-tone bold-sans header ("CLEAN INGREDIENTS / TRADITIONAL METHOD"), vertical 4-item check-list with solid forest-green circle badges + wheat-gold check icons + tracked warm-charcoal small-caps labels. Right panel: cream-tinted rounded card with documentary Portra 400 warm still-life (product + supporting props), two-tone bold-sans headline above, tracked forest-green small-caps sub-line below. Left panel keeps cool clinical studio daylight; right panel is warm documentary — deliberate tonal contrast within the same color family.
+  S4 — RED FLAGS vs GREEN FLAGS COMPARISON (TYPE-ONLY): Single rounded card holds entire comparison table with hairline wheat-gold border and gentle drop shadow around card only. Two-tone bold-sans header top ("RED FLAGS vs GREEN FLAGS"). Two columns: left tagged with solid wheat-gold pill "RED FLAGS" chip, right tagged with solid forest-green pill "GREEN FLAGS" chip. Four rows separated by hairline forest-green dividers, tracked warm-charcoal left cells vs tracked forest-green right cells, small wheat-gold cross icons vs small forest-green check icons. Three-column footer strip inside card carries trust-mark pillars in tracked forest-green small caps.
+  S5 — 3-STEP CLOSE + CTA CARD + BOTTOM RIBBON: Two-tone bold-sans header top. Three step cards side-by-side, each cream-tinted rounded card with hairline wheat-gold border: large wheat-gold serif numeral (01/02/03) top-left, verb in tracked forest-green caps beside numeral, small vignette below (product / hero action / close-up), tracked forest-green small-caps caption beneath vignette. Tall solid forest-green CTA card runs full module height to the right of the three step cards, carrying two stacked cream all-caps lines (dominant ManyChat keyword + tracked small-caps closer). Solid forest-green ribbon full-width bottom edge carrying 4 cream all-caps trust pillars separated by circle bullets. Monospace small-caps brand URL footer sits just above the bottom ribbon.
+
+Chip rules (T75 exception + universal):
+  · Solid pill chips ARE allowed for trust-badge UI (top ribbon, benefit chips, occasion chip pills, ManyChat CTA card, step numerals, S4 column-tag chips). This is a T75-family exception matching Amazon A+ listing grammar.
+  · All storytelling / caption chips still follow the universal dark-semi-transparent-overlay rule.
+  · Solid chips only use the two brand accent colors + cream for text. Never introduce a third color.
+
+Universal rules on this template:
+  · NO DOTS at end of any text line on any slide
+  · No FSSAI licence number visible, no QR code enlargement, no price, no offer code
+  · No fabricated statistics, survey data, or customer-count/rating badges — every number must be independently verifiable
+  · S4 must remain product-free — the pack weakens the saveable-utility read
+  · S1/S2/S3/S5 category slides require uploaded pack photos — flag every upload in prompt output per Rule 9
+  · PRODUCT SHAPE HARD CONSTRAINT block mandatory for any product-carrying slide (bottles upright zero tilt, boxes horizontal preserve rectangular silhouette, pouches upright no slump)
+  · Ingredients mounded as platform under product, never scattered flat
+  · Occasion / doctor / expert / festival tributes go in the S1 top-right corner card, never inside the top trust ribbon
+  · No serif fonts anywhere except numerals in S5 step cards, the S1 corner-card date, and the reproduced product label
+  · Real-world lighting reference: cool clinical studio softbox on all product panels, warm Portra 400 documentary warmth reserved for lifestyle vignettes only
+
+T74 vs T75 selection guide:
+  · T74 (Radial Benefit Data) — reach for when the reference is dark/dramatic, hub-and-spoke feels right, and the story leans on a single hero data device
+  · T75 (Modular Listing) — reach for when the hook is a "N things to check / audit / read" list, or a doctor/expert/certification-verification angle, or any post whose primary KPI is Saves and the design needs to feel like an entire utility page
+
+Reusable for: any EDUCATE-angle carousel across all 5 brands by palette swap only — architecture stays identical.
+
+Last assigned template: T75 (Modular Listing Carousel — assigned 2026-07-01)
+Next new template: T76
