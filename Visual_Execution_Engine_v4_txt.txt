@@ -2035,4 +2035,22 @@ T74 vs T75 selection guide:
 Reusable for: any EDUCATE-angle carousel across all 5 brands by palette swap only — architecture stays identical.
 
 Last assigned template: T75 (Modular Listing Carousel — assigned 2026-07-01)
+
+--- T76 — Slow Ritual Still-Life List (Health Fields) ---
+Assigned: 2026-07-04
+Brand: Health Fields (primary) — palette-swappable for Pusht (forest green + wheat gold) and Biomart (market green + warm gold); not suited to Caveman or greendipz energy
+First use: "The Saturday Slow Hour" tea-and-book ritual carousel (July 4 calendar slot, RELATE)
+Format: 5-slide 4:5 portrait carousel (1080 x 1350)
+DNA Source: Forked from T67 Heritage Editorial Stack (teal type-as-hero system). Shift: photography-led lifestyle still life replaces pure type frames. Real-world anchor: Aesop apothecary catalogue meets Kinfolk slow-living editorial.
+Color world: Total teal monochrome immersion — deep teal #003C32 edges breathing to warmer teal #007878 at centre, cream #F5F2E8 reserved for type, warm Portra 400 light living inside the teal world. Single muted brick-red accent on maximum one emphasis word per slide.
+Still-life system: one continuous tableau (linen cloth, ceramic cup and pot, hardback book, window light) photographed at different distances per slide — wide on cover, detail crops on steps. Continuity of props across all five slides is mandatory.
+Typography system: Oversized cream serif list numerals (01/02/03/04) upper-left on step slides; editorial serif headlines (Canela/Saol feel); small italic serif sub-lines; tracked small-caps eyebrows and footers; tiny monospace brand URL footer every slide (Protocol 10).
+Slide architecture:
+  S1 — COVER: eyebrow top, 2-line stacked headline centre (line 2 dominant italic), italic sub below, brand lock footer, widest tableau shot
+  S2-S4 — STEPS 01-03: numeral upper-left, left-aligned headline mid-frame, italic sub below, detail crop of tableau; S3 is the ONLY product slide — pack upright zero tilt, label fully lit, uploaded pack photo required
+  S5 — STEP 04 + CTA CLOSE: numeral upper-left, centred headline, italic sub, quiet bottom-anchored website CTA in tracked caps (Protocol 10 approved wording only)
+Rules: NO DOTS on any in-image text. No rustic props (no wooden bowls, burlap, jute, mortar & pestle). Product on one slide only — RELATE narrative keeps the pack out of the hook and close. No price, no offer, no QR, no certification logos as graphics. Verified claims only in sub-lines.
+Reusable for: any ritual-list / slow-living lifestyle carousel (tea rituals, morning routines, Rozana daily habits, Pusht Sunday cooking rituals) by palette swap.
+
+Last assigned template: T76 (Slow Ritual Still-Life List — assigned 2026-07-04)
 Next new template: T76
