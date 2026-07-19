@@ -2036,3 +2036,21 @@ Reusable for: any EDUCATE-angle carousel across all 5 brands by palette swap onl
 
 Last assigned template: T75 (Modular Listing Carousel — assigned 2026-07-01)
 Next new template: T76
+
+--- T76 — Dark Editorial Poster Stack (Caveman / Health Fields adaptable) ---
+Reverse-engineered from Pure Bite Berry Almond poster (2026-07-14).
+Format: 4:5 feed (1080×1350). Single-panel poster, two-column architecture.
+Layout: Left column ~55% carries typography + benefit pill stack. Right column ~45% carries product hero + floating ingredient props.
+Left column stack (top to bottom): small brand lockup → three-line giant condensed distressed serif stack with middle-word colour pop → italic small serif tagline → six outlined rounded-rectangle benefit pills (icon + caps heading + descriptor) → bottom-centre small serif website CTA.
+Right column: pack front-facing upright ~60% frame height + real photographic ingredient props scattered at varied depth (sharp foreground, softer back).
+Colour World Rule: Strict monochrome discipline of dark ground + brand accent + cream. Middle giant-stack word carries the single accent colour-pop. Ingredients keep real colours but stay small enough to read as design accents.
+Chip rules: Benefit pills are OUTLINED rounded rectangles only — thin brand-colour line, transparent dark interior letting the background bleed through. NEVER solid coloured blocks. Matches universal chip rule.
+Palette per brand (swap the dark ground + accent):
+  · Caveman: deep charcoal-black + Cave Red #D20000 + cream
+  · Health Fields: deep teal #003C32 + teal #007878 + cream
+  · Pusht: forest green #143C28 + cream ivory + wheat gold accent
+Explicit exclusions from Pure Bite reference (never carry forward): contact footer bar, phone/email/social icons, URL bar overlay, olive/forest green for Caveman, circular stamp badges, torn tape stamps (unless the campaign specifically calls for them).
+Use case: EDUCATE-angle static posts where the brand needs to communicate 5–7 discrete benefit points around a single hero product — label transparency, ingredient breakdown, clean-label authority posts. Reads as one whole utility poster with real save-value.
+
+Last assigned template: T76 (Dark Editorial Poster Stack — assigned 2026-07-14)
+Next new template: T77

@@ -73,7 +73,7 @@ Skills directory:
 | Brand | Website | Handle | Key Colours | GPT Aesthetic Anchor |
 |-------|---------|--------|-------------|---------------------|
 | Caveman Organic | caveman.co.in | @cavemanorganic | Cave Red #D20000, #1A1A1A | Raw editorial meets Fear of God — dark, earthy, Gen Z confidence. Cave Red world. |
-| Health Fields | health-fields.com | @healthfieldsorganic | Teal #007878, Deep Teal #003C32, Cream #F5F2E8 | Luxury wellness meets Aesop minimalism — clinical, teal, premium Indian organic. |
+| Health Fields | healthfields.in | @healthfieldsorganic | Teal #007878, Deep Teal #003C32, Cream #F5F2E8 | Luxury wellness meets Aesop minimalism — clinical, teal, premium Indian organic. |
 | Pusht Organic | pusht.in | @pushtorganic | Forest Green #143C28 | Farm editorial meets golden hour documentary — warm, honest, soil and seed. |
 | greendipz | biomart.in | @greendipz | — | Bold food editorial meets urban street market — vibrant, cuisine-led, flavour-first. |
 | Biomart | biomart.in | @biomart_organic | Market Green #00A050, Warm Gold #B49664 | Premium organic marketplace meets Whole Foods editorial — clean, abundant, trustworthy. |
@@ -460,7 +460,7 @@ Read `Caption_Swipe_File.md` as quality benchmark.
 5. English only — no Hinglish unless explicitly briefed
 6. Max 3 emojis total — contextual, never decorative
 7. Never bullets in captions — flowing prose always
-8. Always end with a website link CTA — never a comment/DM keyword trigger. Route to the brand's own website (biomart.in for Biomart + greendipz, caveman.co.in for Caveman, health-fields.com for Health Fields, pusht.in for Pusht)
+8. Always end with a website link CTA — never a comment/DM keyword trigger. Route to the brand's own website (biomart.in for Biomart + greendipz, caveman.co.in for Caveman, healthfields.in for Health Fields, pusht.in for Pusht)
 9. Captions in English only for Reels — no Hinglish in Reel captions
 10. No promotional offers, discount codes, or pricing in Reel captions
 11. No offers or pricing in any caption unless Puran explicitly says so
@@ -499,13 +499,13 @@ Format examples:
 Shop now on biomart.in
 Order at pusht.in
 Explore at caveman.co.in
-Available on health-fields.com
+Available on healthfields.in
 ```
 
 Website mapping per brand:
 ```
 Caveman        → caveman.co.in
-Health Fields  → health-fields.com
+Health Fields  → healthfields.in
 Pusht          → pusht.in
 greendipz      → biomart.in
 Biomart        → biomart.in
