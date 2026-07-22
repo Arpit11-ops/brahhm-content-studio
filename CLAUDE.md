@@ -78,6 +78,8 @@ Skills directory:
 | greendipz | biomart.in | @greendipz | — | Bold food editorial meets urban street market — vibrant, cuisine-led, flavour-first. |
 | Biomart | biomart.in | @biomart_organic | Market Green #00A050, Warm Gold #B49664 | Premium organic marketplace meets Whole Foods editorial — clean, abundant, trustworthy. |
 
+Each brand's closing GPT style-tag cluster (paste at the end of every GPT Image 2.0 prompt for that brand) is codified in **Protocol 6 → Brand Style-Tag Clusters**. Every new prompt must close with that brand's cluster — this is the convergence hook that pulls the whole image toward one aesthetic.
+
 ---
 
 ## SKILL AUTO-TRIGGER MAP — MANDATORY BLOCKING READS
@@ -191,42 +193,47 @@ When Puran says "include the offer" → add to caption only. Image prompts never
 
 Read `Visual_Execution_Engine_v4_txt.txt` for all image generation.
 Read `skills/gpt-image-2/SKILL.md` before writing every GPT Image 2.0 prompt. Mandatory.
+Core prompt philosophy lives in memory: [[feedback_gpt_creative_director_model]].
 
 ### Image Generation Rules
 
 - Product packaging CAN be generated in GPT Image 2.0 — upload the actual pack photo as reference when generating product-featuring scenes for accurate results
-- No rustic props: no wooden bowls, burlap, jute, mortar & pestle
+- No rustic props in the surrounding set: no wooden bowls, burlap, jute, mortar & pestle
 - Template rotation: no template repeated within 3 consecutive posts on same account
 
-### GPT IMAGE 2.0 PROMPT WRITING STANDARD (Mandatory — v3.2 Upgrade)
+### GPT IMAGE 2.0 PROMPT WRITING STANDARD (v3.3 — Prose Creative-Director Model)
 
-GPT Image 2.0 responds to creative direction language, not technical specifications.
-NEVER use pixel coordinates, X/Y values, or RGBA codes in prompts. Use visual language only.
+**Core shift:** GPT Image 2.0 is a system that understands design language — so we speak design language, not schema. Every prompt is a flowing conversational paragraph, one creative director briefing one photographer + typographer + art director in one meeting. ALL-CAPS field labels (`THEME:`, `MOOD:`, `SCENE:`, `TYPOGRAPHY:`, `EXCLUSIONS:`, `FORMAT:` etc) route ChatGPT to its edit endpoint, which then refuses because no source image is attached — validated across multiple sessions.
 
-**MASTER PROMPT STRUCTURE — Every GPT Image 2.0 prompt must follow this order:**
+Never use pixel coordinates, X/Y values, or RGBA codes in prompts. Never use ALL-CAPS field labels in the outputted prompt. Use visual and directional language only.
 
-```
-LINE 1:       [Format/ratio] + [Output type] + [Real-world aesthetic reference]
-THEME:        Emotional anchor — 3-5 words. Governs every element GPT generates
-MOOD:         [X meets Y] — two real-world references as hybrid aesthetic anchor
-SCENE/SETUP:  Real objects with symbolic roles + atmosphere as named ingredients
-PRODUCT:      Material + how light interacts with surface + angle — never coordinates
-LIQUID/SPLASH: Direction of arc/ribbon — one wide graceful sweep, not explosion
-INGREDIENTS:  Named elements at varying depths — sharp foreground, soft background
-SPACE:        Negative space instruction OR tonal zone for text — never coordinates
-PANELS:       If multi-panel: LEFT/CENTRE/RIGHT — each gets its own mini brief
-TYPOGRAPHY:   Style-by-style. Position relative to layout elements. Never coordinates
-HEADLINE:     Size hierarchy across lines — build to one dominant final word or line
-CHIPS:        Dark semi-transparent overlay — NEVER solid colored blocks. Background bleeds through
-PALETTE:      Complex atmosphere = descriptive language only. Flat single bg = one hex only
-COLOR WORLD:  State monochrome immersion rule — every element within same palette family
-FILM:         If editorial: camera type + film stock + artifacts (halation, grain, flare)
-LIGHTING:     Cinematic terms — golden hour / ARRI quality / studio key light / Portra 400
-AUTHENTICITY: Barcode / URL / certification marks / FSSAI number as design elements
-EXCLUSIONS:   Explicit negative prompts — what must NEVER appear
-QUALITY:      8K, ultra detailed, photorealistic, sharp focus, no watermark, no clutter
-FORMAT:       [Ratio] + GPT Image 2 — declared at close
-```
+**THE 6-PART PROSE CASCADE — every prompt is one paragraph, in this order:**
+
+1. **Create-new directive (leading line, mandatory).**
+   - Type-only slide: `Create a new image.`
+   - Product-upload slide: `Create a new image. Use the product pack photo uploaded in THIS message as a visual reference only — do not edit it. Ignore all other images in the conversation.`
+
+2. **Shot + subject.** Open with camera language, front-load the subject. `Editorial hero shot of a [Product] pack standing upright and centered...` / `Extreme close-up macro shot of a person's face, cropped tightly to show...`
+
+3. **World + light.** The atmosphere, background, and lighting the subject lives in. Named ingredients (`warm honey-cream farm world, distant blurred sorghum field at golden hour`), never hex codes, never gradient specs.
+
+4. **Cascading detail.** Foreground to background, subject to secondary elements to props. Each clause zooms in from the previous. Sensory specifics beat adjectives (`visible pores, light sweat, sun-kissed freckles for hyper-realism`, not `nice skin`).
+
+5. **Text zones — position + style + exact quoted copy + line-by-line breakdown.** Format: `[Spatial position], [style descriptor + color]: '[exact copy]' on line 1, '[exact copy]' on line 2.` Double quotes or single quotes both work. See callout typography rule below for information-dense layouts.
+
+6. **Inline exclusions + closing style-tag cluster + ratio close.** Exclusions live inline right after the text zones (where the risk lives), then five to seven brand style tags (this is the convergence hook that pulls the whole image toward one aesthetic), then the ratio.
+
+**BRAND STYLE-TAG CLUSTERS — paste at the close of every prompt for that brand:**
+
+- **Caveman:** `raw editorial product photography, Fear of God Essentials lookbook, Kodak Portra 400 warmth with heavy film grain, ARRI studio key light with warm rim glow, cinematic depth, dark editorial world, Cave Red accent, premium Indian organic`
+- **Health Fields:** `clinical wellness editorial, Aesop store minimalism, soft diffused studio light, teal monochrome color world, quiet luxury Indian organic, premium apothecary aesthetic, subtle grain`
+- **Pusht:** `honest farm editorial documentary, warm golden hour lighting, Kodak Portra 400 with heavy film grain, National Geographic Indian farmland warmth, forest green and warm cream color world, premium Indian organic`
+- **greendipz:** `bold food editorial, urban street-market energy, restaurant-at-home aesthetic, high-saturation cuisine photography, cinematic food-forward lighting, vibrant flavour world`
+- **Biomart:** `abundant marketplace editorial, Whole Foods store aesthetic, clean warm studio light, market green and warm gold color world, premium organic curation, trustworthy Indian marketplace`
+
+**CALLOUT TYPOGRAPHY RULE (information-dense EDUCATE posts):**
+
+When a design uses hairline callouts to label real elements in the frame, the callout labels must be **bold sans-serif caps, medium-large size (roughly 1.5x the footer strip text), tight letter-spacing, sized so they read clearly at Instagram feed thumbnail scale.** Include in the prompt: `the callout labels together form the second visual layer of the image after the pack — they must be immediately readable, not designer-decorative.` Still pure text on a hairline pointer — no chips, no boxes, no rounded pills, no colored blocks, no chip backgrounds. See [[feedback_gpt_callout_size]] and [[feedback_callouts_over_chips]].
 
 **PRECISION TOOLS — Real-world references beat description every time:**
 
@@ -237,19 +244,20 @@ FORMAT:       [Ratio] + GPT Image 2 — declared at close
 | "Nice gradient background" | "Warm amber temperature throughout entire composition" |
 | Hex codes for atmosphere | "Deep forest green bleeds to warm black at edges" |
 | "Add text in upper left" | "Keep clean negative space on left third for headline" |
-| Pixel/% coordinates | Spatial: "upper-left", "centre-dominant", "spanning full width" |
+| Pixel or % coordinates | Spatial words: "upper-left", "centre-dominant", "spanning full width" |
 | Solid color chips | "Dark semi-transparent overlay — background color bleeds through" |
 | "Scattered liquid drops" | "Single dramatic sweeping ribbon arc — wide, graceful, one motion" |
+| "Small caption text" (callouts) | "Bold sans-serif caps roughly 1.5x the footer strip, tight letter-spacing, reads clearly at feed thumbnail scale" |
+| ALL-CAPS field labels (`THEME:` `MOOD:`) | Fold everything into descriptive paragraphs — the whole prompt is one flowing brief |
 
-**COLOR WORLD RULE — Mandatory for every image:**
-Every image must maintain total monochromatic immersion. Background, liquid/atmosphere,
-ingredients, and feature chips must ALL exist within the same color family.
-Feature chips = dark semi-transparent overlays only — NEVER solid contrasting color blocks.
-Only typography and badge elements may use the brand's contrasting accent color.
+**COLOR WORLD RULE — Mandatory every image:**
+Total monochromatic immersion. Background, liquid/atmosphere, ingredients, and any chip/callout overlay must all live within the same color family. Only typography and small badge elements may use the brand's contrasting accent color.
 
 **INGREDIENT BED RULE — Mandatory for product-on-ingredient shots:**
-Ingredients must be MOUNDED as a platform the bottle/pack emerges from — not scattered flat.
-Peak seeds/fruits are sharp and detailed. Outer edges softer. Creates vertical lift and depth.
+Ingredients must be MOUNDED as a platform the pack emerges from — never scattered flat. Peak seeds/fruits sharp and detailed in foreground, outer edges softer.
+
+**CHIP vs CALLOUT RULE:**
+Two valid label modes — never mix in the same image. Either **dark semi-transparent overlay chips** (background color bleeds through) for lifestyle/premium hero posts, OR **hairline callouts with bold labels** (no chip background) for information-dense EDUCATE posts. Solid colored chip blocks are permanently banned across all brands.
 
 ### Text Confirmation Protocol (Mandatory)
 
@@ -261,16 +269,20 @@ Before outputting any final GPT Image 2.0 prompt, present ALL proposed in-image 
 Wait for confirmation or edits. Only then output the locked prompt.
 
 **NO DOTS RULE — TOP PRIORITY:**
-Never use full stops/dots at the end of any headline, label, or on-image text in GPT Image 2.0 prompts. All in-image text is dot-free. No exceptions across any brand, frame, or post type.
+Never use full stops/dots at the end of any headline, label, callout, footer strip, or on-image text. All in-image text is dot-free. No exceptions across any brand, frame, or post type. Middot separators `·` between list items are allowed.
 
-### Output Format — Every Image Prompt (Code Block)
+### Output Format — Every Image Prompt
 
 ```
 TEMPLATE: [Number] — [Name]
-GPT IMAGE 2.0 PROMPT: [Full structured prompt, paste-ready]
+GPT IMAGE 2.0 PROMPT:
+[Single flowing prose paragraph — no ALL-CAPS field labels, no schema blocks, no line-broken sections. One creative director briefing one photographer, top to bottom: create-new directive → shot + subject → world + light → cascading detail → text zones with position + style + exact quoted copy + line-by-line breakdown → inline exclusions → brand style-tag cluster close → ratio.]
 ```
 
 Never add a CANVA OVERLAY line to any GPT Image 2.0 prompt. Never mention logo placement or certification badges in any prompt output. Puran handles all Canva work independently — do not reference it in outputs.
+
+**Canonical reference prompt shape (proven working — Celsius Sparkling Orange, July 2026):**
+The Celsius reflection-in-sunglasses prompt is the reference template for every new GPT prompt in this repo. Extreme close-up macro shot leads → subject cascade (face → sunglasses → sunlight → reflection → can → logo detail) → text zones each with spatial position + style + exact quoted copy + line-by-line → inline no-list exclusions → style-tag cluster close → ratio. Full prompt captured in [[feedback_gpt_creative_director_model]].
 
 ---
 
@@ -321,16 +333,18 @@ Badge style. Footer elements. Authenticity signals (barcode, URL, certification)
 
 ### PROMPT TRANSLATION LAYER (After Analysis — Mandatory)
 
-After the 7-layer analysis, translate findings into creative brief language:
+After the 7-layer analysis, translate findings into a single flowing prose paragraph in the Protocol 6 shape — never into a schema or ALL-CAPS field list. The finished prompt is one creative director briefing one photographer:
 
-1. Identify the real-world aesthetic anchor (X meets Y)
-2. Write the emotional theme line
-3. Describe atmosphere as named ingredients — never as gradient specs
-4. Describe liquid as a sweeping ribbon direction — never as scattered explosion
-5. Describe chip/UI elements as semi-transparent overlays — never solid blocks
-6. State the color world immersion rule explicitly
-7. Write all text placement relative to layout zones — never coordinates
-8. Add explicit exclusion list based on what the reference does NOT have
+1. Open with the Protocol 6 create-new directive (type-only or product-upload variant)
+2. Open the brief with the shot + subject line (camera + framing + subject front-loaded)
+3. Describe world + light using named ingredients and real-world lighting references — never hex, never gradient specs
+4. Cascade detail from foreground to background, subject to props — each clause zooms in from the previous
+5. Describe liquid as a sweeping ribbon direction — never as scattered explosion
+6. Describe label elements as either dark semi-transparent overlay chips OR hairline callouts with bold labels — never solid colored blocks, never mix modes in the same image
+7. State the color world immersion rule explicitly (all elements in same palette family)
+8. Write every text zone as position + style + exact quoted copy + line-by-line breakdown
+9. Weave the exclusion list inline right after the text zones (where the risk lives)
+10. Close with the brand's Protocol 6 style-tag cluster, then the ratio
 
 ### Output After Analysis
 
