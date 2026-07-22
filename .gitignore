@@ -26,3 +26,8 @@ desktop.ini
 
 # Claude local state
 .claude/
+
+# Codex local state
+.codex/
+.codex-remote-attachments/
+AGENTS.md

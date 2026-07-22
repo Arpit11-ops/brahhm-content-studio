@@ -2054,3 +2054,25 @@ Use case: EDUCATE-angle static posts where the brand needs to communicate 5–7 
 
 Last assigned template: T76 (Dark Editorial Poster Stack — assigned 2026-07-14)
 Next new template: T77
+
+--- T77 — Biomart Poster-Chip Educate Master (REF-A + REF-B hybrid) ---
+Reverse-engineered from Fresh Nooodles editorial poster (REF-A) + Time Management horizontal-band poster (REF-B), assigned 2026-07-20.
+Format: 1:1 carousel (1080×1080), 6–7 slides. Cover + N question bands + close-halo.
+Base world: cream ivory paper with light newsprint grain. Cream-and-green-and-gold monochrome discipline.
+Palette: Market Green #00A050 + Warm Gold #B49664 + cream ivory + deep serif headline system + clean sans small-caps for chip labels + real pack colours appear only inside cropped detail cards.
+Slide variants:
+  (a) Cover — top corner chips (READ THE LABEL + INDIA · 2026) + preview ribbon of numeral chips (01·02·03·04·05) + gold-hairline eyebrow (A BIOMART FIELD GUIDE) + oversized deep-serif headline with italicised keyword in curly quotes + two angled side chips (MOST PACKS FAIL 3 / ONE ON OUR SHELF PASSES ALL 5) + swipe nudge + deep-green footer strip with biomart.in
+  (b) Question band — top-strip navigation + two-column body — slim top strip carries numeral navigation chip on top-left (QUESTION 0X / 05 in dark semi-transparent green with cream small caps) and section-label chip on top-right (THE QUESTION in warm-gold outline with deep-green small caps) → below, centred deep-serif medium headline spanning ~85% width with one bold-caps power word inside it → composition splits into two columns: LEFT column carries context-label chip (LOOK FOR / RED FLAG / THE LAW / THE TRICK / WHY IT MATTERS in warm-gold outline) + sans small explainer line + THIS PACK chip + sans medium proof line with green tick; RIGHT column carries a proper editorial photo crop card (~40% width × ~45% height) with warm-gold hairline border and very soft drop shadow, holding the real pack detail (front cert cluster / certifier block / FSSAI area with number cropped or blurred / ingredient line / manufacturer + batch block). No oversized floor-to-ceiling numeral — numeral is small chip navigation only. (Superseded floor-to-ceiling-numeral variant: dropped 2026-07-20 · read as too dominant · replaced with top-strip numeral chip)
+  (c) Close-halo — top gold chip (ONE THAT PASSES ALL 5) + deep-serif headline with italicised keyword + product name strip under gold hairline + centre full-frame pack front upright + halo of 5 dark semi-transparent green pill chips arranged clockwise around pack with 01–05 ticks (MARKS / CERTIFIER / FSSAI / INGREDIENT / TRACEABLE) + gold chip (STOCKED · CERTIFIED · CURATED) + quiet deep-serif CTA + deep-green footer strip
+Global rules:
+  · Every chip is a dark semi-transparent overlay — cream base bleeds through — NEVER solid contrasting colour blocks
+  · NO DOTS at end of any headline, chip, question, tick line, or CTA
+  · NEVER bake FSSAI licence numbers, batch numbers, or ingredient percentages into the graphic — proof crops of FSSAI or batch areas must have the actual digits blurred, cropped out of frame, or replaced with a grey block
+  · Every slide carries a deep-green footer strip with biomart.in + slide count (01 / 05, 02 / 05, etc.) — satisfies Protocol 10 baked website CTA
+  · Real pack details enter only via small photo crop cards with warm-gold hairline borders — pack front image (upload) required for cover-crop and close-hero slides, back image (upload) required for question slides
+Use case: EDUCATE + soft-ATTACK trust-building carousels for Biomart curator voice — "N questions / N red flags / N checks" label-literacy content, certified-pack audits, marketplace curation-story posts. Reach and Saves KPI.
+Chip-rule exception vs base: T77 keeps the universal dark-semi-transparent-only rule. No solid chips permitted anywhere except the top and bottom coloured footer strips themselves (which are strip fills, not chips).
+First deployed: 2026-07-20 · Biomart · 5-Questions-Organic-Label carousel · Hero SKU Health Fields Organic Bajra Atta 500g
+
+Last assigned template: T77 (Biomart Poster-Chip Educate Master — assigned 2026-07-20)
+Next new template: T78
