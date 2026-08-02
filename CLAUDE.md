@@ -3,11 +3,56 @@
 # Version: 3.2 | Upgraded: May 2026
 # Environment: Claude Code (persistent project)
 
+## ⛔ PRE-FLIGHT GATE — HARD BLOCK, RUN BEFORE ANY OTHER TOOL
+
+Before you touch ANY content-generation tool (WebFetch, product lookup, Pinterest scrape, competitor DB, writing a caption, writing a GPT prompt, writing a reel brief, editing an existing caption, or even brainstorming) — you MUST first Read the applicable SKILL.md files in that same session. This is a HARD BLOCK. Not a nudge, not a background reminder, not a "silent sweep." A blocking gate that fails the workflow if skipped.
+
+**Enforcement contract — self-check before every content turn:**
+
+> "Have I opened the required SKILL.md files with the Read tool THIS session? If no → STOP. Read them now. If yes → proceed."
+
+You must output a one-line pre-flight receipt at the top of any content turn before any other content-facing output, in this exact form:
+
+```
+PRE-FLIGHT ✅ Skills read this session: [list of SKILL.md filenames opened]
+```
+
+If the receipt is missing, the caption/prompt/reel is INVALID and must be regenerated after the reads. Puran has explicitly enforced this rule multiple times — see [[feedback_skill_reads]].
+
+**Mandatory reads for every post (all 4, every time):**
+1. `./skills/humanizer-main/humanizer-main/SKILL.md`
+2. `./skills/marketingskills-main/skills/social/SKILL.md`
+3. `./skills/marketingskills-main/skills/copywriting/SKILL.md`
+4. `./skills/marketingskills-main/skills/copy-editing/SKILL.md`
+
+**Additional mandatory reads by content type:**
+- GPT Image 2.0 prompt (any post with an image) → `./skills/gpt-image-2/SKILL.md` + `Visual_Execution_Engine_v4_txt.txt`
+- Reel of any kind → `./skills/marketingskills-main/skills/video/SKILL.md`
+- ATTACK or CONVERT angle → `./skills/marketingskills-main/skills/marketing-psychology/SKILL.md` + `./skills/marketingskills-main/skills/ad-creative/SKILL.md`
+- Launch / festival campaign (5+ posts) → `./skills/marketingskills-main/skills/launch/SKILL.md`
+- Calendar planning → `./skills/marketingskills-main/skills/content-strategy/SKILL.md`
+
+**"Just a caption edit" is NOT an exemption.** Even a single-line edit, a language swap, or a claims correction triggers the full 4-skill sweep. No exceptions.
+
+**Failure mode being prevented:** Claude routinely internalises "I already know this" and skips the Read calls, then generates weaker output that violates Protocol 6, banned words, or the humanizer sweep. The pre-flight receipt makes the skip visible and callable.
+
+---
+
 ## MCP & AUTOMATED GENERATION WORKFLOW (CRITICAL)
 
 You are connected to the `brahhm-studio` MCP server. For all content generation tasks in this repo, follow this automated workflow:
 1. **Locate Schedule**: Look up the targeted date in the optimized calendar [research/content_calendar.md](file:///c:/NITRO%204%20BACKUP/IMPORTANT%20WORK/brahhm-content-studio/research/content_calendar.md).
-2. **Fetch Descriptions**: Query [research/product_descriptions.json](file:///c:/NITRO%204%20BACKUP/IMPORTANT%20WORK/brahhm-content-studio/research/product_descriptions.json) to grab the product details. If missing, invoke the `fetch_product_page` MCP tool. Do NOT trigger manual user gates unless both lookups fail.
+2. **Fetch Descriptions (auto — never gate the user)**: Go straight to the brand website and pull the live product description yourself. Never ask Puran to paste it.
+   - Route by brand: Caveman → caveman.co.in, Health Fields → healthfields.in (Biomart mirror OK), Pusht → pusht.in, Biomart + greendipz → biomart.in.
+   - Default tool order: `WebFetch` on the live product URL for the exact page → `mcp__brahhm-studio__fetch_product_page` as fallback if WebFetch returns thin content or auth-walls → search the site (e.g. `biomart.in/search?q=...`) if the URL is unknown.
+   - Cached JSON at `research/product_descriptions.json` is a check-first shortcut, not the primary source — live page wins if the two disagree.
+   - Only trigger Protocol 2 manual gate if BOTH live fetch and search fail across all brand domains.
+2A. **Fetch Pack Image (auto — never gate the user)**: Pull the product pack photo from the local storage folder. Never ask Puran to attach it.
+   - Root: `C:\Users\arpit\Documents\storage\arpan organic\`
+   - Brand subfolders: `caveman\`, `health fields\`, `pusht\`, `biomart\`, `greendipz\`
+   - Use `Glob` or `Bash ls` to find the matching pack file (front-of-pack preferred per [[feedback_pack_front_hero]]).
+   - Output the absolute path in the post package under the "Pack image (upload to GPT)" line and set the Point 7 upload flag ✅ YES.
+   - Only ask Puran if no matching pack file exists in the brand folder.
 3. **Competitor Benchmarking**: Call the `query_studio_db` MCP tool to retrieve high-performing competitor posts matching the product category.
 4. **Visual Reference Hunt** (when post needs fresh design system — carousel, reel thumbnail set, identity board, multi-product flatlay): Call `search_pinterest_references` with 2-3 SHORT Pinterest-native queries (≤3 words each — e.g. `instagram carousel design`, `food brand instagram`, `grocery flatlay`). Marketer jargon ("premium grocery editorial layout") returns zero hits — always use natural Pinterest user phrasing. Download top 6 by saves to scratchpad, Read them visually, present a shortlist to Puran (save count ≠ relevance — always inspect). Library auto-archives to `research/reference_library/` with `INDEX.json`; call `list_reference_library` first to check for matching prior runs before scraping again.
 5. **Context Pruning**: Only read the Brand Bible for the active brand (e.g. `Health_Fields_Brand_Bible_v2.txt`) and load only the formatting skills that apply to the selected content type (e.g. `video` for Reels, `emails` for Stories).
@@ -102,6 +147,7 @@ HARD RULE: Before producing ANY output in the domains below, you MUST use the Re
 | `cro` | `./skills/marketingskills-main/skills/cro/SKILL.md` | Any CTA landing on brand websites | Caption CTA matches landing page promise |
 | `content-strategy` | `./skills/marketingskills-main/skills/content-strategy/SKILL.md` | Monthly/weekly calendar planning only | Pillar framework, content mix, angle distribution |
 | `ab-testing` | `./skills/marketingskills-main/skills/ab-testing/SKILL.md` | Every post with a variation (Point 11) | Caption variation logic, meaningful angle differentiation |
+| `codex-image-gen` | `./skills/codex-image-gen/SKILL.md` | Puran says "generate the image", "run codex", "make the image", or any close variant after a Point 7 prompt is locked | Runs OpenAI Codex CLI native image gen with the Point 7 prompt + pack reference, saves PNG to `research/prompts/assets/`, delivers via SendUserFile. Removes the copy-paste-into-ChatGPT step |
 
 FOR EVERY POST — mandatory read sequence before any caption output:
 1. Read `./skills/humanizer-main/humanizer-main/SKILL.md`
@@ -357,84 +403,80 @@ After the 7-layer analysis, translate findings into a single flowing prose parag
 
 ---
 
-## PROTOCOL 8 — REEL PRODUCTION SYSTEM v3.0
+## PROTOCOL 8 — REEL PRODUCTION SYSTEM v4.0 (Agent Mode Hybrid — Jul 2026)
 
 Read `skills/marketingskills-main/skills/video/SKILL.md` before every reel. No exception.
 Read `skills/gpt-image-2/SKILL.md` before every GPT still. No exception.
 
-### 3-Stage Workflow — Mandatory Sequence
+**New default workflow (client-directed, Jul 2026):** GPT Image 2.0 makes every still with baked text + reference-photo pack fidelity. Grok Imagine Agent Mode receives the full still batch on its infinite canvas and does everything downstream — animation per still, transitions between stills, stitching into one MP4, voiceover, SFX, and music. CapCut becomes a 5-minute finishing pass — logo watermark + music tweak only. The old per-clip Grok Aurora prompting workflow (F1/F2/F3/F4 individual clip prompts) is **retired**.
+
+### 4-Stage Workflow — Mandatory Sequence
 
 **STAGE 1 — GPT IMAGE 2.0 STILLS**
-Build and output all GPT still prompts first. Wait for Puran to generate and upload stills. Do not write Grok prompts until stills are received.
+Build and output every still prompt as one flowing Protocol 6 prose brief. Bake all on-screen text (hooks, callouts, prices, end-frame CTA) into the stills — GPT owns text fidelity, Grok is not asked to render text ever. Upload the pack reference photo for every still that features the product. Wait for Puran to generate + upload all stills before proceeding.
 
-**STAGE 2 — STILL ANALYSIS**
-When Puran uploads generated stills: analyse composition, lighting, element positions; flag issues; confirm approved stills. Only then proceed to Stage 3.
+**STAGE 2 — STILL REVIEW**
+When Puran uploads the generated stills: verify composition, text legibility at feed thumbnail scale, pack shape fidelity, colour world consistency across the batch. Flag any still that needs regenerating. Only proceed to Stage 3 once all stills in the reel are approved.
 
-**STAGE 3 — GROK AURORA ANIMATION PROMPTS**
-Build Grok prompts from the actual approved stills. Never from imagination.
+**STAGE 3 — GROK IMAGINE AGENT MODE (single master brief)**
+One master brief goes into Grok Imagine web canvas along with the full uploaded still batch. The Agent animates each still, transitions between them, stitches the full sequence, generates VO + SFX + music bed, and outputs one finished MP4. **Never write per-clip Grok prompts anymore — one master brief covers the whole reel.**
+
+**STAGE 4 — CAPCUT FINISHING (minimal)**
+Logo watermark. Music polish or swap if the Agent's bed isn't right. Auto-captions if VO isn't crisp enough. Export 1080×1920. Nothing else — no restitching, no clip-by-clip editing.
 
 ### Production Stack
 
 ```
-GPT Image 2.0  → still reference frames (9:16, 1080×1920px)
-Grok Aurora    → animates approved stills into clips
-CapCut         → assembles clips, SFX, voiceover, auto-captions
+GPT Image 2.0        → all stills (9:16, 1080×1920px) with baked text + pack ref
+Grok Imagine Agent   → per-still animation + transitions + stitch + VO + SFX + music
+CapCut               → logo watermark + music polish only
 ```
 
-### GPT Still Rules
+### GPT Still Rules (unchanged from v3.0)
 
-- Upload instruction on every frame: ✅ YES [which file] or ❌ NO
+- Upload flag on every still: ✅ YES [which pack file] or ❌ NO
 - Full product always visible — no crop, no cutoff, ever
-- All text baked into GPT prompt — Canva handles logo only
-- Pack label: always fully lit, zero shadow on label face
+- All on-screen text baked into the GPT prompt — no exceptions
+- Pack label always fully lit, zero shadow on the label face
+- End-frame CTA text baked into the final still (`Shop now on [brand domain]`, quiet sans-serif, bottom-anchored, NO DOTS RULE applies)
 
-### Grok Aurora Prompt Structure
+### Stage 3 Master Brief Structure — Mandatory Sections
 
-Every Grok prompt must include:
-```
-SUBJECT + ACTION + CAMERA + STYLE + MOOD + WHAT MUST NOT MOVE
-```
+The single brief given to Agent Mode with the still batch upload must contain, in order:
 
-Physics specs — mandatory every time:
-- Travel distance in px
-- Duration in seconds
-- Easing type (ease-out default)
-- Settle behaviour (hard settle default)
-- Bounce: zero bounce or [n]px bounce — explicit always
-- Velocity in px/second for constant-velocity moves
+1. **Reel intent one-liner** — product + angle + duration + platform
+2. **Still-to-beat map** — list every uploaded still, name each one by beat (Still 1 = Hook, Still 2 = Setup, etc), and state what the still already contains (baked text, product, scene)
+3. **Per-still animation direction** — motion + camera behaviour + duration in seconds. Keep motion singular per still (one continuous arc, never multi-cut inside a single still per Aurora prompting rules)
+4. **Transition types between stills** — cut / dissolve / whip / match cut / hold. State one per boundary
+5. **Global audio direction** — VO is the DOMINANT audio element across every beat, mixed loud and up-front. Music bed is a soft instrumental below VO. SFX (sizzle, pour, ambient) is background at low volume. Aurora obeys the "dominant" tag — this fights its audio token bias which otherwise drops the VO under louder SFX
+6. **Voiceover script per beat** — one short line per still, quoted, with speaker direction (voice gender / accent / tone). VO must be the LAST audio heard on the final beat, delivering the spoken CTA
+7. **Locked CTA beat** — the final still is non-negotiable. Explicit `Do not compress, skip, or shorten this beat. Hold for full duration. Voiceover must be clearly audible.` Agent Mode compresses low-visual-drama beats by default; the lock language protects the CTA
+8. **Global visual DNA** — aspect ratio, resolution ceiling (720p), colour world, camera feel (handheld / static / cinematic), exclusions
+9. **Brand style-tag cluster close** (same clusters as Protocol 6)
 
-### Grok Hard Rules
+### Reel Rules (updated)
 
-- 6-second maximum per clip — never exceed
-- Never animate baked-in GPT text — Grok moves the card only
-- Never describe hand gestures as "stop" or "block" — use "palm-down sweep" with contact physics
-- Hand-object interactions: hand + object = one rigid connected unit, identical velocity from contact
-- Slow rotations (10s) for glass/transparent objects
-- WHAT MUST NOT MOVE lock list: mandatory in every prompt
+- Pacing: one beat = one still, minimum 2 seconds per still, maximum 5 seconds per still
+- Hook in first 2 seconds — visual + VO + baked text hit together
+- 3-Act: Visual Hook → Escalation → Website CTA (spoken + baked)
+- Length: 15–22 seconds optimal (Agent Mode compresses when overloaded — shorter briefs get honoured better)
+- Voiceover: English only, dominant audio channel every beat, delivers the CTA as the last spoken line
+- Hook still never shows the hero product if the angle is ATTACK — product reveals mid-reel still only
+- No offers, codes, or pricing in reel captions or baked text unless Puran explicitly says so
 
-### Hook Frame Rule
+### What Was Retired (Jul 2026 — do not do)
 
-Never show the hero product in the hook frame if the hook attacks a competitor or problem. Product reveals mid-reel only (F4 or F5). Hook frame shows the problem world only.
+- Per-clip Grok Aurora prompts with SUBJECT + ACTION + CAMERA + STYLE + MOOD + WHAT MUST NOT MOVE structure — replaced by the single master brief
+- Physics specs (px travel distance, easing, bounce, velocity) — the Agent handles motion physics from the still context now
+- 6-second clip cap — no longer meaningful under the master-brief model
+- Restitching in CapCut — the Agent stitches, CapCut only polishes
+- Generating stills in Aurora — always GPT Image 2.0 for text + pack fidelity
 
-### Reel Output Format
+### Non-Negotiable Failure Modes (learned from Jul 2026 pilot)
 
-Output at reel start — 3-column timestamp table:
-
-| TIMESTAMP | VISUAL / ANIMATION | VOICEOVER & ON-SCREEN TEXT |
-|-----------|-------------------|---------------------------|
-
-Stage 1: All GPT still prompts in code blocks with upload flags
-Stage 2: [WAIT FOR STILLS — do not proceed]
-Stage 3: All Grok Aurora prompts in code blocks after still analysis
-
-### Reel Rules
-
-- Pacing: visual change every 2.5 seconds maximum
-- Hook in first 2 seconds — visual and audio simultaneously
-- 3-Act: Visual Hook → Escalation → DM CTA
-- Length: 15–30 seconds optimal
-- Voiceover: English only
-- No offers, codes, or pricing in reel captions
+- **Silent VO** — always caused by not marking VO as "dominant audio" in the brief. Aurora's audio token bias drops the subtler channel. Fix: explicit dominance tag + music bed floor
+- **Abrupt end / dropped CTA** — always caused by not locking the final beat. Agent Mode compresses low-drama beats. Fix: explicit `Do not compress, skip, or shorten` on the CTA beat + VO delivers the CTA as the last spoken line (redundant to baked text so it survives even if text card gets dropped)
+- **Text drift on animated stills** — Aurora doesn't animate baked text well. If a still has heavy baked text, direct the Agent to hold the still with camera-only motion (slow push-in, subtle parallax) rather than animating the subject inside the frame
 
 ---
 
@@ -641,8 +683,8 @@ Available formats — select based on product and content angle:
 ## CURRENT STATE TRACKING
 
 ### VEE Template Count
-Last assigned template: **T60** (Reel Thumbnail: Curation Reveal — assigned June 2026)
-Next new template: **T61**
+Last assigned template: **T80** (Cookie Shelf Grid Carousel — Caveman, assigned 2026-07-30)
+Next new template: **T81**
 Always grep `Visual_Execution_Engine_v4_txt.txt` for the last T-number before assigning new ones.
 T56-T60 are reel thumbnail templates (1:1 square) for grid coherence.
 
