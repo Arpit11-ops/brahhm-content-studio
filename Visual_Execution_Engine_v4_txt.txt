@@ -2133,5 +2133,15 @@ Use case: CONVERT carousels for any multi-SKU Caveman cookie range — weekly re
 Source DNA: Saudade coloured-panel grid + product cutouts (Pinterest ref pin 4, 5755 saves) fused with bouquet-of-cookies hero (pin 6, 5216 saves) and search-bar autocomplete proof pattern (pin 8, 3545 saves) — all captured 2026-07-30 in `research/reference_library/20260730-073919_caveman-jul30-sawan-cookies-carousel.json`
 First deployed: 2026-07-30 · Caveman Organic · Weekly Cookie Shelf CONVERT carousel · 7 SKUs: Bakkit Singhada · Organic Kodo Coco Fun · Organic Bakkit Jowar Pista · Bakkit Ajwain · Organic Millet Era · Bakkit Coconut · Bakkit Cashew & Pista
 
-Last assigned template: T80 (Cookie Shelf Grid Carousel — assigned 2026-07-30)
-Next new template: T81
+T81 — ATTACK HEADLINE PRODUCT EDITORIAL (Caveman primary — single-frame ATTACK post)
+Ratio: 1:1
+Product placement: pack-as-answer, standing upright dead-centre-right on dark basalt slab, zero tilt, front-facing, front-of-pack fully lit
+Composition: upper-left oversized 4-line stacked slab-serif headline in cream with one Cave Red pull-word · anti-line "THIS ISN'T" under headline with hairline arrow pointing to pack · left-margin hairline callouts (4) landing on the pack for real ingredients · bottom-right quiet website CTA
+Lighting: dark editorial cave world, warm-black atmosphere, single ARRI-quality warm rim on pack right edge + soft cream key on label face, Kodak Portra 400 warmth with heavy film grain
+Text system: dominant 4-line stack (~55% frame width) · anti-line ~1/5 headline size · callouts bold sans caps ~1.5x footer strip · CTA quiet cream sans caps
+Exclusions: no rustic props, no wooden/burlap/jute/mortar, no scattered ingredients, no loose cookies on slab, no logos/badges/barcodes/FSSAI/price, no chip backgrounds, no rounded pills, no coloured blocks, no arrows beyond the single hairline under anti-line
+Source DNA: Ghost-Hung Product Editorial (T family) + Human + Giant Type Depth Stack (T52) headline treatment, adapted to no-model product-hero ATTACK
+First deployed: 2026-08-03 · Caveman Organic · Aug 3 ATTACK post · Kodo Coco Fun vs protein bar exposé
+
+Last assigned template: T81 (Attack Headline Product Editorial — assigned 2026-08-03)
+Next new template: T82
