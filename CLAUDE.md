@@ -418,8 +418,15 @@ Build and output every still prompt as one flowing Protocol 6 prose brief. Bake 
 **STAGE 2 — STILL REVIEW**
 When Puran uploads the generated stills: verify composition, text legibility at feed thumbnail scale, pack shape fidelity, colour world consistency across the batch. Flag any still that needs regenerating. Only proceed to Stage 3 once all stills in the reel are approved.
 
-**STAGE 3 — GROK IMAGINE AGENT MODE (single master brief)**
-One master brief goes into Grok Imagine web canvas along with the full uploaded still batch. The Agent animates each still, transitions between them, stitches the full sequence, generates VO + SFX + music bed, and outputs one finished MP4. **Never write per-clip Grok prompts anymore — one master brief covers the whole reel.**
+**STAGE 3 — GROK IMAGINE AGENT MODE (single master brief) — v4.1**
+One master brief goes into Grok Imagine web canvas along with the full uploaded still batch. The Agent animates each still, cuts between them, stitches the full sequence, generates VO + SFX + music bed, and outputs one finished MP4. **Never write per-clip Grok prompts anymore — one master brief covers the whole reel.** Structure the brief in the exact 10-section shape codified below. Every discipline is non-negotiable — each one patches a specific Aurora failure mode observed in the Jul 2026 pilot or inherited from validated Seedance 2.0 prompting practice.
+
+**Core mental model (Seedance-derived, Aurora-tested):**
+- Each GPT still IS the first frame of its beat. Never re-describe what is already in the still — spend every word on what changes forward in time from that frame.
+- The camera must be commanded on every beat. Undirected camera = drift + label warp + wandering framing. One explicit move per beat, with speed AND endpoint stated. `locked off` is a valid and often correct answer — never omit the line.
+- Subject changes happen through hard `CUT:` between stills, never through camera travel from one subject to another. Camera-journey-between-subjects is what produces morph artifacts on pack edges.
+- Declare what stays still on every beat. Aurora drifts everything by default — the static declaration is the single highest-leverage instruction we have.
+- Protect packaging like glass. Never push, zoom, or rotate into labels, logos, or on-pack text. If the camera moves near packaging, explicitly state that labels stay sharp and unwarped. If a beat needs to leave the product, `CUT:` away — never fly the camera off it.
 
 **STAGE 4 — CAPCUT FINISHING (minimal)**
 Logo watermark. Music polish or swap if the Agent's bed isn't right. Auto-captions if VO isn't crisp enough. Export 1080×1920. Nothing else — no restitching, no clip-by-clip editing.
@@ -440,19 +447,58 @@ CapCut               → logo watermark + music polish only
 - Pack label always fully lit, zero shadow on the label face
 - End-frame CTA text baked into the final still (`Shop now on [brand domain]`, quiet sans-serif, bottom-anchored, NO DOTS RULE applies)
 
-### Stage 3 Master Brief Structure — Mandatory Sections
+### Stage 3 Master Brief Structure — 10 Mandatory Sections
 
-The single brief given to Agent Mode with the still batch upload must contain, in order:
+The single brief given to Agent Mode with the still batch upload must contain, in this exact order:
 
-1. **Reel intent one-liner** — product + angle + duration + platform
-2. **Still-to-beat map** — list every uploaded still, name each one by beat (Still 1 = Hook, Still 2 = Setup, etc), and state what the still already contains (baked text, product, scene)
-3. **Per-still animation direction** — motion + camera behaviour + duration in seconds. Keep motion singular per still (one continuous arc, never multi-cut inside a single still per Aurora prompting rules)
-4. **Transition types between stills** — cut / dissolve / whip / match cut / hold. State one per boundary
-5. **Global audio direction** — VO is the DOMINANT audio element across every beat, mixed loud and up-front. Music bed is a soft instrumental below VO. SFX (sizzle, pour, ambient) is background at low volume. Aurora obeys the "dominant" tag — this fights its audio token bias which otherwise drops the VO under louder SFX
-6. **Voiceover script per beat** — one short line per still, quoted, with speaker direction (voice gender / accent / tone). VO must be the LAST audio heard on the final beat, delivering the spoken CTA
-7. **Locked CTA beat** — the final still is non-negotiable. Explicit `Do not compress, skip, or shorten this beat. Hold for full duration. Voiceover must be clearly audible.` Agent Mode compresses low-visual-drama beats by default; the lock language protects the CTA
-8. **Global visual DNA** — aspect ratio, resolution ceiling (720p), colour world, camera feel (handheld / static / cinematic), exclusions
-9. **Brand style-tag cluster close** (same clusters as Protocol 6)
+**1. Reel intent one-liner**
+Product + angle + total duration in seconds + platform + hero outcome.
+Example: `Biomart Cold-Pressed Sesame Oil, EDUCATE angle, 18 seconds, Instagram Reels, driving traffic to biomart.in.`
+
+**2. Still-to-beat map + first-frame lock**
+List every uploaded still by beat name (Still 1 = Hook, Still 2 = Setup, etc). For each, state that the video beat starts EXACTLY on this still — composition, lighting, colour, and baked text preserved as shown. State what the still already contains (baked headline, pack, scene) so the Agent does not try to redraw it.
+Example row: `Still 2 — Setup beat — starts exactly on Still 2 as uploaded, preserving composition, lighting, colour, and baked headline "Cold-pressed. Nothing else." Pack, headline, and background are locked; only the motion described below animates forward from this frame.`
+
+**3. Palette + lighting lock (global)**
+One line: the dominant colour world and lighting of the first still persists across every cut. No shift in colour temperature, no lighting change between beats unless a cut is doing the work.
+
+**4. Editing logic**
+Total duration, number of hard cuts, transition type at each boundary (`cut / dissolve / whip / match cut / hold`), and the standing rule: zero morphs, zero cross-fades between subjects, palette locked across cuts.
+
+**5. Per-beat timeline** — every beat in this exact format:
+
+```
+[start]s–[end]s | Visual: [one clear visible moment — what motion happens INSIDE this still].
+                | Camera: [one explicit move: locked off / very slow push-in stopping before [X] / slow lateral dolly right / slow tilt up / slow pull-back — with speed and endpoint].
+                | Stays still: [what must NOT move in this beat — the pack, the label, the baked headline, background elements].
+                | Audio: [VO line quoted + SFX + music state for this beat].
+```
+
+Rules for the timeline:
+- Beat durations sum to the total. Minimum 2s per beat, maximum 5s per beat.
+- One action + one camera move per beat. Never compound moves.
+- Every beat gets a camera command — never omit. `locked off` is valid.
+- Every beat gets a `Stays still:` declaration — never omit. Drift is the default.
+- Start a beat with `CUT:` in the Visual line when it opens on a new still. State what the new frame shows in one clause.
+- The final beat must settle — motion resolves to a holdable end frame so the CTA still card reads cleanly.
+
+**6. Global audio direction**
+VO is the DOMINANT audio channel across every beat, mixed loud and up-front. Music bed is a soft instrumental floor below VO. SFX (sizzle, pour, ambient) is background at low volume. State the word "dominant" explicitly on VO — Aurora obeys the tag and fights its own bias to drop VO under louder SFX. VO must be the LAST audio heard, delivering the spoken CTA on the final beat.
+
+**7. Locked CTA beat (non-negotiable)**
+The final still is protected with explicit lock language:
+`Do not compress, skip, or shorten this beat. Hold for full duration. Voiceover must be clearly audible and must deliver the spoken CTA as the last line of the reel.`
+Aurora compresses low-visual-drama beats by default; the lock language is what stops it dropping our CTA.
+
+**8. Packaging protection clause (global, mandatory when product features in any beat)**
+One block, verbatim:
+`Pack labels, on-pack text, logos, and baked in-image typography stay sharp and unwarped in every beat. Never zoom, rotate, or push the camera into the label face. If the camera moves near the pack, the label surface remains flat, legible, and undistorted. Subject changes happen through hard cuts between stills — never through camera travel from one subject to another.`
+
+**9. Negatives block (formal, one paragraph)**
+Always include: `no morphing between subjects, no cross-fades, no flickering text, no warped or drifting typography, no added elements not in the source stills, no added text or logos, no camera shake unless a beat explicitly asks for handheld, no slow motion unless a beat explicitly asks for it, no speed ramps.` Add brief-specific negatives inline (e.g. `no people in this reel, no hand entering frame, no additional props`).
+
+**10. Global visual DNA + brand style-tag cluster close**
+Aspect ratio (9:16), resolution ceiling (720p), camera feel (handheld small natural shake / static cinematic / documentary real-time), then the brand's Protocol 6 style-tag cluster verbatim as the closing line.
 
 ### Reel Rules (updated)
 
@@ -464,19 +510,27 @@ The single brief given to Agent Mode with the still batch upload must contain, i
 - Hook still never shows the hero product if the angle is ATTACK — product reveals mid-reel still only
 - No offers, codes, or pricing in reel captions or baked text unless Puran explicitly says so
 
-### What Was Retired (Jul 2026 — do not do)
+### What Was Retired (do not do)
 
-- Per-clip Grok Aurora prompts with SUBJECT + ACTION + CAMERA + STYLE + MOOD + WHAT MUST NOT MOVE structure — replaced by the single master brief
-- Physics specs (px travel distance, easing, bounce, velocity) — the Agent handles motion physics from the still context now
-- 6-second clip cap — no longer meaningful under the master-brief model
-- Restitching in CapCut — the Agent stitches, CapCut only polishes
-- Generating stills in Aurora — always GPT Image 2.0 for text + pack fidelity
+- Per-clip Grok Aurora prompts with SUBJECT + ACTION + CAMERA + STYLE + MOOD + WHAT MUST NOT MOVE structure — replaced by the single master brief (Jul 2026)
+- Physics specs (px travel distance, easing, bounce, velocity) — the Agent handles motion physics from the still context now (Jul 2026)
+- 6-second clip cap — no longer meaningful under the master-brief model (Jul 2026)
+- Restitching in CapCut — the Agent stitches, CapCut only polishes (Jul 2026)
+- Generating stills in Aurora — always GPT Image 2.0 for text + pack fidelity (Jul 2026)
+- Loose animation direction like "slow push-in on the pack" without a speed and endpoint — replaced by explicit camera command per beat (Aug 2026, v4.1)
+- Skipping the `Stays still:` declaration when it "seems obvious" — never skip; drift is the default (Aug 2026, v4.1)
+- Camera travel between subjects — replaced by hard `CUT:` between stills (Aug 2026, v4.1)
+- Undirected beats where the camera is left implicit — every beat commands the camera, even if the command is `locked off` (Aug 2026, v4.1)
+- Negatives scattered through the brief — consolidated into one formal block, Section 9 (Aug 2026, v4.1)
 
-### Non-Negotiable Failure Modes (learned from Jul 2026 pilot)
+### Non-Negotiable Failure Modes (Jul 2026 pilot + Seedance discipline learnings, Aug 2026 v4.1)
 
-- **Silent VO** — always caused by not marking VO as "dominant audio" in the brief. Aurora's audio token bias drops the subtler channel. Fix: explicit dominance tag + music bed floor
-- **Abrupt end / dropped CTA** — always caused by not locking the final beat. Agent Mode compresses low-drama beats. Fix: explicit `Do not compress, skip, or shorten` on the CTA beat + VO delivers the CTA as the last spoken line (redundant to baked text so it survives even if text card gets dropped)
-- **Text drift on animated stills** — Aurora doesn't animate baked text well. If a still has heavy baked text, direct the Agent to hold the still with camera-only motion (slow push-in, subtle parallax) rather than animating the subject inside the frame
+- **Label warp on push-in** — camera moved toward pack without the packaging protection clause. Fix: always include Section 8 verbatim when product features in any beat.
+- **Morph between subjects** — brief asked camera to travel from product to texture b-roll. Fix: hard `CUT:` between stills, never a camera journey.
+- **Drifting composition inside a beat** — no `Stays still:` declaration. Fix: mandatory on every beat, list every locked element.
+- **Silent VO** — VO not marked "dominant" in the brief. Aurora's audio token bias drops the subtler channel. Fix: Section 6 dominance tag + music bed floor.
+- **Abrupt end / dropped CTA** — final beat not locked. Agent Mode compresses low-drama beats. Fix: Section 7 lock language + VO delivers the CTA as the last spoken line (redundant to baked text so it survives even if the text card gets dropped).
+- **Text drift on animated stills** — Aurora animated inside a text-heavy still. Fix: on any beat with heavy baked text, camera command must be `locked off` or a `very slow push-in stopping before the text zone`, and `Stays still:` must list the headline explicitly.
 
 ---
 
@@ -492,6 +546,7 @@ Butter Chicken Gravy
 Cashew Nuts
 Biryani Gravy
 Fit-O-Milleto Cookies
+Bakkit Ajwain Millet Cookies
 Kung Pao Sauce
 Schezwan Sauce
 Manchurian Sauce
