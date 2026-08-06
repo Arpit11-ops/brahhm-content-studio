@@ -2036,3 +2036,47 @@ Reusable for: any EDUCATE-angle carousel across all 5 brands by palette swap onl
 
 Last assigned template: T75 (Modular Listing Carousel — assigned 2026-07-01)
 Next new template: T76
+
+--- T76 — Giant Hero Typography + Product (Caveman) ---
+Assigned: 2026-08-06
+Brand: Caveman Organic (primary) — palette-swappable across all 5 brands
+First use: Bakkit Coconut Millet Cookies RELATE post (August 2026)
+Reference: Reverse-engineered from Britannia Pure Magic Chocolush advertisement (Protocol 7)
+Design mode: Composited (GPT Image 2.0 generates hero image; Canva handles logo overlay)
+
+Architecture:
+  · 4:5 ratio (1080x1350)
+  · Upper two-thirds: massive hero typography zone — giant dominant product word (e.g. "COCONUT") in bold condensed sans-serif spanning near-full width, second line in brand accent color, subline with ingredient callout
+  · Lower-centre third: single product box on slight angle (10-15 degrees), cookies/product breaking out from pack edges
+  · Ingredient bed mounded beneath product — not flat scatter
+  · Floating ingredient elements at varying depths (sharp foreground, soft background)
+  · Deep atmospheric gradient background (brand color → near-black) with subtle abstract circular forms layered behind product zone
+  · Two feature chips lower-left — dark semi-transparent overlay, off-white small caps text
+  · Website CTA bottom-centre — small, understated, same font family as headline
+
+Typography system:
+  · Line 1: Giant bold condensed sans-serif — cream/off-white — single dominant word, largest element on canvas
+  · Line 2: Bold sans-serif in brand accent color — noticeably smaller than Line 1
+  · Subline: Medium-weight sans-serif, off-white, understated
+  · Feature chips: Small caps on dark semi-transparent overlay
+  · Website CTA: Small understated sans-serif, cream, bottom-anchored
+
+Palette per brand:
+  · Caveman: Deep crimson red (#D20000) → warm black (#1A0A00) — Cave Red world
+  · Health Fields: Deep teal (#003C32) → near-black — Teal world
+  · Pusht: Forest green (#143C28) → warm black — Farm Green world
+  · greendipz: Bold red-orange → deep black — Flavour world
+  · Biomart: Market green (#00A050) → deep black — Marketplace world
+
+Color world rule: Total monochromatic immersion — background, atmosphere, circular forms, feature chip overlays all within same color family. Only product packaging (as printed), food elements (natural tones), and typography may break the brand color world — warmed by ambient brand-color light.
+
+Lighting: Studio key light from upper-left — ARRI quality warmth. Product label fully illuminated, zero shadow on label face. Ingredient elements catch warm highlights and subtle rim light. Background gradient glows from within — atmospheric, not flat-lit.
+
+Exclusions: No rustic props. No scattered liquid/splash. No human hands/models. No price tags/discount badges. No full stops on any text. No solid color blocks for chips. No script/decorative fonts. No clutter/watermarks.
+
+Chip rules: Dark semi-transparent overlay only — background color bleeds through. Never solid contrasting blocks.
+
+Reusable for: any single-product hero post across all 5 brands by palette swap — works best for RELATE and EDUCATE angles where a bold product statement needs visual dominance without lifestyle photography.
+
+Last assigned template: T76 (Giant Hero Typography + Product — assigned 2026-08-06)
+Next new template: T77
