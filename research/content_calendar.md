@@ -127,13 +127,14 @@
 | ALL 5 BRANDS | POST | RELATE | Independence tile — one line, one product each, same day | Reach | Hero SKU per brand |
 | BIOMART | STORY | CONVERT | Independence Day cart | DM | — |
 
-## AUGUST 16 · SUNDAY · Krishna Janmashtami 🎬 REEL DAY
+## AUGUST 16 · SUNDAY 🎬 REEL DAY
+(Janmashtami framing removed — actual Janmashtami date is 2026-09-04. Slate re-anchored 2026-08-16.)
 | Brand | Type | Angle | Hook Direction | KPI | Product Slot |
 |---|---|---|---|---|---|
-| HEALTH FIELDS | REEL #10 | RELATE | Janmashtami bhog — honey, tulsi, panchamrit, silent slow pour | Reach + Saves | Honey + tulsi |
-| PUSHT | POST | RELATE | Makhan-mishri and the ghee your dadi churned | Saves | Bilona ghee |
-| BIOMART | CAROUSEL | CONVERT | Janmashtami sattvik cart — 5 packs, one order | DMs | Sattvik bundle |
-| CAVEMAN | STORY | RELATE | Janmashtami tiffin | DM | — |
+| HEALTH FIELDS | REEL #10 | TBD | TBD | Reach + Saves | TBD |
+| PUSHT | POST | TBD | TBD | Saves | TBD |
+| BIOMART | CAROUSEL | TBD | TBD | DMs | TBD |
+| CAVEMAN | STORY | TBD | TBD | DM | — |
 
 ## AUGUST 17 · MONDAY
 | Brand | Type | Angle | Hook Direction | KPI | Product Slot |

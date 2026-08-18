@@ -738,8 +738,8 @@ Available formats — select based on product and content angle:
 ## CURRENT STATE TRACKING
 
 ### VEE Template Count
-Last assigned template: **T80** (Cookie Shelf Grid Carousel — Caveman, assigned 2026-07-30)
-Next new template: **T81**
+Last assigned template: **T82** (Doctor-Sister Rakhi Wellness Bundle Carousel — Health Fields, assigned 2026-08-08)
+Next new template: **T83**
 Always grep `Visual_Execution_Engine_v4_txt.txt` for the last T-number before assigning new ones.
 T56-T60 are reel thumbnail templates (1:1 square) for grid coherence.
 
