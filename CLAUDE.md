@@ -3,11 +3,56 @@
 # Version: 3.2 | Upgraded: May 2026
 # Environment: Claude Code (persistent project)
 
+## ⛔ PRE-FLIGHT GATE — HARD BLOCK, RUN BEFORE ANY OTHER TOOL
+
+Before you touch ANY content-generation tool (WebFetch, product lookup, Pinterest scrape, competitor DB, writing a caption, writing a GPT prompt, writing a reel brief, editing an existing caption, or even brainstorming) — you MUST first Read the applicable SKILL.md files in that same session. This is a HARD BLOCK. Not a nudge, not a background reminder, not a "silent sweep." A blocking gate that fails the workflow if skipped.
+
+**Enforcement contract — self-check before every content turn:**
+
+> "Have I opened the required SKILL.md files with the Read tool THIS session? If no → STOP. Read them now. If yes → proceed."
+
+You must output a one-line pre-flight receipt at the top of any content turn before any other content-facing output, in this exact form:
+
+```
+PRE-FLIGHT ✅ Skills read this session: [list of SKILL.md filenames opened]
+```
+
+If the receipt is missing, the caption/prompt/reel is INVALID and must be regenerated after the reads. Puran has explicitly enforced this rule multiple times — see [[feedback_skill_reads]].
+
+**Mandatory reads for every post (all 4, every time):**
+1. `./skills/humanizer-main/humanizer-main/SKILL.md`
+2. `./skills/marketingskills-main/skills/social/SKILL.md`
+3. `./skills/marketingskills-main/skills/copywriting/SKILL.md`
+4. `./skills/marketingskills-main/skills/copy-editing/SKILL.md`
+
+**Additional mandatory reads by content type:**
+- GPT Image 2.0 prompt (any post with an image) → `./skills/gpt-image-2/SKILL.md` + `Visual_Execution_Engine_v4_txt.txt`
+- Reel of any kind → `./skills/marketingskills-main/skills/video/SKILL.md`
+- ATTACK or CONVERT angle → `./skills/marketingskills-main/skills/marketing-psychology/SKILL.md` + `./skills/marketingskills-main/skills/ad-creative/SKILL.md`
+- Launch / festival campaign (5+ posts) → `./skills/marketingskills-main/skills/launch/SKILL.md`
+- Calendar planning → `./skills/marketingskills-main/skills/content-strategy/SKILL.md`
+
+**"Just a caption edit" is NOT an exemption.** Even a single-line edit, a language swap, or a claims correction triggers the full 4-skill sweep. No exceptions.
+
+**Failure mode being prevented:** Claude routinely internalises "I already know this" and skips the Read calls, then generates weaker output that violates Protocol 6, banned words, or the humanizer sweep. The pre-flight receipt makes the skip visible and callable.
+
+---
+
 ## MCP & AUTOMATED GENERATION WORKFLOW (CRITICAL)
 
 You are connected to the `brahhm-studio` MCP server. For all content generation tasks in this repo, follow this automated workflow:
 1. **Locate Schedule**: Look up the targeted date in the optimized calendar [research/content_calendar.md](file:///c:/NITRO%204%20BACKUP/IMPORTANT%20WORK/brahhm-content-studio/research/content_calendar.md).
-2. **Fetch Descriptions**: Query [research/product_descriptions.json](file:///c:/NITRO%204%20BACKUP/IMPORTANT%20WORK/brahhm-content-studio/research/product_descriptions.json) to grab the product details. If missing, invoke the `fetch_product_page` MCP tool. Do NOT trigger manual user gates unless both lookups fail.
+2. **Fetch Descriptions (auto — never gate the user)**: Go straight to the brand website and pull the live product description yourself. Never ask Puran to paste it.
+   - Route by brand: Caveman → caveman.co.in, Health Fields → healthfields.in (Biomart mirror OK), Pusht → pusht.in, Biomart + greendipz → biomart.in.
+   - Default tool order: `WebFetch` on the live product URL for the exact page → `mcp__brahhm-studio__fetch_product_page` as fallback if WebFetch returns thin content or auth-walls → search the site (e.g. `biomart.in/search?q=...`) if the URL is unknown.
+   - Cached JSON at `research/product_descriptions.json` is a check-first shortcut, not the primary source — live page wins if the two disagree.
+   - Only trigger Protocol 2 manual gate if BOTH live fetch and search fail across all brand domains.
+2A. **Fetch Pack Image (auto — never gate the user)**: Pull the product pack photo from the local storage folder. Never ask Puran to attach it.
+   - Root: `C:\Users\arpit\Documents\storage\arpan organic\`
+   - Brand subfolders: `caveman\`, `health fields\`, `pusht\`, `biomart\`, `greendipz\`
+   - Use `Glob` or `Bash ls` to find the matching pack file (front-of-pack preferred per [[feedback_pack_front_hero]]).
+   - Output the absolute path in the post package under the "Pack image (upload to GPT)" line and set the Point 7 upload flag ✅ YES.
+   - Only ask Puran if no matching pack file exists in the brand folder.
 3. **Competitor Benchmarking**: Call the `query_studio_db` MCP tool to retrieve high-performing competitor posts matching the product category.
 4. **Visual Reference Hunt** (when post needs fresh design system — carousel, reel thumbnail set, identity board, multi-product flatlay): Call `search_pinterest_references` with 2-3 SHORT Pinterest-native queries (≤3 words each — e.g. `instagram carousel design`, `food brand instagram`, `grocery flatlay`). Marketer jargon ("premium grocery editorial layout") returns zero hits — always use natural Pinterest user phrasing. Download top 6 by saves to scratchpad, Read them visually, present a shortlist to Puran (save count ≠ relevance — always inspect). Library auto-archives to `research/reference_library/` with `INDEX.json`; call `list_reference_library` first to check for matching prior runs before scraping again.
 5. **Context Pruning**: Only read the Brand Bible for the active brand (e.g. `Health_Fields_Brand_Bible_v2.txt`) and load only the formatting skills that apply to the selected content type (e.g. `video` for Reels, `emails` for Stories).
@@ -73,10 +118,12 @@ Skills directory:
 | Brand | Website | Handle | Key Colours | GPT Aesthetic Anchor |
 |-------|---------|--------|-------------|---------------------|
 | Caveman Organic | caveman.co.in | @cavemanorganic | Cave Red #D20000, #1A1A1A | Raw editorial meets Fear of God — dark, earthy, Gen Z confidence. Cave Red world. |
-| Health Fields | health-fields.com | @healthfieldsorganic | Teal #007878, Deep Teal #003C32, Cream #F5F2E8 | Luxury wellness meets Aesop minimalism — clinical, teal, premium Indian organic. |
+| Health Fields | healthfields.in | @healthfieldsorganic | Teal #007878, Deep Teal #003C32, Cream #F5F2E8 | Luxury wellness meets Aesop minimalism — clinical, teal, premium Indian organic. |
 | Pusht Organic | pusht.in | @pushtorganic | Forest Green #143C28 | Farm editorial meets golden hour documentary — warm, honest, soil and seed. |
 | greendipz | biomart.in | @greendipz | — | Bold food editorial meets urban street market — vibrant, cuisine-led, flavour-first. |
 | Biomart | biomart.in | @biomart_organic | Market Green #00A050, Warm Gold #B49664 | Premium organic marketplace meets Whole Foods editorial — clean, abundant, trustworthy. |
+
+Each brand's closing GPT style-tag cluster (paste at the end of every GPT Image 2.0 prompt for that brand) is codified in **Protocol 6 → Brand Style-Tag Clusters**. Every new prompt must close with that brand's cluster — this is the convergence hook that pulls the whole image toward one aesthetic.
 
 ---
 
@@ -100,6 +147,7 @@ HARD RULE: Before producing ANY output in the domains below, you MUST use the Re
 | `cro` | `./skills/marketingskills-main/skills/cro/SKILL.md` | Any CTA landing on brand websites | Caption CTA matches landing page promise |
 | `content-strategy` | `./skills/marketingskills-main/skills/content-strategy/SKILL.md` | Monthly/weekly calendar planning only | Pillar framework, content mix, angle distribution |
 | `ab-testing` | `./skills/marketingskills-main/skills/ab-testing/SKILL.md` | Every post with a variation (Point 11) | Caption variation logic, meaningful angle differentiation |
+| `codex-image-gen` | `./skills/codex-image-gen/SKILL.md` | Puran says "generate the image", "run codex", "make the image", or any close variant after a Point 7 prompt is locked | Runs OpenAI Codex CLI native image gen with the Point 7 prompt + pack reference, saves PNG to `research/prompts/assets/`, delivers via SendUserFile. Removes the copy-paste-into-ChatGPT step |
 
 FOR EVERY POST — mandatory read sequence before any caption output:
 1. Read `./skills/humanizer-main/humanizer-main/SKILL.md`
@@ -191,42 +239,47 @@ When Puran says "include the offer" → add to caption only. Image prompts never
 
 Read `Visual_Execution_Engine_v4_txt.txt` for all image generation.
 Read `skills/gpt-image-2/SKILL.md` before writing every GPT Image 2.0 prompt. Mandatory.
+Core prompt philosophy lives in memory: [[feedback_gpt_creative_director_model]].
 
 ### Image Generation Rules
 
 - Product packaging CAN be generated in GPT Image 2.0 — upload the actual pack photo as reference when generating product-featuring scenes for accurate results
-- No rustic props: no wooden bowls, burlap, jute, mortar & pestle
+- No rustic props in the surrounding set: no wooden bowls, burlap, jute, mortar & pestle
 - Template rotation: no template repeated within 3 consecutive posts on same account
 
-### GPT IMAGE 2.0 PROMPT WRITING STANDARD (Mandatory — v3.2 Upgrade)
+### GPT IMAGE 2.0 PROMPT WRITING STANDARD (v3.3 — Prose Creative-Director Model)
 
-GPT Image 2.0 responds to creative direction language, not technical specifications.
-NEVER use pixel coordinates, X/Y values, or RGBA codes in prompts. Use visual language only.
+**Core shift:** GPT Image 2.0 is a system that understands design language — so we speak design language, not schema. Every prompt is a flowing conversational paragraph, one creative director briefing one photographer + typographer + art director in one meeting. ALL-CAPS field labels (`THEME:`, `MOOD:`, `SCENE:`, `TYPOGRAPHY:`, `EXCLUSIONS:`, `FORMAT:` etc) route ChatGPT to its edit endpoint, which then refuses because no source image is attached — validated across multiple sessions.
 
-**MASTER PROMPT STRUCTURE — Every GPT Image 2.0 prompt must follow this order:**
+Never use pixel coordinates, X/Y values, or RGBA codes in prompts. Never use ALL-CAPS field labels in the outputted prompt. Use visual and directional language only.
 
-```
-LINE 1:       [Format/ratio] + [Output type] + [Real-world aesthetic reference]
-THEME:        Emotional anchor — 3-5 words. Governs every element GPT generates
-MOOD:         [X meets Y] — two real-world references as hybrid aesthetic anchor
-SCENE/SETUP:  Real objects with symbolic roles + atmosphere as named ingredients
-PRODUCT:      Material + how light interacts with surface + angle — never coordinates
-LIQUID/SPLASH: Direction of arc/ribbon — one wide graceful sweep, not explosion
-INGREDIENTS:  Named elements at varying depths — sharp foreground, soft background
-SPACE:        Negative space instruction OR tonal zone for text — never coordinates
-PANELS:       If multi-panel: LEFT/CENTRE/RIGHT — each gets its own mini brief
-TYPOGRAPHY:   Style-by-style. Position relative to layout elements. Never coordinates
-HEADLINE:     Size hierarchy across lines — build to one dominant final word or line
-CHIPS:        Dark semi-transparent overlay — NEVER solid colored blocks. Background bleeds through
-PALETTE:      Complex atmosphere = descriptive language only. Flat single bg = one hex only
-COLOR WORLD:  State monochrome immersion rule — every element within same palette family
-FILM:         If editorial: camera type + film stock + artifacts (halation, grain, flare)
-LIGHTING:     Cinematic terms — golden hour / ARRI quality / studio key light / Portra 400
-AUTHENTICITY: Barcode / URL / certification marks / FSSAI number as design elements
-EXCLUSIONS:   Explicit negative prompts — what must NEVER appear
-QUALITY:      8K, ultra detailed, photorealistic, sharp focus, no watermark, no clutter
-FORMAT:       [Ratio] + GPT Image 2 — declared at close
-```
+**THE 6-PART PROSE CASCADE — every prompt is one paragraph, in this order:**
+
+1. **Create-new directive (leading line, mandatory).**
+   - Type-only slide: `Create a new image.`
+   - Product-upload slide: `Create a new image. Use the product pack photo uploaded in THIS message as a visual reference only — do not edit it. Ignore all other images in the conversation.`
+
+2. **Shot + subject.** Open with camera language, front-load the subject. `Editorial hero shot of a [Product] pack standing upright and centered...` / `Extreme close-up macro shot of a person's face, cropped tightly to show...`
+
+3. **World + light.** The atmosphere, background, and lighting the subject lives in. Named ingredients (`warm honey-cream farm world, distant blurred sorghum field at golden hour`), never hex codes, never gradient specs.
+
+4. **Cascading detail.** Foreground to background, subject to secondary elements to props. Each clause zooms in from the previous. Sensory specifics beat adjectives (`visible pores, light sweat, sun-kissed freckles for hyper-realism`, not `nice skin`).
+
+5. **Text zones — position + style + exact quoted copy + line-by-line breakdown.** Format: `[Spatial position], [style descriptor + color]: '[exact copy]' on line 1, '[exact copy]' on line 2.` Double quotes or single quotes both work. See callout typography rule below for information-dense layouts.
+
+6. **Inline exclusions + closing style-tag cluster + ratio close.** Exclusions live inline right after the text zones (where the risk lives), then five to seven brand style tags (this is the convergence hook that pulls the whole image toward one aesthetic), then the ratio.
+
+**BRAND STYLE-TAG CLUSTERS — paste at the close of every prompt for that brand:**
+
+- **Caveman:** `raw editorial product photography, Fear of God Essentials lookbook, Kodak Portra 400 warmth with heavy film grain, ARRI studio key light with warm rim glow, cinematic depth, dark editorial world, Cave Red accent, premium Indian organic`
+- **Health Fields:** `clinical wellness editorial, Aesop store minimalism, soft diffused studio light, teal monochrome color world, quiet luxury Indian organic, premium apothecary aesthetic, subtle grain`
+- **Pusht:** `honest farm editorial documentary, warm golden hour lighting, Kodak Portra 400 with heavy film grain, National Geographic Indian farmland warmth, forest green and warm cream color world, premium Indian organic`
+- **greendipz:** `bold food editorial, urban street-market energy, restaurant-at-home aesthetic, high-saturation cuisine photography, cinematic food-forward lighting, vibrant flavour world`
+- **Biomart:** `abundant marketplace editorial, Whole Foods store aesthetic, clean warm studio light, market green and warm gold color world, premium organic curation, trustworthy Indian marketplace`
+
+**CALLOUT TYPOGRAPHY RULE (information-dense EDUCATE posts):**
+
+When a design uses hairline callouts to label real elements in the frame, the callout labels must be **bold sans-serif caps, medium-large size (roughly 1.5x the footer strip text), tight letter-spacing, sized so they read clearly at Instagram feed thumbnail scale.** Include in the prompt: `the callout labels together form the second visual layer of the image after the pack — they must be immediately readable, not designer-decorative.` Still pure text on a hairline pointer — no chips, no boxes, no rounded pills, no colored blocks, no chip backgrounds. See [[feedback_gpt_callout_size]] and [[feedback_callouts_over_chips]].
 
 **PRECISION TOOLS — Real-world references beat description every time:**
 
@@ -237,19 +290,20 @@ FORMAT:       [Ratio] + GPT Image 2 — declared at close
 | "Nice gradient background" | "Warm amber temperature throughout entire composition" |
 | Hex codes for atmosphere | "Deep forest green bleeds to warm black at edges" |
 | "Add text in upper left" | "Keep clean negative space on left third for headline" |
-| Pixel/% coordinates | Spatial: "upper-left", "centre-dominant", "spanning full width" |
+| Pixel or % coordinates | Spatial words: "upper-left", "centre-dominant", "spanning full width" |
 | Solid color chips | "Dark semi-transparent overlay — background color bleeds through" |
 | "Scattered liquid drops" | "Single dramatic sweeping ribbon arc — wide, graceful, one motion" |
+| "Small caption text" (callouts) | "Bold sans-serif caps roughly 1.5x the footer strip, tight letter-spacing, reads clearly at feed thumbnail scale" |
+| ALL-CAPS field labels (`THEME:` `MOOD:`) | Fold everything into descriptive paragraphs — the whole prompt is one flowing brief |
 
-**COLOR WORLD RULE — Mandatory for every image:**
-Every image must maintain total monochromatic immersion. Background, liquid/atmosphere,
-ingredients, and feature chips must ALL exist within the same color family.
-Feature chips = dark semi-transparent overlays only — NEVER solid contrasting color blocks.
-Only typography and badge elements may use the brand's contrasting accent color.
+**COLOR WORLD RULE — Mandatory every image:**
+Total monochromatic immersion. Background, liquid/atmosphere, ingredients, and any chip/callout overlay must all live within the same color family. Only typography and small badge elements may use the brand's contrasting accent color.
 
 **INGREDIENT BED RULE — Mandatory for product-on-ingredient shots:**
-Ingredients must be MOUNDED as a platform the bottle/pack emerges from — not scattered flat.
-Peak seeds/fruits are sharp and detailed. Outer edges softer. Creates vertical lift and depth.
+Ingredients must be MOUNDED as a platform the pack emerges from — never scattered flat. Peak seeds/fruits sharp and detailed in foreground, outer edges softer.
+
+**CHIP vs CALLOUT RULE:**
+Two valid label modes — never mix in the same image. Either **dark semi-transparent overlay chips** (background color bleeds through) for lifestyle/premium hero posts, OR **hairline callouts with bold labels** (no chip background) for information-dense EDUCATE posts. Solid colored chip blocks are permanently banned across all brands.
 
 ### Text Confirmation Protocol (Mandatory)
 
@@ -261,16 +315,20 @@ Before outputting any final GPT Image 2.0 prompt, present ALL proposed in-image 
 Wait for confirmation or edits. Only then output the locked prompt.
 
 **NO DOTS RULE — TOP PRIORITY:**
-Never use full stops/dots at the end of any headline, label, or on-image text in GPT Image 2.0 prompts. All in-image text is dot-free. No exceptions across any brand, frame, or post type.
+Never use full stops/dots at the end of any headline, label, callout, footer strip, or on-image text. All in-image text is dot-free. No exceptions across any brand, frame, or post type. Middot separators `·` between list items are allowed.
 
-### Output Format — Every Image Prompt (Code Block)
+### Output Format — Every Image Prompt
 
 ```
 TEMPLATE: [Number] — [Name]
-GPT IMAGE 2.0 PROMPT: [Full structured prompt, paste-ready]
+GPT IMAGE 2.0 PROMPT:
+[Single flowing prose paragraph — no ALL-CAPS field labels, no schema blocks, no line-broken sections. One creative director briefing one photographer, top to bottom: create-new directive → shot + subject → world + light → cascading detail → text zones with position + style + exact quoted copy + line-by-line breakdown → inline exclusions → brand style-tag cluster close → ratio.]
 ```
 
 Never add a CANVA OVERLAY line to any GPT Image 2.0 prompt. Never mention logo placement or certification badges in any prompt output. Puran handles all Canva work independently — do not reference it in outputs.
+
+**Canonical reference prompt shape (proven working — Celsius Sparkling Orange, July 2026):**
+The Celsius reflection-in-sunglasses prompt is the reference template for every new GPT prompt in this repo. Extreme close-up macro shot leads → subject cascade (face → sunglasses → sunlight → reflection → can → logo detail) → text zones each with spatial position + style + exact quoted copy + line-by-line → inline no-list exclusions → style-tag cluster close → ratio. Full prompt captured in [[feedback_gpt_creative_director_model]].
 
 ---
 
@@ -321,16 +379,18 @@ Badge style. Footer elements. Authenticity signals (barcode, URL, certification)
 
 ### PROMPT TRANSLATION LAYER (After Analysis — Mandatory)
 
-After the 7-layer analysis, translate findings into creative brief language:
+After the 7-layer analysis, translate findings into a single flowing prose paragraph in the Protocol 6 shape — never into a schema or ALL-CAPS field list. The finished prompt is one creative director briefing one photographer:
 
-1. Identify the real-world aesthetic anchor (X meets Y)
-2. Write the emotional theme line
-3. Describe atmosphere as named ingredients — never as gradient specs
-4. Describe liquid as a sweeping ribbon direction — never as scattered explosion
-5. Describe chip/UI elements as semi-transparent overlays — never solid blocks
-6. State the color world immersion rule explicitly
-7. Write all text placement relative to layout zones — never coordinates
-8. Add explicit exclusion list based on what the reference does NOT have
+1. Open with the Protocol 6 create-new directive (type-only or product-upload variant)
+2. Open the brief with the shot + subject line (camera + framing + subject front-loaded)
+3. Describe world + light using named ingredients and real-world lighting references — never hex, never gradient specs
+4. Cascade detail from foreground to background, subject to props — each clause zooms in from the previous
+5. Describe liquid as a sweeping ribbon direction — never as scattered explosion
+6. Describe label elements as either dark semi-transparent overlay chips OR hairline callouts with bold labels — never solid colored blocks, never mix modes in the same image
+7. State the color world immersion rule explicitly (all elements in same palette family)
+8. Write every text zone as position + style + exact quoted copy + line-by-line breakdown
+9. Weave the exclusion list inline right after the text zones (where the risk lives)
+10. Close with the brand's Protocol 6 style-tag cluster, then the ratio
 
 ### Output After Analysis
 
@@ -343,84 +403,134 @@ After the 7-layer analysis, translate findings into creative brief language:
 
 ---
 
-## PROTOCOL 8 — REEL PRODUCTION SYSTEM v3.0
+## PROTOCOL 8 — REEL PRODUCTION SYSTEM v4.0 (Agent Mode Hybrid — Jul 2026)
 
 Read `skills/marketingskills-main/skills/video/SKILL.md` before every reel. No exception.
 Read `skills/gpt-image-2/SKILL.md` before every GPT still. No exception.
 
-### 3-Stage Workflow — Mandatory Sequence
+**New default workflow (client-directed, Jul 2026):** GPT Image 2.0 makes every still with baked text + reference-photo pack fidelity. Grok Imagine Agent Mode receives the full still batch on its infinite canvas and does everything downstream — animation per still, transitions between stills, stitching into one MP4, voiceover, SFX, and music. CapCut becomes a 5-minute finishing pass — logo watermark + music tweak only. The old per-clip Grok Aurora prompting workflow (F1/F2/F3/F4 individual clip prompts) is **retired**.
+
+### 4-Stage Workflow — Mandatory Sequence
 
 **STAGE 1 — GPT IMAGE 2.0 STILLS**
-Build and output all GPT still prompts first. Wait for Puran to generate and upload stills. Do not write Grok prompts until stills are received.
+Build and output every still prompt as one flowing Protocol 6 prose brief. Bake all on-screen text (hooks, callouts, prices, end-frame CTA) into the stills — GPT owns text fidelity, Grok is not asked to render text ever. Upload the pack reference photo for every still that features the product. Wait for Puran to generate + upload all stills before proceeding.
 
-**STAGE 2 — STILL ANALYSIS**
-When Puran uploads generated stills: analyse composition, lighting, element positions; flag issues; confirm approved stills. Only then proceed to Stage 3.
+**STAGE 2 — STILL REVIEW**
+When Puran uploads the generated stills: verify composition, text legibility at feed thumbnail scale, pack shape fidelity, colour world consistency across the batch. Flag any still that needs regenerating. Only proceed to Stage 3 once all stills in the reel are approved.
 
-**STAGE 3 — GROK AURORA ANIMATION PROMPTS**
-Build Grok prompts from the actual approved stills. Never from imagination.
+**STAGE 3 — GROK IMAGINE AGENT MODE (single master brief) — v4.1**
+One master brief goes into Grok Imagine web canvas along with the full uploaded still batch. The Agent animates each still, cuts between them, stitches the full sequence, generates VO + SFX + music bed, and outputs one finished MP4. **Never write per-clip Grok prompts anymore — one master brief covers the whole reel.** Structure the brief in the exact 10-section shape codified below. Every discipline is non-negotiable — each one patches a specific Aurora failure mode observed in the Jul 2026 pilot or inherited from validated Seedance 2.0 prompting practice.
+
+**Core mental model (Seedance-derived, Aurora-tested):**
+- Each GPT still IS the first frame of its beat. Never re-describe what is already in the still — spend every word on what changes forward in time from that frame.
+- The camera must be commanded on every beat. Undirected camera = drift + label warp + wandering framing. One explicit move per beat, with speed AND endpoint stated. `locked off` is a valid and often correct answer — never omit the line.
+- Subject changes happen through hard `CUT:` between stills, never through camera travel from one subject to another. Camera-journey-between-subjects is what produces morph artifacts on pack edges.
+- Declare what stays still on every beat. Aurora drifts everything by default — the static declaration is the single highest-leverage instruction we have.
+- Protect packaging like glass. Never push, zoom, or rotate into labels, logos, or on-pack text. If the camera moves near packaging, explicitly state that labels stay sharp and unwarped. If a beat needs to leave the product, `CUT:` away — never fly the camera off it.
+
+**STAGE 4 — CAPCUT FINISHING (minimal)**
+Logo watermark. Music polish or swap if the Agent's bed isn't right. Auto-captions if VO isn't crisp enough. Export 1080×1920. Nothing else — no restitching, no clip-by-clip editing.
 
 ### Production Stack
 
 ```
-GPT Image 2.0  → still reference frames (9:16, 1080×1920px)
-Grok Aurora    → animates approved stills into clips
-CapCut         → assembles clips, SFX, voiceover, auto-captions
+GPT Image 2.0        → all stills (9:16, 1080×1920px) with baked text + pack ref
+Grok Imagine Agent   → per-still animation + transitions + stitch + VO + SFX + music
+CapCut               → logo watermark + music polish only
 ```
 
-### GPT Still Rules
+### GPT Still Rules (unchanged from v3.0)
 
-- Upload instruction on every frame: ✅ YES [which file] or ❌ NO
+- Upload flag on every still: ✅ YES [which pack file] or ❌ NO
 - Full product always visible — no crop, no cutoff, ever
-- All text baked into GPT prompt — Canva handles logo only
-- Pack label: always fully lit, zero shadow on label face
+- All on-screen text baked into the GPT prompt — no exceptions
+- Pack label always fully lit, zero shadow on the label face
+- End-frame CTA text baked into the final still (`Shop now on [brand domain]`, quiet sans-serif, bottom-anchored, NO DOTS RULE applies)
 
-### Grok Aurora Prompt Structure
+### Stage 3 Master Brief Structure — 10 Mandatory Sections
 
-Every Grok prompt must include:
+The single brief given to Agent Mode with the still batch upload must contain, in this exact order:
+
+**1. Reel intent one-liner**
+Product + angle + total duration in seconds + platform + hero outcome.
+Example: `Biomart Cold-Pressed Sesame Oil, EDUCATE angle, 18 seconds, Instagram Reels, driving traffic to biomart.in.`
+
+**2. Still-to-beat map + first-frame lock**
+List every uploaded still by beat name (Still 1 = Hook, Still 2 = Setup, etc). For each, state that the video beat starts EXACTLY on this still — composition, lighting, colour, and baked text preserved as shown. State what the still already contains (baked headline, pack, scene) so the Agent does not try to redraw it.
+Example row: `Still 2 — Setup beat — starts exactly on Still 2 as uploaded, preserving composition, lighting, colour, and baked headline "Cold-pressed. Nothing else." Pack, headline, and background are locked; only the motion described below animates forward from this frame.`
+
+**3. Palette + lighting lock (global)**
+One line: the dominant colour world and lighting of the first still persists across every cut. No shift in colour temperature, no lighting change between beats unless a cut is doing the work.
+
+**4. Editing logic**
+Total duration, number of hard cuts, transition type at each boundary (`cut / dissolve / whip / match cut / hold`), and the standing rule: zero morphs, zero cross-fades between subjects, palette locked across cuts.
+
+**5. Per-beat timeline** — every beat in this exact format:
+
 ```
-SUBJECT + ACTION + CAMERA + STYLE + MOOD + WHAT MUST NOT MOVE
+[start]s–[end]s | Visual: [one clear visible moment — what motion happens INSIDE this still].
+                | Camera: [one explicit move: locked off / very slow push-in stopping before [X] / slow lateral dolly right / slow tilt up / slow pull-back — with speed and endpoint].
+                | Stays still: [what must NOT move in this beat — the pack, the label, the baked headline, background elements].
+                | Audio: [VO line quoted + SFX + music state for this beat].
 ```
 
-Physics specs — mandatory every time:
-- Travel distance in px
-- Duration in seconds
-- Easing type (ease-out default)
-- Settle behaviour (hard settle default)
-- Bounce: zero bounce or [n]px bounce — explicit always
-- Velocity in px/second for constant-velocity moves
+Rules for the timeline:
+- Beat durations sum to the total. Minimum 2s per beat, maximum 5s per beat.
+- One action + one camera move per beat. Never compound moves.
+- Every beat gets a camera command — never omit. `locked off` is valid.
+- Every beat gets a `Stays still:` declaration — never omit. Drift is the default.
+- Start a beat with `CUT:` in the Visual line when it opens on a new still. State what the new frame shows in one clause.
+- The final beat must settle — motion resolves to a holdable end frame so the CTA still card reads cleanly.
 
-### Grok Hard Rules
+**6. Global audio direction**
+VO is the DOMINANT audio channel across every beat, mixed loud and up-front. Music bed is a soft instrumental floor below VO. SFX (sizzle, pour, ambient) is background at low volume. State the word "dominant" explicitly on VO — Aurora obeys the tag and fights its own bias to drop VO under louder SFX. VO must be the LAST audio heard, delivering the spoken CTA on the final beat.
 
-- 6-second maximum per clip — never exceed
-- Never animate baked-in GPT text — Grok moves the card only
-- Never describe hand gestures as "stop" or "block" — use "palm-down sweep" with contact physics
-- Hand-object interactions: hand + object = one rigid connected unit, identical velocity from contact
-- Slow rotations (10s) for glass/transparent objects
-- WHAT MUST NOT MOVE lock list: mandatory in every prompt
+**7. Locked CTA beat (non-negotiable)**
+The final still is protected with explicit lock language:
+`Do not compress, skip, or shorten this beat. Hold for full duration. Voiceover must be clearly audible and must deliver the spoken CTA as the last line of the reel.`
+Aurora compresses low-visual-drama beats by default; the lock language is what stops it dropping our CTA.
 
-### Hook Frame Rule
+**8. Packaging protection clause (global, mandatory when product features in any beat)**
+One block, verbatim:
+`Pack labels, on-pack text, logos, and baked in-image typography stay sharp and unwarped in every beat. Never zoom, rotate, or push the camera into the label face. If the camera moves near the pack, the label surface remains flat, legible, and undistorted. Subject changes happen through hard cuts between stills — never through camera travel from one subject to another.`
 
-Never show the hero product in the hook frame if the hook attacks a competitor or problem. Product reveals mid-reel only (F4 or F5). Hook frame shows the problem world only.
+**9. Negatives block (formal, one paragraph)**
+Always include: `no morphing between subjects, no cross-fades, no flickering text, no warped or drifting typography, no added elements not in the source stills, no added text or logos, no camera shake unless a beat explicitly asks for handheld, no slow motion unless a beat explicitly asks for it, no speed ramps.` Add brief-specific negatives inline (e.g. `no people in this reel, no hand entering frame, no additional props`).
 
-### Reel Output Format
+**10. Global visual DNA + brand style-tag cluster close**
+Aspect ratio (9:16), resolution ceiling (720p), camera feel (handheld small natural shake / static cinematic / documentary real-time), then the brand's Protocol 6 style-tag cluster verbatim as the closing line.
 
-Output at reel start — 3-column timestamp table:
+### Reel Rules (updated)
 
-| TIMESTAMP | VISUAL / ANIMATION | VOICEOVER & ON-SCREEN TEXT |
-|-----------|-------------------|---------------------------|
+- Pacing: one beat = one still, minimum 2 seconds per still, maximum 5 seconds per still
+- Hook in first 2 seconds — visual + VO + baked text hit together
+- 3-Act: Visual Hook → Escalation → Website CTA (spoken + baked)
+- Length: 15–22 seconds optimal (Agent Mode compresses when overloaded — shorter briefs get honoured better)
+- Voiceover: English only, dominant audio channel every beat, delivers the CTA as the last spoken line
+- Hook still never shows the hero product if the angle is ATTACK — product reveals mid-reel still only
+- No offers, codes, or pricing in reel captions or baked text unless Puran explicitly says so
 
-Stage 1: All GPT still prompts in code blocks with upload flags
-Stage 2: [WAIT FOR STILLS — do not proceed]
-Stage 3: All Grok Aurora prompts in code blocks after still analysis
+### What Was Retired (do not do)
 
-### Reel Rules
+- Per-clip Grok Aurora prompts with SUBJECT + ACTION + CAMERA + STYLE + MOOD + WHAT MUST NOT MOVE structure — replaced by the single master brief (Jul 2026)
+- Physics specs (px travel distance, easing, bounce, velocity) — the Agent handles motion physics from the still context now (Jul 2026)
+- 6-second clip cap — no longer meaningful under the master-brief model (Jul 2026)
+- Restitching in CapCut — the Agent stitches, CapCut only polishes (Jul 2026)
+- Generating stills in Aurora — always GPT Image 2.0 for text + pack fidelity (Jul 2026)
+- Loose animation direction like "slow push-in on the pack" without a speed and endpoint — replaced by explicit camera command per beat (Aug 2026, v4.1)
+- Skipping the `Stays still:` declaration when it "seems obvious" — never skip; drift is the default (Aug 2026, v4.1)
+- Camera travel between subjects — replaced by hard `CUT:` between stills (Aug 2026, v4.1)
+- Undirected beats where the camera is left implicit — every beat commands the camera, even if the command is `locked off` (Aug 2026, v4.1)
+- Negatives scattered through the brief — consolidated into one formal block, Section 9 (Aug 2026, v4.1)
 
-- Pacing: visual change every 2.5 seconds maximum
-- Hook in first 2 seconds — visual and audio simultaneously
-- 3-Act: Visual Hook → Escalation → DM CTA
-- Length: 15–30 seconds optimal
-- Voiceover: English only
-- No offers, codes, or pricing in reel captions
+### Non-Negotiable Failure Modes (Jul 2026 pilot + Seedance discipline learnings, Aug 2026 v4.1)
+
+- **Label warp on push-in** — camera moved toward pack without the packaging protection clause. Fix: always include Section 8 verbatim when product features in any beat.
+- **Morph between subjects** — brief asked camera to travel from product to texture b-roll. Fix: hard `CUT:` between stills, never a camera journey.
+- **Drifting composition inside a beat** — no `Stays still:` declaration. Fix: mandatory on every beat, list every locked element.
+- **Silent VO** — VO not marked "dominant" in the brief. Aurora's audio token bias drops the subtler channel. Fix: Section 6 dominance tag + music bed floor.
+- **Abrupt end / dropped CTA** — final beat not locked. Agent Mode compresses low-drama beats. Fix: Section 7 lock language + VO delivers the CTA as the last spoken line (redundant to baked text so it survives even if the text card gets dropped).
+- **Text drift on animated stills** — Aurora animated inside a text-heavy still. Fix: on any beat with heavy baked text, camera command must be `locked off` or a `very slow push-in stopping before the text zone`, and `Stays still:` must list the headline explicitly.
 
 ---
 
@@ -436,6 +546,7 @@ Butter Chicken Gravy
 Cashew Nuts
 Biryani Gravy
 Fit-O-Milleto Cookies
+Bakkit Ajwain Millet Cookies
 Kung Pao Sauce
 Schezwan Sauce
 Manchurian Sauce
@@ -460,7 +571,7 @@ Read `Caption_Swipe_File.md` as quality benchmark.
 5. English only — no Hinglish unless explicitly briefed
 6. Max 3 emojis total — contextual, never decorative
 7. Never bullets in captions — flowing prose always
-8. Always end with a website link CTA — never a comment/DM keyword trigger. Route to the brand's own website (biomart.in for Biomart + greendipz, caveman.co.in for Caveman, health-fields.com for Health Fields, pusht.in for Pusht)
+8. Always end with a website link CTA — never a comment/DM keyword trigger. Route to the brand's own website (biomart.in for Biomart + greendipz, caveman.co.in for Caveman, healthfields.in for Health Fields, pusht.in for Pusht)
 9. Captions in English only for Reels — no Hinglish in Reel captions
 10. No promotional offers, discount codes, or pricing in Reel captions
 11. No offers or pricing in any caption unless Puran explicitly says so
@@ -499,13 +610,13 @@ Format examples:
 Shop now on biomart.in
 Order at pusht.in
 Explore at caveman.co.in
-Available on health-fields.com
+Available on healthfields.in
 ```
 
 Website mapping per brand:
 ```
 Caveman        → caveman.co.in
-Health Fields  → health-fields.com
+Health Fields  → healthfields.in
 Pusht          → pusht.in
 greendipz      → biomart.in
 Biomart        → biomart.in
@@ -627,8 +738,8 @@ Available formats — select based on product and content angle:
 ## CURRENT STATE TRACKING
 
 ### VEE Template Count
-Last assigned template: **T60** (Reel Thumbnail: Curation Reveal — assigned June 2026)
-Next new template: **T61**
+Last assigned template: **T82** (Doctor-Sister Rakhi Wellness Bundle Carousel — Health Fields, assigned 2026-08-08)
+Next new template: **T83**
 Always grep `Visual_Execution_Engine_v4_txt.txt` for the last T-number before assigning new ones.
 T56-T60 are reel thumbnail templates (1:1 square) for grid coherence.
 
