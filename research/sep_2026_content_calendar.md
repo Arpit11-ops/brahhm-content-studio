@@ -57,15 +57,11 @@
 | Brand | Type | Angle | Hook Direction | KPI | Product Slot |
 |---|---|---|---|---|---|
 | PUSHT | POST | EDUCATE | The difference between cold-pressed and raw-pressed — 4 lines | Saves | Groundnut oil |
-| CAVEMAN | CAROUSEL | ATTACK | Your "healthy" cookie is 6 spoons of sugar in a jowar coat | Saves + Comments | Bakkit range |
-| BIOMART | STORY | EDUCATE | September pantry echo | DM | — |
 
 ## SEPTEMBER 3 · THURSDAY
 | Brand | Type | Angle | Hook Direction | KPI | Product Slot |
 |---|---|---|---|---|---|
-| HEALTH FIELDS | CAROUSEL | EDUCATE | 5 questions your dabba masala can't answer | Saves | Whole spice range |
 | GREENDIPZ | POST | RELATE | The Thursday no-cook-mood dinner — pick a gravy, done in 8 | Reach | Any gravy |
-| PUSHT | STORY | CRAFT | Ghani echo | DM | — |
 
 ## SEPTEMBER 4 · FRIDAY · JANMASHTAMI 🕉️ 🎬 REEL DAY
 | Brand | Type | Angle | Hook Direction | KPI | Product Slot |
@@ -88,15 +84,11 @@
 |---|---|---|---|---|---|
 | BIOMART | REEL #22 | FOR-EVERYBODY | "One Sunday cart, four households" — student, new parents, retired couple, athlete | Plays + Follows | Cross-brand pantry |
 | CAVEMAN | POST | RELATE | Sunday cookie + coffee — one packet, no guilt monologue | Reach | Millet Era range |
-| PUSHT | STORY | CRAFT | Farmer + son echo | DM | — |
-| HEALTH FIELDS | STORY | RELATE | Sunday tea ritual tile | DM | — |
 
 ## SEPTEMBER 7 · MONDAY
 | Brand | Type | Angle | Hook Direction | KPI | Product Slot |
 |---|---|---|---|---|---|
 | HEALTH FIELDS | POST | EDUCATE | Peppermint after a heavy meal — the one tea nobody talks about | Saves | Peppermint tea |
-| CAVEMAN | POST | ATTACK | "High protein" biscuits are 4g protein and 22g sugar — read the pack | Saves + Comments | Bakkit range |
-| BIOMART | STORY | EDUCATE | Sunday reel echo | DM | — |
 
 ## SEPTEMBER 8 · TUESDAY · LITERACY DAY 🎬 REEL DAY
 | Brand | Type | Angle | Hook Direction | KPI | Product Slot |
@@ -109,9 +101,7 @@
 ## SEPTEMBER 9 · WEDNESDAY
 | Brand | Type | Angle | Hook Direction | KPI | Product Slot |
 |---|---|---|---|---|---|
-| GREENDIPZ | CAROUSEL | EDUCATE | The four pantry gravies a working household actually finishes | Saves | Gravy range |
 | PUSHT | POST | CRAFT | Ragi that's still cool when it reaches the pack — cold-milled flour | Saves | Ragi flour |
-| CAVEMAN | STORY | ATTACK | Biscuit-attack echo | DM | — |
 
 ## SEPTEMBER 10 · THURSDAY
 | Brand | Type | Angle | Hook Direction | KPI | Product Slot |
@@ -140,8 +130,6 @@
 |---|---|---|---|---|---|
 | PUSHT | REEL #26 | CRAFT-REVEAL | 45s inside a small-batch A2 ghee kitchen — golden hour, no VO music-led | Plays + Follows | A2 Ghee |
 | CAVEMAN | POST | RELATE | Millet modak — the one Bappa didn't see coming | Reach + Saves | Bakkit range as modak ingredient |
-| BIOMART | STORY | EDUCATE | Ganesh checklist echo | DM | — |
-| GREENDIPZ | STORY | RELATE | Modak feast echo | DM | — |
 
 ## SEPTEMBER 14 · MONDAY · GANESH CHATURTHI 🕉️ + HINDI DIWAS
 | Brand | Type | Angle | Hook Direction | KPI | Product Slot |
@@ -150,7 +138,6 @@
 | PUSHT | POST | CRAFT | The A2 ghee that made your Ganesh modak — from Nandgaon to your steel plate | Saves + Reach | A2 Ghee |
 | BIOMART | CAROUSEL | RELATE | 10 days, 10 bhog ideas — pack-first, no recipe overwhelm | Saves | Cross-brand |
 | CAVEMAN | POST | RELATE | Millet Bappa — the cookie that showed up to the celebration | Reach | Millet Era range |
-| GREENDIPZ | STORY | RELATE | Ganesh bhog tile | DM | — |
 | ALL STORIES | STORY | — | Ganesh Chaturthi visarjan-countdown tile | DM | — |
 
 ## SEPTEMBER 15 · TUESDAY · ENGINEERS DAY 🎬 REEL DAY
@@ -158,7 +145,6 @@
 |---|---|---|---|---|---|
 | PUSHT | REEL #27 | CRAFT-REVEAL | "The oldest engineer we know" — 60s inside a 100-year-old ghani, Visvesvaraya-nod | Saves + Follows | Cold-pressed groundnut oil |
 | BIOMART | POST | EDUCATE | Curation is engineering — the 12 checks before a pack enters the shelf | Saves | Cross-brand |
-| HEALTH FIELDS | STORY | EDUCATE | Tea steeping precision tile | DM | — |
 | CAVEMAN | STORY | ATTACK | "Your snack was engineered to keep you snacking" | DM | — |
 
 ## SEPTEMBER 16 · WEDNESDAY
@@ -166,21 +152,17 @@
 |---|---|---|---|---|---|
 | GREENDIPZ | POST | RELATE | Wednesday one-pan — Rajma gravy over jeera rice, 12 minutes | Reach | Rajma gravy |
 | HEALTH FIELDS | CAROUSEL | EDUCATE | 3 immunity teas as monsoon leaves — one for each time of day | Saves | Tulsi + ginger + chamomile |
-| PUSHT | STORY | CRAFT | Engineers Day ghani echo | DM | — |
 
 ## SEPTEMBER 17 · THURSDAY · VISHWAKARMA PUJA
 | Brand | Type | Angle | Hook Direction | KPI | Product Slot |
 |---|---|---|---|---|---|
 | PUSHT | POST | CRAFT | Vishwakarma at the ghani — the farmer's tools that press our oil | Saves + Reach | Cold-pressed oil range |
-| CAVEMAN | POST | RELATE | Every workman's tea break deserves a real cookie | Reach | Millet Era range |
-| BIOMART | STORY | EDUCATE | Curation Day tile | DM | — |
 
 ## SEPTEMBER 18 · FRIDAY 🎬 REEL DAY
 | Brand | Type | Angle | Hook Direction | KPI | Product Slot |
 |---|---|---|---|---|---|
 | HEALTH FIELDS | REEL #28 | RELATE / EDUCATE | "The Friday tea that fixes your Monday" — 60s ashwagandha ritual, quiet-luxury teal world, no music | Saves + Follows | Ashwagandha tea |
 | BIOMART | CAROUSEL | RELATE | Weekend brunch shelf — 6 packs, one lazy morning | Saves | Cross-brand |
-| GREENDIPZ | STORY | RELATE | Weekend feast echo | DM | — |
 
 ## SEPTEMBER 19 · SATURDAY · RADHA ASHTAMI 🎬 REEL DAY
 | Brand | Type | Angle | Hook Direction | KPI | Product Slot |
@@ -188,30 +170,25 @@
 | CAVEMAN | REEL #29 | CHARACTER-POV | Desk-to-gym POV — one Kodo Coco Fun, no monologue, 45s | Plays + Saves | Kodo Coco Fun |
 | PUSHT | POST | CRAFT | Radha Ashtami bhog — cold-pressed groundnut in the ladoo | Saves | Groundnut oil |
 | HEALTH FIELDS | STORY | RELATE | Bhakti tea tile | DM | — |
-| BIOMART | STORY | EDUCATE | Weekend brunch echo | DM | — |
 
 ## SEPTEMBER 20 · SUNDAY 🎬 REEL DAY
 | Brand | Type | Angle | Hook Direction | KPI | Product Slot |
 |---|---|---|---|---|---|
 | HEALTH FIELDS | REEL #30 | FOR-EVERYBODY | "One monsoon shelf, four evenings" — mom, college kid, WFH, sr. citizen | Plays + Follows | Tea range |
 | BIOMART | CAROUSEL | RELATE | Sunday market walk — the 7 packs that always come home | Saves | Cross-brand |
-| PUSHT | STORY | CRAFT | Ladoo ghee echo | DM | — |
 | GREENDIPZ | STORY | RELATE | Sunday gravy tile | DM | — |
 
 ## SEPTEMBER 21 · MONDAY · PEACE DAY
 | Brand | Type | Angle | Hook Direction | KPI | Product Slot |
 |---|---|---|---|---|---|
 | HEALTH FIELDS | POST | RELATE | Peace is the ten minutes with a chamomile before Monday starts | Saves | Chamomile tea |
-| CAVEMAN | POST | ATTACK | "Anxiety snacks" are engineered — read the pack, then throw it | Saves + Comments | Bakkit range |
 | BIOMART | STORY | RELATE | Monday reset tile | DM | — |
 
 ## SEPTEMBER 22 · TUESDAY 🎬 REEL DAY · PRE-VISARJAN
 | Brand | Type | Angle | Hook Direction | KPI | Product Slot |
 |---|---|---|---|---|---|
 | GREENDIPZ | REEL #31 | RELATE · NANO-COLLAB | Home chef builds the pre-Visarjan feast — 3 gravies, one 45s cut | Saves + Follows | Butter Masala + Dal Makhani + Rajma |
-| PUSHT | POST | RELATE | The oil that made every one of your 10 days of bhog | Saves + Reach | Cold-pressed oil range |
 | HEALTH FIELDS | STORY | RELATE | Post-feast tea tile | DM | Peppermint |
-| BIOMART | STORY | EDUCATE | Feast pantry echo | DM | — |
 
 ## SEPTEMBER 23 · WEDNESDAY · ANANT CHATURDASHI / GANESH VISARJAN 🕉️
 | Brand | Type | Angle | Hook Direction | KPI | Product Slot |
@@ -227,28 +204,24 @@
 |---|---|---|---|---|---|
 | BIOMART | POST | EDUCATE | Restock day — 5 packs that always run out first after a festival week | Saves | Cross-brand |
 | HEALTH FIELDS | STORY | RELATE | Recovery tea tile | DM | — |
-| PUSHT | STORY | CRAFT | Ghee refill tile | DM | — |
 
 ## SEPTEMBER 25 · FRIDAY 🎬 REEL DAY
 | Brand | Type | Angle | Hook Direction | KPI | Product Slot |
 |---|---|---|---|---|---|
 | BIOMART | REEL #32 | CRAFT-REVEAL | "The 60-second post-festival restock" — walk-through of the shelf being refilled after Ganesh week | Plays + Site clicks | Cross-brand top-movers |
 | HEALTH FIELDS | CAROUSEL | EDUCATE | 4 things a sleep tea should never contain | Saves | Chamomile / Ashwagandha |
-| CAVEMAN | POST | RELATE | The Friday cookie you actually earned | Reach | Millet Era range |
 
 ## SEPTEMBER 26 · SATURDAY · PITRU PAKSHA BEGINS 🎬 REEL DAY (tone shift)
 | Brand | Type | Angle | Hook Direction | KPI | Product Slot |
 |---|---|---|---|---|---|
 | PUSHT | REEL #33 | CRAFT-REVEAL / HERITAGE | "The way our grandmothers stored ghee" — 60s heritage kitchen, no music, warm VO | Saves + Follows | A2 Ghee |
 | BIOMART | CAROUSEL | EDUCATE | The 6 packs your grandmother would still recognise on your shelf | Saves | Cross-brand heritage staples |
-| HEALTH FIELDS | STORY | RELATE | Heritage tea tile | DM | — |
 
 ## SEPTEMBER 27 · SUNDAY · WORLD TOURISM DAY 🎬 REEL DAY
 | Brand | Type | Angle | Hook Direction | KPI | Product Slot |
 |---|---|---|---|---|---|
 | BIOMART | REEL #34 | FOR-EVERYBODY | "One shelf, six regional pantries" — 60s tour through Bengal, Kerala, Punjab, Tamil, Gujarat, UP staples | Plays + Follows | Cross-brand regional SKUs |
 | HEALTH FIELDS | POST | EDUCATE · HEART DAY TEASE | "The two teas the heart-doctor actually drinks" — teaser for Sept 29 | Saves | Tulsi + Chamomile |
-| PUSHT | STORY | CRAFT | Heritage ghee echo | DM | — |
 | GREENDIPZ | STORY | RELATE | Regional pantry tile | DM | — |
 
 ## SEPTEMBER 28 · MONDAY · HEART DAY BUILD
@@ -281,12 +254,17 @@
 
 | Brand | Posts | Carousels | Reels | Stories | Total |
 |---|---|---|---|---|---|
-| Biomart | 6 | 8 | 3 | 8 | 25 |
-| Health Fields | 6 | 5 | 5 | 8 | 24 |
-| Pusht | 8 | 0 | 3 | 9 | 20 |
-| Caveman | 7 | 1 | 2 | 4 | 14 |
-| greendipz | 3 | 2 | 3 | 8 | 16 |
+| Biomart | 5 | 8 | 3 | 3 | 19 |
+| Health Fields | 6 | 4 | 5 | 5 | 20 |
+| Pusht | 9 | 0 | 4 | 4 | 17 |
+| Caveman | 4 | 0 | 2 | 4 | 10 |
+| greendipz | 3 | 0 | 3 | 7 | 13 |
 | **All-brands / Multi** | — | — | — | 1 | 1 |
+
+**Trim history:**
+- v1 draft: 100 posts
+- v2 (light trim): 19 echo/repeat story tiles cut → 88 posts
+- v3 (further trim): 8 low-value posts cut → **80 posts** (4 Caveman posts, 2 carousels HF+greendipz, 1 Pusht post, 1 Caveman carousel). Kept all 17 reels intact.
 
 **Reels total: 17 (Reel #19–#35).** Reel-first ratio = 17 / ~100 posts ≈ 17% by count, ~50% by attention-weighted format share. Every Tue / Fri / Sat / Sun is now a 🎬 REEL DAY.
 
