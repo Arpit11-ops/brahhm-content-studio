@@ -2207,5 +2207,20 @@ Source DNA: T75 (Amazon A+ modular listing grammar — top ribbon, hairline call
 First deployed: 2026-08-30 · Biomart · Aug 30 EDUCATE recap carousel · Top 5 cross-brand pantry movers (Pusht Groundnut Oil 1L + HF Tulsi Green Tea Premium 25 bags + Caveman Kodo Coco Fun cookies 2×60g + Greendipz Paneer Makhani Gravy 370g + HF Honey 500g)
 Full spec: research/prompts/generated_2026-08-30_biomart_aug-top-5-recap.md
 
-Last assigned template: T85 (Biomart Cross-Brand Ranked Recap Carousel — assigned 2026-08-30)
-Next new template: T86
+---
+T86 — Pusht Bisected Extraction Comparison Poster (Forest-Green Field, Two-Bottle Variant)
+Assigned: 2026-09-02 · Brand: Pusht Organic · Angle: EDUCATE
+Format: 4:5 Instagram feed poster (1080×1350)
+DNA: T84 (Bisected Wellness Comparison Poster) palette-swapped from HF teal to Pusht forest-green apothecary. LEFT bottle = real branded pack (Pusht Cold-Pressed Groundnut Oil, upload ref). RIGHT bottle = unbranded plain clear-glass bottle of the same silhouette, a neutral visual foil for the "raw-pressed" class — never a competitor pack, never any label.
+Composition: Symmetrical bisected forest-green field with cream hairline vertical divider down the centre, matched-height bottles (~65% frame) upright dead-front, oversized cream italic serif `vs` divider at mid-frame between the bottles (dominant second visual anchor), top full-width tracked cream caps ribbon, oversized 3-line stacked serif headline upper-third (dominant line 3 in wheat-gold italic), quiet cream serif italic sub-line under headline, one bold cream sans caps column label above each bottle, four hairline callouts per side (bold cream sans caps ~1.5x footer, tight tracking, no chip backgrounds) ending in short hairline pointer to the respective bottle at the mirrored zone (temperature/method/aroma/colour), bottom full-width forest-green footer strip with middot certification line, bottom-right quiet cream sans CTA.
+Best for: any Pusht (or portfolio) EDUCATE post where the real buyer question is "which method / grade / variant, and why" — cold-pressed vs raw-pressed oils, wooden-ghani vs expeller ghee, hand-pounded vs machine-milled rice, raw vs processed honey. Cross-teach two categories in one save-worthy asset without a discount lever.
+World: Total forest-green monochrome immersion (base, both halves, ribbon, footer all in forest green #143C28), cream ivory #F5EFE4 typography and ground, wheat gold #B49664 reserved for the italic `vs` divider only. Aesop-store apothecary calm meeting Pusht farm editorial. Soft ARRI-diffused key from above, gentle rim glow separating each bottle from field, Kodak Portra 400 warmth, fine natural film grain.
+Bans: no chip backgrounds, no rounded pills, no coloured blocks, no ingredient bed, no props, no scattered peanuts/leaves/cloth, no oil ribbon or drizzle, no hands, no cups, no bowls, no percentages baked into any callout, no full stops on any zone (NO DOTS RULE), no tilted or bent bottles, no third bottle, no invented on-pack copy on the left, no label/text/wordmark of any kind on the right, no competitor brand implied on the right, no FSSAI licence numbers, no prices, no discount stamps, no promotional badges, no exclamation marks.
+Callout mode: Hairline callouts only on both sides, matched size and weight (not dimmed on the right), reads at feed thumbnail scale per [[feedback_gpt_callout_size]].
+Palette swap protocol: adaptable to any brand for two-way method comparisons — Health Fields (deep teal + cream + honey gold), Caveman (cave red + cream + charcoal), Biomart (market green + cream + warm gold), greendipz (forest green + cream + bold red accent).
+Source DNA: T84 core architecture (bisected symmetrical field, italic `vs` divider, matched hairline callouts, monochrome apothecary immersion) adapted to a single-brand two-bottle branded-vs-generic teaching variant.
+First deployed: 2026-09-02 · Pusht Organic · Sept 2 EDUCATE post · Cold-pressed vs raw-pressed groundnut oil (biomart.in source)
+Full spec: research/prompts/generated_2026-09-02_pusht_cold-pressed-vs-raw-pressed-groundnut-oil.md
+
+Last assigned template: T86 (Pusht Bisected Extraction Comparison Poster — assigned 2026-09-02)
+Next new template: T87
