@@ -1,0 +1,899 @@
+<title>Brahhm September Board</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+
+<style>
+:root {
+  --ground: #F5F3EE;
+  --panel: #FFFFFF;
+  --panel-alt: #FBFAF6;
+  --ink: #141814;
+  --ink-soft: #3A3F3A;
+  --muted: #6B6F65;
+  --faint: #A2A69C;
+  --rule: #D9D6CE;
+  --rule-strong: #B8B5AB;
+  --accent: #143C28;
+
+  --brand-biomart: #00A050;
+  --brand-caveman: #D20000;
+  --brand-hf: #007878;
+  --brand-pusht: #143C28;
+  --brand-greendipz: #E85A2C;
+
+  --gold: #B49664;
+  --heart: #D20000;
+
+  --f-display: 'Fraunces', 'Iowan Old Style', Georgia, serif;
+  --f-body: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --f-mono: 'IBM Plex Mono', 'SF Mono', Menlo, Consolas, monospace;
+
+  --radius: 3px;
+  color-scheme: light;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  background: var(--ground);
+  color: var(--ink);
+  font-family: var(--f-body);
+  font-size: 14px;
+  line-height: 1.45;
+  -webkit-font-smoothing: antialiased;
+}
+
+.wrap {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 32px 28px 64px;
+}
+
+/* HEADER */
+.hdr {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: end;
+  gap: 24px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--rule-strong);
+  margin-bottom: 28px;
+}
+.hdr-eyebrow {
+  font-family: var(--f-mono);
+  font-size: 10.5px;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--muted);
+  margin-bottom: 10px;
+}
+.hdr-title {
+  font-family: var(--f-display);
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  margin: 0;
+  color: var(--ink);
+  text-wrap: balance;
+}
+.hdr-sub {
+  font-family: var(--f-display);
+  font-weight: 400;
+  font-size: 20px;
+  font-style: italic;
+  color: var(--muted);
+  margin-top: 8px;
+}
+.hdr-meta {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  font-family: var(--f-mono);
+  font-size: 11px;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+.hdr-meta button {
+  font: inherit;
+  color: var(--ink);
+  background: transparent;
+  border: 1px solid var(--rule-strong);
+  padding: 8px 14px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  border-radius: var(--radius);
+  transition: background 0.15s;
+}
+.hdr-meta button:hover { background: var(--panel-alt); }
+.hdr-meta button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* KPI STRIP */
+.kpi-strip {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1px;
+  background: var(--rule);
+  border: 1px solid var(--rule);
+  margin-bottom: 24px;
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.kpi {
+  background: var(--panel);
+  padding: 16px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.kpi-label {
+  font-family: var(--f-mono);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--muted);
+}
+.kpi-value {
+  font-family: var(--f-mono);
+  font-variant-numeric: tabular-nums;
+  font-size: 28px;
+  font-weight: 500;
+  color: var(--ink);
+  line-height: 1;
+}
+.kpi-hint { font-size: 11.5px; color: var(--muted); }
+
+/* SECTION HEADER */
+.sect-hdr {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  margin: 28px 0 12px;
+}
+.sect-title {
+  font-family: var(--f-display);
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  margin: 0;
+}
+.sect-title .num {
+  font-family: var(--f-mono);
+  font-weight: 500;
+  font-size: 11px;
+  color: var(--muted);
+  letter-spacing: 0.1em;
+  margin-right: 10px;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+.sect-hint {
+  font-family: var(--f-mono);
+  font-size: 10.5px;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+/* LEGEND + FILTERS */
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 22px;
+  padding: 14px 16px;
+  background: var(--panel);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+}
+.chip {
+  font: 500 11.5px/1 var(--f-body);
+  padding: 6px 12px 7px;
+  border-radius: 999px;
+  border: 1px solid var(--rule-strong);
+  background: var(--panel);
+  color: var(--ink);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: background 0.15s, border-color 0.15s;
+  letter-spacing: 0.01em;
+}
+.chip:hover { background: var(--panel-alt); }
+.chip:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.chip .dot {
+  width: 8px; height: 8px; border-radius: 50%;
+  background: var(--muted);
+  flex-shrink: 0;
+}
+.chip[data-brand="biomart"] .dot { background: var(--brand-biomart); }
+.chip[data-brand="caveman"] .dot { background: var(--brand-caveman); }
+.chip[data-brand="hf"] .dot { background: var(--brand-hf); }
+.chip[data-brand="pusht"] .dot { background: var(--brand-pusht); }
+.chip[data-brand="greendipz"] .dot { background: var(--brand-greendipz); }
+.chip[data-signal="reel"] .dot { background: var(--ink); }
+.chip[data-signal="festival"] .dot { background: var(--gold); }
+.chip[data-signal="heart"] .dot { background: var(--heart); }
+.chip.active {
+  background: var(--ink);
+  color: var(--ground);
+  border-color: var(--ink);
+}
+.chip.active .dot { box-shadow: 0 0 0 1.5px var(--ground); }
+.legend-sep {
+  width: 1px;
+  height: 20px;
+  background: var(--rule);
+  margin: 0 4px;
+  align-self: center;
+}
+.legend-hint {
+  font-family: var(--f-mono);
+  font-size: 10px;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-left: auto;
+  align-self: center;
+}
+
+/* FESTIVAL RIBBON */
+.festival-ribbon {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(115px, 1fr));
+  gap: 1px;
+  background: var(--rule);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+.fest-tile {
+  background: var(--panel);
+  padding: 12px 12px 11px;
+  cursor: pointer;
+  transition: background 0.12s;
+  text-align: left;
+  border: 0;
+  font: inherit;
+  color: inherit;
+}
+.fest-tile:hover { background: var(--panel-alt); }
+.fest-tile:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+.fest-date {
+  font-family: var(--f-mono);
+  font-size: 10px;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 4px;
+}
+.fest-name {
+  font-size: 12.5px;
+  font-weight: 500;
+  color: var(--ink);
+  line-height: 1.25;
+}
+.fest-tile.hero .fest-name { color: var(--gold); font-weight: 600; }
+.fest-tile.heart .fest-name { color: var(--heart); font-weight: 600; }
+
+/* MAIN GRID */
+.main {
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) minmax(360px, 1fr);
+  gap: 20px;
+  align-items: start;
+}
+
+.month {
+  background: var(--panel);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.month-head {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  border-bottom: 1px solid var(--rule);
+}
+.month-head div {
+  font-family: var(--f-mono);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--muted);
+  padding: 10px 12px;
+  text-align: left;
+  border-right: 1px solid var(--rule);
+}
+.month-head div:last-child { border-right: 0; }
+
+.month-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-auto-rows: minmax(104px, auto);
+}
+.day {
+  border-right: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+  padding: 8px 8px 10px;
+  cursor: pointer;
+  background: var(--panel);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-height: 0;
+  transition: background 0.12s;
+  position: relative;
+  border-left: 0; border-top: 0;
+  text-align: left;
+  font: inherit;
+  color: inherit;
+}
+.day:hover { background: var(--panel-alt); }
+.day:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; z-index: 1; }
+.day.empty { background: var(--panel-alt); cursor: default; }
+.day.empty:hover { background: var(--panel-alt); }
+.day.selected {
+  background: var(--panel-alt);
+  box-shadow: inset 0 0 0 2px var(--ink);
+}
+.day-num {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px;
+}
+.day-num-n {
+  font-family: var(--f-mono);
+  font-variant-numeric: tabular-nums;
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--ink);
+  line-height: 1;
+}
+.day-flags {
+  display: flex; gap: 3px;
+  font-size: 10px;
+  line-height: 1;
+}
+.flag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 16px; height: 16px;
+  padding: 0 4px;
+  border-radius: 3px;
+  font-family: var(--f-mono);
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--panel);
+}
+.flag.reel { background: var(--ink); color: var(--ground); }
+.flag.fest { background: var(--gold); }
+.flag.heart { background: var(--heart); color: #fff; }
+.day-brands {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+  margin-top: auto;
+}
+.brand-dot {
+  width: 9px; height: 9px;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+.brand-dot[data-brand="biomart"] { background: var(--brand-biomart); }
+.brand-dot[data-brand="caveman"] { background: var(--brand-caveman); }
+.brand-dot[data-brand="hf"] { background: var(--brand-hf); }
+.brand-dot[data-brand="pusht"] { background: var(--brand-pusht); }
+.brand-dot[data-brand="greendipz"] { background: var(--brand-greendipz); }
+.day-reel {
+  font-family: var(--f-mono);
+  font-size: 9.5px;
+  font-weight: 600;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.day-fest-label {
+  font-size: 10px;
+  color: var(--gold);
+  font-weight: 600;
+  line-height: 1.2;
+}
+.day.dim { opacity: 0.32; }
+.day.today .day-num-n {
+  background: var(--ink);
+  color: var(--ground);
+  padding: 3px 6px 4px;
+  border-radius: 3px;
+  font-size: 13px;
+}
+
+/* Detail panel */
+.detail {
+  background: var(--panel);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  padding: 20px 22px 22px;
+  position: sticky;
+  top: 16px;
+}
+.det-eyebrow {
+  font-family: var(--f-mono);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--muted);
+  margin-bottom: 6px;
+}
+.det-date {
+  font-family: var(--f-display);
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 1.1;
+  color: var(--ink);
+  margin: 0 0 4px;
+  letter-spacing: -0.01em;
+}
+.det-day-of-week {
+  font-family: var(--f-display);
+  font-style: italic;
+  font-weight: 400;
+  color: var(--muted);
+}
+.det-flags {
+  display: flex; gap: 6px; margin-top: 10px; flex-wrap: wrap;
+}
+.det-flag {
+  font-family: var(--f-mono);
+  font-size: 10px;
+  padding: 4px 8px 5px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+}
+.det-flag.reel { background: var(--ink); color: var(--ground); }
+.det-flag.fest { background: var(--gold); color: #fff; }
+.det-flag.heart { background: var(--heart); color: #fff; }
+
+.det-rows {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.det-row {
+  padding: 14px 0;
+  border-top: 1px solid var(--rule);
+  display: grid;
+  grid-template-columns: 86px 1fr;
+  gap: 14px;
+}
+.det-row:first-child { border-top: 0; padding-top: 4px; }
+.det-brand-col {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+}
+.det-brand-pill {
+  font-family: var(--f-mono);
+  font-size: 9.5px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 4px 7px 5px;
+  border-radius: 3px;
+  color: #fff;
+  white-space: nowrap;
+}
+.det-brand-pill[data-brand="biomart"] { background: var(--brand-biomart); }
+.det-brand-pill[data-brand="caveman"] { background: var(--brand-caveman); }
+.det-brand-pill[data-brand="hf"] { background: var(--brand-hf); }
+.det-brand-pill[data-brand="pusht"] { background: var(--brand-pusht); }
+.det-brand-pill[data-brand="greendipz"] { background: var(--brand-greendipz); }
+.det-type {
+  font-family: var(--f-mono);
+  font-size: 10px;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 500;
+}
+.det-body { min-width: 0; }
+.det-angle {
+  font-family: var(--f-mono);
+  font-size: 10px;
+  color: var(--ink);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+.det-hook {
+  font-size: 14px;
+  color: var(--ink);
+  line-height: 1.4;
+  margin-bottom: 7px;
+  text-wrap: pretty;
+}
+.det-meta {
+  font-size: 11.5px;
+  color: var(--muted);
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.det-meta span::before { content: "· "; color: var(--faint); }
+.det-meta span:first-child::before { content: ""; }
+.det-meta b {
+  font-weight: 500;
+  color: var(--ink-soft);
+  font-family: var(--f-mono);
+  font-size: 10.5px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+/* FOOTER */
+.foot {
+  margin-top: 40px;
+  padding-top: 18px;
+  border-top: 1px solid var(--rule);
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--f-mono);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1100px) {
+  .main { grid-template-columns: 1fr; }
+  .detail { position: static; }
+}
+@media (max-width: 700px) {
+  .wrap { padding: 20px 14px 40px; }
+  .hdr-title { font-size: 32px; }
+  .kpi-strip { grid-template-columns: repeat(2, 1fr); }
+  .month-grid { grid-auto-rows: minmax(84px, auto); }
+  .day-num-n { font-size: 13px; }
+}
+
+/* PRINT */
+@media print {
+  body { background: #fff; }
+  .hdr-meta button { display: none; }
+  .detail { position: static; page-break-inside: avoid; }
+  .day { cursor: default; }
+  .main { display: block; }
+  .main > * + * { margin-top: 16px; }
+  .kpi-strip, .festival-ribbon, .month, .detail { break-inside: avoid; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
+}
+</style>
+
+<div class="wrap">
+
+  <header class="hdr">
+    <div>
+      <div class="hdr-eyebrow">Brahhm Arpan Organic · Content Studio 3.2 · Client Board</div>
+      <h1 class="hdr-title">September 2026</h1>
+      <div class="hdr-sub">Ganesh Chaturthi · Engineers Day · World Heart Day</div>
+    </div>
+    <div class="hdr-meta">
+      <span id="today-stamp"></span>
+      <button type="button" onclick="window.print()">Print / PDF</button>
+    </div>
+  </header>
+
+  <section class="kpi-strip" aria-label="Month at a glance">
+    <div class="kpi"><div class="kpi-label">Posts (planned)</div><div class="kpi-value">80</div><div class="kpi-hint">Across 5 brands</div></div>
+    <div class="kpi"><div class="kpi-label">Reels</div><div class="kpi-value">17</div><div class="kpi-hint">#19 → #35, 40–90s each</div></div>
+    <div class="kpi"><div class="kpi-label">Carousels</div><div class="kpi-value">12</div><div class="kpi-hint">Save-optimized</div></div>
+    <div class="kpi"><div class="kpi-label">Stories</div><div class="kpi-value">24</div><div class="kpi-hint">Poll · BTS · tile</div></div>
+    <div class="kpi"><div class="kpi-label">Festival anchors</div><div class="kpi-value">10</div><div class="kpi-hint">Dates verified</div></div>
+  </section>
+
+  <div class="sect-hdr">
+    <h2 class="sect-title"><span class="num">01</span>Festivals &amp; observances</h2>
+    <span class="sect-hint">Click any anchor to jump</span>
+  </div>
+  <div class="festival-ribbon" id="fest-ribbon"></div>
+
+  <div class="sect-hdr">
+    <h2 class="sect-title"><span class="num">02</span>Legend &amp; brand filter</h2>
+    <span class="sect-hint">Filter the grid by brand</span>
+  </div>
+  <div class="legend" id="legend"></div>
+
+  <div class="sect-hdr">
+    <h2 class="sect-title"><span class="num">03</span>Month grid · click any day</h2>
+    <span class="sect-hint">Detail panel updates on the right</span>
+  </div>
+  <div class="main">
+    <div class="month" role="grid" aria-label="September 2026">
+      <div class="month-head">
+        <div>Sun</div><div>Mon</div><div>Tue</div><div>Wed</div><div>Thu</div><div>Fri</div><div>Sat</div>
+      </div>
+      <div class="month-grid" id="month-grid"></div>
+    </div>
+    <aside class="detail" id="detail-panel" aria-live="polite"></aside>
+  </div>
+
+  <footer class="foot">
+    <span>Brahhm Arpan Organic Pvt. Ltd. · Delhi · Greater Noida</span>
+    <span>Built by Content Studio 3.2 · 2026-08-29</span>
+  </footer>
+
+</div>
+
+<script>
+const BRAND_LABEL = { biomart: 'Biomart', caveman: 'Caveman', hf: 'Health Fields', pusht: 'Pusht', greendipz: 'greendipz' };
+
+const FESTIVALS = [
+  { date: 4, name: 'Janmashtami', type: 'fest' },
+  { date: 5, name: 'Teachers Day', type: 'obs' },
+  { date: 8, name: 'Literacy Day', type: 'obs' },
+  { date: 14, name: 'Ganesh Chaturthi', type: 'hero' },
+  { date: 15, name: 'Engineers Day', type: 'obs' },
+  { date: 17, name: 'Vishwakarma Puja', type: 'fest' },
+  { date: 19, name: 'Radha Ashtami', type: 'fest' },
+  { date: 23, name: 'Ganesh Visarjan', type: 'hero' },
+  { date: 26, name: 'Pitru Paksha begins', type: 'fest' },
+  { date: 29, name: 'World Heart Day', type: 'heart' }
+];
+
+function dow(d) { return new Date(2026, 8, d).getDay(); }
+
+const P = (brand, type, angle, hook, kpi, product) => ({ brand, type, angle, hook, kpi, product });
+
+const DAYS = {
+  1: [P('greendipz','REEL #19','CRAFT-REVEAL','45s inside a Butter Masala gravy pack — pan to plate, no cuts','Saves + Follows','Butter Masala gravy'),
+      P('biomart','POST','EDUCATE','September pantry reset — the 6 packs to replace first','Saves','Cross-brand'),
+      P('hf','STORY','RELATE','Monsoon-end tea poll: chamomile vs tulsi','DM','Tea range')],
+  2: [P('pusht','POST','EDUCATE','The difference between cold-pressed and raw-pressed — 4 lines','Saves','Groundnut oil')],
+  3: [P('greendipz','POST','RELATE','The Thursday no-cook-mood dinner — pick a gravy, done in 8','Reach','Any gravy')],
+  4: [P('hf','REEL #20','RELATE','"Makhan-mishri, then the tea" — 45s Krishna-eve grandmother ritual, warm-light kitchen','Saves + Follows','Tulsi Green + honey'),
+      P('pusht','POST','CRAFT','The A2 ghee our Nandgaon farmer stirs at 4am','Saves + Reach','A2 Ghee'),
+      P('biomart','STORY','RELATE','Janmashtami bhog checklist tile','DM','Ghee + jaggery + dry fruits'),
+      P('caveman','STORY','ATTACK','"Krishna would’ve thrown your protein bar out"','DM','Kodo Coco Fun')],
+  5: [P('pusht','REEL #21','RELATE / PARENT-IDENTITY','"My father taught me to smell the oil first" — 60s farmer + son POV','Saves + Follows','Cold-pressed oil range'),
+      P('hf','POST','RELATE','The first teacher who ever told you to check the ingredient list','Saves','Tea range'),
+      P('biomart','CAROUSEL','EDUCATE','5 pantry lessons no one taught you in school','Saves','Cross-brand'),
+      P('greendipz','STORY','RELATE','Teacher-tag poll','DM','—')],
+  6: [P('biomart','REEL #22','FOR-EVERYBODY','"One Sunday cart, four households" — student, new parents, retired couple, athlete','Plays + Follows','Cross-brand pantry'),
+      P('caveman','POST','RELATE','Sunday cookie + coffee — one packet, no guilt monologue','Reach','Millet Era range')],
+  7: [P('hf','POST','EDUCATE','Peppermint after a heavy meal — the one tea nobody talks about','Saves','Peppermint tea')],
+  8: [P('hf','REEL #23','MYTH-BUST · NANO-COLLAB','"Label-literacy in 60 seconds" — nutritionist reads 3 wellness teas side by side','Saves + Follows','Tea range'),
+      P('biomart','POST','EDUCATE','Reading a certification stamp — India Organic vs Jaivik Bharat vs PGS','Saves','Any certified SKU'),
+      P('greendipz','STORY','RELATE','Peri Peri or Butter Masala poll','DM','—'),
+      P('pusht','STORY','EDUCATE','"Cold-pressed" vs "wood-pressed" tile','DM','—')],
+  9: [P('pusht','POST','CRAFT','Ragi that’s still cool when it reaches the pack — cold-milled flour','Saves','Ragi flour')],
+  10: [P('biomart','POST','RELATE','The 5 packs that make a monsoon-end dinner feel expensive','Saves','Cross-brand comfort'),
+       P('hf','CAROUSEL','EDUCATE','Ashwagandha tea — 3 nights, one small change','Saves','Ashwagandha tea'),
+       P('greendipz','STORY','RELATE','Weeknight dinner poll','DM','—')],
+  11: [P('caveman','REEL #24','CHARACTER-POV','"The cookie that survives your desk" — 45s Friday-afternoon office desk POV','Plays + Saves','Kodo Coco Fun'),
+       P('pusht','POST','EDUCATE','Why our mustard oil smells sharper — pungency is the freshness signal','Saves','Mustard oil'),
+       P('biomart','STORY','EDUCATE','Weekend pantry checklist','DM','—')],
+  12: [P('greendipz','REEL #25','CRAFT-REVEAL','"Modak sauce in 3 packs" — home chef builds a Ganesh-week feast from the shelf','Saves + Follows','Butter Masala + Dal Makhani'),
+       P('biomart','CAROUSEL','EDUCATE','Ganesh Chaturthi pantry — 8 packs, 5 sweets, one shelf','Saves','Ghee, jaggery, dry fruits, rice'),
+       P('hf','STORY','RELATE','"What are you making Bappa this year?" poll','DM','—'),
+       P('pusht','STORY','CRAFT','Modak ghee tile','DM','A2 Ghee')],
+  13: [P('pusht','REEL #26','CRAFT-REVEAL','45s inside a small-batch A2 ghee kitchen — golden hour, no VO music-led','Plays + Follows','A2 Ghee'),
+       P('caveman','POST','RELATE','Millet modak — the one Bappa didn’t see coming','Reach + Saves','Bakkit range as modak ingredient')],
+  14: [P('hf','POST','RELATE','"Sukh karta, dukh harta" — the tea that stays warm through the aarti','Saves + Reach','Tulsi Green Tea'),
+       P('pusht','POST','CRAFT','The A2 ghee that made your Ganesh modak — from Nandgaon to your steel plate','Saves + Reach','A2 Ghee'),
+       P('biomart','CAROUSEL','RELATE','10 days, 10 bhog ideas — pack-first, no recipe overwhelm','Saves','Cross-brand'),
+       P('caveman','POST','RELATE','Millet Bappa — the cookie that showed up to the celebration','Reach','Millet Era range')],
+  15: [P('pusht','REEL #27','CRAFT-REVEAL','"The oldest engineer we know" — 60s inside a 100-year-old ghani, Visvesvaraya-nod','Saves + Follows','Cold-pressed groundnut oil'),
+       P('biomart','POST','EDUCATE','Curation is engineering — the 12 checks before a pack enters the shelf','Saves','Cross-brand'),
+       P('caveman','STORY','ATTACK','"Your snack was engineered to keep you snacking"','DM','—')],
+  16: [P('greendipz','POST','RELATE','Wednesday one-pan — Rajma gravy over jeera rice, 12 minutes','Reach','Rajma gravy'),
+       P('hf','CAROUSEL','EDUCATE','3 immunity teas as monsoon leaves — one for each time of day','Saves','Tulsi + ginger + chamomile')],
+  17: [P('pusht','POST','CRAFT','Vishwakarma at the ghani — the farmer’s tools that press our oil','Saves + Reach','Cold-pressed oil range')],
+  18: [P('hf','REEL #28','RELATE / EDUCATE','"The Friday tea that fixes your Monday" — 60s ashwagandha ritual, quiet-luxury teal world','Saves + Follows','Ashwagandha tea'),
+       P('biomart','CAROUSEL','RELATE','Weekend brunch shelf — 6 packs, one lazy morning','Saves','Cross-brand')],
+  19: [P('caveman','REEL #29','CHARACTER-POV','Desk-to-gym POV — one Kodo Coco Fun, no monologue, 45s','Plays + Saves','Kodo Coco Fun'),
+       P('pusht','POST','CRAFT','Radha Ashtami bhog — cold-pressed groundnut in the ladoo','Saves','Groundnut oil'),
+       P('hf','STORY','RELATE','Bhakti tea tile','DM','—')],
+  20: [P('hf','REEL #30','FOR-EVERYBODY','"One monsoon shelf, four evenings" — mom, college kid, WFH, sr. citizen','Plays + Follows','Tea range'),
+       P('biomart','CAROUSEL','RELATE','Sunday market walk — the 7 packs that always come home','Saves','Cross-brand'),
+       P('greendipz','STORY','RELATE','Sunday gravy tile','DM','—')],
+  21: [P('hf','POST','RELATE','Peace is the ten minutes with a chamomile before Monday starts','Saves','Chamomile tea'),
+       P('biomart','STORY','RELATE','Monday reset tile','DM','—')],
+  22: [P('greendipz','REEL #31','RELATE · NANO-COLLAB','Home chef builds the pre-Visarjan feast — 3 gravies, one 45s cut','Saves + Follows','Butter Masala + Dal Makhani + Rajma'),
+       P('hf','STORY','RELATE','Post-feast tea tile','DM','Peppermint')],
+  23: [P('pusht','POST','RELATE','"Ganpati Bappa Morya" — the ghee, the modak, the goodbye, the next-year vow','Reach + Saves','A2 Ghee'),
+       P('hf','POST','RELATE','The tea after the visarjan — quiet is a flavour too','Saves','Chamomile / Tulsi'),
+       P('biomart','CAROUSEL','RELATE','Ten days, one shelf, thank you Bappa — the recap','Saves + Reach','Cross-brand'),
+       P('caveman','STORY','RELATE','Ganesh farewell tile','DM','—'),
+       P('greendipz','STORY','RELATE','Feast recap tile','DM','—')],
+  24: [P('biomart','POST','EDUCATE','Restock day — 5 packs that always run out first after a festival week','Saves','Cross-brand'),
+       P('hf','STORY','RELATE','Recovery tea tile','DM','—')],
+  25: [P('biomart','REEL #32','CRAFT-REVEAL','"The 60-second post-festival restock" — walk-through of the shelf being refilled after Ganesh week','Plays + Site clicks','Cross-brand top-movers'),
+       P('hf','CAROUSEL','EDUCATE','4 things a sleep tea should never contain','Saves','Chamomile / Ashwagandha')],
+  26: [P('pusht','REEL #33','CRAFT-REVEAL / HERITAGE','"The way our grandmothers stored ghee" — 60s heritage kitchen, no music, warm VO','Saves + Follows','A2 Ghee'),
+       P('biomart','CAROUSEL','EDUCATE','The 6 packs your grandmother would still recognise on your shelf','Saves','Cross-brand heritage staples')],
+  27: [P('biomart','REEL #34','FOR-EVERYBODY','"One shelf, six regional pantries" — 60s tour through Bengal, Kerala, Punjab, Tamil, Gujarat, UP staples','Plays + Follows','Cross-brand regional SKUs'),
+       P('hf','POST','EDUCATE · HEART DAY TEASE','"The two teas the heart-doctor actually drinks" — teaser for Sept 29','Saves','Tulsi + Chamomile'),
+       P('greendipz','STORY','RELATE','Regional pantry tile','DM','—')],
+  28: [P('hf','CAROUSEL','EDUCATE ♥','The 5-minute morning ritual for a heart that’s been through a lot','Saves + Reach','Tulsi Green + Ashwagandha'),
+       P('biomart','POST','EDUCATE ♥','The 4 oils a heart-first pantry keeps in rotation','Saves','Cold-pressed oil range'),
+       P('caveman','STORY','RELATE','Heart Day tease tile','DM','—'),
+       P('pusht','STORY','CRAFT','Heart-oil tile','DM','Cold-pressed groundnut')],
+  29: [P('hf','REEL #35','FOR-EVERYBODY ♥','"One heart, four decades" — 60s: 30s / 40s / 50s / 60s morning ritual with tea','Plays + Follows + Saves','Tulsi Green + Chamomile'),
+       P('biomart','CAROUSEL','EDUCATE ♥','8 pantry swaps that quietly help your heart — no diet talk','Saves','Cross-brand'),
+       P('pusht','POST','CRAFT ♥','The cold-pressed oil that never sees a solvent — heart’s oldest ally','Saves + Reach','Cold-pressed oil range'),
+       P('caveman','POST','RELATE ♥','"Even the caveman knew — real food, real heart"','Reach','Bakkit range'),
+       P('greendipz','STORY','RELATE ♥','Heart-forward gravy tile','DM','—')],
+  30: [P('biomart','CAROUSEL','EDUCATE','September recap — the 5 packs that moved most this month','Saves','Top movers'),
+       P('hf','POST','RELATE','The tea that took you through September — say thank you','Saves','Best-mover tea'),
+       P('pusht','STORY','CRAFT','Month-close ghee tile','DM','—')]
+};
+
+const today = new Date();
+document.getElementById('today-stamp').textContent = 'Built ' + today.toISOString().slice(0,10);
+
+// Festival ribbon
+const fRibbon = document.getElementById('fest-ribbon');
+FESTIVALS.forEach(f => {
+  const btn = document.createElement('button');
+  btn.className = 'fest-tile ' + (f.type === 'hero' ? 'hero' : f.type === 'heart' ? 'heart' : '');
+  btn.type = 'button';
+  btn.onclick = () => selectDay(f.date);
+  const dowLabel = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'][dow(f.date)];
+  btn.innerHTML = `<div class="fest-date">Sept ${f.date} · ${dowLabel}</div><div class="fest-name">${f.name}</div>`;
+  fRibbon.appendChild(btn);
+});
+
+// Legend
+const LEGEND = [
+  { kind: 'brand', id: 'biomart', label: 'Biomart' },
+  { kind: 'brand', id: 'hf', label: 'Health Fields' },
+  { kind: 'brand', id: 'pusht', label: 'Pusht' },
+  { kind: 'brand', id: 'caveman', label: 'Caveman' },
+  { kind: 'brand', id: 'greendipz', label: 'greendipz' },
+  { kind: 'sep' },
+  { kind: 'signal', id: 'reel', label: 'Reel day' },
+  { kind: 'signal', id: 'festival', label: 'Festival' },
+  { kind: 'signal', id: 'heart', label: 'Heart Day' }
+];
+const legendEl = document.getElementById('legend');
+let brandFilter = null;
+LEGEND.forEach(l => {
+  if (l.kind === 'sep') {
+    const s = document.createElement('div'); s.className = 'legend-sep'; legendEl.appendChild(s); return;
+  }
+  const c = document.createElement('button');
+  c.className = 'chip';
+  c.type = 'button';
+  if (l.kind === 'brand') c.dataset.brand = l.id;
+  else c.dataset.signal = l.id;
+  c.innerHTML = `<span class="dot"></span>${l.label}`;
+  if (l.kind === 'brand') {
+    c.onclick = () => {
+      brandFilter = (brandFilter === l.id) ? null : l.id;
+      document.querySelectorAll('.legend .chip[data-brand]').forEach(x => x.classList.toggle('active', x.dataset.brand === brandFilter));
+      applyBrandFilter();
+    };
+  } else {
+    c.style.cursor = 'default';
+  }
+  legendEl.appendChild(c);
+});
+const hint = document.createElement('span');
+hint.className = 'legend-hint';
+hint.textContent = 'Click a brand to filter';
+legendEl.appendChild(hint);
+
+// Month grid
+const grid = document.getElementById('month-grid');
+const firstDow = dow(1);
+for (let i = 0; i < firstDow; i++) {
+  const e = document.createElement('div');
+  e.className = 'day empty';
+  grid.appendChild(e);
+}
+for (let d = 1; d <= 30; d++) {
+  const posts = DAYS[d] || [];
+  const fest = FESTIVALS.find(f => f.date === d);
+  const reel = posts.find(p => p.type.startsWith('REEL'));
+  const brands = [...new Set(posts.map(p => p.brand))];
+  const cell = document.createElement('button');
+  cell.type = 'button';
+  cell.className = 'day';
+  cell.dataset.day = d;
+  cell.setAttribute('aria-label', `September ${d}`);
+
+  const flags = [];
+  if (reel) flags.push('<span class="flag reel">R</span>');
+  if (fest && (fest.type === 'hero' || fest.type === 'fest')) flags.push('<span class="flag fest">F</span>');
+  if (fest && fest.type === 'heart') flags.push('<span class="flag heart">♥</span>');
+
+  cell.innerHTML = `
+    <div class="day-num">
+      <span class="day-num-n">${d}</span>
+      <span class="day-flags">${flags.join('')}</span>
+    </div>
+    ${fest ? `<div class="day-fest-label">${fest.name}</div>` : ''}
+    ${reel ? `<div class="day-reel">${reel.type} · ${BRAND_LABEL[reel.brand]}</div>` : ''}
+    <div class="day-brands">${brands.map(b => `<span class="brand-dot" data-brand="${b}" title="${BRAND_LABEL[b]}"></span>`).join('')}</div>
+  `;
+  cell.onclick = () => selectDay(d);
+  grid.appendChild(cell);
+}
+
+function selectDay(d) {
+  const posts = DAYS[d] || [];
+  const fest = FESTIVALS.find(f => f.date === d);
+  const reel = posts.some(p => p.type.startsWith('REEL'));
+  document.querySelectorAll('.day').forEach(x => x.classList.toggle('selected', x.dataset.day == d));
+  try { localStorage.setItem('sept_selected_day', String(d)); } catch(e) {}
+
+  const flags = [];
+  if (reel) flags.push('<span class="det-flag reel">Reel day</span>');
+  if (fest && (fest.type === 'hero' || fest.type === 'fest')) flags.push(`<span class="det-flag fest">${fest.name}</span>`);
+  if (fest && fest.type === 'heart') flags.push(`<span class="det-flag heart">${fest.name}</span>`);
+  if (fest && fest.type === 'obs') flags.push(`<span class="det-flag" style="background:var(--panel-alt);color:var(--ink);border:1px solid var(--rule-strong)">${fest.name}</span>`);
+
+  const rows = posts.length ? posts.map(p => `
+    <div class="det-row">
+      <div class="det-brand-col">
+        <span class="det-brand-pill" data-brand="${p.brand}">${BRAND_LABEL[p.brand]}</span>
+        <span class="det-type">${p.type}</span>
+      </div>
+      <div class="det-body">
+        <div class="det-angle">${p.angle}</div>
+        <div class="det-hook">${p.hook}</div>
+        <div class="det-meta">
+          <span><b>KPI</b> ${p.kpi}</span>
+          <span><b>Product</b> ${p.product}</span>
+        </div>
+      </div>
+    </div>
+  `).join('') : '<div style="padding:16px 0;color:var(--muted);font-style:italic">No posts scheduled.</div>';
+
+  document.getElementById('detail-panel').innerHTML = `
+    <div class="det-eyebrow">Day detail</div>
+    <div class="det-date">September ${d}</div>
+    <div class="det-day-of-week">${['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'][dow(d)]}</div>
+    ${flags.length ? `<div class="det-flags">${flags.join('')}</div>` : ''}
+    <div class="det-rows">${rows}</div>
+  `;
+}
+
+function applyBrandFilter() {
+  document.querySelectorAll('.day').forEach(cell => {
+    if (cell.classList.contains('empty')) return;
+    const d = +cell.dataset.day;
+    const has = brandFilter ? (DAYS[d] || []).some(p => p.brand === brandFilter) : true;
+    cell.classList.toggle('dim', !has);
+  });
+}
+
+let initialDay = 1;
+try {
+  const saved = +localStorage.getItem('sept_selected_day');
+  if (saved >= 1 && saved <= 30) initialDay = saved;
+} catch(e) {}
+selectDay(initialDay);
+</script>

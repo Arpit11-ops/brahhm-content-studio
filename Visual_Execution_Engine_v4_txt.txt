@@ -2163,3 +2163,64 @@ First deployed: 2026-08-08 · Health Fields Organic · Aug 8 Rakhi eve carousel 
 
 Last assigned template: T82 (Doctor-Sister Rakhi Wellness Bundle Carousel — assigned 2026-08-08)
 Next new template: T83
+
+---
+T83 — Curator Shelf, Three-Product Row on Warm Wood (Layout A adaptation)
+Assigned: 2026-08-22 · Brand: Biomart · Angle: CONVERT
+Format: 1:1 Instagram feed poster (1080×1080)
+DNA: Innisfree editorial product-lineup poster (Pinterest, 4,000 saves — Jul 25 library)
+Composition: Three product packs upright in a single evenly-spaced row on a warm mango-wood shelf, botanical ingredient sprigs at soft blurred depth behind each pack, headline stacked top-left (dominant bold serif), sub-line under headline (small italic serif), hairline callouts under each pack (bold sans caps, ~1.5× footer strip, no chip background), footer strip bottom-anchored with quiet website CTA.
+Best for: any brand's 3-SKU curator lineup (oils, teas, salts, honeys, dals) — collection posters that need to read as an editor's pick, not a shelf photo.
+First use: research/prompts/assets/2026-08-22_biomart_cold-pressed-oil-trio/hero.png
+Full spec: research/prompts/generated_2026-08-22_biomart_cold-pressed-oil-trio.md
+
+---
+T84 — Bisected Wellness Comparison Poster (Two-Pack Teal Field)
+Assigned: 2026-08-29 · Brand: Health Fields · Angle: EDUCATE
+Format: 4:5 Instagram feed poster (1080×1350)
+Composition: Two upright product packs on a bisected deep-teal apothecary field, matched scale and matched lighting, symmetrical split down the vertical centre with an oversized cream italic serif "vs" divider at dead centre. Top ribbon (small tracked cream caps on teal) + oversized modern serif headline stacked in the upper third + one bold sans caps column label above each pack. Four hairline callouts per side — bold sans caps ~1.5x footer strip, tight letter-spacing, no chip backgrounds — labelling ingredient story, product truth, steep time, and use-window. Footer strip bottom-anchored with shared trust ribbon + quiet cream sans website CTA in bottom-right corner.
+Best for: any two-SKU EDUCATE comparison where the buyer's real question is "which of these, when?" — tea range, oil range, flour range, salt range. Cross-sell two SKUs in one save-worthy asset without a discount lever.
+World: Total teal-monochrome immersion (background, wash, gradient bleed all inside the same family). Aesop-store apothecary calm, soft ARRI-diffused key from above, gentle rim glow separating each pack from field, subtle grain.
+Bans: no chip backgrounds, no rounded pills, no colored blocks, no ingredient bed, no props, no scattered leaves/flowers, no hands, no cups, no teapots, no percentages baked into any callout, no full stops on any zone (NO DOTS RULE), no tilted or bent packs, no third pack, no invented on-pack copy.
+Source DNA: Aesop editorial two-SKU comparison shelves + HF v2 apothecary teal world · adaptation of T80/T82 callout language to a single-frame two-column poster.
+First deployed: 2026-08-29 · Health Fields · National Sports Day EDUCATE post · Chamomile vs Tulsi Green Premium
+Full spec: research/prompts/generated_2026-08-29_healthfields_chamomile-vs-tulsi-green-recovery-cup.md
+
+---
+T85 — Biomart Cross-Brand Ranked Recap Carousel
+Assigned: 2026-08-30 · Brand: Biomart (curator voice, cross-brand) · Angle: EDUCATE (recap variant)
+Format: 4:5 · 1080×1350 · 7-slide CAROUSEL (Cover + 5 ranked SKUs + Close)
+DNA: T75 modular Amazon A+ grammar × T80 grid-of-SKUs discipline, adapted to a multi-brand ranked recap on the Biomart curator shelf. Emotional theme: "the month-end shelf that speaks for itself."
+World: Total monochromatic Biomart market-green apothecary — Market Green #00A050 background wash + warm-gold #B49664 ambient bleed + cream ivory #FAFAD2 ground/typography. Soft ARRI-diffused key from top-left, faint film grain, Whole Foods editorial calm. Zero rustic props, zero ingredient scatter, zero cups/leaves/cloth on any slide.
+Pack rule: All 5 SKUs upright, front-facing, zero tilt, matched height per silhouette (jars/bottles ~60-65% frame, horizontal boxes ~55%), full label lit. Pack front uploads mandatory on every SKU slide + both shelf-hero slides.
+Slide architecture (7-slide fixed sequence):
+ S1 COVER — 5-pack shelf hero on cream ivory shelf, matched height, market-green field. Top full-width market-green ribbon carries tracked cream caps ("AUGUST RECAP · CROSS-BRAND"). Centred upper-third cream serif display headline (3-line line-broken). Quiet cream sans caps sub-line below. Bottom full-width footer strip on market-green carries the rank line: "① [SKU1] · ② [SKU2] · ③ [SKU3] · ④ [SKU4] · ⑤ [SKU5]". Quiet cream sans CTA "Shop now on biomart.in" bottom-right.
+ S2-S6 RANKED SKU SLIDES (one per pack) — Each slide: oversized warm-gold serif rank numeral top-left (~18% frame height, dominant). Tracked cream sans caps category eyebrow below numeral. Cream serif product name across 2 lines. Left column carries 3 hairline callouts stacked (bold cream sans caps ~1.5x footer, tight tracking, no chip background) each ending in a short hairline pointer to the pack — line 1 form/certification, line 2 process/spec, line 3 pack size. One centred cream serif italic why-it-moved line above the footer. Bottom market-green footer strip "BIOMART.IN · 0X / 07". Quiet cream sans CTA bottom-right.
+ S7 CLOSE — 5-pack shelf reprise matching S1 composition and lighting. Top market-green ribbon "THE AUGUST SHELF" (or occasion equivalent). Centred cream serif display headline (3-line line-broken). Quiet cream sans caps sub-line. Slim cream rank-recap strip on market-green just above the footer. Bottom full-width dominant warm-gold band carrying single dominant cream sans caps CTA "SHOP NOW ON BIOMART.IN".
+Type system: cream serif display for headlines and product names, tracked cream sans caps for eyebrows/callouts/CTAs/rank lines, warm-gold serif reserved for rank numerals only. Every headline line-broken (never single-line paragraph). Callouts framed as "second visual layer after the pack" per [[feedback_gpt_callout_size]].
+Callout mode: Hairline callouts only on all SKU slides — no chip backgrounds, no rounded pills, no coloured blocks. T75-family exception applies only to the top trust ribbon and bottom warm-gold CTA band (both allowed as solid strips).
+Baked CTA: Every slide carries biomart.in — SKU slides via footer strip + quiet bottom-right corner line; S1 via bottom-right corner line + rank strip context; S7 via dominant warm-gold band. Protocol 10 compliant.
+Palette swap protocol: base architecture holds. Swap the accent + ground for a single-brand recap variant (Caveman → Cave Red ground + warm cream + charcoal; Health Fields → deep teal ground + honey gold accent + cream; Pusht → forest green ground + wheat gold accent + cream ivory; greendipz → forest green ribbon + bold red accent + cream). Cross-brand recap defaults to Biomart palette.
+Bans: no rustic props (no wooden bowls, no burlap, no jute, no mortar) · no ingredient scatter or floating ingredients on any slide · no cups/leaves/cloth/hands · no chip backgrounds on any SKU-slide callout · no drop shadows on text · no exclamation marks · no full stops on any zone (NO DOTS RULE) · no percentages baked into any callout · no FSSAI licence numbers · no price · no discount code or promotional badge · no "swipe up" / "link in bio" / "tap to shop" / "click here" · no tilted or bent packs · no perspective distortion · no invented pack copy · no third-row-of-packs (cover and close are single row of 5 only) · no repainting of pack label palettes · no lowercase-to-uppercase change on brand names carried on-pack (greendipz stays lowercase).
+Use case: EDUCATE recap carousels for Biomart curator voice — month-end top-movers, festival-week shelf recaps, restock lists, seasonal shelf edits, cross-brand curation posts where the ranking IS the message. Adaptable to any 5-SKU (or 4/6-SKU with rank strip adjustment) cross-brand curated set on the Biomart shelf. Saves + site clicks KPI primary.
+Source DNA: T75 (Amazon A+ modular listing grammar — top ribbon, hairline callouts, footer strip) fused with T80 (grid-of-SKUs discipline, ranked pack row on shelf) adapted for multi-brand curator voice with warm-gold rank numerals as the dominant visual anchor per SKU slide.
+First deployed: 2026-08-30 · Biomart · Aug 30 EDUCATE recap carousel · Top 5 cross-brand pantry movers (Pusht Groundnut Oil 1L + HF Tulsi Green Tea Premium 25 bags + Caveman Kodo Coco Fun cookies 2×60g + Greendipz Paneer Makhani Gravy 370g + HF Honey 500g)
+Full spec: research/prompts/generated_2026-08-30_biomart_aug-top-5-recap.md
+
+---
+T86 — Pusht Bisected Extraction Comparison Poster (Forest-Green Field, Two-Bottle Variant)
+Assigned: 2026-09-02 · Brand: Pusht Organic · Angle: EDUCATE
+Format: 4:5 Instagram feed poster (1080×1350)
+DNA: T84 (Bisected Wellness Comparison Poster) palette-swapped from HF teal to Pusht forest-green apothecary. LEFT bottle = real branded pack (Pusht Cold-Pressed Groundnut Oil, upload ref). RIGHT bottle = unbranded plain clear-glass bottle of the same silhouette, a neutral visual foil for the "raw-pressed" class — never a competitor pack, never any label.
+Composition: Symmetrical bisected forest-green field with cream hairline vertical divider down the centre, matched-height bottles (~65% frame) upright dead-front, oversized cream italic serif `vs` divider at mid-frame between the bottles (dominant second visual anchor), top full-width tracked cream caps ribbon, oversized 3-line stacked serif headline upper-third (dominant line 3 in wheat-gold italic), quiet cream serif italic sub-line under headline, one bold cream sans caps column label above each bottle, four hairline callouts per side (bold cream sans caps ~1.5x footer, tight tracking, no chip backgrounds) ending in short hairline pointer to the respective bottle at the mirrored zone (temperature/method/aroma/colour), bottom full-width forest-green footer strip with middot certification line, bottom-right quiet cream sans CTA.
+Best for: any Pusht (or portfolio) EDUCATE post where the real buyer question is "which method / grade / variant, and why" — cold-pressed vs raw-pressed oils, wooden-ghani vs expeller ghee, hand-pounded vs machine-milled rice, raw vs processed honey. Cross-teach two categories in one save-worthy asset without a discount lever.
+World: Total forest-green monochrome immersion (base, both halves, ribbon, footer all in forest green #143C28), cream ivory #F5EFE4 typography and ground, wheat gold #B49664 reserved for the italic `vs` divider only. Aesop-store apothecary calm meeting Pusht farm editorial. Soft ARRI-diffused key from above, gentle rim glow separating each bottle from field, Kodak Portra 400 warmth, fine natural film grain.
+Bans: no chip backgrounds, no rounded pills, no coloured blocks, no ingredient bed, no props, no scattered peanuts/leaves/cloth, no oil ribbon or drizzle, no hands, no cups, no bowls, no percentages baked into any callout, no full stops on any zone (NO DOTS RULE), no tilted or bent bottles, no third bottle, no invented on-pack copy on the left, no label/text/wordmark of any kind on the right, no competitor brand implied on the right, no FSSAI licence numbers, no prices, no discount stamps, no promotional badges, no exclamation marks.
+Callout mode: Hairline callouts only on both sides, matched size and weight (not dimmed on the right), reads at feed thumbnail scale per [[feedback_gpt_callout_size]].
+Palette swap protocol: adaptable to any brand for two-way method comparisons — Health Fields (deep teal + cream + honey gold), Caveman (cave red + cream + charcoal), Biomart (market green + cream + warm gold), greendipz (forest green + cream + bold red accent).
+Source DNA: T84 core architecture (bisected symmetrical field, italic `vs` divider, matched hairline callouts, monochrome apothecary immersion) adapted to a single-brand two-bottle branded-vs-generic teaching variant.
+First deployed: 2026-09-02 · Pusht Organic · Sept 2 EDUCATE post · Cold-pressed vs raw-pressed groundnut oil (biomart.in source)
+Full spec: research/prompts/generated_2026-09-02_pusht_cold-pressed-vs-raw-pressed-groundnut-oil.md
+
+Last assigned template: T86 (Pusht Bisected Extraction Comparison Poster — assigned 2026-09-02)
+Next new template: T87

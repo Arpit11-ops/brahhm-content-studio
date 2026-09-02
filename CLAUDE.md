@@ -551,6 +551,8 @@ Kung Pao Sauce
 Schezwan Sauce
 Manchurian Sauce
 White Basmati Rice (Pusht Organic)
+Biomart Shelf Sweep — Millets + Oils + Flours + Teas + Honey (2026-08-27)
+Health Fields Seeds Trio (Raw Cashew + Sunflower + Watermelon Seeds 250g) — Snackit unbox recreation (2026-09-01)
 ```
 
 Add new products to this list immediately after each reel is built.
