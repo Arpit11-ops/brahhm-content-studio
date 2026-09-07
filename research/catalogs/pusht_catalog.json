@@ -1,0 +1,1948 @@
+{
+  "brand": "pusht",
+  "domain": "pusht.in",
+  "generated_at": "2026-09-07T03:45:44+00:00",
+  "product_count": 80,
+  "in_stock_count": 79,
+  "error": null,
+  "products": [
+    {
+      "brand": "pusht",
+      "handle": "pusht-organic-pink-salt-powder-1kg",
+      "title": "Pusht Organic Pink Salt Powder 1Kg",
+      "url": "https://pusht.in/products/pusht-organic-pink-salt-powder-1kg",
+      "product_type": "",
+      "tags": [
+        "1 Kg",
+        "Uncategorized"
+      ],
+      "in_stock": true,
+      "price_min": 145.0,
+      "price_max": 145.0,
+      "variant_count": 1,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicPinkRockSalt01.jpg?v=1784964623",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicPinkRockSalt02.jpg?v=1784964635",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicPinkRockSalt08.jpg?v=1784964645",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicPinkRockSalt05.jpg?v=1784964662",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicPinkRockSalt03.jpg?v=1784964662",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicPinkRockSalt04.jpg?v=1784964662",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicPinkRockSalt06.jpg?v=1784964662",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicPinkRockSalt07.jpg?v=1784964662"
+      ],
+      "published_at": "2026-06-08T14:31:11+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "pusht-organic-pink-salt-crystal-1kg",
+      "title": "Pusht Organic Pink Salt (Crystal) 1Kg",
+      "url": "https://pusht.in/products/pusht-organic-pink-salt-crystal-1kg",
+      "product_type": "",
+      "tags": [
+        "1 Kg",
+        "Uncategorized"
+      ],
+      "in_stock": true,
+      "price_min": 145.0,
+      "price_max": 145.0,
+      "variant_count": 1,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/pusht-organic-pink-salt-crystal-1kg-95387314-mqc2sg87.jpg?v=1781338235",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/pusht-organic-pink-salt-crystal-benefit-image.png?v=1781515076",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/pusht-organic-pink-salt-crystal-1kg-lifestyle-image.png?v=1781512685",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/pusht-organic-pink-salt-crystal-1kg.jpg?v=1781338173",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicRockSalatCrystal03.jpg?v=1784964788",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicRockSalatCrystal04.jpg?v=1784964788",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicRockSalatCrystal05.jpg?v=1784964788",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicRockSalatCrystal06.jpg?v=1784964788",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicRockSalatCrystal07.jpg?v=1784964788",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicRockSalatCrystal08.jpg?v=1784964788"
+      ],
+      "published_at": "2026-06-08T14:31:10+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "pusht-organic-red-rice-1kg",
+      "title": "Pusht Organic Red Rice 1Kg",
+      "url": "https://pusht.in/products/pusht-organic-red-rice-1kg",
+      "product_type": "",
+      "tags": [
+        "1 Kg",
+        "Uncategorized"
+      ],
+      "in_stock": true,
+      "price_min": 220.0,
+      "price_max": 220.0,
+      "variant_count": 1,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicRedRice01.png?v=1784964896",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/pusht-organic-red-rice-benefit-image.png?v=1781515167",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicRedRice02.png?v=1784964920",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicRedRice05.png?v=1784964921",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicRedRice03.png?v=1784964920",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicRedRice04.png?v=1784964921",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicRedRice06.png?v=1784964921"
+      ],
+      "published_at": "2026-06-08T14:31:10+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "pusht-organic-sona-masoori-rice-1kg",
+      "title": "Pusht Organic Sona Masoori Rice 1Kg",
+      "url": "https://pusht.in/products/pusht-organic-sona-masoori-rice-1kg",
+      "product_type": "",
+      "tags": [
+        "1 Kg",
+        "Uncategorized"
+      ],
+      "in_stock": true,
+      "price_min": 164.0,
+      "price_max": 164.0,
+      "variant_count": 1,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/71KIyb0QNsL._SL1500.jpg?v=1784965036",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/71sTuujpKlL._SL1350.jpg?v=1784965029",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/71V9eSCInmL._SL1500.jpg?v=1784965029",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/71WhFYXXtYL._SL1500.jpg?v=1784965029",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/71WKy2gUPDL._SL1500.jpg?v=1784965029"
+      ],
+      "published_at": "2026-06-08T14:31:10+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "pusht-organic-black-rice-1kg",
+      "title": "Pusht Organic Black Rice 1Kg",
+      "url": "https://pusht.in/products/pusht-organic-black-rice-1kg",
+      "product_type": "",
+      "tags": [
+        "1 Kg",
+        "Uncategorized"
+      ],
+      "in_stock": true,
+      "price_min": 410.0,
+      "price_max": 410.0,
+      "variant_count": 1,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicBlackRice01.png?v=1784965117",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/pusht-organic-black-rice-benefit-image.png?v=1781515340",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/pusht-organic-black-rice-1kg-lifestyle-image.png?v=1781513020",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicBlackRice02.png?v=1784965154",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicBlackRice05.png?v=1784965158",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicBlackRice06.png?v=1784965162",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicBlackRice03.png?v=1784965162",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicBlackRice04.png?v=1784965162"
+      ],
+      "published_at": "2026-06-08T14:31:10+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "pusht-organic-brown-sugar-1kg",
+      "title": "Pusht Organic Brown Sugar 1Kg",
+      "url": "https://pusht.in/products/pusht-organic-brown-sugar-1kg",
+      "product_type": "",
+      "tags": [
+        "Uncategorized"
+      ],
+      "in_stock": true,
+      "price_min": 90.0,
+      "price_max": 170.0,
+      "variant_count": 2,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicBrownSugar01.jpg?v=1784965252",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicBrownSugar07.jpg?v=1784965252",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicBrownSugar05.jpg?v=1784965252",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicBrownSugar03.jpg?v=1784965252",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicBrownSugar04.jpg?v=1784965252",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicBrownSugar06.jpg?v=1784965252"
+      ],
+      "published_at": "2026-06-08T14:31:09+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "pusht-organic-white-basmati-rice-1kg",
+      "title": "Pusht Organic White Basmati Rice 1Kg",
+      "url": "https://pusht.in/products/pusht-organic-white-basmati-rice-1kg",
+      "product_type": "",
+      "tags": [
+        "1 Kg",
+        "Uncategorized"
+      ],
+      "in_stock": true,
+      "price_min": 299.0,
+      "price_max": 299.0,
+      "variant_count": 1,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicWhiteBasmatiRice01.png?v=1784965345",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicWhiteBasmatiRice07.png?v=1784965344",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicWhiteBasmatiRice05.png?v=1784965345",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicWhiteBasmatiRice03.png?v=1784965344",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicWhiteBasmatiRice04.png?v=1784965344",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicWhiteBasmatiRice06.png?v=1784965345"
+      ],
+      "published_at": "2026-06-08T14:31:09+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "pusht-organic-brown-basmati-rice-1kg",
+      "title": "Pusht Organic Brown Basmati Rice 1Kg",
+      "url": "https://pusht.in/products/pusht-organic-brown-basmati-rice-1kg",
+      "product_type": "",
+      "tags": [
+        "1 Kg",
+        "500 Gm",
+        "Uncategorized"
+      ],
+      "in_stock": true,
+      "price_min": 299.0,
+      "price_max": 299.0,
+      "variant_count": 1,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicBrownBasmatiRice01.png?v=1784965450",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicBrownBasmatiRice07.png?v=1784965450",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicBrownBasmatiRice05.png?v=1784965450",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicBrownBasmatiRice03.png?v=1784965449",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicBrownBasmatiRice04.png?v=1784965450",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicBrownBasmatiRice06.png?v=1784965450"
+      ],
+      "published_at": "2026-06-08T14:31:09+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "pusht-organic-sugar-white-1kg",
+      "title": "Pusht Organic Sugar White 1Kg",
+      "url": "https://pusht.in/products/pusht-organic-sugar-white-1kg",
+      "product_type": "",
+      "tags": [
+        "Uncategorized"
+      ],
+      "in_stock": true,
+      "price_min": 85.0,
+      "price_max": 160.0,
+      "variant_count": 2,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/WhiteSugar01.jpg?v=1784965615",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Untitleddesign.png?v=1784965615",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/WhiteSugar05.jpg?v=1784965615",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/WhiteSugar03.jpg?v=1784965615",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/WhiteSugar04.jpg?v=1784965615",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/WhiteSugar06.jpg?v=1784965615"
+      ],
+      "published_at": "2026-06-08T14:31:09+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "pusht-organic-rice-flour-500-gm",
+      "title": "Pusht Organic Rice Flour 500 Gm",
+      "url": "https://pusht.in/products/pusht-organic-rice-flour-500-gm",
+      "product_type": "",
+      "tags": [
+        "500 Gm",
+        "Uncategorized"
+      ],
+      "in_stock": true,
+      "price_min": 95.0,
+      "price_max": 95.0,
+      "variant_count": 1,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicRiceFlour01.jpg?v=1784965737",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicRiceFlour02.jpg?v=1784965751",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicRiceFlour08.jpg?v=1784965760",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/pusht-organic-rice-flour-benefit-image.png?v=1781515970",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicRiceFlour03.jpg?v=1784965760",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicRiceFlour04.jpg?v=1784965760",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicRiceFlour07.jpg?v=1784965760",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicRiceFlour06.jpg?v=1784965760"
+      ],
+      "published_at": "2026-06-08T14:31:08+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "pusht-organic-corriander-powder-200gm",
+      "title": "Pusht Organic Corriander Powder 200Gm",
+      "url": "https://pusht.in/products/pusht-organic-corriander-powder-200gm",
+      "product_type": "",
+      "tags": [
+        "100 Gm",
+        "200 Gm",
+        "Uncategorized"
+      ],
+      "in_stock": true,
+      "price_min": 150.0,
+      "price_max": 150.0,
+      "variant_count": 1,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicCorianderPowder_zipper100g-01.jpg?v=1784966069",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicCorianderPowder_zipper100g-02.jpg?v=1784966069",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicCorianderPowder_zipper100g-09.jpg?v=1784966069",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicCorianderPowder_zipper100g-03.jpg?v=1784966076",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicCorianderPowder_zipper100g-04.jpg?v=1784966076",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicCorianderPowder_zipper100g-05.jpg?v=1784966076",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicCorianderPowder_zipper100g-06.jpg?v=1784966076",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicCorianderPowder_zipper100g-07.jpg?v=1784966076",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicCorianderPowder_zipper100g-08.jpg?v=1784966076"
+      ],
+      "published_at": "2026-06-08T14:31:08+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "pusht-organic-cinnamon-powder-100-gm",
+      "title": "Pusht Organic Cinnamon Powder 100 Gm",
+      "url": "https://pusht.in/products/pusht-organic-cinnamon-powder-100-gm",
+      "product_type": "",
+      "tags": [
+        "100 Gm",
+        "Uncategorized"
+      ],
+      "in_stock": true,
+      "price_min": 120.0,
+      "price_max": 120.0,
+      "variant_count": 1,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/DalChini_CinnamonStick_01.jpg?v=1784966266",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/DalChini_CinnamonStick_02.jpg?v=1784966266",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/DalChini_CinnamonStick_06.jpg?v=1784966266",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/DalChini_CinnamonStick_03.jpg?v=1784966266",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/DalChini_CinnamonStick_04.jpg?v=1784966266",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/DalChini_CinnamonStick_05.jpg?v=1784966266"
+      ],
+      "published_at": "2026-06-08T14:31:07+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "pusht-organic-flax-seeds-200-gm",
+      "title": "Pusht Organic Flax Seeds 200 Gm",
+      "url": "https://pusht.in/products/pusht-organic-flax-seeds-200-gm",
+      "product_type": "",
+      "tags": [
+        "200 Gm",
+        "Uncategorized"
+      ],
+      "in_stock": true,
+      "price_min": 90.0,
+      "price_max": 90.0,
+      "variant_count": 1,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/pusht-organic-flax-seeds-200-gm.jpg?v=1781338168",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/pusht-organic-flax-seeds-benefit-image.png?v=1781516635",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/pusht-organic-flax-seeds-200-gm-94240434-mqc2rvra.jpg?v=1781338208",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/pusht-organic-flax-seeds-200-gm-94273202-mqc2rfm5.jpg?v=1781338187",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/pusht-organic-flax-seeds-200-gm-94305970-mqc2s00j.jpg?v=1781338214"
+      ],
+      "published_at": "2026-06-08T14:31:07+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "pusht-organic-corn-makka-dalia-500-gm",
+      "title": "Pusht Organic Corn (Makka) Dalia 500 Gm",
+      "url": "https://pusht.in/products/pusht-organic-corn-makka-dalia-500-gm",
+      "product_type": "",
+      "tags": [
+        "500 Gm",
+        "Uncategorized"
+      ],
+      "in_stock": true,
+      "price_min": 80.0,
+      "price_max": 80.0,
+      "variant_count": 1,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Corn_Makka_Dalia01.jpg?v=1784966556",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Corn_Makka_Dalia05.jpg?v=1784966557",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Corn_Makka_Dalia02.jpg?v=1784966590",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Corn_Makka_Dalia03.jpg?v=1784966556",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Corn_Makka_Dalia04.jpg?v=1784966556",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Corn_Makka_Dalia06.jpg?v=1784966556"
+      ],
+      "published_at": "2026-06-08T14:31:07+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "pusht-organic-amaranth-flour-500-gm",
+      "title": "Pusht Organic Amaranth Flour 500 Gm",
+      "url": "https://pusht.in/products/pusht-organic-amaranth-flour-500-gm",
+      "product_type": "",
+      "tags": [
+        "500 Gm",
+        "Uncategorized"
+      ],
+      "in_stock": true,
+      "price_min": 210.0,
+      "price_max": 210.0,
+      "variant_count": 1,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/AmaranthFlour01.jpg?v=1784966639",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/AmaranthFlour08.png?v=1784966639",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/AmaranthFlour02.jpg?v=1784966639",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/AmaranthFlour03.jpg?v=1784966639",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/AmaranthFlour04.jpg?v=1784966639",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/AmaranthFlour05.jpg?v=1784966639",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/AmaranthFlour06.jpg?v=1784966639",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/AmaranthFlour07.jpg?v=1784966639"
+      ],
+      "published_at": "2026-06-08T14:31:07+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "pusht-organic-multi-grain-atta-summer-500-gm",
+      "title": "Pusht Organic Multi Grain Atta - Summer 500 Gm",
+      "url": "https://pusht.in/products/pusht-organic-multi-grain-atta-summer-500-gm",
+      "product_type": "",
+      "tags": [
+        "500 Gm",
+        "Uncategorized"
+      ],
+      "in_stock": true,
+      "price_min": 120.0,
+      "price_max": 120.0,
+      "variant_count": 1,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/MultigrainFlourforsummer01.jpg?v=1784966687",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/MultigrainFlourforsummer08.png?v=1784966687",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/MultigrainFlourforsummer02.jpg?v=1784966686",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/MultigrainFlourforsummer03.jpg?v=1784966686",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/MultigrainFlourforsummer04.jpg?v=1784966686",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/MultigrainFlourforsummer05.jpg?v=1784966687",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/MultigrainFlourforsummer06.jpg?v=1784966686",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/MultigrainFlourforsummer07.jpg?v=1784966686"
+      ],
+      "published_at": "2026-06-08T14:31:06+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "pusht-organic-barley-flour-500-gm",
+      "title": "Pusht Organic Barley Flour 500 Gm",
+      "url": "https://pusht.in/products/pusht-organic-barley-flour-500-gm",
+      "product_type": "",
+      "tags": [
+        "500 Gm",
+        "Uncategorized"
+      ],
+      "in_stock": true,
+      "price_min": 120.0,
+      "price_max": 120.0,
+      "variant_count": 1,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/BARLEYFLOURFRONTPIC.png?v=1784966801",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/THUMBNAILIMAGEFLOUR.png?v=1784966801",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/BARLEYFLOURBACKSIDE.png?v=1784966801",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/FSSAI.jpg?v=1784966801",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/INGRIDIANT.jpg?v=1784966801",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/NUTRITION2.png?v=1784966801",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/NUTRITIONFACTS.png?v=1784966801",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/BARCODEIMAGE.png?v=1784966801"
+      ],
+      "published_at": "2026-06-08T14:31:06+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "pusht-organic-bay-leaves-tej-patta-25gm",
+      "title": "Pusht Organic Bay Leaves (Tej Patta) 25Gm",
+      "url": "https://pusht.in/products/pusht-organic-bay-leaves-tej-patta-25gm",
+      "product_type": "",
+      "tags": [
+        "25 Gm",
+        "Uncategorized"
+      ],
+      "in_stock": true,
+      "price_min": 55.0,
+      "price_max": 55.0,
+      "variant_count": 1,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/BayLeaves_TejPatta_01.jpg?v=1784966868",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/BayLeaves_TejPatta_06.jpg?v=1784966868",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/BayLeaves_TejPatta_02.jpg?v=1784966868",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/BayLeaves_TejPatta_03.jpg?v=1784966868",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/BayLeaves_TejPatta_04.jpg?v=1784966868",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/BayLeaves_TejPatta_05.jpg?v=1784966868"
+      ],
+      "published_at": "2026-06-08T14:31:06+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "pusht-organic-red-chilli-whole-100-gm",
+      "title": "Pusht Organic Red Chilli Whole 100 Gm",
+      "url": "https://pusht.in/products/pusht-organic-red-chilli-whole-100-gm",
+      "product_type": "",
+      "tags": [
+        "Uncategorized"
+      ],
+      "in_stock": true,
+      "price_min": 110.0,
+      "price_max": 110.0,
+      "variant_count": 1,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/pusht-organic-red-chilli-whole-100-gm.jpg?v=1781338158",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/pusht-organic-red-chilli-whole-benefit-image.png?v=1781517490",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/pusht-organic-red-chilli-whole-100-gm-93224626-mqc2rlll.jpg?v=1781338196",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/pusht-organic-red-chilli-whole-100-gm-93257394-mqc2t0ec.jpg?v=1781338261",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/pusht-organic-red-chilli-whole-100-gm-93290162-mqc2sqiy.jpg?v=1781338248"
+      ],
+      "published_at": "2026-06-08T14:31:05+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "pusht-organic-ajwain-200gm",
+      "title": "Pusht Organic Ajwain 200Gm",
+      "url": "https://pusht.in/products/pusht-organic-ajwain-200gm",
+      "product_type": "",
+      "tags": [
+        "Uncategorized"
+      ],
+      "in_stock": true,
+      "price_min": 84.0,
+      "price_max": 158.0,
+      "variant_count": 2,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Ajwain01.jpg?v=1784966968",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Ajwain06.jpg?v=1784966968",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Ajwain02.jpg?v=1784966968",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Ajwain03.jpg?v=1784966968",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Ajwain04.jpg?v=1784966968",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Ajwain05.jpg?v=1784966968"
+      ],
+      "published_at": "2026-06-08T14:31:05+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "pusht-organic-corriander-whole-200gm",
+      "title": "Pusht Organic Corriander Whole 200Gm",
+      "url": "https://pusht.in/products/pusht-organic-corriander-whole-200gm",
+      "product_type": "",
+      "tags": [
+        "100 Gm",
+        "200 Gm",
+        "Uncategorized"
+      ],
+      "in_stock": true,
+      "price_min": 146.0,
+      "price_max": 146.0,
+      "variant_count": 1,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/pusht-organic-corriander-whole-200gm-92929714-mqc2tjj2.jpg?v=1781338286",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/pusht-organic-coriander-whole-benefit-image.png?v=1781517694",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/pusht-organic-corriander-whole-200gm-92962482-mqc2sop1.jpg?v=1781338246",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/pusht-organic-corriander-whole-200gm.jpg?v=1781338131",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/pusht-organic-corriander-whole-200gm-93028018-mqc2shvu.jpg?v=1781338237"
+      ],
+      "published_at": "2026-06-08T14:31:05+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "pusht-organic-besan-500gm",
+      "title": "Pusht Organic Besan 500Gm",
+      "url": "https://pusht.in/products/pusht-organic-besan-500gm",
+      "product_type": "",
+      "tags": [
+        "Uncategorized"
+      ],
+      "in_stock": true,
+      "price_min": 125.0,
+      "price_max": 125.0,
+      "variant_count": 1,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicBesan01.jpg?v=1784967040",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicBesan09.jpg?v=1784967040",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicBesan02.jpg?v=1784967040",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicBesan03.jpg?v=1784967040",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicBesan05.jpg?v=1784967040",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicBesan08.jpg?v=1784967040",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicBesan06.jpg?v=1784967040"
+      ],
+      "published_at": "2026-06-08T14:31:04+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "pusht-organic-red-chilli-powder-200gm",
+      "title": "Pusht Organic Red Chilli Powder 200gm",
+      "url": "https://pusht.in/products/pusht-organic-red-chilli-powder-200gm",
+      "product_type": "",
+      "tags": [
+        "100 Gm",
+        "200 Gm",
+        "Uncategorized"
+      ],
+      "in_stock": true,
+      "price_min": 186.0,
+      "price_max": 186.0,
+      "variant_count": 1,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicRedChilliPowder_zipper200g-01.jpg?v=1784967102",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicRedChilliPowder_zipper200g-09.jpg?v=1784967102",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicRedChilliPowder_zipper200g-02.jpg?v=1784967102",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicRedChilliPowder_zipper200g-03.jpg?v=1784967102",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicRedChilliPowder_zipper200g-04.jpg?v=1784967102",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicRedChilliPowder_zipper200g-05.jpg?v=1784967102",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicRedChilliPowder_zipper200g-06.jpg?v=1784967102",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicRedChilliPowder_zipper200g-07.jpg?v=1784967102",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicRedChilliPowder_zipper200g-08.jpg?v=1784967102"
+      ],
+      "published_at": "2026-06-08T14:31:04+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "pusht-organic-peanut-500gm",
+      "title": "Pusht Organic Peanut 500Gm",
+      "url": "https://pusht.in/products/pusht-organic-peanut-500gm",
+      "product_type": "",
+      "tags": [
+        "Uncategorized"
+      ],
+      "in_stock": true,
+      "price_min": 200.0,
+      "price_max": 200.0,
+      "variant_count": 1,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Peanut01.jpg?v=1784968476",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Peanut05.jpg?v=1784968476",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Peanut02.jpg?v=1784968476",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Peanut03.jpg?v=1784968476",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Peanut04.jpg?v=1784968476",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Peanut06.jpg?v=1784968476"
+      ],
+      "published_at": "2026-06-08T14:31:04+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "pusht-organic-masoor-malka-1kg",
+      "title": "Pusht Organic Masoor Malka Dal 1Kg",
+      "url": "https://pusht.in/products/pusht-organic-masoor-malka-1kg",
+      "product_type": "",
+      "tags": [
+        "Uncategorized"
+      ],
+      "in_stock": true,
+      "price_min": 138.0,
+      "price_max": 270.0,
+      "variant_count": 2,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Untitled_1500x1500px_1.png?v=1784968788",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Untitled_1500x1500px_2.png?v=1784968788",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/MasoorMalkaDal02.jpg?v=1784968788",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/MasoorMalkaDal03.jpg?v=1784968788",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/MasoorMalkaDal04.jpg?v=1784968788",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/MasoorMalkaDal05.jpg?v=1784968788"
+      ],
+      "published_at": "2026-06-08T14:31:04+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "organic-sorghum-millet-jowar-1kg",
+      "title": "Organic Sorghum Millet (Jowar) - 1kg",
+      "url": "https://pusht.in/products/organic-sorghum-millet-jowar-1kg",
+      "product_type": "",
+      "tags": [
+        "Organic Millets"
+      ],
+      "in_stock": true,
+      "price_min": 73.0,
+      "price_max": 138.0,
+      "variant_count": 2,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Jowar01.jpg?v=1784968912",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Jowar05.jpg?v=1784968912",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Jowar07.jpg?v=1784968912",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Jowar03.jpg?v=1784968912",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Jowar04.jpg?v=1784968912",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Jowar06.jpg?v=1784968912"
+      ],
+      "published_at": "2026-06-08T14:31:03+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "organic-quinoa-millet-1kg",
+      "title": "Organic Quinoa Millet - 1kg",
+      "url": "https://pusht.in/products/organic-quinoa-millet-1kg",
+      "product_type": "",
+      "tags": [
+        "Organic Millets"
+      ],
+      "in_stock": true,
+      "price_min": 182.0,
+      "price_max": 360.0,
+      "variant_count": 2,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/QuinoaMillet01.jpg?v=1784969034",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/QuinoaMillet05.jpg?v=1784969034",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/QuinoaMillet07.jpg?v=1784969034",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/QuinoaMillet03.jpg?v=1784969034",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/QuinoaMillet04.jpg?v=1784969034",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/QuinoaMillet06.jpg?v=1784969034"
+      ],
+      "published_at": "2026-06-08T14:31:03+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "organic-proso-millet-chenna-1kg",
+      "title": "Organic Proso Millet (Chenna) - 1kg",
+      "url": "https://pusht.in/products/organic-proso-millet-chenna-1kg",
+      "product_type": "",
+      "tags": [
+        "Organic Millets"
+      ],
+      "in_stock": true,
+      "price_min": 145.0,
+      "price_max": 270.0,
+      "variant_count": 2,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Chenna01.jpg?v=1784969273",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Chenna05.jpg?v=1784969273",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Chenna07.jpg?v=1784969273",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Chenna03.jpg?v=1784969273",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Chenna04.jpg?v=1784969273",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Chenna06.jpg?v=1784969273"
+      ],
+      "published_at": "2026-06-08T14:31:03+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "organic-pearl-millet-bajra-1kg",
+      "title": "Organic Pearl Millet (Bajra) - 1kg",
+      "url": "https://pusht.in/products/organic-pearl-millet-bajra-1kg",
+      "product_type": "",
+      "tags": [
+        "Organic Millets"
+      ],
+      "in_stock": true,
+      "price_min": 77.0,
+      "price_max": 130.0,
+      "variant_count": 2,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Bajra01.jpg?v=1784969356",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Bajra07.jpg?v=1784969356",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Bajra05.jpg?v=1784969356",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Bajra03.jpg?v=1784969356",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Bajra04.jpg?v=1784969356",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Bajra06.jpg?v=1784969356"
+      ],
+      "published_at": "2026-06-08T14:31:03+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "organic-little-millet-kutki-1kg",
+      "title": "Organic Little Millet (Kutki) - 1kg",
+      "url": "https://pusht.in/products/organic-little-millet-kutki-1kg",
+      "product_type": "",
+      "tags": [
+        "Organic Millets"
+      ],
+      "in_stock": true,
+      "price_min": 167.0,
+      "price_max": 314.0,
+      "variant_count": 2,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Ragi01_c97156b8-5fe2-4ba5-9d40-0c104ade0dce.jpg?v=1784969645",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Ragi05_6f6475be-05b9-4f5e-8136-fe344b6f294b.jpg?v=1784969645",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Ragi07_3601fb1d-e846-4649-ab81-db51ef8b6929.jpg?v=1784969645",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Ragi03_57e38c72-a1e5-4ae9-a2d7-f7131526685d.jpg?v=1784969645",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Ragi04_e42c71b1-d4f0-44d0-9a49-c7cb986c9c51.jpg?v=1784969645",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Ragi06_0b69166a-7fa0-4eea-8187-b6c54f3cd070.jpg?v=1784969646"
+      ],
+      "published_at": "2026-06-08T14:31:02+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "organic-kodo-millet-kodra-1kg",
+      "title": "Organic Kodo Millet (Kodra) - 1kg",
+      "url": "https://pusht.in/products/organic-kodo-millet-kodra-1kg",
+      "product_type": "",
+      "tags": [
+        "Organic Millets"
+      ],
+      "in_stock": true,
+      "price_min": 135.0,
+      "price_max": 242.0,
+      "variant_count": 2,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/KodoMillet01.jpg?v=1784969745",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/KodoMillet05.jpg?v=1784969745",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/KodoMillet07.jpg?v=1784969745",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/KodoMillet03.jpg?v=1784969745",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/KodoMillet04.jpg?v=1784969745",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/KodoMillet06.jpg?v=1784969745"
+      ],
+      "published_at": "2026-06-08T14:31:02+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "organic-foxtail-millet-kangni-1kg",
+      "title": "Organic Foxtail Millet (Kangni) - 1kg",
+      "url": "https://pusht.in/products/organic-foxtail-millet-kangni-1kg",
+      "product_type": "",
+      "tags": [
+        "Organic Millets"
+      ],
+      "in_stock": true,
+      "price_min": 160.0,
+      "price_max": 318.0,
+      "variant_count": 2,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Kangni01.jpg?v=1784969822",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Kangni05.jpg?v=1784969822",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Kangni07.jpg?v=1784969821",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Kangni03.jpg?v=1784969822",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Kangni04.jpg?v=1784969821",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Kangni06.jpg?v=1784969822"
+      ],
+      "published_at": "2026-06-08T14:31:02+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "organic-finger-millet-ragi-1kg",
+      "title": "Organic Finger Millet (Ragi) - 1kg",
+      "url": "https://pusht.in/products/organic-finger-millet-ragi-1kg",
+      "product_type": "",
+      "tags": [
+        "Organic Millets"
+      ],
+      "in_stock": true,
+      "price_min": 99.0,
+      "price_max": 156.0,
+      "variant_count": 2,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Ragi01_7fcf0df6-948b-4a67-96a9-75404214a3b3.jpg?v=1784969876",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Ragi05_a2875d4c-16ea-4fe4-bf9f-4d622d558440.jpg?v=1784969876",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Ragi07_779a7b48-dba7-4a3c-b2f1-ece9b5b5bca8.jpg?v=1784969876",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Ragi03_53ce14b4-1a4c-4b03-b7dc-5af9b606aac0.jpg?v=1784969875",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Ragi04_cb2ff589-07a9-40ca-a1a8-34c6e54486b0.jpg?v=1784969876",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Ragi06_3f950657-368d-4e2d-b299-f15b551ad4fb.jpg?v=1784969876"
+      ],
+      "published_at": "2026-06-08T14:31:01+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "organic-browntop-millet-makra-1kg",
+      "title": "Organic Browntop Millet (Makra) - 1kg",
+      "url": "https://pusht.in/products/organic-browntop-millet-makra-1kg",
+      "product_type": "",
+      "tags": [
+        "Organic Millets"
+      ],
+      "in_stock": true,
+      "price_min": 200.0,
+      "price_max": 400.0,
+      "variant_count": 2,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/BrowntopMillet01.jpg?v=1784969953",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/BrowntopMillet05.jpg?v=1784969953",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/BrowntopMillet07.jpg?v=1784969953",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/BrowntopMillet03.jpg?v=1784969953",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/BrowntopMillet04.jpg?v=1784969953",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/BrowntopMillet06.jpg?v=1784969953"
+      ],
+      "published_at": "2026-06-08T14:31:01+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "organic-barnyard-millet-sanwa-1kg",
+      "title": "Organic Barnyard Millet (Sanwa) - 1kg",
+      "url": "https://pusht.in/products/organic-barnyard-millet-sanwa-1kg",
+      "product_type": "",
+      "tags": [
+        "Organic Millets"
+      ],
+      "in_stock": true,
+      "price_min": 147.0,
+      "price_max": 290.0,
+      "variant_count": 2,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/BarnyardMillet01.jpg?v=1784970015",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/BarnyardMillet05.jpg?v=1784970015",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/BarnyardMillet07.jpg?v=1784970015",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/BarnyardMillet03.jpg?v=1784970015",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/BarnyardMillet04.jpg?v=1784970015",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/BarnyardMillet06.jpg?v=1784970015"
+      ],
+      "published_at": "2026-06-08T14:31:01+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "organic-turmeric-powder-haldi",
+      "title": "Organic Turmeric Powder (Haldi)",
+      "url": "https://pusht.in/products/organic-turmeric-powder-haldi",
+      "product_type": "",
+      "tags": [
+        "Organic Spices"
+      ],
+      "in_stock": true,
+      "price_min": 70.0,
+      "price_max": 135.0,
+      "variant_count": 2,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicTurmericPowder_zipper200g-01.jpg?v=1784970078",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicTurmericPowder_zipper100g-09.jpg?v=1784970091",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicTurmericPowder_zipper200g-02.jpg?v=1784970091",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicTurmericPowder_zipper100g-03.jpg?v=1784970091",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicTurmericPowder_zipper100g-04.jpg?v=1784970091",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicTurmericPowder_zipper100g-07.jpg?v=1784970091",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicTurmericPowder_zipper100g-05.jpg?v=1784970091",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicTurmericPowder_zipper100g-06.jpg?v=1784970091",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicTurmericPowder_zipper100g-08.jpg?v=1784970091"
+      ],
+      "published_at": "2026-06-08T14:31:01+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "organic-amaranth-millet-chaulai-1kg",
+      "title": "Organic Amaranth Millet (Chaulai) - 1kg",
+      "url": "https://pusht.in/products/organic-amaranth-millet-chaulai-1kg",
+      "product_type": "",
+      "tags": [
+        "Organic Millets"
+      ],
+      "in_stock": true,
+      "price_min": 180.0,
+      "price_max": 357.0,
+      "variant_count": 2,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/AmaranthMillet01.jpg?v=1784970140",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/AmaranthMillet05.jpg?v=1784970140",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/AmaranthMillet07.jpg?v=1784970140",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/AmaranthMillet03.jpg?v=1784970140",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/AmaranthMillet04.jpg?v=1784970140",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/AmaranthMillet06.jpg?v=1784970140"
+      ],
+      "published_at": "2026-06-08T14:31:00+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "organic-saunf-fennel-seed",
+      "title": "Organic Saunf (Fennel Seed)",
+      "url": "https://pusht.in/products/organic-saunf-fennel-seed",
+      "product_type": "",
+      "tags": [
+        "Organic Pulses"
+      ],
+      "in_stock": true,
+      "price_min": 100.0,
+      "price_max": 200.0,
+      "variant_count": 2,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Saunf_FennelSeed_01.jpg?v=1784970303",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Saunf_FennelSeed_06.jpg?v=1784970303",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Saunf_FennelSeed_02.jpg?v=1784970303",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Saunf_FennelSeed_03.jpg?v=1784970303",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Saunf_FennelSeed_04.jpg?v=1784970302",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Saunf_FennelSeed_05.jpg?v=1784970303"
+      ],
+      "published_at": "2026-06-08T14:31:00+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "organic-black-mustard-seed-rai-dana-sarso",
+      "title": "Organic Black Mustard Seed (Rai Dana) Sarso",
+      "url": "https://pusht.in/products/organic-black-mustard-seed-rai-dana-sarso",
+      "product_type": "",
+      "tags": [
+        "Organic Spices"
+      ],
+      "in_stock": true,
+      "price_min": 46.0,
+      "price_max": 90.0,
+      "variant_count": 2,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/BlackMustardSeed_RaiDana_01.jpg?v=1784970349",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/BlackMustardSeed_RaiDana_06.jpg?v=1784970349",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/BlackMustardSeed_RaiDana_02.jpg?v=1784970349",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/BlackMustardSeed_RaiDana_03.jpg?v=1784970349",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/BlackMustardSeed_RaiDana_04.jpg?v=1784970349",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/BlackMustardSeed_RaiDana_05.jpg?v=1784970349"
+      ],
+      "published_at": "2026-06-08T14:31:00+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "organic-methi-dana-fenugreek-seed",
+      "title": "Organic Methi Dana (Fenugreek Seed)",
+      "url": "https://pusht.in/products/organic-methi-dana-fenugreek-seed",
+      "product_type": "",
+      "tags": [
+        "Organic Spices"
+      ],
+      "in_stock": true,
+      "price_min": 49.0,
+      "price_max": 88.0,
+      "variant_count": 2,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/organic-methi-dana-fenugreek-seed.jpg?v=1781338228"
+      ],
+      "published_at": "2026-06-08T14:30:59+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "organic-jeera-cumin-whole",
+      "title": "Organic Jeera (Cumin Whole)",
+      "url": "https://pusht.in/products/organic-jeera-cumin-whole",
+      "product_type": "",
+      "tags": [
+        "Organic Spices"
+      ],
+      "in_stock": true,
+      "price_min": 85.0,
+      "price_max": 168.0,
+      "variant_count": 2,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/organic-jeera-cumin-whole.jpg?v=1781338164"
+      ],
+      "published_at": "2026-06-08T14:30:59+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "organic-green-cardamom-hari-elaichi-50gm",
+      "title": "Organic Green Cardamom (Hari Elaichi) - 50Gm",
+      "url": "https://pusht.in/products/organic-green-cardamom-hari-elaichi-50gm",
+      "product_type": "",
+      "tags": [
+        "Organic Spices"
+      ],
+      "in_stock": true,
+      "price_min": 400.0,
+      "price_max": 400.0,
+      "variant_count": 1,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/GreenCardamom01.jpg?v=1784970555",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/GreenCardamom06.jpg?v=1784970555",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/GreenCardamom02.jpg?v=1784970555",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/GreenCardamom03.jpg?v=1784970555",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/GreenCardamom04.jpg?v=1784970555",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/GreenCardamom05.jpg?v=1784970555"
+      ],
+      "published_at": "2026-06-08T14:30:59+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "organic-dal-chini-cinnamon-stick-50gm",
+      "title": "Organic Dal Chini (Cinnamon Stick) - 50Gm",
+      "url": "https://pusht.in/products/organic-dal-chini-cinnamon-stick-50gm",
+      "product_type": "",
+      "tags": [
+        "Organic Spices"
+      ],
+      "in_stock": true,
+      "price_min": 75.0,
+      "price_max": 75.0,
+      "variant_count": 1,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/DalChini_CinnamonStick_01_28847e7f-fc9c-4a2e-9509-4abb8f428d6d.jpg?v=1784970623",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/DalChini_CinnamonStick_06_b0181254-ea89-4c78-9815-aae369143459.jpg?v=1784970623",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/DalChini_CinnamonStick_02_61fcded7-703c-4eea-81e4-9082f2b3f145.jpg?v=1784970623",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/DalChini_CinnamonStick_03_63c0d229-2f68-4b85-82a3-0ceea4e3dae6.jpg?v=1784970623",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/DalChini_CinnamonStick_04_91d8d21e-b02f-4743-9d81-f161994102d5.jpg?v=1784970623",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/DalChini_CinnamonStick_05_991b89a0-f6a8-4204-ba1e-0eedee6321a6.jpg?v=1784970623"
+      ],
+      "published_at": "2026-06-08T14:30:59+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "organic-cardamom-big-black-elaichi-50gm",
+      "title": "Organic Cardamom Big (Black Elaichi) - 50Gm",
+      "url": "https://pusht.in/products/organic-cardamom-big-black-elaichi-50gm",
+      "product_type": "",
+      "tags": [
+        "Organic Spices"
+      ],
+      "in_stock": true,
+      "price_min": 275.0,
+      "price_max": 275.0,
+      "variant_count": 1,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/CardamomBig_BlackElaichi_01.jpg?v=1784970682",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/CardamomBig_BlackElaichi_06.jpg?v=1784970683",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/CardamomBig_BlackElaichi_02.jpg?v=1784970682",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/CardamomBig_BlackElaichi_03.jpg?v=1784970682",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/CardamomBig_BlackElaichi_04.jpg?v=1784970682",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/CardamomBig_BlackElaichi_05.jpg?v=1784970682"
+      ],
+      "published_at": "2026-06-08T14:30:58+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "organic-black-pepper-kali-mirch-100gm",
+      "title": "Organic Black Pepper (Kali Mirch) - 100Gm",
+      "url": "https://pusht.in/products/organic-black-pepper-kali-mirch-100gm",
+      "product_type": "",
+      "tags": [
+        "Organic Spices"
+      ],
+      "in_stock": true,
+      "price_min": 210.0,
+      "price_max": 210.0,
+      "variant_count": 1,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/organic-black-pepper-kali-mirch-100gm.jpg?v=1781338075"
+      ],
+      "published_at": "2026-06-08T14:30:57+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "organic-clove-lavang-70gm",
+      "title": "Organic Clove (Laung) - 70Gm",
+      "url": "https://pusht.in/products/organic-clove-lavang-70gm",
+      "product_type": "",
+      "tags": [
+        "Organic Spices"
+      ],
+      "in_stock": true,
+      "price_min": 200.0,
+      "price_max": 200.0,
+      "variant_count": 1,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/CloveWhole01.jpg?v=1785222379",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/CloveWhole06.jpg?v=1785222379",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/CloveWhole02.jpg?v=1785222379",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/CloveWhole03.jpg?v=1785222379",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/CloveWhole04.jpg?v=1785222379",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/CloveWhole05.jpg?v=1785222379"
+      ],
+      "published_at": "2026-06-08T14:30:57+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "pusht-organic-ragi-finger-millet-flour-500g",
+      "title": "Pusht Organic (Ragi) Finger Millet Flour 500G",
+      "url": "https://pusht.in/products/pusht-organic-ragi-finger-millet-flour-500g",
+      "product_type": "",
+      "tags": [
+        "Organic Millets",
+        "Uncategorized"
+      ],
+      "in_stock": true,
+      "price_min": 110.0,
+      "price_max": 110.0,
+      "variant_count": 1,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/pusht-organic-ragi-finger-millet-flour-500g-91029170-mqc2rg67.jpg?v=1781338188",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Organic_Ragi_FingerMillet02.jpg?v=1785222439",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Organic_Ragi_FingerMillet08.jpg?v=1785222440",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Organic_Ragi_FingerMillet03.jpg?v=1785222439",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Organic_Ragi_FingerMillet04.jpg?v=1785222439",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Organic_Ragi_FingerMillet05.jpg?v=1785222439",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Organic_Ragi_FingerMillet07.jpg?v=1785222440"
+      ],
+      "published_at": "2026-06-08T14:30:56+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "organic-sunflower-oil-1ltr",
+      "title": "Organic Sunflower Oil 1Ltr.",
+      "url": "https://pusht.in/products/organic-sunflower-oil-1ltr",
+      "product_type": "",
+      "tags": [
+        "Organic Oil"
+      ],
+      "in_stock": true,
+      "price_min": 480.0,
+      "price_max": 480.0,
+      "variant_count": 1,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/61XvFsCmfyL._SL1500.jpg?v=1785222495",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/31Ory_yaTJL.jpg?v=1785222495",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/51KnVsUIuuL.jpg?v=1785222495"
+      ],
+      "published_at": "2026-06-08T14:30:56+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "pusht-organic-white-rice-poha-400g-x-3pcs",
+      "title": "Pusht Organic White Rice Poha 400G X 3Pcs",
+      "url": "https://pusht.in/products/pusht-organic-white-rice-poha-400g-x-3pcs",
+      "product_type": "",
+      "tags": [
+        "Organic Pulses"
+      ],
+      "in_stock": true,
+      "price_min": 200.0,
+      "price_max": 200.0,
+      "variant_count": 1,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Poha01.jpg?v=1785222563",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Poha02.jpg?v=1785222563",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Poha05.jpg?v=1785222563",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/pusht-organic-white-rice-poha-400g-x-3pcs.jpg?v=1781338141",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Poha03.jpg?v=1785222563",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Poha04.jpg?v=1785222563",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Poha06.jpg?v=1785222563"
+      ],
+      "published_at": "2026-06-08T14:30:56+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "pusht-organic-barley-jau-dalia-500g-x-2pcs",
+      "title": "Pusht Organic Barley (Jau) Dalia 500G X 2Pcs",
+      "url": "https://pusht.in/products/pusht-organic-barley-jau-dalia-500g-x-2pcs",
+      "product_type": "",
+      "tags": [
+        "Organic Flours"
+      ],
+      "in_stock": true,
+      "price_min": 170.0,
+      "price_max": 170.0,
+      "variant_count": 1,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Barley_Jau_Dalia01.jpg?v=1785222643",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Barley_Jau_Dalia05.jpg?v=1785222643",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Barley_Jau_Dalia02.jpg?v=1785222643",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Barley_Jau_Dalia03.jpg?v=1785222644",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Barley_Jau_Dalia04.jpg?v=1785222644",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Barley_Jau_Dalia06.jpg?v=1785222643"
+      ],
+      "published_at": "2026-06-08T14:30:55+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "pusht-organic-forest-honey-500g",
+      "title": "Pusht Organic Forest Honey 500G",
+      "url": "https://pusht.in/products/pusht-organic-forest-honey-500g",
+      "product_type": "",
+      "tags": [
+        "Uncategorized"
+      ],
+      "in_stock": true,
+      "price_min": 450.0,
+      "price_max": 450.0,
+      "variant_count": 1,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Honey.png?v=1782120095",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Honey2.png?v=1782120095"
+      ],
+      "published_at": "2026-06-08T14:30:55+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "organic-black-mustard-oil-1ltr",
+      "title": "Organic Black Mustard Oil 1Ltr",
+      "url": "https://pusht.in/products/organic-black-mustard-oil-1ltr",
+      "product_type": "",
+      "tags": [
+        "Organic Oil"
+      ],
+      "in_stock": true,
+      "price_min": 447.0,
+      "price_max": 447.0,
+      "variant_count": 1,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/51PoSwfPToL._SL1350.jpg?v=1785224571",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/61zzk8WZKbL._SL1500.jpg?v=1785222720",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/organic-black-mustard-oil-1ltr-90701490-mqc2scwo.jpg?v=1781338230",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/organic-black-mustard-oil-1ltr-90734258-mqc2s6c5.jpg?v=1781338222"
+      ],
+      "published_at": "2026-06-08T14:30:55+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "organic-sesame-oil-1ltr",
+      "title": "Organic Sesame Oil 1Ltr",
+      "url": "https://pusht.in/products/organic-sesame-oil-1ltr",
+      "product_type": "",
+      "tags": [
+        "Organic Oil"
+      ],
+      "in_stock": true,
+      "price_min": 679.0,
+      "price_max": 679.0,
+      "variant_count": 1,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/71hGlfSrZpL._SL1500.jpg?v=1785222764",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/71LhmwrCgNL._SL1500.jpg?v=1785222765",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/81kfe20ivTL._SL1500.jpg?v=1785222764",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/819CrrdQEFL._SL1500.jpg?v=1785222764",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/organic-sesame-oil-1ltr-90373810-mqc2s1gw.jpg?v=1781338216",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/organic-sesame-oil-1ltr-90406578-mqc2rm7h.jpg?v=1781338196"
+      ],
+      "published_at": "2026-06-08T14:30:54+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "organic-ground-nut-oil-1ltr",
+      "title": "Organic Ground Nut Oil 1Ltr.",
+      "url": "https://pusht.in/products/organic-ground-nut-oil-1ltr",
+      "product_type": "",
+      "tags": [
+        "Organic Oil"
+      ],
+      "in_stock": true,
+      "price_min": 512.0,
+      "price_max": 512.0,
+      "variant_count": 1,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/71OyqDd63RL._SL1500.jpg?v=1785222818",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/81eWxN2xNhL._SL1500.jpg?v=1785222818",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/71pjschL7mL._SL1500.jpg?v=1785222818",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/organic-ground-nut-oil-1ltr-90209970-mqc2q9l6.jpg?v=1781338133",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/organic-ground-nut-oil-1ltr.jpg?v=1781338108"
+      ],
+      "published_at": "2026-06-08T14:30:54+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "pusht-organic-multi-grain-atta-for-winter-500gm",
+      "title": "Pusht Organic Multi Grain Atta For Winter 500Gm",
+      "url": "https://pusht.in/products/pusht-organic-multi-grain-atta-for-winter-500gm",
+      "product_type": "",
+      "tags": [
+        "500 Gm",
+        "Organic Flours"
+      ],
+      "in_stock": false,
+      "price_min": 120.0,
+      "price_max": 120.0,
+      "variant_count": 1,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/MultigrainFlourforsummer01_4434d865-aa76-4064-ac44-1a69c3eb45be.jpg?v=1785222872",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/MultigrainFlourforsummer08_ba9ff00d-3e47-4ced-b206-f7da934467ea.png?v=1785222872",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/MultigrainFlourforsummer02_18327f1b-a04a-43ea-9ee6-a6b5359ef480.jpg?v=1785222872",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/MultigrainFlourforsummer03_45a90fab-df1a-47fb-8bce-348e9e943529.jpg?v=1785222872",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/MultigrainFlourforsummer04_c12e8faa-8c45-448c-ba6c-886cea0868ad.jpg?v=1785222872",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/MultigrainFlourforsummer05_4e147d9d-7af4-426f-8c3e-7192e838910f.jpg?v=1785222872",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/MultigrainFlourforsummer06_3ac9086d-24a3-46a0-90f6-7880dfda2fe8.jpg?v=1785222872",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/MultigrainFlourforsummer07_cf565314-6c52-4231-b9c1-bd46ea6ab14b.jpg?v=1785222872"
+      ],
+      "published_at": "2026-06-08T14:30:54+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "organic-sorghum-jowar-millet-flour-500g",
+      "title": "Organic (Sorghum) Jowar Millet Flour 500G",
+      "url": "https://pusht.in/products/organic-sorghum-jowar-millet-flour-500g",
+      "product_type": "",
+      "tags": [
+        "Organic Flours"
+      ],
+      "in_stock": true,
+      "price_min": 100.0,
+      "price_max": 100.0,
+      "variant_count": 1,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/organic-sorghum-jowar-millet-flour-500g.jpg?v=1781338124",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/JowarFlour08.png?v=1785222937",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/JowarFlour02.jpg?v=1785222936",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/JowarFlour03.jpg?v=1785222937",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/JowarFlour04.jpg?v=1785222936",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/JowarFlour05.jpg?v=1785222936",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/JowarFlour06.jpg?v=1785222936",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/JowarFlour07.jpg?v=1785222936"
+      ],
+      "published_at": "2026-06-08T14:30:53+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "organic-ragi-flour-finger-millet-500g",
+      "title": "Finger Millet Flour 500G",
+      "url": "https://pusht.in/products/organic-ragi-flour-finger-millet-500g",
+      "product_type": "",
+      "tags": [
+        "Organic Flours"
+      ],
+      "in_stock": true,
+      "price_min": 110.0,
+      "price_max": 110.0,
+      "variant_count": 1,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/organic-ragi-flour-finger-millet-500g-89652914-mqc2shb0.jpg?v=1781338237",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Organic_Ragi_FingerMillet08_48d7e31f-8161-4549-8c71-eaa124053b41.jpg?v=1785222997",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Organic_Ragi_FingerMillet02_0dc126ce-2e80-416a-aa1b-ef23e0ce4d18.jpg?v=1785222997",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Organic_Ragi_FingerMillet03_57b8328c-f639-4146-aec9-8a977fff8830.jpg?v=1785222997",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Organic_Ragi_FingerMillet04_c31ff980-d528-4fd5-b1c2-b2675e08c244.jpg?v=1785222997",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Organic_Ragi_FingerMillet05_1e31cbc3-f347-4096-ac8f-b986afd265a7.jpg?v=1785222997",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Organic_Ragi_FingerMillet07_18cbe3ba-5310-4a9b-af46-b3334a0847eb.jpg?v=1785222997"
+      ],
+      "published_at": "2026-06-08T14:30:53+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "organic-corn-flour-maize-atta-500g",
+      "title": "Organic Corn Flour (Maize Atta) 500G",
+      "url": "https://pusht.in/products/organic-corn-flour-maize-atta-500g",
+      "product_type": "",
+      "tags": [
+        "Organic Flours"
+      ],
+      "in_stock": true,
+      "price_min": 95.0,
+      "price_max": 95.0,
+      "variant_count": 1,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/organic-corn-flour-maize-atta-500g-89587378-mqc2tppp.jpg?v=1781338294",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/CornFlour08.png?v=1785223048",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/CornFlour02.jpg?v=1785223048",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/CornFlour03.jpg?v=1785223047",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/CornFlour04.jpg?v=1785223047",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/CornFlour05.jpg?v=1785223048",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/CornFlour06.jpg?v=1785223047",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/CornFlour07.jpg?v=1785223048"
+      ],
+      "published_at": "2026-06-08T14:30:53+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "organic-pearl-millet-flour-bajra-ka-atta-500g",
+      "title": "Organic Pearl Millet Flour, Bajra Ka Atta 500G",
+      "url": "https://pusht.in/products/organic-pearl-millet-flour-bajra-ka-atta-500g",
+      "product_type": "",
+      "tags": [
+        "Uncategorized"
+      ],
+      "in_stock": true,
+      "price_min": 95.0,
+      "price_max": 95.0,
+      "variant_count": 1,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/BajraFlour01.jpg?v=1785223103",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/BajraFlour08.png?v=1785223103",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/BajraFlour02.jpg?v=1785223103",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/BajraFlour03.jpg?v=1785223103",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/BajraFlour04.jpg?v=1785223103",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/BajraFlour05.jpg?v=1785223103",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/BajraFlour06.jpg?v=1785223103",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/BajraFlour07.jpg?v=1785223103"
+      ],
+      "published_at": "2026-06-08T14:30:53+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "organic-poha-500g",
+      "title": "Organic Poha - 500G",
+      "url": "https://pusht.in/products/organic-poha-500g",
+      "product_type": "",
+      "tags": [
+        "Uncategorized"
+      ],
+      "in_stock": true,
+      "price_min": 90.0,
+      "price_max": 90.0,
+      "variant_count": 1,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Poha01_e29f5335-a7b9-4592-88f6-2aeab905d7e9.jpg?v=1785223182",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Poha05_f06e3b74-b9ae-467c-853a-aec6ea09e222.jpg?v=1785223183",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Poha02_943c4a5d-41c2-411b-bec4-21428ccca229.jpg?v=1785223182",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Poha03_1117a149-e8d6-47dc-95b6-ce456a16648b.jpg?v=1785223182",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Poha04_80542f72-bc7f-46a8-bb84-75cb9bfe4e19.jpg?v=1785223182",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Poha06_e0fba5c2-5b49-4b2a-882e-bf0d94b76458.jpg?v=1785223182"
+      ],
+      "published_at": "2026-06-08T14:30:52+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "organic-moth-whole-dal-moth-beans",
+      "title": "Organic Moth Whole Dal | Moth Beans",
+      "url": "https://pusht.in/products/organic-moth-whole-dal-moth-beans",
+      "product_type": "",
+      "tags": [
+        "Uncategorized"
+      ],
+      "in_stock": true,
+      "price_min": 135.0,
+      "price_max": 270.0,
+      "variant_count": 2,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/54ffacbc-organic-moth-whole-dal.jpg?v=1780909088",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/organic-moth-whole-dal-moth-beans-89259698-mqc2qs48.jpg?v=1781338157",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/organic-moth-whole-dal-moth-beans-89292466-mqc2roj6.jpg?v=1781338200",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/organic-moth-whole-dal-moth-beans.jpg?v=1781338100"
+      ],
+      "published_at": "2026-06-08T14:30:52+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "organic-urad-dal-dhuli",
+      "title": "Organic Urad Dal Dhuli",
+      "url": "https://pusht.in/products/organic-urad-dal-dhuli",
+      "product_type": "",
+      "tags": [
+        "Uncategorized"
+      ],
+      "in_stock": true,
+      "price_min": 169.0,
+      "price_max": 335.0,
+      "variant_count": 2,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/UradDhuli01.jpg?v=1785223299",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/UradDhuli05.jpg?v=1785223299",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/UradDhuli02.jpg?v=1785223299",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/UradDhuli03.jpg?v=1785223299",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/UradDhuli04.jpg?v=1785223299",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/UradDhuli06.jpg?v=1785223299"
+      ],
+      "published_at": "2026-06-08T14:30:52+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "pusht-organic-dalia-broken-wheat",
+      "title": "Pusht Organic Dalia | Broken Wheat",
+      "url": "https://pusht.in/products/pusht-organic-dalia-broken-wheat",
+      "product_type": "",
+      "tags": [
+        "Uncategorized"
+      ],
+      "in_stock": true,
+      "price_min": 62.0,
+      "price_max": 120.0,
+      "variant_count": 2,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Dalia01.jpg?v=1785223346",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Dalia06.jpg?v=1785223346",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Dalia02.jpg?v=1785223346",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Dalia03.jpg?v=1785223346",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Dalia04.jpg?v=1785223346",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Dalia05.jpg?v=1785223346"
+      ],
+      "published_at": "2026-06-08T14:30:52+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "pusht-organic-jaggery-powder-gur-500g",
+      "title": "Pusht Organic Jaggery Powder | Gur | 500G",
+      "url": "https://pusht.in/products/pusht-organic-jaggery-powder-gur-500g",
+      "product_type": "",
+      "tags": [
+        "Uncategorized"
+      ],
+      "in_stock": true,
+      "price_min": 97.0,
+      "price_max": 97.0,
+      "variant_count": 1,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicJaggeryPowder01.jpg?v=1785223392",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicJaggeryPowder07.jpg?v=1785223392",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicJaggeryPowder02.jpg?v=1785223392",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicJaggeryPowder03.jpg?v=1785223392",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicJaggeryPowder04.jpg?v=1785223392",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicJaggeryPowder05.jpg?v=1785223392",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicJaggeryPowder06.jpg?v=1785223392"
+      ],
+      "published_at": "2026-06-08T14:30:51+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "organic-malka-masoor-dal-red-lentils",
+      "title": "Organic Malka Masoor Dal (Red Lentils)",
+      "url": "https://pusht.in/products/organic-malka-masoor-dal-red-lentils",
+      "product_type": "",
+      "tags": [
+        "Uncategorized"
+      ],
+      "in_stock": true,
+      "price_min": 138.0,
+      "price_max": 270.0,
+      "variant_count": 2,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Untitled_1500x1500px_1_5a3c222e-6082-4a4f-b8ed-d26ee968d34e.png?v=1785223436",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Untitled_1500x1500px_2_5222fea2-e04a-4143-a54f-284f29d10b2c.png?v=1785223436",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/MasoorMalkaDal02_3b515940-0b19-4d46-995a-74967c3c3925.jpg?v=1785223436",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/MasoorMalkaDal03_7e8d7a32-f600-434a-9137-95c436f902af.jpg?v=1785223436",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/MasoorMalkaDal04_d7463c28-9af1-48a8-9875-1108b53bff8a.jpg?v=1785223436",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/MasoorMalkaDal05_5db47ab2-40f7-48b2-863b-461621153634.jpg?v=1785223436"
+      ],
+      "published_at": "2026-06-08T14:30:51+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "organic-dried-white-peas-white-matar",
+      "title": "Organic Dried White Peas (White Matar)",
+      "url": "https://pusht.in/products/organic-dried-white-peas-white-matar",
+      "product_type": "",
+      "tags": [
+        "Uncategorized"
+      ],
+      "in_stock": true,
+      "price_min": 135.0,
+      "price_max": 265.0,
+      "variant_count": 2,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/DriedWhitePeas01.jpg?v=1785223502",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/DriedWhitePeas05.jpg?v=1785223503",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/DriedWhitePeas1kgbackside.jpg?v=1785223502"
+      ],
+      "published_at": "2026-06-08T14:30:51+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "organic-urad-chilka-dal",
+      "title": "Organic Urad Chilka Dal",
+      "url": "https://pusht.in/products/organic-urad-chilka-dal",
+      "product_type": "",
+      "tags": [
+        "Uncategorized"
+      ],
+      "in_stock": true,
+      "price_min": 165.0,
+      "price_max": 325.0,
+      "variant_count": 2,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/UradChilka01.jpg?v=1785223576",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/UradChilka05.jpg?v=1785223576",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Untitleddesign_2.png?v=1785223575",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/UradChilka04.jpg?v=1785223576",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/UradChilka03.jpg?v=1785223576",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/UradChilka06.jpg?v=1785223576"
+      ],
+      "published_at": "2026-06-08T14:30:50+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "organic-rajma-chitra-kidney-beans",
+      "title": "Organic Rajma  (Kidney Beans)",
+      "url": "https://pusht.in/products/organic-rajma-chitra-kidney-beans",
+      "product_type": "",
+      "tags": [
+        "Uncategorized"
+      ],
+      "in_stock": true,
+      "price_min": 188.0,
+      "price_max": 370.0,
+      "variant_count": 2,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Rajma01.jpg?v=1785223689",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Rajma05.jpg?v=1785223690",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/Rajma07.jpg?v=1785223690"
+      ],
+      "published_at": "2026-06-08T14:30:50+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "organic-moong-dal-whole-green-gram-dal",
+      "title": "Organic Moong Dal Whole | Green Gram Dal",
+      "url": "https://pusht.in/products/organic-moong-dal-whole-green-gram-dal",
+      "product_type": "",
+      "tags": [
+        "Uncategorized"
+      ],
+      "in_stock": true,
+      "price_min": 146.0,
+      "price_max": 290.0,
+      "variant_count": 2,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/moongwholefront.jpg?v=1785223734",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/moongwholemoonshot.jpg?v=1785223734",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/moongwholeback.jpg?v=1785223734"
+      ],
+      "published_at": "2026-06-08T14:30:50+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "organic-masoor-dal-black-masoor-dal",
+      "title": "Organic Masoor Dal (Black Masoor Dal)",
+      "url": "https://pusht.in/products/organic-masoor-dal-black-masoor-dal",
+      "product_type": "",
+      "tags": [
+        "Uncategorized"
+      ],
+      "in_stock": true,
+      "price_min": 133.0,
+      "price_max": 260.0,
+      "variant_count": 2,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/MasoorWhole01_2.jpg?v=1785223790",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/MasoorWhole05_2.jpg?v=1785223791",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/MasoorWhole02_2.jpg?v=1785223791",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/MasoorWhole03_2.jpg?v=1785223791",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/MasoorWhole04_2.jpg?v=1785223790",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/MasoorWhole06.jpg?v=1785223790"
+      ],
+      "published_at": "2026-06-08T14:30:50+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "organic-chana-whole-kala-chana",
+      "title": "Organic Chana Whole (Kala Chana)",
+      "url": "https://pusht.in/products/organic-chana-whole-kala-chana",
+      "product_type": "",
+      "tags": [
+        "Uncategorized"
+      ],
+      "in_stock": true,
+      "price_min": 123.0,
+      "price_max": 245.0,
+      "variant_count": 2,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/organic-chana-whole-kala-chana.jpg?v=1781338097",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/organic-chana-whole-kala-chana-87293618-mqc2q9n8.jpg?v=1781338134",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/organic-chana-whole-kala-chana-87326386-mqc2qdkw.jpg?v=1781338138",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/organic-chana-whole-kala-chana-87359154-mqc2sijs.jpg?v=1781338238",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/organic-chana-whole-kala-chana-87391922-mqc2rdgy.jpg?v=1781338185"
+      ],
+      "published_at": "2026-06-08T14:30:49+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "organic-masoor-dhuli-dal",
+      "title": "Organic Masoor Dhuli Dal",
+      "url": "https://pusht.in/products/organic-masoor-dhuli-dal",
+      "product_type": "",
+      "tags": [
+        "Uncategorized"
+      ],
+      "in_stock": true,
+      "price_min": 138.0,
+      "price_max": 270.0,
+      "variant_count": 2,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/ORGANICMASOORDAALDHULI.png?v=1785223989",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/MasoorMalkaDa.jpg?v=1785223887",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/ORGANICMASOORDAALDHULI_1.png?v=1785223887"
+      ],
+      "published_at": "2026-06-08T14:30:49+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "organic-arhar-dal-toor-tur-dal",
+      "title": "Organic Arhar Dal | Toor (Tur) Dal",
+      "url": "https://pusht.in/products/organic-arhar-dal-toor-tur-dal",
+      "product_type": "",
+      "tags": [
+        "Uncategorized"
+      ],
+      "in_stock": true,
+      "price_min": 198.0,
+      "price_max": 390.0,
+      "variant_count": 2,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/ArharDal01.jpg?v=1785224046",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/ArharDal05.jpg?v=1785224046",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/ArharDal07.jpg?v=1785224046",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/ArharDal03.jpg?v=1785224046",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/ArharDal04.jpg?v=1785224046",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/ArharDal06.jpg?v=1785224046"
+      ],
+      "published_at": "2026-06-08T14:30:49+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "organic-panchranga-dal-mix-dal",
+      "title": "Organic Panchranga Dal (Mix Dal)",
+      "url": "https://pusht.in/products/organic-panchranga-dal-mix-dal",
+      "product_type": "",
+      "tags": [
+        "Uncategorized"
+      ],
+      "in_stock": true,
+      "price_min": 158.0,
+      "price_max": 310.0,
+      "variant_count": 2,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicPanchrangaDal_MixDal_01.jpg?v=1785224104",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicPanchrangaDal_MixDal_05.jpg?v=1785224104",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicPanchrangaDal_MixDal_07.jpg?v=1785224104",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicPanchrangaDal_MixDal_03.jpg?v=1785224104",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicPanchrangaDal_MixDal_04.jpg?v=1785224104",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/OrganicPanchrangaDal_MixDal_06.jpg?v=1785224104"
+      ],
+      "published_at": "2026-06-08T14:30:49+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "organic-moong-dhuli-dal",
+      "title": "Organic Moong Dhuli Dal",
+      "url": "https://pusht.in/products/organic-moong-dhuli-dal",
+      "product_type": "",
+      "tags": [
+        "Uncategorized"
+      ],
+      "in_stock": true,
+      "price_min": 158.0,
+      "price_max": 310.0,
+      "variant_count": 2,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/MoongDhuli01.jpg?v=1785224183",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/MoongDhuli05.jpg?v=1785224182",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/MoongDhuli07.jpg?v=1785224183",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/MoongDhuli03.jpg?v=1785224182",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/MoongDhuli04.jpg?v=1785224183",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/MoongDhuli06.jpg?v=1785224183"
+      ],
+      "published_at": "2026-06-08T14:30:48+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "organic-moong-chilka-dal-split-green-gram",
+      "title": "Organic Moong Chilka Dal (Split Green Gram)",
+      "url": "https://pusht.in/products/organic-moong-chilka-dal-split-green-gram",
+      "product_type": "",
+      "tags": [
+        "Uncategorized"
+      ],
+      "in_stock": true,
+      "price_min": 148.0,
+      "price_max": 290.0,
+      "variant_count": 2,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/MoongChilka01.jpg?v=1785224221",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/MoongChilka06.jpg?v=1785224221",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/MoongChilka02.jpg?v=1785224221",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/MoongChilka03.jpg?v=1785224221",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/MoongChilka04.jpg?v=1785224221",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/MoongChilka06-1.jpg?v=1785224221"
+      ],
+      "published_at": "2026-06-08T14:30:48+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "organic-urad-dal-whole-black-gram",
+      "title": "Organic Urad Dal Whole (Black Gram)",
+      "url": "https://pusht.in/products/organic-urad-dal-whole-black-gram",
+      "product_type": "",
+      "tags": [
+        "Uncategorized"
+      ],
+      "in_stock": true,
+      "price_min": 153.0,
+      "price_max": 300.0,
+      "variant_count": 2,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/UradWhole01.jpg?v=1785224275",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/UradWhole05.jpg?v=1785224274",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/UradWhole02.jpg?v=1785224274",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/UradWhole03.jpg?v=1785224274",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/UradWhole04.jpg?v=1785224274",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/UradWhole06.jpg?v=1785224274"
+      ],
+      "published_at": "2026-06-08T14:30:48+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "organic-chana-dal-split-bengal-gram",
+      "title": "Organic Chana Dal (Split Bengal Gram)",
+      "url": "https://pusht.in/products/organic-chana-dal-split-bengal-gram",
+      "product_type": "",
+      "tags": [
+        "Uncategorized"
+      ],
+      "in_stock": true,
+      "price_min": 128.0,
+      "price_max": 255.0,
+      "variant_count": 2,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/ChanaDal01.jpg?v=1785224346",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/ChanaDal06.jpg?v=1785224346",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/ChanaDal.png?v=1785224346",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/ChanaDal03.jpg?v=1785224346",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/ChanaDal04.jpg?v=1785224345",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/ChanaDal05.jpg?v=1785224345"
+      ],
+      "published_at": "2026-06-08T14:30:47+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "organic-kabuli-chana-garbanzo-beans",
+      "title": "Organic Kabuli Chana (Garbanzo Beans)",
+      "url": "https://pusht.in/products/organic-kabuli-chana-garbanzo-beans",
+      "product_type": "",
+      "tags": [
+        "Uncategorized"
+      ],
+      "in_stock": true,
+      "price_min": 178.0,
+      "price_max": 350.0,
+      "variant_count": 2,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/KaabuliChana01.jpg?v=1785224416",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/KaabuliChana05.jpg?v=1785224416",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/KaabuliChana02.jpg?v=1785224416",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/KaabuliChana03.jpg?v=1785224416",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/KaabuliChana04.jpg?v=1785224416",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/KaabuliChana06_1.jpg?v=1785224420"
+      ],
+      "published_at": "2026-06-08T14:30:47+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    },
+    {
+      "brand": "pusht",
+      "handle": "organic-lobia-black-eyed-beans",
+      "title": "Organic Lobia (Black-Eyed Beans)",
+      "url": "https://pusht.in/products/organic-lobia-black-eyed-beans",
+      "product_type": "",
+      "tags": [
+        "Uncategorized"
+      ],
+      "in_stock": true,
+      "price_min": 145.0,
+      "price_max": 290.0,
+      "variant_count": 2,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/lobia.png?v=1785224462",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/WhiteLobia02.jpg?v=1785224462",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/WhiteLobia03.jpg?v=1785224462",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/WhiteLobia04.jpg?v=1785224462",
+        "https://cdn.shopify.com/s/files/1/0777/1940/4722/files/WhiteLobia05.jpg?v=1785224462"
+      ],
+      "published_at": "2026-06-08T14:30:47+05:30",
+      "updated_at": "2026-09-07T09:15:48+05:30"
+    }
+  ]
+}
