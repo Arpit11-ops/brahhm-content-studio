@@ -2222,5 +2222,21 @@ Source DNA: T84 core architecture (bisected symmetrical field, italic `vs` divid
 First deployed: 2026-09-02 · Pusht Organic · Sept 2 EDUCATE post · Cold-pressed vs raw-pressed groundnut oil (biomart.in source)
 Full spec: research/prompts/generated_2026-09-02_pusht_cold-pressed-vs-raw-pressed-groundnut-oil.md
 
-Last assigned template: T86 (Pusht Bisected Extraction Comparison Poster — assigned 2026-09-02)
-Next new template: T87
+---
+T87 — greendipz Chilli-Ribbon-Wrap Crimson Editorial (Torn-Paper Hero)
+Assigned: 2026-09-27 · Brand: greendipz · Angle: EDUCATE
+Format: 4:5 Instagram feed poster (1080×1350)
+DNA: Reverse-engineered from the Curind Sea Buckthorn ribbon-wrap editorial (Puran reference, Sept 2026). Bottle-forward hero with a single continuous chilli-garland ribbon coiling around the pack in one graceful sweep, oversized crimson-on-crimson ghost depth-stack behind the pack, diagonal torn-paper reveal exposing a cream underlayer with faint outlined 'GREEND' letterforms on the right edge, dominant cream-white 3-line hero lockup right of bottle, small-caps 4-ingredient row, cream-white ₹price punch bottom-right, quiet baked website CTA directly below.
+Composition: Bottle centered slightly left at ~60% frame height, ghost depth-stack edge-to-edge behind, right vertical column holds hero lockup + strapline + ingredient row + price punch + baked CTA, torn-paper diagonal cuts top-right to bottom-right, mounded chilli + garlic prop cluster foreground bottom-left as the pack's platform.
+Best for: any single-SKU greendipz (or portfolio sauce/oil/juice/honey) EDUCATE post where the sell is ingredient transparency — four-name-list SKUs, hero pack reveals, pantry hero shots, price-transparent trial-drivers.
+World: Total monochrome crimson immersion (background, atmosphere, chilli ribbon, chilli props, garlic, ghost type all inside crimson family, bleeding to warm black at outer left/top edges), cream ivory typography and torn-paper underlayer as the only non-crimson elements. Kodak Portra 400 warmth, ARRI cinematic key from upper-left, glass rim highlight along bottle's left curve.
+Ribbon rule: single continuous garland arc coiling once around the neck + twice around the body, tail resting bottom-right of base — never scattered strips, never multiple ribbons.
+Bans: no chip backgrounds, no rounded pills, no coloured blocks, no wooden bowls, no burlap/jute, no mortar and pestle, no hands, no people, no extra props beyond the chilli + garlic mound, no scattered flat ingredients (always mounded), no distorted or warped label, no invented on-pack copy, no additional logos/badges, no exclamation marks, no promotional shouting, no full stops on any zone (NO DOTS RULE), no discount stamps.
+Callout mode: no callouts — this is a hero editorial layout, all copy sits in the right vertical column as clean typography.
+Palette swap protocol: adaptable to any bottled SKU by swapping the ribbon ingredient + colour world — Kung Pao (dark chilli-oil crimson-black), Manchurian (deep umami brown), Schezwan (fiery vermillion), Sriracha (this deploy), Pusht Honey (amber-gold + honeycomb ribbon), Health Fields Tulsi Green Tea (deep teal + tulsi-leaf ribbon), Caveman (cave red + millet-grain ribbon).
+Source DNA: Curind Sea Buckthorn Juice ribbon-wrap editorial (external reference, Sept 2026) translated for greendipz through Protocol 7 reverse-engineer.
+First deployed: 2026-09-27 · greendipz · Sept 27 EDUCATE post · Sriracha Hot Chilli Sauce (₹226, biomart.in)
+Full spec: research/prompts/generated_2026-09-27_greendipz_sriracha-hot-chilli-sauce.md
+
+Last assigned template: T87 (greendipz Chilli-Ribbon-Wrap Crimson Editorial — assigned 2026-09-27)
+Next new template: T88
