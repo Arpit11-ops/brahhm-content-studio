@@ -2222,5 +2222,141 @@ Source DNA: T84 core architecture (bisected symmetrical field, italic `vs` divid
 First deployed: 2026-09-02 · Pusht Organic · Sept 2 EDUCATE post · Cold-pressed vs raw-pressed groundnut oil (biomart.in source)
 Full spec: research/prompts/generated_2026-09-02_pusht_cold-pressed-vs-raw-pressed-groundnut-oil.md
 
-Last assigned template: T86 (Pusht Bisected Extraction Comparison Poster — assigned 2026-09-02)
-Next new template: T87
+---
+T87 — Warm Hero Pack Editorial with Ribbon Arc + Stat-Chip Grid (Merry Nutrition adaptation)
+Assigned: 2026-09-03 · Brand: Caveman Organic · Angle: EDUCATE/CONVERT · SKU: Millet Era Cookies (Gluten-Free)
+Format: 1:1 Instagram feed poster (1080×1080)
+DNA: Merry Nutrition Plant Protein Thai Tea launch poster (user-supplied reference, 2026-09-03) — warm-gradient product-hero right + giant condensed 4-line ALL-CAPS headline left + checkmark benefit column + 2×2 solid data-card stat grid + circular certification seal upper-right + country-of-origin flag callout bottom-right + tracked-caps footer strip tagline. Palette-swapped from orange→brown to Cave Red → charcoal-brown.
+Composition: Upright rectangular pack centred on right half (no tilt, no bending across long axis, exact carton shape reproduced from uploaded ref), warm-amber caramel-butter ribbon single sweeping arc entering upper-right and curving behind pack in one continuous motion (never scattered, never covering label), loose foxtail millet grain scatter at pack base. Upper-left third: 4-line black condensed ALL-CAPS cream headline stack (`MILLET ERA / COOKIES / GLUTEN / FREE`) dominating ~30% of canvas. Left column below headline: 4 cream sans checkmark bullets with Cave Red glyphs. Lower-left quadrant: 2×2 warm cream rounded data-card grid (~92% opacity, hint of world bleed at edges) — big charcoal numeral/word over tiny tracked charcoal caption per card (29% Foxtail Millet · 163 kcal per serving · Omega-3 Source · 0g Trans Fat). Upper-right corner: circular Cave Red seal with cream inner ring, stylised crossed-wheat glyph, `GLUTEN FREE` tracked around inner edge. Bottom-right just above footer: small stacked cream `PRODUCT OF / INDIA` label with tiny horizontal tricolour ribbon strip. Bottom 15% charcoal-brown footer strip full-width with tracked cream caps tagline `EAT LIKE A CAVEMAN — SNACK LIKE A LEGEND`. Just above footer: quiet cream `Shop now on caveman.co.in` CTA at ~60% opacity.
+World: Total monochromatic warm-red immersion — deep brick-red top gradient washing to rich rust-brown at horizon line, then deep espresso-brown footer strip. Cream typography for headline + bullets + footer + CTA. Charcoal-brown type inside cream data cards. Cave Red accent for checkmark glyphs, seal, and headline pack tie-in. Warm-amber caramel-butter as the single ribbon accent. ARRI studio key from upper-left, warm rim glow along pack right edge, Kodak Portra 400 warmth with whisper of film grain, no hard shadows.
+Best for: any single-SKU hero pack post across the portfolio that needs authoritative stat-forward positioning without going full Amazon A+ density — cookie hero, honey hero, tea hero, oil hero, sauce hero. Especially strong when the pack has 2–4 pack-verified numeric callouts to lean on (kcal per serving, ingredient %, source-of claims, allergen zeros). Cross-sells hard as "single-SKU showcase for feed" alongside the T80 exposé variant and the T83 curator lineup variant.
+Palette swap protocol: Cave Red base swaps cleanly to Health Fields teal + cream + honey gold, Pusht forest green + cream + wheat gold, Biomart market green + cream + warm gold, greendipz bold red base + cream + charcoal — each with matched ribbon accent (butter/honey/oil/reduction), stat-chip grid, and Protocol 6 style-tag close.
+Chip mode: warm cream rounded data cards at ~92% opacity (background bleeds at edges, does not read as solid brand-color chip block) — data-plaque UI convention only, not decorative labelling. Never solid brand-color blocks per Protocol 6.
+Callout mode: 2×2 stat-chip grid only, no hairline callouts to pack elements (this is a hero-pack post, not an EDUCATE dissection). Big numeral/word ~1.8x tiny caption in each card, both read at feed thumbnail scale per [[feedback_gpt_callout_size]].
+Bans: no vegan callout (Millet Era contains milk/butter/soya lecithin per pack), no honey callout (pack says organic sugar, not honey), no BCAA/plant-protein numeric callout (Millet Era is 2g protein/serving — modest, don't lead with it), no rustic props, no wooden/burlap/jute/mortar, no scattered ribbon droplets, no pack tilt/bend/pour, no additional packs, no people/hands, no palm oil callout, no FSSAI number, no invented pack copy, no full stops on any zone (NO DOTS RULE), no solid brand-color chip blocks, no promotional badges, no discount stickers, no exclamation marks. Never repeat this template within 3 consecutive Caveman posts per template rotation rule.
+Source DNA: User-supplied Merry Nutrition Plant Protein Thai Tea poster (reference image 2026-09-03) reverse-engineered via Protocol 7 seven-layer analysis. Preserves ribbon-arc + stat-grid + certification-seal + country-callout architecture, palette-swapped to Caveman's Cave Red world and stat-chip content swapped to Millet Era pack-verified numerics.
+First deployed: 2026-09-03 · Caveman Organic · Millet Era Cookies (Gluten-Free) hero pack post
+Full spec: research/prompts/generated_2026-09-03_caveman_millet-era-cookies-hero-pack.md
+
+---
+T88 — Sattvik Greeting Poster with Product as Modern Matki (Health Fields primary — single 4:5 festival greeting poster where the branded pack replaces the traditional dahi-handi)
+Assigned: 2026-09-04 · Brand: Health Fields · Angle: RELATE · SKU: Organic A2 Desi Cow Ghee 500g · Occasion: Janmashtami
+Format: 4:5 Instagram feed poster (1080×1350)
+DNA: Pinterest greeting-poster architecture (pins 290763719715886591 + 787d468fb222 + 4aa0671d7aed + 6d72cfda286d — cream-ground formal greeting stack, hairline ornaments, blessing line, matki + peacock feather + jasmine props) blended with Health Fields' Aesop-store apothecary restraint. The branded product pack takes the compositional role of the terracotta matki in a traditional greeting poster, converting a festival card into a soft trust-primer without becoming stock festival graphic.
+Composition: Upright pack centred lower-half (~40% frame height, zero tilt, exact silhouette from uploaded ref, label perfectly flat and legible). Upper half carries a formal centred greeting stack: small tracked sans caps kicker word ('HAPPY') flanked left and right by hairline bracket-dot-bracket ornaments, then very large editorial serif hero word ('KRISHNA') as the dominant visual weight of the whole poster, then medium tracked serif caps subhead ('JANMASHTAMI') on a single line, then a single hairline diamond ornament, then a short 3-line centred serif blessing that lives in the gap between greeting stack and the top of the pack. Sattvik prop cluster at pack base: single peacock feather with full teal-and-emerald eye leaning diagonally from behind the pack's right shoulder rising into mid-right of frame; small cluster of three fresh white jasmine flowers left of pack base; one single soft-focus orange marigold bloom right of pack base. Right side of pack: four small hairline pointer callouts to real pack elements (certification badge → 'CERTIFIED ORGANIC', name band → 'A2 DESI COW', lower-right → 'GMO FREE', lower-left → 'NO PRESERVATIVES') at a size clearly smaller than the greeting so greeting stays hero and callouts read as second layer. Bottom-centre: quiet cream-teal sans website CTA line.
+Best for: any Health Fields (or portfolio) festival greeting post where the brand needs to earn cultural relevance without leaning on discount urgency and without abandoning the wellness aesthetic for a stock festival template. Palette-swap protocol: adapts to any Indian festival where a traditional prop object can be swapped for the branded pack — Diwali (diya cluster + pack as centre lamp), Holi (colour bowls + pack as centrepiece), Raksha Bandhan (thali + pack as hero), Karva Chauth (chalni + pack), Ganesh Chaturthi (modak plate + pack). Also swaps across brands with matched palette + Protocol 6 style-tag close: Health Fields (deep teal + cream + peacock accent), Caveman (cave red + cream + earthy accent), Pusht (forest green + cream + wheat gold), Biomart (market green + cream + warm gold), greendipz (bold red + cream + charcoal).
+World: Total cream and deep teal monochromatic immersion — cream sattvik ground fills entire frame, deep teal ink for every type element (greeting, blessing, callouts, footer), warm haveli morning key light from upper-left with mellow shadow fall-off lower-right, only the pack's own colours and the peacock feather's teal-and-emerald eye break the palette. Aesop-store apothecary calm meeting formal Indian greeting-card typography. Soft ARRI-diffused key, gentle rim glow separating pack from cream field, whisper of fine natural grain.
+Bans: no baby Krishna figurine, no idols, no diyas, no dahi handi (pack replaces it), no rope swing, no additional pack copies, no scattered ingredients, no butter drip, no ghee drip, no smoke, no flame, no people, no hands, no whole spices, no chip backgrounds behind any callout, no rounded pills, no coloured boxes behind any text, no additional badges beyond what appears on the reference pack, no FSSAI licence numbers, no percentages baked into any callout, no full stops on greeting words blessing line callouts or footer text (NO DOTS RULE), no exclamation marks, no promotional badges, no discount stickers, no invented on-pack copy, no pack tilt/bend/rotation. Never repeat within 3 consecutive HF posts per template rotation rule.
+Callout mode: Hairline callouts only, matched size and weight, small enough that greeting remains the dominant element, all reading at feed thumbnail scale per [[feedback_gpt_callout_size]] and [[feedback_callouts_over_chips]].
+Chip mode: none — no chip backgrounds anywhere on this template.
+Source DNA: Pinterest greeting-poster references saved 2026-09-04 at research/reference_library/20260904-093130_healthfields-a2ghee-janmashtami-wish-2026-09-04.json, adapted through Protocol 7 seven-layer analysis to fit HF's clinical-wellness world without abandoning the greeting-poster genre.
+First deployed: 2026-09-04 · Health Fields · Janmashtami RELATE post · A2 Desi Cow Ghee 500g
+Full spec: research/prompts/generated_2026-09-04_healthfields_a2-desi-cow-ghee-janmashtami.md
+
+---
+T89 — Festive Editorial Greeting Story (greendipz primary — single 9:16 Instagram Story wish frame, no product pack, cultural greeting for Janmashtami and other Krishna/food-forward festival moments)
+Assigned: 2026-09-04 · Brand: greendipz · Angle: RELATE · Occasion: Janmashtami
+Format: 9:16 Instagram Story (1080×1920)
+DNA: Adapted from the Pinterest Janmashtami scrape at research/reference_library/20260904-091558_janmashtami-wishes.json — the flat-lay matki + peacock feather + flute greeting cards (pins 4aa0671d7aed + 787d468fb222 + 6d72cfda286d) inverted into a moody midnight-indigo food-editorial world instead of the beige/cream default that already floods festival feeds. greendipz voice stays intact — bold food editorial, cinematic food-forward lighting — while the composition earns cultural relevance without pushing a sauce SKU.
+Composition: Centre-anchored still-life on midnight indigo ground fading darker toward corners. Small matki-shaped vessel sits at visual centre-lower third with a soft golden pat of freshly churned butter spilling over the lip and pooling in one slow drip catching the rim highlight. Single long peacock feather tucked upright behind the vessel angled slightly right, teal-and-gold eye providing the only cool accent. One small warm-amber diya to the vessel's left. Scattered saffron marigold petals at the base for festive texture. Text stack held in the negative space above: small tracked cream sans caps kicker ('JANMASHTAMI 2026'), then the dominant type moment — elegant cream-gold serif italic hero line ('Happy Janmashtami'), then quiet cream sans sub-line preserving the lowercase g ('From all of us at greendipz'). Bottom-anchored small tracked cream sans caps CTA ('EXPLORE AT BIOMART.IN').
+Best for: any greendipz (or portfolio-adjacent) festival wish Story where the brand needs a warm cultural moment without a product-push. Palette-swap protocol: Diwali (diya cluster centre + midnight indigo → deep maroon), Holi (colour bowls centre + indigo → warm cream), Raksha Bandhan (thali + rakhi centre), Karva Chauth (chalni + moon), Ganesh Chaturthi (modak plate centre). Swaps across brands via Protocol 6 style-tag close.
+World: Total midnight-indigo monochromatic immersion with cream-gold text and one peacock-teal accent. Single warm key from upper-right catching the vessel rim + butter surface. Velvet-stage backdrop feel. Aesop-quiet meets restaurant-at-home cinematic.
+Bans: no product pack, no bottle, no jar, no branded packaging, no baby Krishna figurine, no idols, no rope swing, no dahi handi rigging, no people, no hands, no scattered droplets or splash effects, no rustic wooden bowls or burlap or jute, no mortar and pestle, no chip backgrounds behind any text, no rounded pills, no coloured boxes behind any text, no full stops on any line (NO DOTS RULE), no exclamation marks, no promotional badges. Matki vessel is retained as the essential cultural icon per festival-greeting exception to VEE Rule 1 (rustic prop ban) — same logic as rangoli exception for Diwali greetings.
+Callout mode: none.
+Chip mode: none.
+Source DNA: Pinterest Janmashtami wish references saved 2026-09-04 at research/reference_library/20260904-091558_janmashtami-wishes.json, adapted through Protocol 7 to greendipz's bold food editorial world.
+First deployed: 2026-09-04 · greendipz · Janmashtami RELATE Story wish
+
+T90 — Amazon A+ 4-Tile Wellness Carousel (assigned 2026-09-07)
+  Reverse-engineered from vitamin-E supplement reference (NAVR). Warm honey-amber
+  monochrome ground with white rounded floating card panels. Single-hero SKU
+  photographed upright across 3 of 4 slides, one lifestyle beat slide (hand +
+  honey dipper). Forest-green (#143C28) accent for headlines, chip icons, CTA
+  pill, and quiet baked footer line. Honey-amber accent color reserved for
+  second word of each hero headline. Liquid = one sweeping ribbon arc per slide.
+  Chip system = white rounded pills with small circular forest-green pictogram
+  icons — never solid coloured blocks. Slide 1 = hook + hero + stat + CTA.
+  Slide 2 = jar + trust-chip row. Slide 3 = lifestyle beat + benefit-pill stack.
+  Slide 4 = hero + value stack + usage pills. Ratio 4:5 (1080×1350) per slide.
+
+T91 — Two-Pack Seasonal System Side-by-Side Editorial (assigned 2026-09-19)
+  Pusht family. Two SKUs from the same product line — seasonal variants — stood
+  upright and static, side-by-side, matched height and baseline, ~40% frame width
+  each with a comfortable breathing gap. Warm cream linen ground bleeding to
+  forest-green shadow at frame edges. Kodak Portra 400 film feel with heavy grain.
+  Callout mode: hairline pointer + bold sans-serif caps caption per pack, no chip
+  backgrounds, labels sized ~1.5x the footer strip type for feed-thumbnail read.
+  Warm-cream serif headline top-centre + small sans-serif sub-header below.
+  Hairline-underlined price band bottom-centre (no chip fill). Warm-cream sans
+  footer strip + quiet baked website CTA at very bottom. Zero rustic props outside
+  the packs — no bowls, jute, scoops, jars, hands, or people. Model:
+  gpt-image-2.5-sunburst · Quality: xhigh (multi-pack fidelity + 6 text zones).
+  Ratio 4:5 (1080×1350). First deployed: 2026-09-19 · Pusht · Multigrain Summer +
+  Winter RELATE post.
+
+T92 — Editorial Headline-Hero Poster (assigned 2026-09-19)
+  greendipz family. Magazine back-cover editorial poster — bold graphic
+  headline-first composition on a flat saturated ground, product handled as a
+  graphic still-life element rather than a lifestyle photograph. Vertical 4:5
+  (1080×1350) framed by a thin warm-cream editorial margin on all four sides so
+  the composition reads as a printed page. Top 45% of the poster = oversized
+  bold condensed serif hero headline in warm cream, stacked two lines with tight
+  leading, spanning wide with matched cream margins left and right. A single
+  fine warm-cream hairline horizontal rule divides the headline zone from the
+  product zone. Middle 35% = curated product still-life clipped onto the flat
+  ground — pack upright on the left, small terracotta serving bowl of the dip
+  on the right at matched baseline, one triangular corn tortilla chip standing
+  diagonally mid-scoop out of the bowl (no hand, no fingers — chip in mid-air
+  only), tight compact ingredient mound at the base (two tomatoes, halved onion,
+  two jalapeños, garlic cluster, one coriander sprig). Bottom 20% = single flat
+  editorial support strip in refined sans-serif caps with middot separators (no
+  hairline pointer callouts, no chip backgrounds) + quiet small sans-serif
+  footer CTA bottom-anchored centred. Ground colour = one flat saturated
+  editorial field matched to the SKU's flavour world (tomato red for salsa,
+  chilli red for schezwan, forest green for cilantro dips, etc). Subtle warm
+  drop-shadow pools softly at the base of the still-life; the ground stays
+  otherwise flat and graphic — no photographic bokeh, no atmospheric haze, no
+  depth-of-field blur, no lifestyle-photo background. Model:
+  gpt-image-2.5-sunburst · Quality: xhigh (pack fidelity + 4 text zones + flat
+  poster ground). Bans: no hands, no fingers, no people, no arms, no scattered
+  droplets, no splash effects, no wooden bowls or burlap or jute, no rustic
+  props, no chip backgrounds behind text, no rounded pills, no coloured boxes,
+  no hairline pointer callouts, no full stops on any text zone (NO DOTS RULE),
+  no percentage numbers, no vegan/gluten-free/sugar-free callouts, no
+  promotional badges, no photographic bokeh, no depth-of-field blur. Callout
+  mode: single flat editorial support strip with middot separators.
+  Chip mode: none. Source DNA: Pinterest editorial food poster + greendipz
+  professional poster reference libraries — Direction B (bold graphic headline-
+  first). Reference pins: Pin 2181499817511082 (6.9k saves, "bacon" poster) and
+  Pin 633387443126392 (5.8k saves, "WHERE ARE YOU GOING? /476" by Brad Mead).
+  First deployed: 2026-09-19 · greendipz · Salsa Mexicana RELATE poster.
+
+T93 — Snack City Three-Panel Poster Trio (assigned 2026-09-24)
+  Cross-brand poster format — 1:1 square canvas split into three equal vertical
+  colour panels with hard butted seams at 33% and 66% frame width, one SKU
+  centred inside each panel. Each pack sits upright, front-facing, zero tilt,
+  ~24% of total frame width so ~72% of its panel width — comfortable margins,
+  never touches or crosses the panel seams. All three packs on the same
+  horizontal eye line at ~65% down from top, identical scale, studio-flat key
+  light, minimal contact shadow. Panel colours TONALLY MATCHED to each pack's
+  dominant colour world (Snack City DNA — pack colour = panel colour). For
+  Caveman: forest green + terracotta orange + Cave Red. Panels are flat solid
+  colour — no gradient, no texture, no atmosphere. Text stack spans full width
+  across panels: massive condensed sans-serif caps display headline in warm
+  off-white cream at upper third (baseline ~28% down), light-weight sans-serif
+  subhead ~1/6 the display size directly below (baseline ~36% down), quiet
+  baked website CTA bottom-centred (~96% down). Hand-drawn brush-script
+  hashtag in brand-accent red at upper-right corner with slight 8° tilt.
+  Upper-left corner kept clean and empty so brand logo can be composited
+  externally. Model: gpt-image-2.5-sunburst · Quality: high (multi-pack
+  fidelity + 4 text zones). Ratio 1:1 (1024×1024). Bans: no props, no crumbs,
+  no ingredient scatter, no drop shadow, no gradient/texture on panels, no
+  pack tilt or rotation, no perspective foreshortening, no packs crossing
+  seams, no logo drawn in-render (composited externally), no offer text or
+  pricing, no full stops on any text zone (NO DOTS RULE). Source DNA: Snack
+  City "It's Snacking Time" reference (peanuts trio, green/orange/red panels)
+  reinterpreted for premium Indian organic. First deployed: 2026-09-24 ·
+  Caveman · Bakkit trio (Ajwain + Jeera + Cashew & Pista) RELATE poster.
+
+Last assigned template: T93 (Snack City Three-Panel Poster Trio — assigned 2026-09-24)
+Next new template: T94

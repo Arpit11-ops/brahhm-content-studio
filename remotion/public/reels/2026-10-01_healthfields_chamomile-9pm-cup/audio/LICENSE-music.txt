@@ -1,0 +1,8 @@
+Track:    Calm - Carefree_28Sec
+Artist:   Folk_Tales
+Source:   https://pixabay.com/music/pop-calm-carefree-28sec-610083/
+File:     carefree_28sec.mp3 (27.58s, 256 kbps, 48 kHz)
+License:  Pixabay Content License (free for commercial use, no attribution required)
+          https://pixabay.com/service/license-summary/
+Downloaded: 2026-10-01, approved by Puran for the HF Calming Chamomile Remotion reel
+Use:      trimmed to start at 2.98s so the track's natural fade-out lands on the reel's last frame

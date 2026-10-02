@@ -1,0 +1,29 @@
+{
+  "generated_at": "2026-09-07T03:45:44+00:00",
+  "brands": {
+    "biomart": {
+      "domain": "biomart.in",
+      "file": "biomart_catalog.json",
+      "product_count": 208,
+      "in_stock_count": 196,
+      "error": null
+    },
+    "healthfields": {
+      "domain": "healthfields.in",
+      "file": "healthfields_catalog.json",
+      "product_count": 89,
+      "in_stock_count": 86,
+      "error": null
+    },
+    "pusht": {
+      "domain": "pusht.in",
+      "file": "pusht_catalog.json",
+      "product_count": 80,
+      "in_stock_count": 79,
+      "error": null
+    }
+  },
+  "skipped": {
+    "caveman": "products.json redirects to /lander"
+  }
+}

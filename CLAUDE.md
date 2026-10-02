@@ -1,6 +1,6 @@
-# CLAUDE.md — Content Studio 3.2
+# CLAUDE.md — Content Studio 3.4
 # Brahhm Arpan Organic Pvt. Ltd.
-# Version: 3.2 | Upgraded: May 2026
+# Version: 3.4 | Upgraded: September 2026 (GPT Image 2.5 native + verifiable Humanizer audit)
 # Environment: Claude Code (persistent project)
 
 ## ⛔ PRE-FLIGHT GATE — HARD BLOCK, RUN BEFORE ANY OTHER TOOL
@@ -28,6 +28,7 @@ If the receipt is missing, the caption/prompt/reel is INVALID and must be regene
 **Additional mandatory reads by content type:**
 - GPT Image 2.0 prompt (any post with an image) → `./skills/gpt-image-2/SKILL.md` + `Visual_Execution_Engine_v4_txt.txt`
 - Reel of any kind → `./skills/marketingskills-main/skills/video/SKILL.md`
+- Reel built in Remotion (code-built motion graphics) → also `./skills/remotion-reels/SKILL.md`, then invoke the `remotion-best-practices` skill before writing reel code
 - ATTACK or CONVERT angle → `./skills/marketingskills-main/skills/marketing-psychology/SKILL.md` + `./skills/marketingskills-main/skills/ad-creative/SKILL.md`
 - Launch / festival campaign (5+ posts) → `./skills/marketingskills-main/skills/launch/SKILL.md`
 - Calendar planning → `./skills/marketingskills-main/skills/content-strategy/SKILL.md`
@@ -109,6 +110,15 @@ Skills directory:
 ./skills/marketingskills-main/skills/cro/SKILL.md                → CTA-to-landing-page alignment, conversion triggers
 ./skills/marketingskills-main/skills/content-strategy/SKILL.md  → Calendar + pillar planning, angle distribution
 ./skills/marketingskills-main/skills/ab-testing/SKILL.md         → Caption variation logic, test hypothesis framing
+./skills/remotion-reels/SKILL.md                                 → Remotion motion-graphics reels: workspace map, tools, brand tokens, render + delivery
+```
+
+Remotion workspace (code-built reels):
+```
+./remotion/                    → Remotion project (npm). Reel code in src/reels/, assets in public/reels/
+./remotion/tools/voiceover.py  → Kokoro TTS voiceover + word timings (run with remotion/.tts/Scripts/python)
+./remotion/tools/cutout.py     → Pack background removal (rembg)
+./.claude/skills/remotion-*    → Official Remotion skills (start with remotion-best-practices)
 ```
 
 ---
@@ -147,6 +157,7 @@ HARD RULE: Before producing ANY output in the domains below, you MUST use the Re
 | `cro` | `./skills/marketingskills-main/skills/cro/SKILL.md` | Any CTA landing on brand websites | Caption CTA matches landing page promise |
 | `content-strategy` | `./skills/marketingskills-main/skills/content-strategy/SKILL.md` | Monthly/weekly calendar planning only | Pillar framework, content mix, angle distribution |
 | `ab-testing` | `./skills/marketingskills-main/skills/ab-testing/SKILL.md` | Every post with a variation (Point 11) | Caption variation logic, meaningful angle differentiation |
+| `remotion-reels` | `./skills/remotion-reels/SKILL.md` | Puran says "remotion reel", "make the reel in remotion", "motion graphics reel", "build the reel in code", "render the reel", or asks for a reel/video without Grok | Workspace context for code-built reels in `./remotion/`: paths, Kokoro VO + word timings, pack cut-outs, canonical brand hexes, which protocols still apply, render → `research/prompts/assets/<folder>/reel.mp4` → SendUserFile. Puran directs the creative; no fixed template |
 | `codex-image-gen` | `./skills/codex-image-gen/SKILL.md` | Puran says "generate the image", "run codex", "make the image", or any close variant after a Point 7 prompt is locked | Runs OpenAI Codex CLI native image gen with the Point 7 prompt + pack reference, saves PNG to `research/prompts/assets/`, delivers via SendUserFile. Removes the copy-paste-into-ChatGPT step |
 
 FOR EVERY POST — mandatory read sequence before any caption output:
@@ -247,17 +258,20 @@ Core prompt philosophy lives in memory: [[feedback_gpt_creative_director_model]]
 - No rustic props in the surrounding set: no wooden bowls, burlap, jute, mortar & pestle
 - Template rotation: no template repeated within 3 consecutive posts on same account
 
-### GPT IMAGE 2.0 PROMPT WRITING STANDARD (v3.3 — Prose Creative-Director Model)
+### GPT IMAGE 2.5 PROMPT WRITING STANDARD (v3.4 — Prose Creative-Director Model + 2.5-Native Controls)
 
-**Core shift:** GPT Image 2.0 is a system that understands design language — so we speak design language, not schema. Every prompt is a flowing conversational paragraph, one creative director briefing one photographer + typographer + art director in one meeting. ALL-CAPS field labels (`THEME:`, `MOOD:`, `SCENE:`, `TYPOGRAPHY:`, `EXCLUSIONS:`, `FORMAT:` etc) route ChatGPT to its edit endpoint, which then refuses because no source image is attached — validated across multiple sessions.
+**Model context:** GPT Image 2.5 released September 8, 2026 (successor to GPT Image 2.0). Same prose Protocol 6 cascade still works — 2.5 is meaningfully better at pack fidelity, editing precision, multi-turn stability, and text density. Four mandatory 2.5-native additions apply on top of the v3.3 cascade: (1) reference-role assignment when 2+ refs are attached, (2) explicit preservation clause when any pack ref is uploaded, (3) `render exactly once` spec on every text zone, (4) surgical single-change edit protocol for iteration (see new Protocol 6A below).
+
+**Core shift:** GPT Image 2.5 is a system that understands design language — so we speak design language, not schema. Every prompt is a flowing conversational paragraph, one creative director briefing one photographer + typographer + art director in one meeting. ALL-CAPS field labels (`THEME:`, `MOOD:`, `SCENE:`, `TYPOGRAPHY:`, `EXCLUSIONS:`, `FORMAT:` etc) route ChatGPT to its edit endpoint, which then refuses because no source image is attached — validated across multiple sessions. This holds under 2.5 — the cookbook now permits labeled segments in some contexts, but the ChatGPT UI's edit-mode router still rejects them.
 
 Never use pixel coordinates, X/Y values, or RGBA codes in prompts. Never use ALL-CAPS field labels in the outputted prompt. Use visual and directional language only.
 
 **THE 6-PART PROSE CASCADE — every prompt is one paragraph, in this order:**
 
-1. **Create-new directive (leading line, mandatory).**
+1. **Create-new directive + reference-role assignment + preservation clause (leading paragraph, mandatory).**
    - Type-only slide: `Create a new image.`
-   - Product-upload slide: `Create a new image. Use the product pack photo uploaded in THIS message as a visual reference only — do not edit it. Ignore all other images in the conversation.`
+   - Single-pack upload: `Create a new image. Image 1 is the [brand] [product] pack — reference-only, reproduce with total pack fidelity. Ignore all other images in the conversation.` Follow immediately with the preservation clause (see Protocol 6 → 2.5 Preservation Clause Pattern).
+   - Multi-pack upload (2+ refs): assign a role to EACH reference in order — `Image 1 is the [product A] pack; Image 2 is the [product B] pack; both reference-only, reproduce with total pack fidelity. Ignore all other images in the conversation.` Follow with a preservation clause naming BOTH packs' locked elements. Attachment order must match role assignment when firing the render — this is what stops 2.5's residual SKU-swap failure mode.
 
 2. **Shot + subject.** Open with camera language, front-load the subject. `Editorial hero shot of a [Product] pack standing upright and centered...` / `Extreme close-up macro shot of a person's face, cropped tightly to show...`
 
@@ -265,9 +279,38 @@ Never use pixel coordinates, X/Y values, or RGBA codes in prompts. Never use ALL
 
 4. **Cascading detail.** Foreground to background, subject to secondary elements to props. Each clause zooms in from the previous. Sensory specifics beat adjectives (`visible pores, light sweat, sun-kissed freckles for hyper-realism`, not `nice skin`).
 
-5. **Text zones — position + style + exact quoted copy + line-by-line breakdown.** Format: `[Spatial position], [style descriptor + color]: '[exact copy]' on line 1, '[exact copy]' on line 2.` Double quotes or single quotes both work. See callout typography rule below for information-dense layouts.
+5. **Text zones — position + style + exact quoted copy + line-by-line breakdown + `render exactly once` spec.** Format: `Render exactly once: '[exact copy]' on line 1 in [style descriptor + color] at [spatial position]. Render exactly once: '[exact copy]' on line 2 [style + position].` Every text zone gets its own `render exactly once` — this is a mandatory 2.5 addition that kills the residual duplicate-text hallucination. Double quotes or single quotes both work. See callout typography rule below for information-dense layouts.
 
-6. **Inline exclusions + closing style-tag cluster + ratio close.** Exclusions live inline right after the text zones (where the risk lives), then five to seven brand style tags (this is the convergence hook that pulls the whole image toward one aesthetic), then the ratio.
+6. **Inline exclusions + duplicate-suppression + closing style-tag cluster + ratio close.** Exclusions live inline right after the text zones (where the risk lives). Under 2.5, exclusions MUST also include the duplicate-suppression block: `no duplicate text zones, no repeated headlines, no repeated ribbons, no repeated callouts, no repeated price pills, no SKU swap on any pack.` Then five to seven brand style tags (this is the convergence hook that pulls the whole image toward one aesthetic), then the ratio.
+
+**2.5 PRESERVATION CLAUSE PATTERN — mandatory whenever a pack reference is uploaded:**
+
+Immediately after the create-new + ref-role assignment paragraph, write one paragraph that explicitly locks every pack element. Without this list, drift still happens under 2.5. Adapt to the specific pack, but never skip.
+
+Template:
+```
+Preserve on the pack: pouch/bottle silhouette, seal geometry, base geometry, ground colour of the pack ([exact colour observed on the pack ref]), [brand] wordmark and badge exactly as printed, watercolour/photo illustration position and style ([specific illustration observed]), the product photograph on the pack, the white/label with every line of printed copy including [key on-pack text such as "ORGANIC", "RAW [PRODUCT] SEEDS", multilingual subtitles], the "without shell / ready to eat / cold-pressed" line if present, the circular Quality seal, the green vegetarian dot, the tear-here strip and Resealable Zip Lock Pack strip at the top, the full bottom certification row including [Jaivik Bharat, GLUTEN FREE, 100% VEGAN, NO ADDITIVES, USDA ORGANIC, etc as printed], and every certification stamp and small-print element. Change nothing on the pack — no repositioned elements, no new text, no missing text, no colour shift, no logo redraw, no illustration redraw, no SKU substitution.
+```
+
+For multi-pack renders, name each pack's ground colour, illustration, and label copy separately in the same paragraph. The specificity of the preservation list is what stops SKU swap (uploaded sunflower → rendered cashew).
+
+**2.5 MODEL + QUALITY TIER PICKER — Point 7 must specify both:**
+
+Every Point 7 prompt output includes a small header block naming the model + quality tier the render should use:
+
+```
+Model: gpt-image-2.5-flare  (or gpt-image-2.5-sunburst for premium)
+Quality: high  (or xhigh / max per rule below)
+```
+
+Model tier picker:
+- **`gpt-image-2.5-flare`** (default) — daily posts, single-pack heroes, most carousels. Speed-optimized, 50% lower latency than 2.0.
+- **`gpt-image-2.5-sunburst`** (premium) — HF wellness hero, Caveman lookbook, any multi-pack composition, any post where label distortion is fatal. Longer generation, tighter edit precision, holds SKU identity harder.
+
+Quality tier picker:
+- **`high`** (default) — standard posts
+- **`xhigh`** — information-dense EDUCATE posts, T75 Amazon A+ carousels, callout-heavy hero shots, price-pill + trust-ribbon + multi-callout compositions, any prompt with 4+ text zones
+- **`max`** — hero-slide reels, brand pitch decks, multi-pack fidelity-critical renders
 
 **BRAND STYLE-TAG CLUSTERS — paste at the close of every prompt for that brand:**
 
@@ -329,6 +372,37 @@ Never add a CANVA OVERLAY line to any GPT Image 2.0 prompt. Never mention logo p
 
 **Canonical reference prompt shape (proven working — Celsius Sparkling Orange, July 2026):**
 The Celsius reflection-in-sunglasses prompt is the reference template for every new GPT prompt in this repo. Extreme close-up macro shot leads → subject cascade (face → sunglasses → sunlight → reflection → can → logo detail) → text zones each with spatial position + style + exact quoted copy + line-by-line → inline no-list exclusions → style-tag cluster close → ratio. Full prompt captured in [[feedback_gpt_creative_director_model]].
+
+---
+
+## PROTOCOL 6A — SURGICAL EDIT TURNS (GPT IMAGE 2.5 NATIVE)
+
+When a rendered image comes back 80–95% right and only one thing needs fixing (a mispositioned price pill, a slightly-off headline colour, a duplicated callout, a callout label typo), do NOT regenerate from scratch. GPT Image 2.5's multi-turn edit stability makes surgical edits the correct default fix — earlier renders preserve everything else reliably, and the credit cost is a fraction of a full regen.
+
+**When to surgical-edit vs full regen:**
+
+| Situation | Path |
+|---|---|
+| One text zone needs a copy fix, colour tweak, or positional nudge | Surgical edit |
+| One icon needs replacing | Surgical edit |
+| Price pill needs re-alignment | Surgical edit |
+| Callout label wording change | Surgical edit |
+| Background bisection colour slightly off | Surgical edit |
+| Pack rendered as WRONG SKU (fidelity fail) | Full regen with sunburst + tightened preservation clause |
+| Composition fundamentally wrong (layout doesn't work) | Full regen with different VEE template |
+| Two or more independent things need changing | Two sequential surgical edits, one per turn |
+
+**Surgical edit prompt format — three named blocks in a short prose paragraph:**
+
+```
+Edit the previous image. Change: [one specific thing — quote the exact text or element, name the exact adjustment]. Preserve: [list every element that must stay identical — headline, tagline, packs, background, trust ribbon, callouts, price pills, footer band, website CTA, colour temperature, lighting, film grain, ratio]. Constraints: no new elements, no colour shift on the packs, no re-rendering of any preserved element, no duplicate text zones, no SKU swap on either pack.
+```
+
+**Iteration cadence:** one change per turn. Chain them (v2 → v3 → v4) with each turn's edit landing on the previous turn's output. Do not batch multiple changes into one edit turn — 2.5 handles single-change edits far more reliably than compound edits.
+
+**Failure recovery:** if a surgical edit degrades another element (rare in 2.5 but possible), do not try to fix that in a further edit — regen from the last-known-good version instead.
+
+**When Point 7 is delivered under 2.5**, output includes a small "Iteration path" footer that names the surgical-edit format Puran can drop back at Claude for fixes, so the loop is one message wide, not a re-derivation each time.
 
 ---
 
@@ -407,6 +481,8 @@ After the 7-layer analysis, translate findings into a single flowing prose parag
 
 Read `skills/marketingskills-main/skills/video/SKILL.md` before every reel. No exception.
 Read `skills/gpt-image-2/SKILL.md` before every GPT still. No exception.
+
+**Alternative production path: Remotion (added Oct 2026).** When Puran asks for a Remotion / motion-graphics / code-built reel, follow `./skills/remotion-reels/SKILL.md` instead of the Grok stages below. The reel is built in `./remotion/` with real pack photos, live typography, Kokoro VO and licensed music, then rendered locally to MP4. Protocols 2, 3, 5 and 10, the reel rules, pack fidelity and the known-used-products list still apply. The Grok master-brief structure does not. Puran directs the creative, so no fixed template is imposed.
 
 **New default workflow (client-directed, Jul 2026):** GPT Image 2.0 makes every still with baked text + reference-photo pack fidelity. Grok Imagine Agent Mode receives the full still batch on its infinite canvas and does everything downstream — animation per still, transitions between stills, stitching into one MP4, voiceover, SFX, and music. CapCut becomes a 5-minute finishing pass — logo watermark + music tweak only. The old per-clip Grok Aurora prompting workflow (F1/F2/F3/F4 individual clip prompts) is **retired**.
 
@@ -553,6 +629,9 @@ Manchurian Sauce
 White Basmati Rice (Pusht Organic)
 Biomart Shelf Sweep — Millets + Oils + Flours + Teas + Honey (2026-08-27)
 Health Fields Seeds Trio (Raw Cashew + Sunflower + Watermelon Seeds 250g) — Snackit unbox recreation (2026-09-01)
+greendipz Paneer Makhani Gravy 370g (Sunday Menu 3-pack reel, 2026-09-12)
+greendipz Arrabbiata Pasta Sauce 325g (Sunday Menu 3-pack reel, 2026-09-12)
+Health Fields Calming Chamomile (Remotion "your 9pm cup" reel, 2026-10-01)
 ```
 
 Add new products to this list immediately after each reel is built.
@@ -578,12 +657,26 @@ Read `Caption_Swipe_File.md` as quality benchmark.
 10. No promotional offers, discount codes, or pricing in Reel captions
 11. No offers or pricing in any caption unless Puran explicitly says so
 
-### Caption Sweep Order (Silent — Every Caption)
+### Caption Sweep Order (Verifiable — Every Caption)
 
-Run these three passes in sequence before outputting any caption:
+Run these three passes in sequence before outputting any caption. The Humanizer sweep is NO LONGER SILENT — a visible audit line is mandatory (Puran flagged the silent-sweep failure mode Sept 2026 — see [[feedback_humanizer_audit_verifiable]]).
+
 1. **Humanizer sweep** — `skills/humanizer-main/humanizer-main/SKILL.md` — strip all 29 AI-writing patterns
 2. **Copy-editing sweep** — `skills/marketingskills-main/skills/copy-editing/SKILL.md` — banned words, emoji count, CTA
 3. **Brand DNA check** — confirm tone matches the correct brand bible before final output
+
+**MANDATORY OUTPUT: Humanizer Audit Line** — every caption package (Points 8 + 11) must be preceded or followed by a short audit line naming 2-3 specific AI patterns caught and cut in this draft, in this format:
+
+```
+Humanizer audit: cut [pattern 1 — with the exact phrase you replaced], cut [pattern 2 — same], cut [pattern 3 — same].
+```
+
+Example:
+```
+Humanizer audit: cut "quietly does the work" (sloganish AI cadence → replaced with "boring hero"), cut "the harder pantry job" (weasel framing → replaced with specific "chikki or curd rice" use case), cut "Both/Both/Both" negative parallelism (rule-of-three → collapsed to two beats).
+```
+
+If the audit line reads "no patterns found" on more than one caption in a row, the sweep is being skipped — regenerate the caption and re-audit. A real humanizer pass on AI-drafted copy always finds at least 2-3 patterns worth cutting.
 
 ### Caption Output Rule
 
@@ -690,7 +783,10 @@ Every post generation outputs ALL of the following in sequence:
 7.  GPT IMAGE 2.0 PROMPT: [Full structured prompt in code block —
                             output only after text confirmation received]
 8.  CAPTION:              [Full caption as plain text with hashtags — never in a code block.
-                            Must end with a plain website CTA — no comment/DM triggers]
+                            Must end with a plain website CTA — no comment/DM triggers.
+                            MUST be preceded by a Humanizer Audit line naming 2-3 specific
+                            AI patterns caught and cut in this draft — verifiable, not silent.
+                            See Protocol 9 → Caption Sweep Order.]
 10. WEBSITE CTA:          [In-image CTA line + brand website URL used. Confirms Point 6
                             in-image text review includes the baked CTA]
 11. VARIATION:            [Alternative caption as plain text with own hashtags —
@@ -711,6 +807,7 @@ Point 6 (In-Image Text Review) is mandatory before Point 7. The prompt is never 
 | `Full post for [Brand] — [Product]` | Complete 13-point package. Ask for product description first |
 | `Caption for [Brand] — [Product]` | Caption + hashtags in code block. Ask for description first |
 | `Reel script for [Brand] — [topic/product]` | Stage 1 GPT stills → wait → Stage 2 analysis → Stage 3 Grok |
+| `Remotion reel for [Brand] — [topic/product]` | `remotion-reels` skill fires → build the reel in code in `./remotion/` as Puran directs → render → deliver `reel.mp4` |
 | `This week's plan for [Brand / all brands]` | Full 7-day plan mapped to June_2026_Content_Calendar_Brahhm.docx |
 | `GPT prompt for [Brand] — [Product]` | Creative brief → text confirmation → locked prompt in code block |
 | `Hashtags for [Brand] — [content type]` | 5 fresh hashtags in code block |
@@ -740,8 +837,8 @@ Available formats — select based on product and content angle:
 ## CURRENT STATE TRACKING
 
 ### VEE Template Count
-Last assigned template: **T82** (Doctor-Sister Rakhi Wellness Bundle Carousel — Health Fields, assigned 2026-08-08)
-Next new template: **T83**
+Last assigned template: **T90** (Cinematic Cuisine Hero Trio — greendipz, assigned 2026-09-08)
+Next new template: **T91**
 Always grep `Visual_Execution_Engine_v4_txt.txt` for the last T-number before assigning new ones.
 T56-T60 are reel thumbnail templates (1:1 square) for grid coherence.
 
