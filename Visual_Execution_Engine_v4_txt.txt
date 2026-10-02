@@ -2279,5 +2279,84 @@ T90 — Amazon A+ 4-Tile Wellness Carousel (assigned 2026-09-07)
   Slide 2 = jar + trust-chip row. Slide 3 = lifestyle beat + benefit-pill stack.
   Slide 4 = hero + value stack + usage pills. Ratio 4:5 (1080×1350) per slide.
 
-Last assigned template: T90 (Amazon A+ 4-Tile Wellness Carousel — assigned 2026-09-07)
-Next new template: T91
+T91 — Two-Pack Seasonal System Side-by-Side Editorial (assigned 2026-09-19)
+  Pusht family. Two SKUs from the same product line — seasonal variants — stood
+  upright and static, side-by-side, matched height and baseline, ~40% frame width
+  each with a comfortable breathing gap. Warm cream linen ground bleeding to
+  forest-green shadow at frame edges. Kodak Portra 400 film feel with heavy grain.
+  Callout mode: hairline pointer + bold sans-serif caps caption per pack, no chip
+  backgrounds, labels sized ~1.5x the footer strip type for feed-thumbnail read.
+  Warm-cream serif headline top-centre + small sans-serif sub-header below.
+  Hairline-underlined price band bottom-centre (no chip fill). Warm-cream sans
+  footer strip + quiet baked website CTA at very bottom. Zero rustic props outside
+  the packs — no bowls, jute, scoops, jars, hands, or people. Model:
+  gpt-image-2.5-sunburst · Quality: xhigh (multi-pack fidelity + 6 text zones).
+  Ratio 4:5 (1080×1350). First deployed: 2026-09-19 · Pusht · Multigrain Summer +
+  Winter RELATE post.
+
+T92 — Editorial Headline-Hero Poster (assigned 2026-09-19)
+  greendipz family. Magazine back-cover editorial poster — bold graphic
+  headline-first composition on a flat saturated ground, product handled as a
+  graphic still-life element rather than a lifestyle photograph. Vertical 4:5
+  (1080×1350) framed by a thin warm-cream editorial margin on all four sides so
+  the composition reads as a printed page. Top 45% of the poster = oversized
+  bold condensed serif hero headline in warm cream, stacked two lines with tight
+  leading, spanning wide with matched cream margins left and right. A single
+  fine warm-cream hairline horizontal rule divides the headline zone from the
+  product zone. Middle 35% = curated product still-life clipped onto the flat
+  ground — pack upright on the left, small terracotta serving bowl of the dip
+  on the right at matched baseline, one triangular corn tortilla chip standing
+  diagonally mid-scoop out of the bowl (no hand, no fingers — chip in mid-air
+  only), tight compact ingredient mound at the base (two tomatoes, halved onion,
+  two jalapeños, garlic cluster, one coriander sprig). Bottom 20% = single flat
+  editorial support strip in refined sans-serif caps with middot separators (no
+  hairline pointer callouts, no chip backgrounds) + quiet small sans-serif
+  footer CTA bottom-anchored centred. Ground colour = one flat saturated
+  editorial field matched to the SKU's flavour world (tomato red for salsa,
+  chilli red for schezwan, forest green for cilantro dips, etc). Subtle warm
+  drop-shadow pools softly at the base of the still-life; the ground stays
+  otherwise flat and graphic — no photographic bokeh, no atmospheric haze, no
+  depth-of-field blur, no lifestyle-photo background. Model:
+  gpt-image-2.5-sunburst · Quality: xhigh (pack fidelity + 4 text zones + flat
+  poster ground). Bans: no hands, no fingers, no people, no arms, no scattered
+  droplets, no splash effects, no wooden bowls or burlap or jute, no rustic
+  props, no chip backgrounds behind text, no rounded pills, no coloured boxes,
+  no hairline pointer callouts, no full stops on any text zone (NO DOTS RULE),
+  no percentage numbers, no vegan/gluten-free/sugar-free callouts, no
+  promotional badges, no photographic bokeh, no depth-of-field blur. Callout
+  mode: single flat editorial support strip with middot separators.
+  Chip mode: none. Source DNA: Pinterest editorial food poster + greendipz
+  professional poster reference libraries — Direction B (bold graphic headline-
+  first). Reference pins: Pin 2181499817511082 (6.9k saves, "bacon" poster) and
+  Pin 633387443126392 (5.8k saves, "WHERE ARE YOU GOING? /476" by Brad Mead).
+  First deployed: 2026-09-19 · greendipz · Salsa Mexicana RELATE poster.
+
+T93 — Snack City Three-Panel Poster Trio (assigned 2026-09-24)
+  Cross-brand poster format — 1:1 square canvas split into three equal vertical
+  colour panels with hard butted seams at 33% and 66% frame width, one SKU
+  centred inside each panel. Each pack sits upright, front-facing, zero tilt,
+  ~24% of total frame width so ~72% of its panel width — comfortable margins,
+  never touches or crosses the panel seams. All three packs on the same
+  horizontal eye line at ~65% down from top, identical scale, studio-flat key
+  light, minimal contact shadow. Panel colours TONALLY MATCHED to each pack's
+  dominant colour world (Snack City DNA — pack colour = panel colour). For
+  Caveman: forest green + terracotta orange + Cave Red. Panels are flat solid
+  colour — no gradient, no texture, no atmosphere. Text stack spans full width
+  across panels: massive condensed sans-serif caps display headline in warm
+  off-white cream at upper third (baseline ~28% down), light-weight sans-serif
+  subhead ~1/6 the display size directly below (baseline ~36% down), quiet
+  baked website CTA bottom-centred (~96% down). Hand-drawn brush-script
+  hashtag in brand-accent red at upper-right corner with slight 8° tilt.
+  Upper-left corner kept clean and empty so brand logo can be composited
+  externally. Model: gpt-image-2.5-sunburst · Quality: high (multi-pack
+  fidelity + 4 text zones). Ratio 1:1 (1024×1024). Bans: no props, no crumbs,
+  no ingredient scatter, no drop shadow, no gradient/texture on panels, no
+  pack tilt or rotation, no perspective foreshortening, no packs crossing
+  seams, no logo drawn in-render (composited externally), no offer text or
+  pricing, no full stops on any text zone (NO DOTS RULE). Source DNA: Snack
+  City "It's Snacking Time" reference (peanuts trio, green/orange/red panels)
+  reinterpreted for premium Indian organic. First deployed: 2026-09-24 ·
+  Caveman · Bakkit trio (Ajwain + Jeera + Cashew & Pista) RELATE poster.
+
+Last assigned template: T93 (Snack City Three-Panel Poster Trio — assigned 2026-09-24)
+Next new template: T94

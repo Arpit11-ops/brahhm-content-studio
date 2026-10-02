@@ -28,6 +28,7 @@ If the receipt is missing, the caption/prompt/reel is INVALID and must be regene
 **Additional mandatory reads by content type:**
 - GPT Image 2.0 prompt (any post with an image) → `./skills/gpt-image-2/SKILL.md` + `Visual_Execution_Engine_v4_txt.txt`
 - Reel of any kind → `./skills/marketingskills-main/skills/video/SKILL.md`
+- Reel built in Remotion (code-built motion graphics) → also `./skills/remotion-reels/SKILL.md`, then invoke the `remotion-best-practices` skill before writing reel code
 - ATTACK or CONVERT angle → `./skills/marketingskills-main/skills/marketing-psychology/SKILL.md` + `./skills/marketingskills-main/skills/ad-creative/SKILL.md`
 - Launch / festival campaign (5+ posts) → `./skills/marketingskills-main/skills/launch/SKILL.md`
 - Calendar planning → `./skills/marketingskills-main/skills/content-strategy/SKILL.md`
@@ -109,6 +110,15 @@ Skills directory:
 ./skills/marketingskills-main/skills/cro/SKILL.md                → CTA-to-landing-page alignment, conversion triggers
 ./skills/marketingskills-main/skills/content-strategy/SKILL.md  → Calendar + pillar planning, angle distribution
 ./skills/marketingskills-main/skills/ab-testing/SKILL.md         → Caption variation logic, test hypothesis framing
+./skills/remotion-reels/SKILL.md                                 → Remotion motion-graphics reels: workspace map, tools, brand tokens, render + delivery
+```
+
+Remotion workspace (code-built reels):
+```
+./remotion/                    → Remotion project (npm). Reel code in src/reels/, assets in public/reels/
+./remotion/tools/voiceover.py  → Kokoro TTS voiceover + word timings (run with remotion/.tts/Scripts/python)
+./remotion/tools/cutout.py     → Pack background removal (rembg)
+./.claude/skills/remotion-*    → Official Remotion skills (start with remotion-best-practices)
 ```
 
 ---
@@ -147,6 +157,7 @@ HARD RULE: Before producing ANY output in the domains below, you MUST use the Re
 | `cro` | `./skills/marketingskills-main/skills/cro/SKILL.md` | Any CTA landing on brand websites | Caption CTA matches landing page promise |
 | `content-strategy` | `./skills/marketingskills-main/skills/content-strategy/SKILL.md` | Monthly/weekly calendar planning only | Pillar framework, content mix, angle distribution |
 | `ab-testing` | `./skills/marketingskills-main/skills/ab-testing/SKILL.md` | Every post with a variation (Point 11) | Caption variation logic, meaningful angle differentiation |
+| `remotion-reels` | `./skills/remotion-reels/SKILL.md` | Puran says "remotion reel", "make the reel in remotion", "motion graphics reel", "build the reel in code", "render the reel", or asks for a reel/video without Grok | Workspace context for code-built reels in `./remotion/`: paths, Kokoro VO + word timings, pack cut-outs, canonical brand hexes, which protocols still apply, render → `research/prompts/assets/<folder>/reel.mp4` → SendUserFile. Puran directs the creative; no fixed template |
 | `codex-image-gen` | `./skills/codex-image-gen/SKILL.md` | Puran says "generate the image", "run codex", "make the image", or any close variant after a Point 7 prompt is locked | Runs OpenAI Codex CLI native image gen with the Point 7 prompt + pack reference, saves PNG to `research/prompts/assets/`, delivers via SendUserFile. Removes the copy-paste-into-ChatGPT step |
 
 FOR EVERY POST — mandatory read sequence before any caption output:
@@ -471,6 +482,8 @@ After the 7-layer analysis, translate findings into a single flowing prose parag
 Read `skills/marketingskills-main/skills/video/SKILL.md` before every reel. No exception.
 Read `skills/gpt-image-2/SKILL.md` before every GPT still. No exception.
 
+**Alternative production path: Remotion (added Oct 2026).** When Puran asks for a Remotion / motion-graphics / code-built reel, follow `./skills/remotion-reels/SKILL.md` instead of the Grok stages below. The reel is built in `./remotion/` with real pack photos, live typography, Kokoro VO and licensed music, then rendered locally to MP4. Protocols 2, 3, 5 and 10, the reel rules, pack fidelity and the known-used-products list still apply. The Grok master-brief structure does not. Puran directs the creative, so no fixed template is imposed.
+
 **New default workflow (client-directed, Jul 2026):** GPT Image 2.0 makes every still with baked text + reference-photo pack fidelity. Grok Imagine Agent Mode receives the full still batch on its infinite canvas and does everything downstream — animation per still, transitions between stills, stitching into one MP4, voiceover, SFX, and music. CapCut becomes a 5-minute finishing pass — logo watermark + music tweak only. The old per-clip Grok Aurora prompting workflow (F1/F2/F3/F4 individual clip prompts) is **retired**.
 
 ### 4-Stage Workflow — Mandatory Sequence
@@ -618,6 +631,7 @@ Biomart Shelf Sweep — Millets + Oils + Flours + Teas + Honey (2026-08-27)
 Health Fields Seeds Trio (Raw Cashew + Sunflower + Watermelon Seeds 250g) — Snackit unbox recreation (2026-09-01)
 greendipz Paneer Makhani Gravy 370g (Sunday Menu 3-pack reel, 2026-09-12)
 greendipz Arrabbiata Pasta Sauce 325g (Sunday Menu 3-pack reel, 2026-09-12)
+Health Fields Calming Chamomile (Remotion "your 9pm cup" reel, 2026-10-01)
 ```
 
 Add new products to this list immediately after each reel is built.
@@ -793,6 +807,7 @@ Point 6 (In-Image Text Review) is mandatory before Point 7. The prompt is never 
 | `Full post for [Brand] — [Product]` | Complete 13-point package. Ask for product description first |
 | `Caption for [Brand] — [Product]` | Caption + hashtags in code block. Ask for description first |
 | `Reel script for [Brand] — [topic/product]` | Stage 1 GPT stills → wait → Stage 2 analysis → Stage 3 Grok |
+| `Remotion reel for [Brand] — [topic/product]` | `remotion-reels` skill fires → build the reel in code in `./remotion/` as Puran directs → render → deliver `reel.mp4` |
 | `This week's plan for [Brand / all brands]` | Full 7-day plan mapped to June_2026_Content_Calendar_Brahhm.docx |
 | `GPT prompt for [Brand] — [Product]` | Creative brief → text confirmation → locked prompt in code block |
 | `Hashtags for [Brand] — [content type]` | 5 fresh hashtags in code block |

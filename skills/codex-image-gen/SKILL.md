@@ -32,7 +32,7 @@ Puran can override ("run xhigh" / "max quality") or the skill auto-bumps to xhig
 
 ## Binary and paths
 
-- Codex CLI binary: `/c/Users/arpit/.codex/.sandbox-bin/codex.exe`
+- Codex CLI binary: `C:/Users/arpit/AppData/Local/OpenAI/Codex/bin/c6fe824d725f02d7/codex.exe` — the live desktop binary. The old sandbox binary at `/c/Users/arpit/.codex/.sandbox-bin/codex.exe` is outdated (uses a stale model whitelist that server-side rolled off ChatGPT-account tier on 2026-09-25) and MUST NOT be used. If the live-binary path changes on a Codex desktop update, re-derive it from `CODEX_CLI_PATH` in `~/.codex/config.toml`.
 - Scratchpad root for prompt files: `C:\Users\arpit\AppData\Local\Temp\claude\C--NITRO-4-BACKUP-IMPORTANT-WORK-brahhm-content-studio\<session>\scratchpad\` — Claude Code sets this per session, use whatever value appears in the `Scratchpad Directory` note at the top of the session.
 - Asset output root: `research/prompts/assets/`
 - Per-post asset folder: `research/prompts/assets/YYYY-MM-DD_<brand>_<slug>/`
@@ -68,7 +68,7 @@ Use the same folder across iterations of the same post so `hero.png`, `hero_v2.p
 Call Codex CLI with `exec --dangerously-bypass-approvals-and-sandbox` so it runs non-interactively without prompting Puran for approvals mid-turn. The instruction to Codex must be direct: read the prompt file verbatim, use the pack as a visual reference, call the image tool once, save to the exact output path. Do not let Codex summarise or rewrite the prompt.
 
 ```bash
-"/c/Users/arpit/.codex/.sandbox-bin/codex.exe" exec \
+"C:/Users/arpit/AppData/Local/OpenAI/Codex/bin/c6fe824d725f02d7/codex.exe" exec \
   --dangerously-bypass-approvals-and-sandbox \
   "Generate a single image using your native image generation tool with model gpt-image-2.5-flare (or gpt-image-2.5-sunburst for premium renders). The full image prompt is in this file: <PROMPT_FILE_PATH> — read it and pass it verbatim to your image tool. Use the product pack photo(s) at these paths as visual references in the exact order given: Image 1 = <PACK_1_PATH>, Image 2 = <PACK_2_PATH> (add more numbered entries only if the prompt's reference-role assignment lists more). Aspect ratio 4:5 vertical (or 1:1 / 9:16 per the prompt's stated ratio), quality high (or xhigh / max per skill directive). Save the generated PNG to: <OUTPUT_PATH>. Do not modify the prompt text, do not summarize it, do not swap the model, do not write any code, do not reorder or drop reference images, just call your image generation tool once with the exact prompt and reference image(s) in the given order." \
   2>&1 | tail -30
@@ -118,7 +118,7 @@ When Puran flags something off (typography too small, chip colours wrong, mound 
 2. Write this as a small edit-prompt file: `<brand>_<slug>_edit_v2.txt`
 3. Run Codex again with the previous `hero.png` as the base image:
    ```bash
-   "/c/Users/arpit/.codex/.sandbox-bin/codex.exe" exec \
+   "C:/Users/arpit/AppData/Local/OpenAI/Codex/bin/c6fe824d725f02d7/codex.exe" exec \
      --dangerously-bypass-approvals-and-sandbox \
      "Edit the image at <PREVIOUS_HERO_PATH> using your native image edit tool with model gpt-image-2.5-flare. The edit instruction is in this file: <EDIT_FILE_PATH> — read it and pass it verbatim to your image tool. Save the edited PNG to: <OUTPUT_PATH>." \
      2>&1 | tail -30

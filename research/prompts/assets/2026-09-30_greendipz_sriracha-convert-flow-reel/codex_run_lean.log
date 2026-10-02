@@ -1,0 +1,70 @@
+=== START still1_hook -> research/prompts/assets/2026-09-30_greendipz_sriracha-convert-flow-reel/hook.png ===
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command '$src = Get-ChildItem -Path '"'C:\\Users\\arpit\\.codex\\generated_images' -Recurse -File -Filter '*.png' | Sort-Object LastWriteTime -Descending | Select-Object -First 1; Add-Type -AssemblyName System.Drawing; "'$img=[System.Drawing.Image]::FromFile($src.FullName); Write-Output "$($src.FullName)`n$($img.Width)x$($img.Height)"; $img.Dispose()' in C:\NITRO 4 BACKUP\IMPORTANT WORK\brahhm-content-studio
+ succeeded in 339ms:
+C:\Users\arpit\.codex\generated_images\01a0f091-bd9f-7b61-a2d7-807cabcb5f50\exec-c1814eb3-355d-4640-afac-ada8016892fe.png
+941x1672
+
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command '$src = (Get-ChildItem -Path '"'C:\\Users\\arpit\\.codex\\generated_images' -Recurse -File -Filter '*.png' | Sort-Object LastWriteTime -Descending | Select-Object -First 1).FullName; "'$dest='"'C:\\NITRO 4 BACKUP\\IMPORTANT WORK\\brahhm-content-studio\\research\\prompts\\assets\\2026-09-30_greendipz_sriracha-convert-flow-reel\\hook.png'; New-Item -ItemType Directory -Force -Path (Split-Path "'$dest) | Out-Null; Add-Type -AssemblyName System.Drawing; $img=[System.Drawing.Image]::FromFile($src); $bmp=New-Object System.Drawing.Bitmap 1080,1920; $g=[System.Drawing.Graphics]::FromImage($bmp); $g.InterpolationMode=[System.Drawing.Drawing2D.InterpolationMode]::HighQualityBicubic; $g.SmoothingMode=[System.Drawing.Drawing2D.SmoothingMode]::HighQuality; $g.PixelOffsetMode=[System.Drawing.Drawing2D.PixelOffsetMode]::HighQuality; $g.CompositingQuality=[System.Drawing.Drawing2D.CompositingQuality]::HighQuality; $g.DrawImage($img,0,0,1080,1920); $bmp.Save($dest,[System.Drawing.Imaging.ImageFormat]::Png); $g.Dispose(); $bmp.Dispose(); $img.Dispose(); Write-Output $dest' in C:\NITRO 4 BACKUP\IMPORTANT WORK\brahhm-content-studio
+ succeeded in 582ms:
+C:\NITRO 4 BACKUP\IMPORTANT WORK\brahhm-content-studio\research\prompts\assets\2026-09-30_greendipz_sriracha-convert-flow-reel\hook.png
+
+codex
+Generated once with the verbatim prompt and product reference, then upscaled to 1080×1920 PNG.
+
+[Download hook.png](C:/NITRO%204%20BACKUP/IMPORTANT%20WORK/brahhm-content-studio/research/prompts/assets/2026-09-30_greendipz_sriracha-convert-flow-reel/hook.png)
+tokens used
+26,164
+Generated once with the verbatim prompt and product reference, then upscaled to 1080×1920 PNG.
+
+[Download hook.png](C:/NITRO%204%20BACKUP/IMPORTANT%20WORK/brahhm-content-studio/research/prompts/assets/2026-09-30_greendipz_sriracha-convert-flow-reel/hook.png)
+=== END still1_hook ===
+-rw-r--r-- 1 arpit 197121 5071996 Sep 30 09:59 research/prompts/assets/2026-09-30_greendipz_sriracha-convert-flow-reel/hook.png
+=== START still2_eggs -> research/prompts/assets/2026-09-30_greendipz_sriracha-convert-flow-reel/eggs.png ===
+
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command '$src='"'C:/Users/arpit/.codex/generated_images/01a0f093-68a6-76a2-a21c-f0fb0cef8ee8/exec-60b2e6b9-86ee-427c-9ade-d1324a2aa1bb.png'; "'$dst='"'C:/NITRO 4 BACKUP/IMPORTANT WORK/brahhm-content-studio/research/prompts/assets/2026-09-30_greendipz_sriracha-convert-flow-reel/eggs.png'; New-Item -ItemType Directory -Force -Path (Split-Path "'$dst) | Out-Null; Copy-Item -LiteralPath $src -Destination $dst -Force; Add-Type -AssemblyName System.Drawing; $img=[System.Drawing.Image]::FromFile($dst); "${($img.Width)}x${($img.Height)}"; $img.Dispose()' in C:\NITRO 4 BACKUP\IMPORTANT WORK\brahhm-content-studio
+ succeeded in 104ms:
+x
+
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command 'Add-Type -AssemblyName System.Drawing; $p='"'C:/NITRO 4 BACKUP/IMPORTANT WORK/brahhm-content-studio/research/prompts/assets/2026-09-30_greendipz_sriracha-convert-flow-reel/eggs.png'; "'$img=[System.Drawing.Image]::FromFile($p); Write-Output "$($img.Width)x$($img.Height)"; $img.Dispose()' in C:\NITRO 4 BACKUP\IMPORTANT WORK\brahhm-content-studio
+ succeeded in 79ms:
+941x1672
+
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command 'Add-Type -AssemblyName System.Drawing; $p='"'C:/NITRO 4 BACKUP/IMPORTANT WORK/brahhm-content-studio/research/prompts/assets/2026-09-30_greendipz_sriracha-convert-flow-reel/eggs.png'; "'$tmp="$p.tmp.png"; $src=[System.Drawing.Image]::FromFile($p); $dst=New-Object System.Drawing.Bitmap 1080,1920; $g=[System.Drawing.Graphics]::FromImage($dst); $g.CompositingQuality=[System.Drawing.Drawing2D.CompositingQuality]::HighQuality; $g.InterpolationMode=[System.Drawing.Drawing2D.InterpolationMode]::HighQualityBicubic; $g.SmoothingMode=[System.Drawing.Drawing2D.SmoothingMode]::HighQuality; $g.DrawImage($src,0,0,1080,1920); $dst.Save($tmp,[System.Drawing.Imaging.ImageFormat]::Png); $g.Dispose(); $dst.Dispose(); $src.Dispose(); Move-Item -LiteralPath $tmp -Destination $p -Force; $check=[System.Drawing.Image]::FromFile($p); Write-Output "$($check.Width)x$($check.Height)"; $check.Dispose()' in C:\NITRO 4 BACKUP\IMPORTANT WORK\brahhm-content-studio
+ succeeded in 423ms:
+1080x1920
+
+ERROR: Selected model is at capacity. Please try a different model.
+ERROR: Selected model is at capacity. Please try a different model.
+tokens used
+34,994
+=== END still2_eggs ===
+-rw-r--r-- 1 arpit 197121 5229175 Sep 30 10:08 research/prompts/assets/2026-09-30_greendipz_sriracha-convert-flow-reel/eggs.png
+=== START still3_noodles -> research/prompts/assets/2026-09-30_greendipz_sriracha-convert-flow-reel/noodles.png ===
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command '$f=Get-ChildItem -Path '"'C:\\Users\\arpit\\.codex\\generated_images' -Recurse -File -Include *.png,*.jpg,*.jpeg | Sort-Object LastWriteTime -Descending | Select-Object -First 1; "'$f.FullName; Add-Type -AssemblyName System.Drawing; $img=[System.Drawing.Image]::FromFile($f.FullName); "$($img.Width)x$($img.Height)"; $img.Dispose()' in C:\NITRO 4 BACKUP\IMPORTANT WORK\brahhm-content-studio
+ succeeded in 290ms:
+C:\Users\arpit\.codex\generated_images\01a0f09c-007d-75c0-bd69-a44c74161737\exec-5c7abff5-f10b-42b6-bbd1-8511febcfbfe.png
+941x1672
+
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command '$src='"'C:\\Users\\arpit\\.codex\\generated_images\\01a0f09c-007d-75c0-bd69-a44c74161737\\exec-5c7abff5-f10b-42b6-bbd1-8511febcfbfe.png'; "'$dst='"'C:\\NITRO 4 BACKUP\\IMPORTANT WORK\\brahhm-content-studio\\research\\prompts\\assets\\2026-09-30_greendipz_sriracha-convert-flow-reel\\noodles.png'; New-Item -ItemType Directory -Force -Path (Split-Path "'$dst) | Out-Null; Add-Type -AssemblyName System.Drawing; $img=[System.Drawing.Image]::FromFile($src); $bmp=New-Object System.Drawing.Bitmap 1080,1920; $g=[System.Drawing.Graphics]::FromImage($bmp); $g.InterpolationMode=[System.Drawing.Drawing2D.InterpolationMode]::HighQualityBicubic; $g.SmoothingMode=[System.Drawing.Drawing2D.SmoothingMode]::HighQuality; $g.PixelOffsetMode=[System.Drawing.Drawing2D.PixelOffsetMode]::HighQuality; $g.DrawImage($img,0,0,1080,1920); $bmp.Save($dst,[System.Drawing.Imaging.ImageFormat]::Png); $g.Dispose(); $bmp.Dispose(); $img.Dispose(); $check=[System.Drawing.Image]::FromFile($dst); "$dst`n$($check.Width)x$($check.Height)"; $check.Dispose()' in C:\NITRO 4 BACKUP\IMPORTANT WORK\brahhm-content-studio
+ succeeded in 303ms:
+C:\NITRO 4 BACKUP\IMPORTANT WORK\brahhm-content-studio\research\prompts\assets\2026-09-30_greendipz_sriracha-convert-flow-reel\noodles.png
+1080x1920
+
+codex
+Generated the image with the exact prompt and pack reference.
+
+Saved at [noodles.png](C:/NITRO%204%20BACKUP/IMPORTANT%20WORK/brahhm-content-studio/research/prompts/assets/2026-09-30_greendipz_sriracha-convert-flow-reel/noodles.png) — 1080×1920 PNG.
+tokens used
+18,779
+Generated the image with the exact prompt and pack reference.
+
+Saved at [noodles.png](C:/NITRO%204%20BACKUP/IMPORTANT%20WORK/brahhm-content-studio/research/prompts/assets/2026-09-30_greendipz_sriracha-convert-flow-reel/noodles.png) — 1080×1920 PNG.
+=== END still3_noodles ===
+-rw-r--r-- 1 arpit 197121 5273387 Sep 30 10:11 research/prompts/assets/2026-09-30_greendipz_sriracha-convert-flow-reel/noodles.png
+=== ALL DONE ===

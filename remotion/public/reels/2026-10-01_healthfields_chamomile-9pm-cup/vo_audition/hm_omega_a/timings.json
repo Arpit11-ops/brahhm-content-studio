@@ -1,0 +1,165 @@
+{
+  "voice": "hm_omega",
+  "lines": {
+    "l1": {
+      "duration": 2.075,
+      "words": [
+        {
+          "text": "What",
+          "start": 0.005,
+          "end": 0.155
+        },
+        {
+          "text": "goes",
+          "start": 0.155,
+          "end": 0.43
+        },
+        {
+          "text": "into",
+          "start": 0.43,
+          "end": 0.705
+        },
+        {
+          "text": "your",
+          "start": 0.705,
+          "end": 0.93
+        },
+        {
+          "text": "9pm",
+          "start": 0.93,
+          "end": 1.73
+        },
+        {
+          "text": "cup",
+          "start": 1.73,
+          "end": 2.23
+        }
+      ]
+    },
+    "l2": {
+      "duration": 2.247,
+      "words": [
+        {
+          "text": "Chamomile",
+          "start": 0,
+          "end": 0.577
+        },
+        {
+          "text": "Fennel",
+          "start": 0.689,
+          "end": 1.077
+        },
+        {
+          "text": "Rose",
+          "start": 1.164,
+          "end": 1.527
+        },
+        {
+          "text": "Licorice",
+          "start": 1.577,
+          "end": 2.302
+        }
+      ]
+    },
+    "l3": {
+      "duration": 4.234,
+      "words": [
+        {
+          "text": "Unbleached",
+          "start": 0.005,
+          "end": 0.505
+        },
+        {
+          "text": "paper",
+          "start": 0.505,
+          "end": 0.855
+        },
+        {
+          "text": "bags",
+          "start": 0.855,
+          "end": 1.405
+        },
+        {
+          "text": "No",
+          "start": 1.568,
+          "end": 1.88
+        },
+        {
+          "text": "added",
+          "start": 1.88,
+          "end": 2.23
+        },
+        {
+          "text": "colours",
+          "start": 2.23,
+          "end": 2.83
+        },
+        {
+          "text": "Certified",
+          "start": 2.98,
+          "end": 3.618
+        },
+        {
+          "text": "organic",
+          "start": 3.618,
+          "end": 4.43
+        }
+      ]
+    },
+    "l4": {
+      "duration": 1.438,
+      "words": [
+        {
+          "text": "And",
+          "start": 0.025,
+          "end": 0.3
+        },
+        {
+          "text": "zero",
+          "start": 0.3,
+          "end": 0.688
+        },
+        {
+          "text": "caffeine",
+          "start": 0.688,
+          "end": 1.475
+        }
+      ]
+    },
+    "l5": {
+      "duration": 2.671,
+      "words": [
+        {
+          "text": "Calming",
+          "start": 0,
+          "end": 0.389
+        },
+        {
+          "text": "Chamomile",
+          "start": 0.389,
+          "end": 1.052
+        },
+        {
+          "text": "on",
+          "start": 1.177,
+          "end": 1.377
+        },
+        {
+          "text": "healthfields",
+          "start": 1.377,
+          "end": 2.002
+        },
+        {
+          "text": "dot",
+          "start": 2.002,
+          "end": 2.302
+        },
+        {
+          "text": "in",
+          "start": 2.302,
+          "end": 2.802
+        }
+      ]
+    }
+  }
+}
