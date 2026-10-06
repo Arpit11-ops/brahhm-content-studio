@@ -2358,5 +2358,55 @@ T93 — Snack City Three-Panel Poster Trio (assigned 2026-09-24)
   reinterpreted for premium Indian organic. First deployed: 2026-09-24 ·
   Caveman · Bakkit trio (Ajwain + Jeera + Cashew & Pista) RELATE poster.
 
-Last assigned template: T93 (Snack City Three-Panel Poster Trio — assigned 2026-09-24)
+Last assigned template: T93 (Snack City Three-Panel Poster Trio — assigned 2026-09-24) — superseded, see T94 at bottom
 Next new template: T94
+
+
+────────────────────────────────────────────────────────────────────────────────
+T94 — Mood-Pick Shelf Poster with Emoji Row + Hand Pickup (assigned 2026-10-06)
+────────────────────────────────────────────────────────────────────────────────
+  Cross-brand poster format — 4:5 Instagram feed portrait (1080×1350) adapting
+  the Hajmola "chatkara mood" board into a brand-neutral shelf lineup template.
+  SIX product jars stand upright on a clean white horizontal shelf plane at
+  ~60% down from top, evenly spaced across ~75% of frame width, same baseline,
+  same cap-top eye line (scale normalised by shelf-reach-height so squat
+  variants read slightly shorter than tall variants without breaking rhythm).
+  SEVEN mood-emoji circle badges float in a horizontal row directly above the
+  shelf at ~45% down, one per shelf jar + one for the pickup, cream-white
+  outlined circles, each ~5% frame width, evenly spaced across ~70% frame
+  width. Small rotated vertical "Mood" annotation label at the right end of
+  the emoji row. A SEVENTH jar enters the frame from bottom-right in a
+  photorealistic cutout human hand, tilted ~15°, overlapping the shelf plane,
+  "picking" the mood of the day — hand + jar together ~25% of frame height.
+  Upper third carries a chunky three-line display headline, slight per-line
+  rotation (-2° / +1° / -1°), massive scale, cream-white fill with thick dark
+  outline, hand-drawn poster vibe. Background is a saturated brand-primary-
+  colour textured paper world with angular jagged ray-spikes in the brand's
+  accent colour radiating from behind the headline. Three small decorative
+  angular marks at bottom-left, mid-left, and bottom-right in a tertiary
+  accent (echoing the Hajmola purple role). Upper-right corner kept clean
+  and empty for brand lockup composited externally in Canva. Baked quiet
+  website CTA at ~96% bottom-centre. Flat studio key light, no atmospheric
+  drama, poster-graphic style. Minimal contact shadow under each jar.
+  Model: gpt-image-2.5-sunburst · Quality: max (7-pack fidelity + 6 text
+  zones + hand-cutout realism). Ratio 4:5 (1080×1350).
+  Bans: no ingredient scatter, no splash, no liquid, no chips or price pills,
+  no price text, no offer text, no logo drawn in-render (composited
+  externally), no full stops on any text zone (NO DOTS RULE), no pack tilt
+  on the six shelf jars (hand-held pickup can tilt), no shadow on label
+  face, no SKU swap on any pack, no duplicate text zones.
+  Brand adaptation guide:
+   - greendipz (primary): Vivid Green #1FAD10 burst background + Chili Red
+     #CC2229 ray-spikes + Fresh Blue #2E7FD4 angular accent marks.
+   - Caveman: Cave Red #D20000 burst + warm cream ray-spikes + black accents.
+   - Health Fields: Deep Teal #003C32 burst + cream ray-spikes + teal
+     accents (quieter, less burst energy — adapt rays to softer glow).
+   - Pusht: Forest Green #143C28 burst + warm cream rays + gold accents.
+   - Biomart: Market Green #00A050 burst + Warm Gold #B49664 rays + green
+     accents.
+  Source DNA: Hajmola "What's Your Chatkara Mood Today?" seven-jar shelf
+  poster reinterpreted for premium Indian organic multi-SKU ranges.
+  First deployed: 2026-10-06 · greendipz · 7-jar mood-pick shelf post.
+
+Last assigned template: T94 (Mood-Pick Shelf Poster with Emoji Row + Hand Pickup — assigned 2026-10-06)
+Next new template: T95
