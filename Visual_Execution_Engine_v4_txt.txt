@@ -2358,5 +2358,30 @@ T93 — Snack City Three-Panel Poster Trio (assigned 2026-09-24)
   reinterpreted for premium Indian organic. First deployed: 2026-09-24 ·
   Caveman · Bakkit trio (Ajwain + Jeera + Cashew & Pista) RELATE poster.
 
-Last assigned template: T93 (Snack City Three-Panel Poster Trio — assigned 2026-09-24)
-Next new template: T94
+T94 — Centre-Pack Proof Ring, Single-Ingredient Variant (assigned 2026-10-07)
+  Information-dense EDUCATE poster for single-ingredient SKUs whose argument is
+  scarcity rather than abundance. 4:5 canvas (1080x1350). Hero pack upright,
+  front-facing, zero tilt, dead centre, ~40% of frame height, label face flat-lit
+  and legible down to the certification row. Four slim circular PROOF RINGS orbit
+  the pack, two left two right, each joined to the pack by a single thin hairline
+  pointer. Rings are HAIRLINE OUTLINES WITH NO FILL — the background colour bleeds
+  straight through the centre of every circle (this is the compliant translation of
+  the source reference's banned solid-fill badges). Ring labels are bold sans caps,
+  tight letter-spacing, ~1.5x the bottom strip text, sized to read at feed thumbnail
+  scale — the second visual layer after the pack. Two-line question headline arched
+  at top centre. Full-width six-column strip at the bottom divided by thin vertical
+  rules, one short word per column, with a small centred strip label above it. Quiet
+  website CTA bottom-right. COLOUR WORLD RULE: palette is lifted from the pack's own
+  ground colour, total monochromatic immersion, with the brand's deep accent as the
+  only contrasting colour used for all type and all linework. Model:
+  gpt-image-2.5-sunburst · Quality: xhigh (5 text zones + dense on-pack fine print).
+  Bans: no solid fills inside the rings, no chips/boxes/pills/coloured blocks behind
+  any label, no colours outside the pack's own family, no rustic props (wooden bowls,
+  burlap, jute, mortar, pestle), no scattered or spilled product, no outdoor location,
+  no people or hands, no second pack, no pricing or offers, no full stops on any text
+  zone (NO DOTS RULE). Source DNA: kids gummy "What's Inside the Stars?" ingredient
+  infographic, inverted from abundance (ten things inside) to scarcity (one thing
+  inside). First deployed: 2026-10-07 · Pusht · Organic Besan 500g EDUCATE post.
+
+Last assigned template: T94 (Centre-Pack Proof Ring, Single-Ingredient Variant — assigned 2026-10-07)
+Next new template: T95
