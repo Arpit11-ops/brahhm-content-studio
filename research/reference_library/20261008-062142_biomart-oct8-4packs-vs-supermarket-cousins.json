@@ -1,0 +1,636 @@
+{
+  "timestamp": "20261008-062142",
+  "tag": "biomart-oct8-4packs-vs-supermarket-cousins",
+  "queries": [
+    "food infographic poster",
+    "grocery product poster",
+    "product comparison poster"
+  ],
+  "max_items_per_query": 25,
+  "source": "pinterest BaseSearchResource (direct, no Apify)",
+  "pin_count": 68,
+  "shortlist_pin_ids": [
+    "1018587640699722605",
+    "914862422377531",
+    "424182858678391254",
+    "1113866920365021713",
+    "651614639850937670",
+    "33073378509140022",
+    "27866091442613143",
+    "3025924747171872"
+  ],
+  "pins": [
+    {
+      "id": "666603182391689892",
+      "title": "fruit facts general knowledge",
+      "alt": "",
+      "image_url": "https://i.pinimg.com/736x/f8/9f/ae/f89faed083454c1770720e55c71a7576.jpg",
+      "pin_url": "https://www.pinterest.com/pin/666603182391689892/",
+      "saves": 0,
+      "query": "food infographic poster"
+    },
+    {
+      "id": "844493676635234",
+      "title": "Bún mọc Hà Nội",
+      "alt": "an illustrated poster showing different types of food in bowls and on the table, with words describing",
+      "image_url": "https://i.pinimg.com/736x/0b/3e/98/0b3e98cd80bc025c00649b863b01f79f.jpg",
+      "pin_url": "https://www.pinterest.com/pin/844493676635234/",
+      "saves": 0,
+      "query": "food infographic poster"
+    },
+    {
+      "id": "423971752418429560",
+      "title": "1703 Pizza Infogrphic Poster - Sung Hwan Jang",
+      "alt": "the pizza info sheet is full of different types of toppings and ingredients to choose from",
+      "image_url": "https://i.pinimg.com/736x/26/eb/02/26eb025f8d40b12006098d9b51fe8058.jpg",
+      "pin_url": "https://www.pinterest.com/pin/423971752418429560/",
+      "saves": 0,
+      "query": "food infographic poster"
+    },
+    {
+      "id": "578008933469935773",
+      "title": "Wu Tao_Module 6",
+      "alt": "pomegranate is the most popular fruit in the world and it's health benefits",
+      "image_url": "https://i.pinimg.com/736x/a5/2c/d3/a52cd38cc981806da38dfd1af63e77ec.jpg",
+      "pin_url": "https://www.pinterest.com/pin/578008933469935773/",
+      "saves": 0,
+      "query": "food infographic poster"
+    },
+    {
+      "id": "606578643596094073",
+      "title": "",
+      "alt": "a poster with different types of food on it's sides, including noodles and chopsticks",
+      "image_url": "https://i.pinimg.com/736x/40/3b/df/403bdf634059fa3b59e304471718f75c.jpg",
+      "pin_url": "https://www.pinterest.com/pin/606578643596094073/",
+      "saves": 0,
+      "query": "food infographic poster"
+    },
+    {
+      "id": "812196114086915224",
+      "title": "What You Should Know About Vegetarianism #infographic",
+      "alt": "what you should know about vegetarianism infographical poster - food and drink information",
+      "image_url": "https://i.pinimg.com/736x/77/32/37/77323782720d51c5f0415ca324610caf.jpg",
+      "pin_url": "https://www.pinterest.com/pin/812196114086915224/",
+      "saves": 0,
+      "query": "food infographic poster"
+    },
+    {
+      "id": "186969822026156274",
+      "title": "Nutrition",
+      "alt": "a poster with instructions on how to eat the best food for your body and mind",
+      "image_url": "https://i.pinimg.com/736x/12/b8/6b/12b86b5574e426557750f07251d1704a.jpg",
+      "pin_url": "https://www.pinterest.com/pin/186969822026156274/",
+      "saves": 0,
+      "query": "food infographic poster"
+    },
+    {
+      "id": "204702745559283712",
+      "title": "The Anatomy of a $20 Burrito [Infographic]",
+      "alt": "the anatomy of a burrito poster",
+      "image_url": "https://i.pinimg.com/736x/d0/e0/08/d0e008e1dbc64068b0615db5a2422346.jpg",
+      "pin_url": "https://www.pinterest.com/pin/204702745559283712/",
+      "saves": 0,
+      "query": "food infographic poster"
+    },
+    {
+      "id": "57420963997863530",
+      "title": "",
+      "alt": "the history of bread info sheet",
+      "image_url": "https://i.pinimg.com/736x/48/53/7c/48537c8eb9694f2fa752d5f75bfac5fd.jpg",
+      "pin_url": "https://www.pinterest.com/pin/57420963997863530/",
+      "saves": 0,
+      "query": "food infographic poster"
+    },
+    {
+      "id": "1900024834672422",
+      "title": "",
+      "alt": "the burger info sheet is filled with different types of hamburgers and buns on it",
+      "image_url": "https://i.pinimg.com/736x/57/c0/f1/57c0f1c2f5e81ad22b270a738f88f148.jpg",
+      "pin_url": "https://www.pinterest.com/pin/1900024834672422/",
+      "saves": 0,
+      "query": "food infographic poster"
+    },
+    {
+      "id": "946741152939855036",
+      "title": "",
+      "alt": "a banana is shown with information about the different types of bananas in each country and its names",
+      "image_url": "https://i.pinimg.com/736x/66/d2/bb/66d2bb8ad4dda5c6056b6a570637c8e6.jpg",
+      "pin_url": "https://www.pinterest.com/pin/946741152939855036/",
+      "saves": 0,
+      "query": "food infographic poster"
+    },
+    {
+      "id": "8585055534495691",
+      "title": "",
+      "alt": "the poster shows different types of sandwiches and what they are made with them to eat",
+      "image_url": "https://i.pinimg.com/736x/07/c1/3c/07c13cf4f9ba42a96c985b2260289780.jpg",
+      "pin_url": "https://www.pinterest.com/pin/8585055534495691/",
+      "saves": 0,
+      "query": "food infographic poster"
+    },
+    {
+      "id": "389491067796677111",
+      "title": "Сохрани, если хочешь карточку как у топов 🏆",
+      "alt": "a poster with some writing on it that says the craft of a latte",
+      "image_url": "https://i.pinimg.com/736x/6a/5d/a0/6a5da0dd5c9eaef9438c1072c060edad.jpg",
+      "pin_url": "https://www.pinterest.com/pin/389491067796677111/",
+      "saves": 0,
+      "query": "food infographic poster"
+    },
+    {
+      "id": "424182858678391254",
+      "title": "",
+      "alt": "the anatomy of a pasta dish on a white plate with ingredients labeled in english and spanish",
+      "image_url": "https://i.pinimg.com/736x/f5/50/e8/f550e8e2bd9a790d0dd6fbea0510557e.jpg",
+      "pin_url": "https://www.pinterest.com/pin/424182858678391254/",
+      "saves": 0,
+      "query": "food infographic poster"
+    },
+    {
+      "id": "30891947446895358",
+      "title": "",
+      "alt": "a poster with different types of sandwiches and other food items on the bottom right hand corner",
+      "image_url": "https://i.pinimg.com/736x/60/01/9e/60019e06180ed0174676998d71cf6528.jpg",
+      "pin_url": "https://www.pinterest.com/pin/30891947446895358/",
+      "saves": 0,
+      "query": "food infographic poster"
+    },
+    {
+      "id": "633387439228999",
+      "title": "Meet D'Anjoulo",
+      "alt": "a green pear with information about its parts",
+      "image_url": "https://i.pinimg.com/736x/dc/58/fa/dc58fa3efb80ee1d52191cfe3e47f489.jpg",
+      "pin_url": "https://www.pinterest.com/pin/633387439228999/",
+      "saves": 0,
+      "query": "food infographic poster"
+    },
+    {
+      "id": "309129961941692884",
+      "title": "",
+      "alt": "an info sheet with cookies on it and other information about the different types of cookies",
+      "image_url": "https://i.pinimg.com/736x/94/4b/f3/944bf38fefd164b26e0299ec57ea024d.jpg",
+      "pin_url": "https://www.pinterest.com/pin/309129961941692884/",
+      "saves": 0,
+      "query": "food infographic poster"
+    },
+    {
+      "id": "4596838349302138752",
+      "title": "Fun Facts About Burgers Poster | Foodie Wall Art | Kitchen Trivia Decor | Educat",
+      "alt": "an old poster shows burgers and other foods that are on display in the store",
+      "image_url": "https://i.pinimg.com/736x/a1/63/3d/a1633d5064abedf760a3fab981333575.jpg",
+      "pin_url": "https://www.pinterest.com/pin/4596838349302138752/",
+      "saves": 0,
+      "query": "food infographic poster"
+    },
+    {
+      "id": "338684834493747508",
+      "title": "",
+      "alt": "the future of food info poster",
+      "image_url": "https://i.pinimg.com/736x/7a/bb/e6/7abbe641b0b2d98e112dddc1a7feb143.jpg",
+      "pin_url": "https://www.pinterest.com/pin/338684834493747508/",
+      "saves": 0,
+      "query": "food infographic poster"
+    },
+    {
+      "id": "371758144266166864",
+      "title": "RO: How to eat ramen?",
+      "alt": "an orange and white poster with instructions on how to eat ramen in different ways",
+      "image_url": "https://i.pinimg.com/736x/19/73/58/197358a3c240ccd9fce5220000ab6856.jpg",
+      "pin_url": "https://www.pinterest.com/pin/371758144266166864/",
+      "saves": 0,
+      "query": "food infographic poster"
+    },
+    {
+      "id": "1113866920365021713",
+      "title": "",
+      "alt": "asparagus is the main ingredient in this recipe",
+      "image_url": "https://i.pinimg.com/736x/08/cf/7d/08cf7dded3311cd669582da1080b32fc.jpg",
+      "pin_url": "https://www.pinterest.com/pin/1113866920365021713/",
+      "saves": 0,
+      "query": "food infographic poster"
+    },
+    {
+      "id": "211174975049172",
+      "title": "Meet Bart",
+      "alt": "a pear is shown on a purple background with the words meet bart written below it",
+      "image_url": "https://i.pinimg.com/736x/66/80/d1/6680d10c2da909b4b56c2bdff3861c96.jpg",
+      "pin_url": "https://www.pinterest.com/pin/211174975049172/",
+      "saves": 0,
+      "query": "food infographic poster"
+    },
+    {
+      "id": "914862417072440",
+      "title": "1706 Bibimbap Infographic Poster - Sung Hwan Jang",
+      "alt": "an info poster showing different types of food",
+      "image_url": "https://i.pinimg.com/736x/20/90/0c/20900c4c8762ca2df3999e7e97bc91dc.jpg",
+      "pin_url": "https://www.pinterest.com/pin/914862417072440/",
+      "saves": 0,
+      "query": "food infographic poster"
+    },
+    {
+      "id": "6473993212978189",
+      "title": "Responsible Fitness: Proven Training & Nutrition Programs",
+      "alt": "",
+      "image_url": "https://i.pinimg.com/736x/b9/58/d4/b958d4dc9a24ab8ec37bf2b35e08adef.jpg",
+      "pin_url": "https://www.pinterest.com/pin/6473993212978189/",
+      "saves": 0,
+      "query": "food infographic poster"
+    },
+    {
+      "id": "4595219825836674944",
+      "title": "Biryani Anatomy Poster, Indian Food Infographic, Printable Kitchen Wall Art",
+      "alt": "",
+      "image_url": "https://i.pinimg.com/736x/46/5e/0a/465e0ac5f9243122aa4d92df4acdb477.jpg",
+      "pin_url": "https://www.pinterest.com/pin/4595219825836674944/",
+      "saves": 0,
+      "query": "food infographic poster"
+    },
+    {
+      "id": "4362930884334403",
+      "title": "",
+      "alt": "the farmers market flyer is full of fresh fruits and vegetables, including bananas, spinach,",
+      "image_url": "https://i.pinimg.com/736x/f6/40/0b/f6400b48f4561bb923510089bdb394b6.jpg",
+      "pin_url": "https://www.pinterest.com/pin/4362930884334403/",
+      "saves": 0,
+      "query": "grocery product poster"
+    },
+    {
+      "id": "15551561210929734",
+      "title": "Fresh Deals, Better Prices | Grocery App Ad Design",
+      "alt": "a shopping cart full of food and drinks with the text fresh deal better prices get the app now",
+      "image_url": "https://i.pinimg.com/736x/a4/2e/cf/a42ecf4199eaae44b131d1248e14630d.jpg",
+      "pin_url": "https://www.pinterest.com/pin/15551561210929734/",
+      "saves": 0,
+      "query": "grocery product poster"
+    },
+    {
+      "id": "691091505362823641",
+      "title": "",
+      "alt": "a shopping cart filled with groceries and condiments next to an advertise",
+      "image_url": "https://i.pinimg.com/736x/71/6e/d5/716ed525bdb3ef80b0dffe289e5cceda.jpg",
+      "pin_url": "https://www.pinterest.com/pin/691091505362823641/",
+      "saves": 0,
+      "query": "grocery product poster"
+    },
+    {
+      "id": "3799980931181626",
+      "title": "",
+      "alt": "an advertisement for grocery haul with blueberries, yogurt and crackers on it",
+      "image_url": "https://i.pinimg.com/736x/36/f6/c0/36f6c0bccc4d649e81547381817f774b.jpg",
+      "pin_url": "https://www.pinterest.com/pin/3799980931181626/",
+      "saves": 0,
+      "query": "grocery product poster"
+    },
+    {
+      "id": "8233211828019203",
+      "title": "Download PSD from Freepik | Grocery Vegetables Inst Post Design Template",
+      "alt": "a grocery bag full of vegetables and fruits on a blue background with an advertise",
+      "image_url": "https://i.pinimg.com/736x/32/12/07/3212077fcfb3a41dd81c22f1e00af548.jpg",
+      "pin_url": "https://www.pinterest.com/pin/8233211828019203/",
+      "saves": 0,
+      "query": "grocery product poster"
+    },
+    {
+      "id": "678214025171219599",
+      "title": "",
+      "alt": "an organic grocery bag full of fruits and veggies with the words organic vegetables written on it",
+      "image_url": "https://i.pinimg.com/736x/bd/e6/5c/bde65cc62b0e033a48b492c94f68525c.jpg",
+      "pin_url": "https://www.pinterest.com/pin/678214025171219599/",
+      "saves": 0,
+      "query": "grocery product poster"
+    },
+    {
+      "id": "1125968734954316",
+      "title": "",
+      "alt": "an open order sign with some food in it and a price tag on the side",
+      "image_url": "https://i.pinimg.com/736x/16/28/cc/1628ccd9a512dab3c30730d9d51a5d84.jpg",
+      "pin_url": "https://www.pinterest.com/pin/1125968734954316/",
+      "saves": 0,
+      "query": "grocery product poster"
+    },
+    {
+      "id": "982981056195757228",
+      "title": "Ad Poster for Swift",
+      "alt": "an advertisement for the home essentials made easy grocery store, with food items in a green basket",
+      "image_url": "https://i.pinimg.com/736x/55/5f/bb/555fbb2527c91abe961a6c4d02ee8716.jpg",
+      "pin_url": "https://www.pinterest.com/pin/982981056195757228/",
+      "saves": 0,
+      "query": "grocery product poster"
+    },
+    {
+      "id": "15551561210902159",
+      "title": "",
+      "alt": "an advertisement for farmers market with pumpkins, peppers and other vegetables on it's side",
+      "image_url": "https://i.pinimg.com/736x/0f/95/44/0f9544af3eadff7f79cb3a6e35065376.jpg",
+      "pin_url": "https://www.pinterest.com/pin/15551561210902159/",
+      "saves": 0,
+      "query": "grocery product poster"
+    },
+    {
+      "id": "1759287349412565",
+      "title": "",
+      "alt": "a green shopping cart filled with food and the words, for living well, your way",
+      "image_url": "https://i.pinimg.com/736x/ff/64/0a/ff640a2c75e4d7128469be04bd7a3861.jpg",
+      "pin_url": "https://www.pinterest.com/pin/1759287349412565/",
+      "saves": 0,
+      "query": "grocery product poster"
+    },
+    {
+      "id": "13721973862176550",
+      "title": "Sprouts Farmers Market Weekly Ad Sep 17th – Sep 23rd 2025",
+      "alt": "an advertisement for fresh fruits and vegetables",
+      "image_url": "https://i.pinimg.com/736x/67/09/4a/67094a98cc0144faea34130d2c157de7.jpg",
+      "pin_url": "https://www.pinterest.com/pin/13721973862176550/",
+      "saves": 0,
+      "query": "grocery product poster"
+    },
+    {
+      "id": "6685099442489740",
+      "title": "College summer work >w<",
+      "alt": "an advertisement for walgreen's grocery store, which is now on sale",
+      "image_url": "https://i.pinimg.com/736x/ee/10/60/ee1060a46d3791e98573e9a885bfeb67.jpg",
+      "pin_url": "https://www.pinterest.com/pin/6685099442489740/",
+      "saves": 0,
+      "query": "grocery product poster"
+    },
+    {
+      "id": "740771838757276500",
+      "title": "",
+      "alt": "blueberries, cereals and other foods on a blue background",
+      "image_url": "https://i.pinimg.com/736x/12/e2/53/12e2533e63126d5f12add80fdeb8dcb2.jpg",
+      "pin_url": "https://www.pinterest.com/pin/740771838757276500/",
+      "saves": 0,
+      "query": "grocery product poster"
+    },
+    {
+      "id": "651614639850937670",
+      "title": "Save on Keto",
+      "alt": "an advertisement for save big on organic groceries",
+      "image_url": "https://i.pinimg.com/736x/61/2c/dd/612cdd2c831be64dd150f829ff9676ba.jpg",
+      "pin_url": "https://www.pinterest.com/pin/651614639850937670/",
+      "saves": 0,
+      "query": "grocery product poster"
+    },
+    {
+      "id": "324470348189234712",
+      "title": "Premium Product Poster Design | Modern Graphic Design | Product Advertisement |",
+      "alt": "an advertisement for various foods and drinks on a shelf with the words your daily essentials",
+      "image_url": "https://i.pinimg.com/736x/12/ba/41/12ba412b839c75f18902f6d66b589849.jpg",
+      "pin_url": "https://www.pinterest.com/pin/324470348189234712/",
+      "saves": 0,
+      "query": "grocery product poster"
+    },
+    {
+      "id": "1087619378812717259",
+      "title": "Download Food Drive Poster Template for free",
+      "alt": "a flyer for a food drive with a shopping cart full of food",
+      "image_url": "https://i.pinimg.com/736x/34/03/03/340303b9413627f5a5fa9a7db8fa9f3b.jpg",
+      "pin_url": "https://www.pinterest.com/pin/1087619378812717259/",
+      "saves": 0,
+      "query": "grocery product poster"
+    },
+    {
+      "id": "6403624466976903",
+      "title": "MS Fresh on Instagram: \"our basket deserves the fr",
+      "alt": "a person holding a green container filled with fruits and vegetables",
+      "image_url": "https://i.pinimg.com/736x/86/e3/23/86e323412ca3e11e5b876bf231023ea4.jpg",
+      "pin_url": "https://www.pinterest.com/pin/6403624466976903/",
+      "saves": 0,
+      "query": "grocery product poster"
+    },
+    {
+      "id": "118782508917902616",
+      "title": "Supermarket Poster Design | Grocery Advertising",
+      "alt": "a woman sitting on top of a green basket filled with fruits and vegetables in it",
+      "image_url": "https://i.pinimg.com/736x/d2/0d/16/d20d164c7233b5afdf6bc643b9292582.jpg",
+      "pin_url": "https://www.pinterest.com/pin/118782508917902616/",
+      "saves": 0,
+      "query": "grocery product poster"
+    },
+    {
+      "id": "38632509301123095",
+      "title": "",
+      "alt": "grocery weekend sale flyer with vegetables and fruits in the bag on green, yellow and white background",
+      "image_url": "https://i.pinimg.com/736x/4e/3c/91/4e3c912878ac8f03552065941bf43ccb.jpg",
+      "pin_url": "https://www.pinterest.com/pin/38632509301123095/",
+      "saves": 0,
+      "query": "grocery product poster"
+    },
+    {
+      "id": "1085156472743561572",
+      "title": "Grocery Store Promotional Poster Design",
+      "alt": "a flyer for a store featuring two bottles of soda and one bottle of soft drink",
+      "image_url": "https://i.pinimg.com/736x/bc/34/5c/bc345c952ef68968a4f397296f13a26e.jpg",
+      "pin_url": "https://www.pinterest.com/pin/1085156472743561572/",
+      "saves": 0,
+      "query": "grocery product poster"
+    },
+    {
+      "id": "158048268169488063",
+      "title": "Our Gummy Vitamins That You Must Take Daily For Optimal Health And Wellness 💕",
+      "alt": "",
+      "image_url": "https://i.pinimg.com/736x/ee/6f/21/ee6f21927a7f6822c86d4eca7f93687e.jpg",
+      "pin_url": "https://www.pinterest.com/pin/158048268169488063/",
+      "saves": 0,
+      "query": "product comparison poster"
+    },
+    {
+      "id": "390616967703868516",
+      "title": "",
+      "alt": "",
+      "image_url": "https://i.pinimg.com/736x/a4/28/db/a428db5e9d1e7150a2856742ac055d1b.jpg",
+      "pin_url": "https://www.pinterest.com/pin/390616967703868516/",
+      "saves": 0,
+      "query": "product comparison poster"
+    },
+    {
+      "id": "27866091442613143",
+      "title": "Benefit-Led Gummies Comparison Ad for a Wellness Brand",
+      "alt": "an advertisement with different types of gummy candies on it's side and the words, not all gummies are built in the same",
+      "image_url": "https://i.pinimg.com/736x/f4/d4/e7/f4d4e7caef85242dc615f22538097c44.jpg",
+      "pin_url": "https://www.pinterest.com/pin/27866091442613143/",
+      "saves": 0,
+      "query": "product comparison poster"
+    },
+    {
+      "id": "3307399722262446",
+      "title": "",
+      "alt": "",
+      "image_url": "https://i.pinimg.com/736x/73/25/e4/7325e41f2ccffb97235ac7eaece4bcfb.jpg",
+      "pin_url": "https://www.pinterest.com/pin/3307399722262446/",
+      "saves": 0,
+      "query": "product comparison poster"
+    },
+    {
+      "id": "914862422377531",
+      "title": "competitor ad",
+      "alt": "an image of a can of beer with the label labeled ollipop and other brands",
+      "image_url": "https://i.pinimg.com/736x/a3/87/9f/a3879fd89c392bef27359cccdf7eeec9.jpg",
+      "pin_url": "https://www.pinterest.com/pin/914862422377531/",
+      "saves": 0,
+      "query": "product comparison poster"
+    },
+    {
+      "id": "1018587640699722605",
+      "title": "Us vs Them: Avocado Oil",
+      "alt": "two different types of bottles with labels on them",
+      "image_url": "https://i.pinimg.com/736x/e4/25/3b/e4253b01f1069ff99b692c6a3b3395c6.jpg",
+      "pin_url": "https://www.pinterest.com/pin/1018587640699722605/",
+      "saves": 0,
+      "query": "product comparison poster"
+    },
+    {
+      "id": "9218374230971083",
+      "title": "Comparing to Competitors",
+      "alt": "an advertisement for the aviator luggage company, with information about its products and features",
+      "image_url": "https://i.pinimg.com/736x/21/97/e0/2197e00a15e43b9f0287c3c8bc330590.jpg",
+      "pin_url": "https://www.pinterest.com/pin/9218374230971083/",
+      "saves": 0,
+      "query": "product comparison poster"
+    },
+    {
+      "id": "4601201209301249792",
+      "title": "Beyond There",
+      "alt": "two different types of face creams with the same label on them, one is red and",
+      "image_url": "https://i.pinimg.com/736x/ad/17/a7/ad17a74599e735cb72559d8e3bb34372.jpg",
+      "pin_url": "https://www.pinterest.com/pin/4601201209301249792/",
+      "saves": 0,
+      "query": "product comparison poster"
+    },
+    {
+      "id": "8303580559611637",
+      "title": "对比图",
+      "alt": "two different types of lighters are shown next to each other",
+      "image_url": "https://i.pinimg.com/736x/f1/06/2d/f1062dd9ad44eb72465b7ef30f9bb12f.jpg",
+      "pin_url": "https://www.pinterest.com/pin/8303580559611637/",
+      "saves": 0,
+      "query": "product comparison poster"
+    },
+    {
+      "id": "3025924747171872",
+      "title": "",
+      "alt": "the website for skinfood is shown with different products on it and below it's caption that reads, what's the difference",
+      "image_url": "https://i.pinimg.com/736x/7e/f6/6f/7ef66f153717db18292c5d5ad93f021f.jpg",
+      "pin_url": "https://www.pinterest.com/pin/3025924747171872/",
+      "saves": 0,
+      "query": "product comparison poster"
+    },
+    {
+      "id": "115052965477420573",
+      "title": "Go Vegan",
+      "alt": "two different types of beauty products and one is labeled with the words, beautiful bliss",
+      "image_url": "https://i.pinimg.com/736x/05/da/28/05da28c168c7adadae083fcc875df321.jpg",
+      "pin_url": "https://www.pinterest.com/pin/115052965477420573/",
+      "saves": 0,
+      "query": "product comparison poster"
+    },
+    {
+      "id": "11259067814693215",
+      "title": "Dupes may look the same, but what's inside?  👀",
+      "alt": "a scale with different types of skin care products on it and the words which side are you on?",
+      "image_url": "https://i.pinimg.com/736x/74/33/a4/7433a4407a0a30aaf12b9f1580e73fc9.jpg",
+      "pin_url": "https://www.pinterest.com/pin/11259067814693215/",
+      "saves": 0,
+      "query": "product comparison poster"
+    },
+    {
+      "id": "3729612268852182",
+      "title": "",
+      "alt": "a cup of coffee next to a jar of protein shaker on a green and white background",
+      "image_url": "https://i.pinimg.com/736x/91/05/f5/9105f5b96f1442c0e4648f5167d52933.jpg",
+      "pin_url": "https://www.pinterest.com/pin/3729612268852182/",
+      "saves": 0,
+      "query": "product comparison poster"
+    },
+    {
+      "id": "707205947777234230",
+      "title": "Minimalist Infographic Design | Health Comparison Table | Modern Medical Communi",
+      "alt": "the ingredients for pemanis alami are displayed on a green and white background",
+      "image_url": "https://i.pinimg.com/736x/47/77/67/47776770eed96cbe630e4a2de7a3ab20.jpg",
+      "pin_url": "https://www.pinterest.com/pin/707205947777234230/",
+      "saves": 0,
+      "query": "product comparison poster"
+    },
+    {
+      "id": "142918988171355654",
+      "title": "",
+      "alt": "four different types of cans and labels on a pink, purple, yellow and green background",
+      "image_url": "https://i.pinimg.com/736x/03/e4/b1/03e4b141c3a45ddabe4796ded1723d90.jpg",
+      "pin_url": "https://www.pinterest.com/pin/142918988171355654/",
+      "saves": 0,
+      "query": "product comparison poster"
+    },
+    {
+      "id": "10485011657656019",
+      "title": "",
+      "alt": "the different types of facial care products for dry and oily skins, including",
+      "image_url": "https://i.pinimg.com/736x/d7/f9/97/d7f9977a663a648705a025c9ba5018ec.jpg",
+      "pin_url": "https://www.pinterest.com/pin/10485011657656019/",
+      "saves": 0,
+      "query": "product comparison poster"
+    },
+    {
+      "id": "59672763809608303",
+      "title": "Creative Skincare Product Comparison Ideas to Showcase Your Brand",
+      "alt": "two bottles of skin care and one with the same product on it's side",
+      "image_url": "https://i.pinimg.com/736x/52/23/ab/5223ab71435ce163125643e994f8ea91.jpg",
+      "pin_url": "https://www.pinterest.com/pin/59672763809608303/",
+      "saves": 0,
+      "query": "product comparison poster"
+    },
+    {
+      "id": "27725353951254086",
+      "title": "",
+      "alt": "two tubes of physocel daily moisturizer on top of each other",
+      "image_url": "https://i.pinimg.com/736x/ed/aa/31/edaa3154e42acf61f88fc8881a22a4a0.jpg",
+      "pin_url": "https://www.pinterest.com/pin/27725353951254086/",
+      "saves": 0,
+      "query": "product comparison poster"
+    },
+    {
+      "id": "33073378509140022",
+      "title": "",
+      "alt": "an advertisement for fairy laundry deterant with two bottles next to each other on the floor",
+      "image_url": "https://i.pinimg.com/736x/f3/bf/74/f3bf74af06281d3fa908b7129fe550e3.jpg",
+      "pin_url": "https://www.pinterest.com/pin/33073378509140022/",
+      "saves": 0,
+      "query": "product comparison poster"
+    },
+    {
+      "id": "1136103443514658189",
+      "title": "Dollar Shave Club Comparison Ad",
+      "alt": "an advertisement for a men's grooming product with the words, one burrito and",
+      "image_url": "https://i.pinimg.com/736x/0b/3b/82/0b3b82ab04266ad91fc42c27ec1bcd09.jpg",
+      "pin_url": "https://www.pinterest.com/pin/1136103443514658189/",
+      "saves": 0,
+      "query": "product comparison poster"
+    },
+    {
+      "id": "195695546304158487",
+      "title": "",
+      "alt": "",
+      "image_url": "https://i.pinimg.com/736x/91/1c/05/911c053984fbc208dab74fbac8a509ba.jpg",
+      "pin_url": "https://www.pinterest.com/pin/195695546304158487/",
+      "saves": 0,
+      "query": "product comparison poster"
+    },
+    {
+      "id": "530932243596746963",
+      "title": "✨ Vitamin C vs Niacinamide: Which Serum Is Best for Your Skin?",
+      "alt": "",
+      "image_url": "https://i.pinimg.com/736x/d2/c1/23/d2c123a0694c3907aa7a3c94a1d3fd46.jpg",
+      "pin_url": "https://www.pinterest.com/pin/530932243596746963/",
+      "saves": 0,
+      "query": "product comparison poster"
+    },
+    {
+      "id": "41306521579239638",
+      "title": "",
+      "alt": "an advertisement for some products on a blue and white background with clouds in the background",
+      "image_url": "https://i.pinimg.com/736x/ab/83/f6/ab83f66cbe93305bba00cb38a8ce190e.jpg",
+      "pin_url": "https://www.pinterest.com/pin/41306521579239638/",
+      "saves": 0,
+      "query": "product comparison poster"
+    }
+  ]
+}
