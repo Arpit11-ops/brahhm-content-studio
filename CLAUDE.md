@@ -837,8 +837,8 @@ Available formats — select based on product and content angle:
 ## CURRENT STATE TRACKING
 
 ### VEE Template Count
-Last assigned template: **T90** (Cinematic Cuisine Hero Trio — greendipz, assigned 2026-09-08)
-Next new template: **T91**
+Last assigned template: **T96** (Stepped Plinth Quartet — Biomart, assigned 2026-10-08)
+Next new template: **T97**
 Always grep `Visual_Execution_Engine_v4_txt.txt` for the last T-number before assigning new ones.
 T56-T60 are reel thumbnail templates (1:1 square) for grid coherence.
 

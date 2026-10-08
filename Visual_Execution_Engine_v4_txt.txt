@@ -2358,5 +2358,25 @@ T93 — Snack City Three-Panel Poster Trio (assigned 2026-09-24)
   reinterpreted for premium Indian organic. First deployed: 2026-09-24 ·
   Caveman · Bakkit trio (Ajwain + Jeera + Cashew & Pista) RELATE poster.
 
-Last assigned template: T93 (Snack City Three-Panel Poster Trio — assigned 2026-09-24)
-Next new template: T94
+T96 — Stepped Plinth Quartet (assigned 2026-10-08)
+  Cross-brand 4-pack poster — four packs upright on four stepped rectangular
+  plinths rising lower-left to upper-right like a staircase, shot from a
+  slight three-quarter angle from the right so each block shows a front face
+  and top surface. Tallest pack on the lowest step so pack tops form a gentle
+  rising line. Plinths stay in ONE brand colour family (Biomart: deep market
+  green → sage → warm honey gold → warm ivory) against a soft mint-cream wall,
+  warm daylight from upper left, soft contact shadows only. Text: two-line
+  serif display headline in upper-left negative space (line 2 in accent
+  colour), one bold sans-serif caps label printed flat on each plinth face
+  (~1.5x the CTA size, no chips/boxes), quiet website CTA bottom-right.
+  Model: gpt-image-2.5-sunburst · Quality: xhigh (4-pack fidelity + 7 text
+  zones). Ratio 4:5. Bans: props, ingredients, crumbs, hands, tilted packs,
+  overlapping packs, offer/price text, full stops. Source DNA: Pinterest
+  "All Over Spray Collection" stepped colour-plinth poster. First deployed:
+  2026-10-08 · Biomart · "Same aisle, better label" four-swaps EDUCATE post
+  (HF Rozana Honey + Pusht Besan + Caveman Bakkit Ajwain + greendipz Ketchup).
+  Note: T94 and T95 were assigned in prompt files (Sept 2026) but never logged
+  here; T96 skips past them to avoid a clash.
+
+Last assigned template: T96 (Stepped Plinth Quartet — assigned 2026-10-08)
+Next new template: T97
