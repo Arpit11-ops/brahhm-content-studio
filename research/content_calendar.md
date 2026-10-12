@@ -1,285 +1,283 @@
-# CONTENT CALENDAR — AUGUST 2026
-**Studio:** Content Studio 3.2 · **Built:** 2026-08-01 · **Structure:** Angle-led, product-flexible, reel-forward
+# CONTENT CALENDAR — OCTOBER 2026
+**Studio:** Content Studio 3.4 · **Built:** 2026-10-01 · **Structure:** Angle-led, product-flexible, reel-forward, festival-restrained
 
-> System lookup file. Query by date for brand + type + angle + hook direction + product slot guidance. Strategic rationale + July recap live in `research/jul_2026_performance_recap.md`.
+> System lookup file. Query by date for brand + type + angle + hook direction + product slot guidance. Sept recap + Oct strategic rationale below. Ingest same as Sept — one row per post, product slot = category guidance, pick in-stock SKU at execution.
 
-**Legend:** Type = POST / CAROUSEL / STORY / REEL · Product Slot = category guidance, pick in-stock SKU at execution · 🎬 = Reel day
-
-**August pivots (vs July):**
-- Every brand posts 3–4×/week (Jul was Biomart+greendipz only)
-- Reel share up to ~40% (Jul was ~15%)
-- Reel format leaderboard: **craft-reveal / myth-bust / character-POV / parent-identity / debate / for-everybody**
-- Reels default to 40–90s (Jul avg was 20s and underperformed)
-- Two nano-creator collabs slotted (Aug 12 HF, Aug 22 greendipz)
+**Legend:** Type = POST / CAROUSEL / STORY / REEL · 🎬 = Reel day · 🕉️ = Festival anchor · 🌙 = Vrat / observance
 
 ---
 
-## AUGUST 1 · SATURDAY · Friendship Day 🎬 REEL DAY
-| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
-|---|---|---|---|---|---|
-| GREENDIPZ | REEL #1 | RELATE/DEBATE | Team Kung Pao or Team Chilli — pick a side | Comments + Shares | 2 sauces side-by-side |
-| BIOMART | CAROUSEL | RELATE | The pantry your best friend already borrows from | Saves | 3-brand friendship bundle |
-| CAVEMAN | POST | RELATE | Friendship starts with sharing the same cookie packet | Reach | Millet Era Cookies |
-| ALL STORIES | STORY | — | "Tag the friend who steals your snacks" poll tile | DMs | — |
+## OCTOBER 2026 — VERIFIED FESTIVAL MAP
 
-## AUGUST 2 · SUNDAY 🎬 REEL DAY
-| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
-|---|---|---|---|---|---|
-| PUSHT | REEL #2 | CRAFT-REVEAL | 60 seconds inside a cold-press ghani — no cuts | Follows + Plays | Groundnut / mustard oil |
-| HEALTH FIELDS | POST | EDUCATE | Sunday tea is the only functional tea | Saves | Tulsi Green Tea |
-| BIOMART | STORY | RELATE | Sunday cart tile | DM | — |
-| GREENDIPZ | STORY | RELATE | Team Kung Pao echo poll | DM | — |
+**Source:** drikpanchang.com, fetched 2026-10-01. Re-verify before any festival content.
 
-## AUGUST 3 · MONDAY
-| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
-|---|---|---|---|---|---|
-| CAVEMAN | POST | ATTACK | Your protein bar is a chocolate bar wearing gym clothes | Saves + Comments | Kodo Coco Fun |
-| HEALTH FIELDS | CAROUSEL | EDUCATE | 5 things your "wellness" tea box is hiding | Saves | Tea range |
-| PUSHT | STORY | CRAFT | Cold-press ghani echo | DM | — |
+| Date | Day | Occasion | Hero Brand | Content Weight |
+|---|---|---|---|---|
+| Oct 2 | Fri | Gandhi Jayanti (national, dry day) | Health Fields | Light — one post, restraint tone |
+| Oct 6 | Tue | Indira Ekadashi | — | None (regular reel day) |
+| Oct 10 | Sat | **Sarva Pitru Amavasya** (Pitru Paksha ENDS) 🕉️ | Pusht | 1 reel (heritage ghee kitchen) |
+| Oct 11 | Sun | **Navratri Day 1 / Ghatasthapana** 🕉️ | Health Fields | 1 reel (navratri tea thali) |
+| Oct 19 | Mon | **Durga Ashtami + Maha Navami** 🕉️ (tithi overlap) | Biomart | 1 carousel (navratri bhog pantry) |
+| Oct 20 | Tue | **Vijayadashami / Dussehra** 🕉️ | Caveman | 1 reel (victory-of-good-food narrative) |
+| Oct 25 | Sun | **Kojagara Puja / Sharad Purnima** 🕉️ | Health Fields | 1 reel (kheer + warm chai moonlight ritual) |
+| Oct 29 | Thu | **Karwa Chauth** 🌙 | Health Fields | 1 carousel (sargi + chai + post-moon chamomile) |
+| Oct 31 | Sat | Pre-Diwali teaser (Diwali is Nov 8) | Caveman | 1 reel (gift-box snack teaser) |
 
-## AUGUST 4 · TUESDAY 🎬 REEL DAY
-| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
-|---|---|---|---|---|---|
-| HEALTH FIELDS | REEL #3 | MYTH-BUST | "Your organic tea is not organic" — 40 seconds, label read | Saves + Follows | Tulsi Green Tea |
-| BIOMART | POST | EDUCATE | How to check any pack in 15 seconds | Saves | Any certified SKU |
-| CAVEMAN | STORY | ATTACK | Protein-bar attack echo | DM | — |
+**Restraint rule (new, per [[feedback_festival_restraint]]):** ONE festival = ONE day = ONE post = ONE brand. Other brands run regular pillar content on festival days, no festival tie-in on top.
 
-## AUGUST 5 · WEDNESDAY
-| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
-|---|---|---|---|---|---|
-| GREENDIPZ | CAROUSEL | EDUCATE | Reading a sauce label — the four lines that matter | Saves | Any sauce |
-| PUSHT | POST | RELATE | The oil your grandmother reached for first | Reach | Cold-pressed mustard |
-| BIOMART | STORY | RELATE | Mid-week pantry check | DM | — |
-| HEALTH FIELDS | STORY | MYTH | Reel echo | DM | — |
-
-## AUGUST 6 · THURSDAY 🎬 REEL DAY
-| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
-|---|---|---|---|---|---|
-| CAVEMAN | REEL #4 | CHARACTER-POV | "Cave voice" episode 1 — Gen Z monologue on ingredient labels (recurring character starts here) | Follows + Reach | Cookies |
-| BIOMART | POST | EDUCATE | Founder note — why we rejected 40 brands this year | Saves + Comments | Curation story |
-| PUSHT | STORY | RELATE | Mustard oil echo | DM | — |
-
-## AUGUST 7 · FRIDAY
-| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
-|---|---|---|---|---|---|
-| GREENDIPZ | POST | RELATE | Friday takeaway budget — one jar, three dinners | Saves | Biryani gravy |
-| HEALTH FIELDS | POST | RELATE | Friday tea, no doomscroll | Reach | Chamomile |
-| CAVEMAN | STORY | CHARACTER | Cave voice teaser echo | DM | — |
-| BIOMART | STORY | CONVERT | Weekend restock nudge | DM | — |
-
-## AUGUST 8 · SATURDAY 🎬 REEL DAY · Rakhi eve
-| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
-|---|---|---|---|---|---|
-| BIOMART | REEL #5 | CRAFT-REVEAL | Puran POV — "The 3 packs I picked for my sister this year" (founder micro-series episode 1) | Follows + Comments | Rakhi bundle |
-| HEALTH FIELDS | CAROUSEL | RELATE | Rakhi gift the doctor sister would actually keep | Saves | Tea + honey bundle |
-| CAVEMAN | POST | RELATE | For the brother who eats like a caveman | Reach | Cookie + snack bundle |
-| PUSHT | STORY | CONVERT | Rakhi bundle nudge | DM | — |
-
-## AUGUST 9 · SUNDAY · Raksha Bandhan + Sawan Purnima 🎬 REEL DAY
-| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
-|---|---|---|---|---|---|
-| PUSHT | REEL #6 | RELATE/CRAFT | Bilona ghee slow pour + Rakhi tie moment — silent film | Reach + Shares | Ghee |
-| BIOMART | POST | CONVERT | The Rakhi cart — 3 brands, one order | DMs + Site clicks | Rakhi bundle |
-| HEALTH FIELDS | POST | RELATE | Sattvik Rakhi thali — what actually belongs | Saves | Honey + tulsi |
-| GREENDIPZ | STORY | RELATE | Post-Rakhi lunch — dhaba plate hack | DM | — |
-| CAVEMAN | STORY | RELATE | Rakhi cookie box | DM | — |
-
-## AUGUST 10 · MONDAY
-| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
-|---|---|---|---|---|---|
-| HEALTH FIELDS | POST | EDUCATE | Sawan is ending — the salt shelf that survived it | Saves | Pink rock salt |
-| GREENDIPZ | CAROUSEL | RELATE | Post-fasting week — 3 dinners that don't taste like recovery | Saves | Any sauce |
-| CAVEMAN | STORY | ATTACK | Monday label read | DM | — |
-
-## AUGUST 11 · TUESDAY 🎬 REEL DAY
-| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
-|---|---|---|---|---|---|
-| GREENDIPZ | REEL #7 | DEBATE | "6-course Indo-Chinese menu — every sauce plays" (Veeba supper pattern) | Saves + Comments | Full sauce range |
-| BIOMART | POST | EDUCATE | 6 pantry swaps that cost less than one Swiggy weekend | Saves | Cross-brand |
-| PUSHT | STORY | CRAFT | Bilona ghee echo | DM | — |
-
-## AUGUST 12 · WEDNESDAY · International Youth Day 🎬 REEL DAY + CREATOR
-| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
-|---|---|---|---|---|---|
-| HEALTH FIELDS | REEL #8 (CREATOR) | RELATE | Nano-Ayurveda creator — "5 things I switched at 25 that I'd tell my 35yo self" | Follows + Saves | Full tea range |
-| CAVEMAN | POST | RELATE | Youth Day — the snack your 20yo self needed | Reach | Cookies |
-| BIOMART | STORY | EDUCATE | Youth Day pantry starter cart | DM | — |
-
-## AUGUST 13 · THURSDAY
-| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
-|---|---|---|---|---|---|
-| PUSHT | CAROUSEL | EDUCATE | The 4 marks a real cold-pressed bottle carries | Saves | Any oil |
-| CAVEMAN | POST | ATTACK | "Millet" cookie with 60% wheat is still a wheat cookie | Saves + Comments | Cookies |
-| HEALTH FIELDS | STORY | RELATE | Creator reel echo | DM | — |
-
-## AUGUST 14 · FRIDAY · Independence Day eve
-| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
-|---|---|---|---|---|---|
-| BIOMART | POST | CONVERT | Har Ghar Tiranga — the pantry version | Saves + Site | Made-in-India cart |
-| GREENDIPZ | POST | RELATE | Indian flavour, Indian jar, Indian kitchen | Reach | Any 3 sauces |
-| PUSHT | STORY | RELATE | Farm-to-flag reel teaser | DM | — |
-| HEALTH FIELDS | STORY | EDUCATE | Since-2003 badge tile | DM | — |
-
-## AUGUST 15 · SATURDAY · Independence Day 🎬 REEL DAY
-| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
-|---|---|---|---|---|---|
-| PUSHT | REEL #9 | CRAFT-REVEAL | "Made in India" — 90 seconds inside the Pusht farm cluster (farmer face + press + fill line) | Plays + Follows | Any oil |
-| ALL 5 BRANDS | POST | RELATE | Independence tile — one line, one product each, same day | Reach | Hero SKU per brand |
-| BIOMART | STORY | CONVERT | Independence Day cart | DM | — |
-
-## AUGUST 16 · SUNDAY 🎬 REEL DAY
-(Janmashtami framing removed — actual Janmashtami date is 2026-09-04. Slate re-anchored 2026-08-16.)
-| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
-|---|---|---|---|---|---|
-| HEALTH FIELDS | REEL #10 | TBD | TBD | Reach + Saves | TBD |
-| PUSHT | POST | TBD | TBD | Saves | TBD |
-| BIOMART | CAROUSEL | TBD | TBD | DMs | TBD |
-| CAVEMAN | STORY | TBD | TBD | DM | — |
-
-## AUGUST 17 · MONDAY
-| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
-|---|---|---|---|---|---|
-| CAVEMAN | POST | CHARACTER | Cave voice episode 2 — Monday snack drawer POV | Reach + Comments | Any snack |
-| GREENDIPZ | CAROUSEL | RELATE | Monday rescue menu — 4 sauces, 4 quick fixes | Saves | Sauce range |
-| HEALTH FIELDS | STORY | RELATE | Post-Janmashtami tulsi tile | DM | — |
-
-## AUGUST 18 · TUESDAY 🎬 REEL DAY
-| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
-|---|---|---|---|---|---|
-| BIOMART | REEL #11 | FOR-EVERYBODY | "Six pantries. One shop." — Yogabars-style archetype cut (student, mom, athlete, senior, cook, gifter) | Plays + Follows | Cross-brand |
-| PUSHT | POST | EDUCATE | The oil label breakdown — what ISI, PGS, FSSAI actually mean | Saves | Any oil |
-| HEALTH FIELDS | STORY | MYTH | Tea myth echo | DM | — |
-
-## AUGUST 19 · WEDNESDAY · World Photography Day
-| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
-|---|---|---|---|---|---|
-| BIOMART | POST | RELATE | Pantry portraits — no filter, just what's on the shelf | Reach | Curated shelf shot |
-| PUSHT | POST | RELATE | The farmer's hands — 5 frames, no captions needed | Saves + Shares | Farm origin |
-| CAVEMAN | STORY | CHARACTER | Cave voice photo-day skit | DM | — |
-| GREENDIPZ | STORY | RELATE | Sauce swatch flatlay | DM | — |
-
-## AUGUST 20 · THURSDAY 🎬 REEL DAY
-| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
-|---|---|---|---|---|---|
-| CAVEMAN | REEL #12 | CHARACTER-POV | Cave voice episode 3 — "How I read a nutrition panel in 10 seconds" | Saves + Follows | Cookies |
-| HEALTH FIELDS | CAROUSEL | EDUCATE | Amazon-A+ style — 6 chips explaining Tulsi Green Tea | Saves | Tea |
-| BIOMART | STORY | CONVERT | Weekend cart | DM | — |
-
-## AUGUST 21 · FRIDAY
-| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
-|---|---|---|---|---|---|
-| GREENDIPZ | POST | ATTACK | The Indo-Chinese in your fridge is 40% food colour | Saves + Comments | Any sauce |
-| PUSHT | POST | RELATE | Friday tempering — the two-oil kitchen story | Reach | Mustard + groundnut |
-| CAVEMAN | STORY | CHARACTER | Cave voice reel echo | DM | — |
-
-## AUGUST 22 · SATURDAY 🎬 REEL DAY + CREATOR
-| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
-|---|---|---|---|---|---|
-| GREENDIPZ | REEL #13 (CREATOR) | RELATE | Nano home-cook creator — "Restaurant plates on a Rs 500 budget" using 2 greendipz jars | Reach + Saves | Sauce range |
-| BIOMART | POST | EDUCATE | Founder note ep 2 — one shelf we almost delisted | Saves + Comments | Curation story |
-| HEALTH FIELDS | STORY | RELATE | Saturday tulsi | DM | — |
-| CAVEMAN | STORY | RELATE | Saturday snack drawer | DM | — |
-
-## AUGUST 23 · SUNDAY 🎬 REEL DAY
-| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
-|---|---|---|---|---|---|
-| HEALTH FIELDS | REEL #14 | PARENT-POV | "Getting a 6-year-old to drink tulsi tea" — mom monologue (Slurrp Farm pattern) | Reach + Follows | Tulsi Green Tea |
-| PUSHT | POST | RELATE | Sunday sabzi — cold-pressed mustard as the base | Saves | Mustard oil |
-| BIOMART | STORY | CONVERT | Sunday pantry list | DM | — |
-| GREENDIPZ | STORY | RELATE | Creator reel echo | DM | — |
-
-## AUGUST 24 · MONDAY
-| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
-|---|---|---|---|---|---|
-| CAVEMAN | CAROUSEL | ATTACK | 6 ingredients on your kid's biscuit pack that shouldn't be there | Saves | Millet Era Cookies |
-| BIOMART | POST | RELATE | The one shelf every Indian pantry should have | Reach | Bundle |
-| HEALTH FIELDS | STORY | PARENT | Reel echo | DM | — |
-
-## AUGUST 25 · TUESDAY 🎬 REEL DAY · Ganesh Chaturthi eve
-| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
-|---|---|---|---|---|---|
-| BIOMART | REEL #15 | CRAFT-REVEAL | Puran POV episode 2 — modak-making shelf, 5 clean-label picks | Follows + Comments | Ganesh Chaturthi bundle |
-| PUSHT | POST | RELATE | The ghee for a proper modak | Saves | Bilona ghee |
-| HEALTH FIELDS | STORY | RELATE | Festival tea prep | DM | — |
-
-## AUGUST 26 · WEDNESDAY · Ganesh Chaturthi
-| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
-|---|---|---|---|---|---|
-| BIOMART | POST | CONVERT | The Ganesh Chaturthi cart — 5 packs, sattvik, one order | Site clicks | Festival bundle |
-| PUSHT | POST | RELATE | Ganesh Chaturthi ghee ritual | Reach | Bilona ghee |
-| HEALTH FIELDS | POST | EDUCATE | Panchamrit — five parts, five packs from the shelf | Saves | Honey + tulsi + salt |
-| CAVEMAN | STORY | RELATE | Festival snack tile | DM | — |
-| GREENDIPZ | STORY | RELATE | Festival family lunch | DM | — |
-
-## AUGUST 27 · THURSDAY · Onam (Thiruvonam) 🎬 REEL DAY
-| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
-|---|---|---|---|---|---|
-| PUSHT | REEL #16 | RELATE | Onam sadhya oil — coconut-oil-only kitchen, slow pour banana leaf frame | Reach + Follows | (Verify Pusht carries — if not, sub with sesame/groundnut) |
-| BIOMART | POST | CONVERT | Onam sadhya essentials on biomart.in | DMs + Site | Onam bundle |
-| HEALTH FIELDS | STORY | RELATE | Onam tea tile | DM | — |
-| CAVEMAN | STORY | RELATE | Onam cookie box | DM | — |
-
-## AUGUST 28 · FRIDAY
-| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
-|---|---|---|---|---|---|
-| GREENDIPZ | POST | RELATE | Friday takeaway swap — one jar beats three menus | Saves | Any sauce |
-| CAVEMAN | POST | CHARACTER | Cave voice episode 4 — "Friday cookie confession" | Reach + Comments | Cookies |
-| BIOMART | STORY | CONVERT | Weekend cart | DM | — |
-| PUSHT | STORY | RELATE | Onam echo | DM | — |
-
-## AUGUST 29 · SATURDAY · National Sports Day 🎬 REEL DAY
-| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
-|---|---|---|---|---|---|
-| CAVEMAN | REEL #17 | RELATE | Post-workout snack — Kodo Coco Fun vs whey bar, blind test POV | Saves + Comments | Kodo Coco Fun |
-| HEALTH FIELDS | POST | EDUCATE | The tea after training — chamomile vs green | Saves | Tea range |
-| BIOMART | POST | CONVERT | Athlete's pantry — 5 clean picks | Site clicks | Cross-brand |
-| GREENDIPZ | STORY | RELATE | Post-training protein bowl | DM | — |
-
-## AUGUST 30 · SUNDAY 🎬 REEL DAY
-| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
-|---|---|---|---|---|---|
-| HEALTH FIELDS | REEL #18 | FOR-EVERYBODY | "One tea shelf, four Indian mornings" — grandmother, working mom, student, athlete | Plays + Follows | Tea range |
-| BIOMART | CAROUSEL | EDUCATE | August recap — the 5 packs that moved most this month | Saves | Top movers |
-| PUSHT | STORY | CRAFT | Farm cluster echo | DM | — |
-| GREENDIPZ | STORY | DEBATE | Team month-end poll | DM | — |
-
-## AUGUST 31 · MONDAY 🎬 REEL DAY (double)
-| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
-|---|---|---|---|---|---|
-| PUSHT | REEL #19 | MYTH-BUST | "Your 'wood-pressed' oil is not wood-pressed" — 45s label read | Saves + Comments | Any oil |
-| GREENDIPZ | REEL #20 | DEBATE | Team Manchurian vs Team Biryani — Rhea-style rapid-fire | Saves + Follows | Sauce range |
-| BIOMART | POST | CONVERT | September restock — cart of 8 | Site clicks | Cross-brand |
-| CAVEMAN | STORY | CHARACTER | Cave voice month-end recap | DM | — |
-| HEALTH FIELDS | STORY | EDUCATE | For-everybody reel echo | DM | — |
+**Diwali in Oct?** No. Diwali 2026 is November 8. October ends with ONE Diwali teaser (Oct 31). Full Diwali campaign is the November calendar.
 
 ---
 
-## AUGUST MONTH TOTALS
+## SEPTEMBER RECAP (INFORMS OCT PIVOTS)
+
+**Sept executed:** 80-post plan. 17 reels across Ganesh Chaturthi 10-day arc + Heart Day tent-pole. Reel-first ratio held at ~40% attention-weighted. Pitru Paksha tone shift (Sept 26 onward) handled cleanly — heritage/craft only, zero launches, zero ATTACK/CONVERT. Sept 29 Heart Day reel (#35) landed HF as the quiet-wellness tent-pole brand. Biomart curation carousels + HF label-literacy format both validated as pillars.
+
+**Fresh reel SKU headroom** (not on retired list):
+Groundnut oil, Sunflower oil, Jaggery, Ragi/Bajra/Jowar flours, Red/Black rice, Rock salt, Chia/Almond, Walnut, Dates, Rooibos/Peppermint/Ginger tea, Ashwagandha tea, Amla juice, Moringa, Millet noodles/pasta, Peanut butter, greendipz Peri Peri / Tandoori / Dal Makhani / Rajma gravies, Caveman Bakkit range, HF Dream Infusion.
+
+## OCTOBER PIVOTS (VS SEPTEMBER)
+
+1. **Festival restraint locked (NEW).** Every festival observation = one brand, one post, one day. No multi-brand arcs. No teaser-to-close campaign arcs on festivals. Launch skill reserved for genuine product launches only.
+2. **Dual-tone month.** Oct 1–10 inherits Pitru Paksha tone from Sept 26 — heritage/craft only, no ATTACK, no CONVERT. Oct 11 Navratri Day 1 = commerce window reopens.
+3. **CONVERT ramp (Sept 6% → Oct 8%).** Modest step up — Navratri bundle mentions baked into carousels, Karwa Chauth gift-ready wording, Diwali teaser (Oct 31). Not a hard pivot — Oct is pre-Diwali build, not peak commerce.
+4. **KPI hierarchy flips.** Oct leads on Site clicks (commerce window) + Saves (gifting carousels), reel plays + follows second.
+5. **Reel share holds at 40% attention-weighted** (17 reels — same as Sept). Reel days Tue / Fri / Sat / Sun default. No extra reel days added for festivals; festival reels fit the default rhythm.
+6. **No new nano-creator collabs this month.** Oct is a volume-stability month. Return to collabs in Nov Diwali push.
+7. **Diwali teaser as single post** (Oct 31 Caveman). Full Diwali arc = November calendar.
+
+---
+
+## OCTOBER 1 · THURSDAY · Pitru Paksha active
+| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
+|---|---|---|---|---|---|
+| PUSHT | POST | CRAFT · HERITAGE | The oil our great-grandfather pressed with the same stone | Saves + Reach | Cold-pressed groundnut oil |
+| HEALTH FIELDS | STORY | RELATE | Morning tulsi tile — quiet start to October | DM | Tulsi Green Tea |
+
+## OCTOBER 2 · FRIDAY · GANDHI JAYANTI (dry day) 🕉️
+| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
+|---|---|---|---|---|---|
+| HEALTH FIELDS | POST | RELATE · HERITAGE | "The tea Bapu drank with his lentils" — one line of honesty on your shelf | Saves + Reach | Tulsi Green Tea |
+| BIOMART | STORY | — | Khadi-shelf tile — the packs with the quietest labels | DM | — |
+
+## OCTOBER 3 · SATURDAY 🎬 REEL DAY
+| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
+|---|---|---|---|---|---|
+| BIOMART | REEL #36 | CRAFT-REVEAL · HERITAGE | "6 packs your grandmother would still recognise" — 45s heritage shelf walk | Saves + Follows | Cross-brand heritage SKUs |
+| PUSHT | POST | CRAFT | Why our bajra flour never heats up — stone-mill temperature control | Saves | Bajra flour |
+
+## OCTOBER 4 · SUNDAY 🎬 REEL DAY
+| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
+|---|---|---|---|---|---|
+| HEALTH FIELDS | REEL #37 | RELATE · HERITAGE | "The Sunday tea no clock has rushed in 20 years" — 60s heritage kitchen, warm VO | Plays + Follows | Rooibos / Tulsi |
+| CAVEMAN | STORY | RELATE | Sunday cookie tile — one packet, no monologue | DM | Millet Era range |
+
+## OCTOBER 5 · MONDAY
+| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
+|---|---|---|---|---|---|
+| PUSHT | POST | EDUCATE | Red rice vs white rice — the one line that changes your dal | Saves | Red Rice |
+| HEALTH FIELDS | STORY | RELATE | Monday reset tea tile | DM | Chamomile |
+
+## OCTOBER 6 · TUESDAY · Indira Ekadashi 🎬 REEL DAY
+| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
+|---|---|---|---|---|---|
+| PUSHT | REEL #38 | CRAFT-REVEAL · HERITAGE | "60 seconds inside a 100-year-old ghani — no cuts" — Vishwakarma-nod | Saves + Follows | Cold-pressed groundnut oil |
+| BIOMART | POST | RELATE | Ekadashi pantry — the 5 packs that make a vrat meal feel generous | Saves | Rock salt + sabudana + ghee + dry fruits |
+
+## OCTOBER 7 · WEDNESDAY
+| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
+|---|---|---|---|---|---|
+| GREENDIPZ | POST | RELATE | Wednesday no-cook — Dal Makhani over jeera rice, 10 minutes | Reach | Dal Makhani gravy |
+| HEALTH FIELDS | STORY | EDUCATE | Peppermint-after-dinner tile | DM | Peppermint tea |
+
+## OCTOBER 8 · THURSDAY
+| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
+|---|---|---|---|---|---|
+| BIOMART | POST | EDUCATE | 4 packs that quietly outperform their supermarket cousins | Saves | Cross-brand |
+| CAVEMAN | STORY | RELATE | Mid-week cookie tile — soft tone (Pitru Paksha restraint) | DM | Bakkit range |
+
+## OCTOBER 9 · FRIDAY 🎬 REEL DAY
+| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
+|---|---|---|---|---|---|
+| HEALTH FIELDS | REEL #39 | RELATE · HERITAGE | "The tea kitchen that hasn't changed since 2003" — 60s HF founder-era kitchen, no music | Plays + Follows | Tulsi Green Tea |
+| PUSHT | POST | CRAFT | Why we don't deodorise our mustard oil — pungency IS the proof | Saves | Mustard oil |
+
+## OCTOBER 10 · SATURDAY · SARVA PITRU AMAVASYA 🕉️ 🎬 REEL DAY
+| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
+|---|---|---|---|---|---|
+| PUSHT | REEL #40 | CRAFT-REVEAL · HERITAGE | "The way our grandmothers stored ghee" — 60s warm heritage kitchen, warm VO, Pitru Paksha close | Saves + Follows | A2 Ghee |
+| BIOMART | STORY | RELATE | Heritage pantry tile — the 3 packs that go into every anniversary meal | DM | — |
+
+## OCTOBER 11 · SUNDAY · NAVRATRI DAY 1 / GHATASTHAPANA 🕉️ 🎬 REEL DAY
+| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
+|---|---|---|---|---|---|
+| HEALTH FIELDS | REEL #41 | RELATE · EDUCATE | "The tea thali for Day 1 of Navratri" — 60s fasting-friendly tea board, kalash setup, teal world | Plays + Saves + Follows | Tulsi + Rooibos + Chamomile |
+| GREENDIPZ | STORY | RELATE | "9 days, 9 nights, what are you cooking?" poll | DM | — |
+
+## OCTOBER 12 · MONDAY
+| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
+|---|---|---|---|---|---|
+| BIOMART | POST | EDUCATE | Monday pantry audit — the 3 oils in rotation, the one to swap | Saves + Site clicks | Cold-pressed oil range |
+| HEALTH FIELDS | STORY | RELATE | Chamomile night-shift tile | DM | Chamomile |
+
+## OCTOBER 13 · TUESDAY 🎬 REEL DAY
+| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
+|---|---|---|---|---|---|
+| GREENDIPZ | REEL #42 | CRAFT-REVEAL | "Peri Peri on paneer — 45s pan-to-plate" | Saves + Follows | Peri Peri gravy |
+| PUSHT | STORY | EDUCATE | Cold-pressed vs wood-pressed tile | DM | — |
+
+## OCTOBER 14 · WEDNESDAY
+| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
+|---|---|---|---|---|---|
+| CAVEMAN | POST | ATTACK | "Your 'healthy' cookie has 7 refined ingredients. Ours has 4." (first ATTACK since Oct 1 — commerce window open) | Reach + Saves | Millet Era range |
+| BIOMART | STORY | EDUCATE | Label-literacy tile — the 3 words that reveal a greenwash | DM | — |
+
+## OCTOBER 15 · THURSDAY
+| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
+|---|---|---|---|---|---|
+| HEALTH FIELDS | CAROUSEL | EDUCATE | 4 teas, 4 times of day — which one actually belongs where | Saves + Site clicks | Tea range |
+| BIOMART | POST | CONVERT | 6-pack starter shelf — the Biomart first-time cart that gets reordered | Site clicks + Saves | Cross-brand bundle |
+
+## OCTOBER 16 · FRIDAY · Saraswati Avahan 🎬 REEL DAY
+| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
+|---|---|---|---|---|---|
+| BIOMART | REEL #43 | FOR-EVERYBODY | "One shelf, four Navratri households — Gujarati, Bengali, Marathi, Punjabi" — 60s regional tour | Plays + Follows | Cross-brand regional SKUs |
+| GREENDIPZ | STORY | RELATE | Weeknight sauce poll | DM | — |
+
+## OCTOBER 17 · SATURDAY · Saraswati Puja 🎬 REEL DAY
+| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
+|---|---|---|---|---|---|
+| PUSHT | REEL #44 | CRAFT-REVEAL | 45s inside the cold-press ghani on a weekend harvest — Portra-400 warmth | Saves + Follows | Cold-pressed groundnut oil |
+| CAVEMAN | POST | RELATE | The student snack — one Kodo Coco Fun, one textbook, zero crash | Reach | Kodo Coco Fun |
+
+## OCTOBER 18 · SUNDAY 🎬 REEL DAY
+| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
+|---|---|---|---|---|---|
+| HEALTH FIELDS | REEL #45 | FOR-EVERYBODY | "One tea shelf, four evenings — mom, teen, WFH, retired dad" — 60s | Plays + Follows | Tea range |
+| GREENDIPZ | POST | RELATE | Sunday 3-pack dinner — pick two gravies, done in 15 | Reach + Saves | Any two gravies |
+
+## OCTOBER 19 · MONDAY · DURGA ASHTAMI + MAHA NAVAMI 🕉️
+| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
+|---|---|---|---|---|---|
+| BIOMART | CAROUSEL | EDUCATE · CONVERT | Navratri bhog pantry — the 8 packs that cover all 9 nights (one carousel, no overwhelm) | Saves + Site clicks | Cross-brand (ghee, rice, flours, jaggery, dry fruits) |
+| HEALTH FIELDS | STORY | RELATE | Ashtami tea tile | DM | — |
+
+## OCTOBER 20 · TUESDAY · VIJAYADASHAMI / DUSSEHRA 🕉️ 🎬 REEL DAY
+| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
+|---|---|---|---|---|---|
+| CAVEMAN | REEL #46 | ATTACK · RELATE | "10 bad snacks burned. 1 good one survived." — 45s Dussehra-nod, no monologue | Plays + Saves | Millet Era + Bakkit |
+| PUSHT | STORY | CRAFT | Dussehra ghee tile | DM | A2 Ghee |
+
+## OCTOBER 21 · WEDNESDAY
+| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
+|---|---|---|---|---|---|
+| PUSHT | POST | EDUCATE | The 3 lines on an oil label that actually matter | Saves | Cold-pressed oil range |
+| HEALTH FIELDS | STORY | RELATE | Post-festival chamomile tile | DM | Chamomile |
+
+## OCTOBER 22 · THURSDAY · Papankusha Ekadashi
+| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
+|---|---|---|---|---|---|
+| HEALTH FIELDS | POST | RELATE | The tea that makes a fasting day feel kind | Saves | Peppermint / Rooibos |
+| BIOMART | STORY | EDUCATE | Ekadashi-safe staples tile | DM | — |
+
+## OCTOBER 23 · FRIDAY 🎬 REEL DAY
+| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
+|---|---|---|---|---|---|
+| GREENDIPZ | REEL #47 | RELATE / DEBATE | "Rajma or Dal Makhani — pick a side, we'll settle it" — 45s side-by-side | Comments + Shares | Rajma + Dal Makhani |
+| PUSHT | POST | CRAFT | The sunflower oil that smells like roasted seeds — because it is | Saves | Sunflower oil |
+
+## OCTOBER 24 · SATURDAY 🎬 REEL DAY
+| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
+|---|---|---|---|---|---|
+| BIOMART | REEL #48 | FOR-EVERYBODY | "One Saturday cart, three festival weeks covered" — 45s cross-brand walk | Plays + Site clicks | Cross-brand |
+| HEALTH FIELDS | CAROUSEL | EDUCATE | 5 teas, 5 autumn moods — the one for the slow Saturday | Saves | Tea range |
+
+## OCTOBER 25 · SUNDAY · SHARAD PURNIMA / KOJAGARA 🕉️ 🎬 REEL DAY
+| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
+|---|---|---|---|---|---|
+| HEALTH FIELDS | REEL #49 | RELATE · EDUCATE | "The one night a year the kheer sits in the moonlight — and the chai that waits with it" — 60s warm teal world, no music | Plays + Saves + Follows | Rooibos / Tulsi |
+| PUSHT | STORY | CRAFT | Kheer-ghee tile | DM | A2 Ghee |
+
+## OCTOBER 26 · MONDAY
+| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
+|---|---|---|---|---|---|
+| BIOMART | POST | EDUCATE | 5 packs that always run out first in October — restock ping | Saves + Site clicks | Top movers |
+| PUSHT | STORY | CRAFT | Groundnut oil tile | DM | — |
+
+## OCTOBER 27 · TUESDAY 🎬 REEL DAY
+| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
+|---|---|---|---|---|---|
+| PUSHT | REEL #50 | CRAFT-REVEAL | "The oil that drips slower because nothing's been thinned out of it" — 45s cold-press viscosity shot | Saves + Follows | Cold-pressed groundnut oil |
+| GREENDIPZ | STORY | RELATE | Weeknight sauce poll | DM | — |
+
+## OCTOBER 28 · WEDNESDAY · Karwa Chauth tease
+| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
+|---|---|---|---|---|---|
+| HEALTH FIELDS | CAROUSEL | EDUCATE · CONVERT | "The sargi platter that doesn't crash by 11am" — teaser for tomorrow | Saves + Site clicks | Tulsi + dates + dry fruits |
+| CAVEMAN | POST | RELATE | The desk cookie for a day you can't open your lunchbox | Reach | Kodo Coco Fun |
+
+## OCTOBER 29 · THURSDAY · KARWA CHAUTH 🌙
+| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
+|---|---|---|---|---|---|
+| HEALTH FIELDS | CAROUSEL | RELATE · CONVERT | "Sargi at 4am, chai at sunrise, chamomile after the moon — the three teas of one Karwa Chauth" | Saves + Site clicks + Reach | Tulsi + Rooibos + Chamomile |
+| PUSHT | STORY | CRAFT | A2 ghee for the mathri tile | DM | A2 Ghee |
+
+## OCTOBER 30 · FRIDAY 🎬 REEL DAY
+| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
+|---|---|---|---|---|---|
+| BIOMART | REEL #51 | CRAFT-REVEAL · CONVERT | "The 60-second October restock — what moved and what's back on the shelf" | Plays + Site clicks | Cross-brand top-movers |
+| HEALTH FIELDS | POST | EDUCATE | 3 teas that hold their flavour into winter — the shelf swap | Saves | Rooibos / Tulsi / Ashwagandha |
+
+## OCTOBER 31 · SATURDAY · Pre-Diwali teaser 🎬 REEL DAY
+| Brand | Type | Angle | Hook Direction | KPI | Product Slot |
+|---|---|---|---|---|---|
+| CAVEMAN | REEL #52 | RELATE · CONVERT | "The snack packet going into your Diwali gift box — 45s" (ONE Diwali teaser, full campaign in Nov) | Plays + Saves + Site clicks | Millet Era + Bakkit gift-pack |
+| BIOMART | STORY | CONVERT | "Diwali hamper waitlist" tile — soft tease for Nov | DM | — |
+
+---
+
+## MONTH TOTALS (PLAN)
 
 | Brand | Posts | Carousels | Reels | Stories | Total |
 |---|---|---|---|---|---|
-| BIOMART | 10 | 3 | 3 | 8 | 24 |
-| HEALTH FIELDS | 6 | 3 | 4 | 9 | 22 |
-| PUSHT | 6 | 1 | 5 | 7 | 19 |
-| CAVEMAN | 7 | 1 | 4 | 8 | 20 |
-| GREENDIPZ | 5 | 3 | 4 | 8 | 20 |
+| Biomart | 5 | 3 | 4 | 4 | 16 |
+| Health Fields | 4 | 4 | 6 | 6 | 20 |
+| Pusht | 8 | 0 | 4 | 4 | 16 |
+| Caveman | 4 | 0 | 2 | 3 | 9 |
+| greendipz | 2 | 0 | 2 | 5 | 9 |
+| **Total** | **23** | **7** | **17** | **22** | **~79** |
 
-**Reel count:** 20 reels (was 6 in Jul) · **Angle mix:** CRAFT 4 · MYTH 3 · CHARACTER 4 · PARENT 1 · DEBATE 3 · FOR-EVERYBODY 2 · RELATE 3
+**Pacing:** ~79 pieces across 31 days ≈ 2.5/day. Oct 1–10 (Pitru Paksha) lighter at 2/day avg. Oct 11–31 (commerce window) at 2.8/day avg.
+
+**Reels: 17 total (#36–#52).** Reel days = Tue (6, 13, 27) · Fri (9, 16, 23, 30) · Sat (3, 10, 17, 24, 31) · Sun (4, 11, 18, 25). Reel-first ratio = ~22% by count, ~45% by attention-weighted format share.
+
+## ANGLE MIX (PLAN)
+
+- **EDUCATE:** 28% (navratri bhog pantry + label-literacy + tea times)
+- **RELATE:** 30% (festival ritual + Sunday heritage + Karwa Chauth)
+- **CRAFT-REVEAL:** 20% (Pusht ghani/ghee + heritage kitchens + greendipz pan-to-plate)
+- **CONVERT:** 14% (Navratri bundles baked into carousels + Karwa Chauth hamper + Oct 31 Diwali teaser + Biomart restock reel)
+- **ATTACK:** 8% (Caveman only, zero from Oct 1–13 Pitru-Paksha-inherited restraint, resumes Oct 14)
+
+## STORY CADENCE
+
+Every day carries 1–3 story tiles. Format = echo/poll/BTS/countdown as per Sept rhythm. Not enumerated row-by-row when echoing the day's hero post.
+
+## KPI HIERARCHY (OCT — commerce window)
+
+1. **Site clicks** — commerce window reopens Oct 11. Every CTA goes to brand .in domain.
+2. **Saves** — Navratri pantry carousels + Karwa Chauth guide + October restock
+3. **Reel Plays + Follows** — Pusht craft + HF heritage + Caveman Dussehra
+4. **DMs** — story-driven; polls + tiles route naturally
+
+## POST-CALENDAR TASKS
+
+- [ ] Sept performance recap file (`research/sep_2026_performance_recap.md`) — pending generation before Oct 11
+- [ ] Refresh catalog snapshots (biomart + HF + pusht) — nightly refresh script, confirm Diwali-ready SKUs in stock by Oct 25
+- [ ] Draft November calendar (full Diwali week Nov 6–11 + Chhath Nov 15) by Oct 25 — follow [[feedback_festival_restraint]], one post per festival per day
+- [ ] Build Caveman Diwali gift-pack creative for Oct 31 teaser by Oct 24
+- [ ] Confirm HF Karwa Chauth carousel visual direction with Puran by Oct 24
 
 ---
 
-## RECURRING SERIES LAUNCHED THIS MONTH
-
-1. **Caveman "Cave Voice"** — Gen Z character POV, weekly (episodes 1–4 on Aug 6, 17, 20, 28)
-2. **Biomart "Puran POV"** — founder curation micro-series, monthly cadence (episodes 1–2 on Aug 8, 25)
-3. **Pusht Craft-Reveal** — long-form farm/press process reels, weekly cadence (Aug 2, 9, 15, 31)
-4. **Health Fields Myth-Bust** — category-attack short reels, biweekly (Aug 4, 31 echo)
-
----
-
-## CREATOR SLOTS
-
-- **Aug 12** — Health Fields × nano Ayurveda voice (10–50K, high save-rate) · "5 things I switched at 25"
-- **Aug 22** — greendipz × nano home-cook (10–50K, restaurant-style home cooking) · "Rs 500 budget restaurant plate"
-
-Brief both creators: 40–90s reels · product baked into second half · site CTA at end · one comment prompt · we retain edit rights + repost rights for 90 days.
+**End of Oct 2026 plan.**
