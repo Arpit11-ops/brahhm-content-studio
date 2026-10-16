@@ -2360,3 +2360,25 @@ T93 — Snack City Three-Panel Poster Trio (assigned 2026-09-24)
 
 Last assigned template: T93 (Snack City Three-Panel Poster Trio — assigned 2026-09-24)
 Next new template: T94
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Last assigned template: T95 (Tri-Band Daily Ritual Stack — Health Fields — assigned 2026-10-16)
+
+T95 — TRI-BAND DAILY RITUAL STACK (Health Fields primary)
+Reverse-engineered (Protocol 7) from a competitor "3-step routine" A+ reference.
+Format: 4:5 portrait feed hero. Model gpt-image-2.5-sunburst, quality max.
+Structure: three stacked horizontal bands split by flowing S-curve diagonal dividers
+with luminous edge highlights; one product pouch per band, staggered Z-flow; each pack
+rises from a mounded ingredient bed with a clean floor reflection; swooping light-ribbon
+gradients behind each pack for depth.
+Color world (on-brand, monochrome per band, single HF family):
+  Band 1 morning = cream/soft-white + teal accent glow (fresh moringa leaves)
+  Band 2 midday  = signature HF teal (dried amla, haritaki, bibhitaki)
+  Band 3 night   = deep teal-to-midnight + faint light speckle (ashwagandha roots)
+UI: left-rail soft glassy white pill chips, filled icon circle + two-line label.
+Text system: eyebrow "YOUR DAILY" + oversized "3-STEP / RITUAL" headline; three time-of-
+day pills (MORNING/MIDDAY/NIGHT) each naming the powder + a descriptive ritual line;
+cream trust line "CERTIFIED ORGANIC · SINCE 2003"; bottom-anchored website CTA.
+Multi-pack fidelity: role-assign Image 1/2/3 + full preservation clause; never SKU-swap.
+Best for: product-range routine posts, multi-SKU wellness heroes, EDUCATE·RELATE.
+Claims discipline: ritual/timing/transparency framing only — no therapeutic claims.
